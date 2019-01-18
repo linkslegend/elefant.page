@@ -1,0 +1,24 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #f26900,
+  danger: #ff4136
+);
+
+$font-family-sans-serif: "Open Sans", Arial, sans-serif;
+
+$white: #fff;
+$off-white: #fafafa;
+$black: #000;
+$gray: #f0f0f0;
+$dark-gray: #959595;
+$light-gray: #838383;
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+.maxWidth {
+  max-width: 1440px;
+}

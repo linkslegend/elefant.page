@@ -1,0 +1,176 @@
+footer {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  position: relative;
+  padding: 250px 0 20px 0;
+
+  &::after {
+    background-image: url("images/bg-3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    content: "";
+  }
+
+  h3 {
+    display: none;
+  }
+
+  section {
+    padding: 30px 0 0 0;
+  }
+
+  .text-mini {
+    font-size: 11px;
+    line-height: 1.090909090909091;
+  }
+
+  .text-small {
+    font-size: 0.875em;
+    text-align: left;
+  }
+
+  .copyright {
+    font-size: 0.75em;
+    line-height: 1.083333333333333;
+    text-align: left;
+  }
+
+  .bottom {
+    display: block;
+  }
+
+  .socials {
+    margin: 0 0 0 20px;
+
+    li {
+      font-size: 1.4em;
+      margin-right: 15px;
+
+      a {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  .logo {
+    display: block;
+
+    img {
+      width: 110px;
+      float: left;
+    }
+  }
+
+  .menu {
+    display: block;
+    font-size: 0.875em;
+    margin: 0 -6px;
+    font-weight: 700;
+    line-height: 1.285714285714286;
+
+    li {
+      display: block;
+      padding: 0 7px;
+
+      a {
+        color: rgba(0, 0, 0, 0.7);
+      }
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  footer {
+    display: block;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  footer {
+    display: block;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  footer {
+    display: block;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  footer {
+    text-align: left;
+    height: auto;
+    position: relative;
+    padding: 150px 0 10px 0;
+
+    .menu {
+      display: inline-block !important;
+      font-size: 0.875em;
+      margin: 15px -6px 0;
+      font-weight: 700;
+      line-height: 1.285714285714286;
+
+      li {
+        display: inline-block;
+        float: left;
+        padding: 5px 7px;
+
+        a {
+          color: rgba(0, 0, 0, 0.7);
+        }
+      }
+    }
+
+    .text-mini {
+      font-size: 10px;
+      margin-top: 15px;
+      line-height: 1.090909090909091;
+    }
+
+    .text-small {
+      font-size: 0.875em;
+      text-align: left;
+    }
+
+    .copyright {
+      font-size: 0.75em;
+      line-height: 1.083333333333333;
+      text-align: left;
+    }
+
+    .socials {
+      margin: 15px 0 0 20px;
+
+      li {
+        font-size: 1.4em;
+        margin-right: 15px;
+
+        a {
+          color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+  footer {
+    height: auto;
+  }
+}
