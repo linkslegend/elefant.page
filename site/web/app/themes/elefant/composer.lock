@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f48b19bb3c8f509136aed4847881246b",
+    "content-hash": "0ef39462491384447a34b1c58b6d8d02",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -585,17 +585,17 @@
             "time": "2018-10-02T13:27:20+00:00"
         },
         {
-            "name": "mwdelaney/sage-bootstrap4-navwalker",
-            "version": "1.2",
+            "name": "linkslegend/sage-megamenu",
+            "version": "1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/MWDelaney/sage-bootstrap4-navwalker.git",
-                "reference": "8e9bcfc6ec813df7c2a102b06218334f502858b8"
+                "url": "https://github.com/linkslegend/sage-megamenu.git",
+                "reference": "744344762ff2b2fddda21c85b542fa3ba20b6517"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MWDelaney/sage-bootstrap4-navwalker/zipball/8e9bcfc6ec813df7c2a102b06218334f502858b8",
-                "reference": "8e9bcfc6ec813df7c2a102b06218334f502858b8",
+                "url": "https://api.github.com/repos/linkslegend/sage-megamenu/zipball/744344762ff2b2fddda21c85b542fa3ba20b6517",
+                "reference": "744344762ff2b2fddda21c85b542fa3ba20b6517",
                 "shasum": ""
             },
             "require": {
@@ -613,19 +613,20 @@
             ],
             "authors": [
                 {
-                    "name": "Michael W. Delaney",
-                    "email": "michael@michaeldelaney.me"
+                    "name": "rob",
+                    "email": "rd.intermac@gmail.com"
                 }
             ],
             "description": "Bootstrap 4 Navbar component navwalker for Sage 9 based themes",
-            "homepage": "https://github.com/MWDelaney/sage-bootstrap4-navwalker",
+            "homepage": "https://github.com/linkslegend/sage-megamenu",
             "keywords": [
                 "bootstrap 4",
+                "iconmenu",
                 "navbar",
                 "navwalker",
                 "wordpress"
             ],
-            "time": "2018-05-31T13:07:33+00:00"
+            "time": "2019-01-21T16:54:16+00:00"
         },
         {
             "name": "nesbot/carbon",
