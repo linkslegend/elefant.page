@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14976d36e5b451824b6c69857c0f2870",
+    "content-hash": "f48b19bb3c8f509136aed4847881246b",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -583,6 +583,49 @@
             "description": "The Illuminate View package.",
             "homepage": "https://laravel.com",
             "time": "2018-10-02T13:27:20+00:00"
+        },
+        {
+            "name": "mwdelaney/sage-bootstrap4-navwalker",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MWDelaney/sage-bootstrap4-navwalker.git",
+                "reference": "8e9bcfc6ec813df7c2a102b06218334f502858b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MWDelaney/sage-bootstrap4-navwalker/zipball/8e9bcfc6ec813df7c2a102b06218334f502858b8",
+                "reference": "8e9bcfc6ec813df7c2a102b06218334f502858b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap4-navwalker.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael W. Delaney",
+                    "email": "michael@michaeldelaney.me"
+                }
+            ],
+            "description": "Bootstrap 4 Navbar component navwalker for Sage 9 based themes",
+            "homepage": "https://github.com/MWDelaney/sage-bootstrap4-navwalker",
+            "keywords": [
+                "bootstrap 4",
+                "navbar",
+                "navwalker",
+                "wordpress"
+            ],
+            "time": "2018-05-31T13:07:33+00:00"
         },
         {
             "name": "nesbot/carbon",
