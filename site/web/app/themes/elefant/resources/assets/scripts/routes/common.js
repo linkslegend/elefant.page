@@ -28,18 +28,18 @@ export default {
     observer.observe();
 
     $('.multiple-items').slick({
-      infinite: true,
+      infinite: false,
       dots: true,
       slidesToShow: 3,
-      slidesToScroll: 2,
-      prevArrow:'<button class="prev slick-arrow"><i class="fas fa-arrow-left"></i>Previous</button>',
-      nextArrow:'<button class="next slick-arrow"><i class="fas fa-arrow-right"></i>Next</button>',
+      slidesToScroll: 1,
+      prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
+      nextArrow:'<button class="next"><i class="fas fa-arrow-right"></i>Next</button>',
       responsive: [
     {
       breakpoint: 1024,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
       },

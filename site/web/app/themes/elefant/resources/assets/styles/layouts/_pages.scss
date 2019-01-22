@@ -95,7 +95,7 @@ a.contact {
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -116,7 +116,7 @@ h2 {
     }
 
     .section-description {
-      font-size: 1.4rem;
+      font-size: 0.95em;
     }
 
     .col-lg-5 {
@@ -152,7 +152,12 @@ h2 {
 
     &.banner3 {
       position: relative;
-      margin: 250px 0;
+      margin: 150px 0;
+      overflow: hidden;
+
+      .section-head {
+        margin-top: 35px;
+      }
 
       .bg {
         left: -10%;
@@ -160,6 +165,23 @@ h2 {
         right: 20%;
         top: 0;
         z-index: -1;
+      }
+
+      .img-holder {
+        position: relative;
+
+        &::after {
+          background-size: 100% 100%;
+          background-position: 100% 100%;
+          width: 930px;
+          height: 700px;
+          top: 0%;
+          left: -50%;
+          position: absolute;
+          z-index: -2;
+          display: block;
+          content: "";
+        }
       }
     }
   }
@@ -227,7 +249,8 @@ h2 {
     }
 
     .list-item-text {
-      font-size: 0.85em;
+      font-size: 0.95em;
+      color: rgba(0, 0, 0, 0.7);
     }
 
     h4 {
@@ -320,6 +343,10 @@ h2 {
   #header {
     display: block;
   }
+
+  .container {
+    max-width: 90%;
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -355,7 +382,8 @@ h2 {
     }
 
     .section-description {
-      font-size: 1.1rem;
+      font-size: 0.95em;
+      color: #000;
     }
 
     .col-lg-5 {
@@ -364,7 +392,7 @@ h2 {
 
     .h2 {
       padding: 0 0 5px 0;
-      font-size: 1.3em;
+      font-size: 1.25em;
       text-align: center;
       font-weight: 700;
       display: block;
