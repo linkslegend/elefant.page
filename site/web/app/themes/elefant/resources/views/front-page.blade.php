@@ -19,7 +19,7 @@
     {!! get_search_form(false) !!}
   @endif
 
-<h2>Lesen Sie unseren Blog</h2>
+<h2 class="slider-title">Unser Blog</h2>
   <div class="multiple-items">
   @if ($Posts->have_posts())
   @while ($Posts->have_posts()) @php $Posts->the_post() @endphp
