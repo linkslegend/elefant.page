@@ -1,0 +1,113 @@
+.card-deck {
+  .card-outer {
+    margin: 25px 0 15px 0;
+  }
+
+  .card {
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .card-image {
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .download-button {
+      transition: all 0.25s;
+
+      .card-footer {
+        .svg-inline--fa {
+          float: right;
+          font-size: 1.4em;
+        }
+      }
+
+      &:hover {
+        background-color: rgb(242, 105, 0);
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.nav-tabs {
+  border-bottom: 0;
+
+  li {
+    a {
+      color: rgb(135, 135, 135);
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18px;
+      padding: 10px 20px 20px;
+      border-bottom: 1px solid rgb(242, 105, 0);
+
+      &:hover {
+        text-decoration: none;
+        color: rgb(242, 105, 0);
+      }
+
+      &.active {
+        color: rgb(242, 105, 0);
+        font-weight: 700;
+        position: relative;
+        text-decoration: none;
+
+        &::before {
+          content: "";
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background: rgb(242, 105, 0);
+          height: 3px;
+        }
+      }
+    }
+  }
+}
+
+.tab-content {
+  margin-top: 60px;
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  .card-image {
+    display: block;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .card-image {
+    display: block;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .card-image {
+    display: block;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .card-image {
+    display: block;
+  }
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+  .card-image {
+    height: auto;
+  }
+}

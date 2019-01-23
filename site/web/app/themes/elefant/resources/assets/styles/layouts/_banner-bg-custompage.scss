@@ -1,0 +1,248 @@
+body.ti-praxis-check {
+  overflow-x: hidden;
+}
+
+section {
+  &.banner-custompage {
+    margin: 50px 0 100px 0;
+    color: $black;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .section-description {
+    font-size: 0.95em;
+  }
+
+  .col-lg-5 {
+    padding: 0;
+  }
+
+  .h2 {
+    padding: 0 0 5px 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    display: block;
+  }
+
+  .align-items-center {
+    justify-content: center;
+    display: flex;
+  }
+
+  &.banner-custompage::after {
+    background-image: url("../images/bg.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: -50%;
+    right: 0;
+    bottom: 0;
+    content: "";
+  }
+
+  &.banner2-custompage {
+    position: relative;
+    margin: 100px 0 100px 0;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+
+    h2 {
+      text-align: center;
+    }
+
+    .section-head {
+      margin-top: 35px;
+    }
+
+    .bg {
+      left: -10%;
+      position: absolute;
+      right: 20%;
+      top: 0;
+      z-index: -1;
+    }
+
+    .img-holder {
+      position: relative;
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      &::after {
+        background: none;
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+        width: 930px;
+        height: 700px;
+        top: 0%;
+        left: -50%;
+        position: absolute;
+        z-index: -2;
+        display: block;
+        content: "";
+      }
+    }
+  }
+
+  &.banner3-custompage {
+    position: relative;
+    margin: 200px 0 200px 0;
+    overflow: visible;
+    display: inline-block;
+    width: 100%;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .tab-pane {
+      min-height: 250px;
+    }
+
+    .section-head {
+      margin-top: 35px;
+    }
+
+    .bg {
+      left: 7%;
+      position: absolute;
+      top: -45%;
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(150deg);
+      z-index: -1;
+
+      img {
+        width: 900px;
+      }
+    }
+
+    .img-holder {
+      position: relative;
+
+      &::after {
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+        width: 930px;
+        height: 700px;
+        top: 0%;
+        left: -50%;
+        position: absolute;
+        z-index: -2;
+        display: block;
+        content: "";
+      }
+    }
+  }
+
+  &.banner4-custompage {
+    position: relative;
+    margin: 100px 0 100px 0;
+    overflow: visible;
+    display: inline-block;
+    width: 100%;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .section-head {
+      margin-top: 35px;
+    }
+
+    .img-holder {
+      position: relative;
+
+      &::after {
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+        width: 930px;
+        height: 700px;
+        top: 0%;
+        left: -50%;
+        position: absolute;
+        z-index: -2;
+        display: block;
+        content: "";
+      }
+    }
+  }
+}
+
+#accordion100 {
+  width: 100%;
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  .card-image {
+    display: block;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .card-image {
+    display: block;
+  }
+
+  section {
+    &.banner-custompage {
+      margin: 0 0 100px 0;
+
+      .embed-responsive {
+        margin-top: 50px;
+      }
+    }
+
+    &.banner2-custompage {
+      margin: 50px 0 50px 0;
+    }
+
+    &.banner3-custompage {
+      margin: 100px 0 100px 0;
+
+      .bg {
+        top: -35%;
+        left: -20%;
+      }
+    }
+
+    &.banner4-custompage {
+      margin: 50px 0 50px 0;
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .card-image {
+    display: block;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .card-image {
+    display: block;
+  }
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+  .card-image {
+    height: auto;
+  }
+}
