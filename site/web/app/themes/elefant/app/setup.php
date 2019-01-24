@@ -98,6 +98,10 @@ add_action('widgets_init', function () {
         'id'            => 'sidebar-posts'
     ] + $config);
     register_sidebar([
+        'name'          => __('Page Sidebar', 'sage'),
+        'id'            => 'sidebar-page'
+    ] + $config);
+    register_sidebar([
         'name'          => __('Footer', 'sage'),
         'id'            => 'sidebar-footer'
     ] + $config);

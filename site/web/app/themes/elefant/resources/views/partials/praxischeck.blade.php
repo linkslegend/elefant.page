@@ -4,7 +4,9 @@
       <div class="col-xl-6 col-lg-7">
         <h2>TI-Praxis-Check</h2>
         <p>
-          Für die Anbindung an die Telematikinfrastruktur müssen, neben neuer Hard- und Software, weitere technische und räumliche Voraussetzungen in den Praxen erfüllt sein. ZurÜberprüfung bzw. Schaffung der erforderlichen Voraussetzungen bieten wir einen TI-Praxis-Check an.
+          Für die Anbindung an die Telematikinfrastruktur müssen, neben neuer Hard- und Software, weitere technische und
+          räumliche Voraussetzungen in den Praxen erfüllt sein.<br />
+          Zur Überprüfung bzw. Schaffung der erforderlichen Voraussetzungen bieten wir einen TI-Praxis-Check an.
           Erfahren Sie mehr im Video.
         </p>
 
@@ -33,16 +35,16 @@
   <div class="container">
     <div class="row ">
 
-      <div class="col-xl-6 col-lg-5">
+      <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-xl-6 col-lg-5 col-md-5">
 
-        <h2>Warum brauche ich einen Praxis-Check?</h2>
         <div class="img-holder">
           <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" data-src="@asset('images/people-checklist.svg')" class="lozad" />
         </div>
 
       </div>
 
-      <div class="col-xl-6 col-lg-7 align-items-center">
+      <div class="order-1 order-xl-2 order-md-2 order-sm-2 col-xl-6 col-lg-7 col-md-7 align-content-center flex-wrap">
+        <h2>Warum brauche ich einen Praxis-Check?</h2>
         Steht die zertifizierte Hardware im Markt bereit, müssen alle Psychotherapeuten und Ärzte in einem knappen Zeitraum angeschlossen werden. Sind zu diesem Zeitpunkt eine oder mehrere Bedingungen innerhalb einer Praxis nicht erfüllt, kann dies zu ungewollten Verzögerungen und zur Erhöhung von Nachfolgekosten führen.
         <br /><br />
         Der Praxis-Check dient der reibungslosen, sicheren und fristgerechten Umsetzung der TI-Anbindung. Fehlende Voraussetzungen z. B. unbekannte Zugangsdaten oder fehlende Anschlüsse können durch den Check im Vorfeld geprüft und organisiert werden.
@@ -60,7 +62,7 @@
   <div class="container">
                             <h2>Was wird beim Praxis-Check überprüft?</h2>
                             <ul class="nav nav-tabs align-items-center">
-                              <li class="active"><a data-toggle="tab" href="#menu1">Ist ein Internetanschluss vorhanden?</a></li>
+                              <li class="active"><a data-toggle="tab" href="#menu1" class="active show">Ist ein Internetanschluss vorhanden?</a></li>
                               <li><a data-toggle="tab" href="#menu2">IT-Netzwerk</a></li>
                               <li><a data-toggle="tab" href="#menu3">Identifizierungskarten</a></li>
                               <li><a data-toggle="tab" href="#menu4">Weitere Fragen</a></li>
@@ -114,7 +116,8 @@
   <div class="container">
     <div class="row ">
 
-      <div class="col-xl-6 col-lg-7 align-items-center">
+      <div class="col-xl-6 col-lg-7 col-md-7 order-sm-1 d-flex align-content-center flex-wrap">
+        <h2>Wie läuft ein Praxis-Check ab?</h2>
           Nach der Anmeldung, setzt sich ein von HASOMED zertifizierter Techniker mit Ihnen zur Terminabstimmung in Verbindung. Die Überprüfung vor Ort wird voraussichtlich 1 Stunde
           für eine psychotherapeutische Einzelpraxis betragen. Je nach Praxisgröße kann sich der zeitliche Aufwand erhöhen.
       <br /><br />
@@ -122,8 +125,7 @@
             Im Nachgang plant und organisiert der Techniker gemeinsam mit Ihnen, die notwendigen Maßnahmen (z. B. Bestellung der Hardware).
       </div>
 
-      <div class="col-xl-6 col-lg-5">
-        <h2>Wie läuft ein Praxis-Check ab?</h2>
+      <div class="col-xl-6 col-lg-5 col-md-5 order-sm-2">
         <div class="img-holder">
           <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" data-src="@asset('images/working.svg')" class="lozad" />
         </div>

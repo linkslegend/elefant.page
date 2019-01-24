@@ -35,6 +35,10 @@
   }
 }
 
+.embed-responsive {
+  border-radius: 8px;
+}
+
 .nav-tabs {
   border-bottom: 0;
 
@@ -74,6 +78,15 @@
 
 .tab-content {
   margin-top: 60px;
+
+  .tab-pane {
+    min-height: 250px;
+  }
+}
+
+.col-md-12,
+.col-sm-12 {
+  padding: 15px;
 }
 
 // Large devices (desktops, less than 1200px)
@@ -87,6 +100,54 @@
 @media (max-width: 991.98px) {
   .card-image {
     display: block;
+  }
+
+  .nav-tabs {
+    border-bottom: 0;
+
+    li {
+      a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        background: rgba(158, 158, 158, 0.75);
+        border-radius: 8px;
+        margin: 5px;
+        display: block;
+        padding: 15px 15px 15px;
+        border-bottom: none;
+
+        &:hover {
+          text-decoration: none;
+          color: rgb(242, 105, 0);
+        }
+
+        &.active {
+          color: #fff;
+          font-weight: 700;
+          border-radius: 8px;
+          background: #f26900;
+          position: relative;
+          text-decoration: none;
+
+          &::before {
+            content: "";
+            bottom: 0;
+            left: 0;
+            height: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    margin-top: 30px;
+
+    .tab-pane {
+      min-height: 350px;
+    }
   }
 }
 

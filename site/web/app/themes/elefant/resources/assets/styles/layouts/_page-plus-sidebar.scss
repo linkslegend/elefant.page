@@ -1,0 +1,174 @@
+.content-box {
+  width: 70%;
+  float: left;
+  line-height: 1.65em;
+}
+
+aside {
+  width: 30%;
+  padding: 0 0 0 25px;
+  float: right;
+
+  &.sidebar {
+    section {
+      &:not(:last-child) {
+        border-bottom: 1px solid #c7c7c7;
+        padding: 0 0 10px 0;
+        margin: 0 0 25px 0;
+      }
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0;
+      padding: 5px 0 5px 0;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid #e6eaee;
+      }
+
+      a {
+        position: relative;
+        display: block;
+        font-size: 0.9em;
+        padding: 0 0 0 16px;
+        margin: 0;
+        color: rgba(113, 121, 140, 0.7);
+        -webkit-transition: all 0.25s;
+        -o-transition: all 0.25s;
+        transition: all 0.25s;
+
+        &:hover {
+          color: #71798c;
+          text-decoration: none;
+        }
+
+        &::before {
+          border: 2.5px solid rgba(242, 105, 0, 0.5);
+          position: absolute;
+          border-radius: 5px;
+          width: 0;
+          content: "";
+          height: 0;
+          display: inline-block;
+          vertical-align: top;
+          left: 0;
+          margin: 8px 2px;
+        }
+      }
+    }
+  }
+}
+
+address {
+  color: #71798c;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0 0 0 20px;
+
+  .svg-inline--fa {
+    position: absolute;
+    font-size: 0.9em;
+    margin-top: 4px;
+    margin-left: -20px;
+  }
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 1;
+  text-transform: uppercase;
+  display: block;
+  margin: 13px 0 19px;
+  color: rgba(31, 31, 50, 0.7);
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  .content-box {
+    width: 70%;
+    float: left;
+    line-height: 1.65em;
+  }
+
+  aside {
+    width: 30%;
+    padding: 0 0 0 25px;
+    float: right;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .content-box {
+    width: 70%;
+    float: left;
+    line-height: 1.65em;
+  }
+
+  aside {
+    width: 30%;
+    padding: 0 0 0 25px;
+    float: right;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .content-box {
+    width: 70%;
+    float: left;
+    line-height: 1.65em;
+  }
+
+  aside {
+    width: 30%;
+    padding: 0 0 0 25px;
+    float: right;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .content-box {
+    width: 100%;
+    float: left;
+    line-height: 1.65em;
+  }
+
+  aside {
+    width: 100%;
+    padding: 0;
+    float: right;
+  }
+
+  h3 {
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    display: block;
+    margin: 13px 0 19px;
+    color: rgba(31, 31, 50, 0.7);
+  }
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+  .content-box {
+    width: 70%;
+    float: left;
+    line-height: 1.65em;
+  }
+
+  aside {
+    width: 30%;
+    padding: 0 0 0 25px;
+    float: right;
+  }
+}

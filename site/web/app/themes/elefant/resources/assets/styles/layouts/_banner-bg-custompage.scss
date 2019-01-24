@@ -1,5 +1,8 @@
-body.ti-praxis-check {
-  overflow-x: hidden;
+body.ti-praxis-check,
+body.ti-konnektor {
+  .wrap {
+    overflow-x: hidden;
+  }
 }
 
 section {
@@ -12,10 +15,6 @@ section {
 
   .section-description {
     font-size: 0.95em;
-  }
-
-  .col-lg-5 {
-    padding: 0;
   }
 
   .h2 {
@@ -39,7 +38,7 @@ section {
     z-index: -1;
     position: absolute;
     left: 0;
-    top: -50%;
+    top: -65%;
     right: 0;
     bottom: 0;
     content: "";
@@ -71,6 +70,9 @@ section {
     .img-holder {
       position: relative;
       width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
 
       img {
         width: 100%;
@@ -103,10 +105,6 @@ section {
     h2 {
       text-align: center;
       margin-bottom: 50px;
-    }
-
-    .tab-pane {
-      min-height: 250px;
     }
 
     .section-head {
@@ -207,7 +205,7 @@ section {
     }
 
     &.banner2-custompage {
-      margin: 50px 0 50px 0;
+      margin: 50px 0 150px 0;
     }
 
     &.banner3-custompage {
@@ -216,6 +214,11 @@ section {
       .bg {
         top: -35%;
         left: -20%;
+      }
+
+      .img-holder {
+        padding: 50px 0 0;
+        height: 100%;
       }
     }
 
@@ -235,6 +238,58 @@ section {
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .card-image {
+    display: block;
+  }
+
+  .img-holder {
+    position: relative;
+    padding: 50px 0 50px 0;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  section {
+    &.banner-custompage {
+      margin: 0;
+
+      .embed-responsive {
+        margin-top: 50px;
+        border-radius: 8px;
+      }
+    }
+
+    &.banner2-custompage {
+      margin: 50px 0 50px 0;
+
+      .img-holder {
+        img {
+          height: 100%;
+        }
+      }
+    }
+
+    &.banner3-custompage {
+      margin: 50px 0 0 0;
+
+      h2 {
+        margin-bottom: 15px;
+      }
+
+      .bg {
+        top: -10%;
+        left: -20%;
+        transform: rotate(0deg);
+      }
+    }
+
+    &.banner4-custompage {
+      margin: 50px 0 50px 0;
+    }
+  }
+
+  .nav.nav-tabs {
     display: block;
   }
 }

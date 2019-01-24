@@ -3,7 +3,8 @@ body {
 
   &.single,
   &.template-custom,
-  &.blog {
+  &.blog,
+  &.page-sidebar {
     background-image: linear-gradient(to bottom, #f8f8f8 0, #fff 959px);
     background-color: #fff;
 
@@ -88,6 +89,7 @@ a.contact {
 
 .img-holder {
   position: relative;
+  padding: 0;
 
   &::after {
     background: no-repeat url("../images/bg-2.svg") 50% 50%;
@@ -127,10 +129,6 @@ h2 {
 
     .section-description {
       font-size: 0.95em;
-    }
-
-    .col-lg-5 {
-      padding: 0;
     }
 
     .h2 {
@@ -396,10 +394,6 @@ h2 {
       color: #000;
     }
 
-    .col-lg-5 {
-      padding: 0;
-    }
-
     .h2 {
       padding: 0 0 5px 0;
       font-size: 1.25em;
@@ -440,6 +434,15 @@ h2 {
         right: 20%;
         top: 0;
         z-index: -1;
+      }
+
+      .img-holder {
+        padding: 0;
+
+        img {
+          height: auto;
+          width: 100%;
+        }
       }
     }
   }
@@ -505,32 +508,6 @@ h2 {
       }
     }
   }
-
-  .img-holder {
-    position: relative;
-    margin-bottom: 25px;
-
-    &::after {
-      background: no-repeat url("../images/bg-2.svg") 50% 50%;
-      background-size: 100% 100%;
-      background-position: bottom;
-      width: 740px;
-      height: 600px;
-      top: -20%;
-      left: -50%;
-      -webkit-transform: rotate(100deg);
-      -o-transform: rotate(100deg);
-      transform: rotate(100deg);
-      position: absolute;
-      z-index: -2;
-      display: block;
-      content: "";
-    }
-
-    img {
-      width: 100%;
-    }
-  }
 }
 
 // Extra large devices (large desktops)
@@ -546,10 +523,6 @@ h2 {
 
     .section-description {
       font-size: 1rem;
-    }
-
-    .col-lg-5 {
-      padding: 0 15px 0 0;
     }
 
     .h2 {
