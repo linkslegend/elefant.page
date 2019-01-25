@@ -1,0 +1,113 @@
+.outer-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 15px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+*/
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  body {
+    &.ti-anwendungen {
+      section {
+        &.banner-custompage {
+          margin: 0 0 50px 0;
+
+          .overview {
+            padding: 0;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+
+            img {
+              max-width: 500px;
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+
+        &.banner3-custompage {
+          margin: 50px 0 100px 0;
+
+          h2 {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+          }
+
+          .col-md-6 {
+            padding-bottom: 25px;
+          }
+
+          .bg {
+            left: 0%;
+            position: absolute;
+            top: 10%;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+*/
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+  body {
+    &.ti-anwendungen {
+      .wrap {
+        overflow: hidden;
+
+        section {
+          &.banner-custompage {
+            margin: 0 0 100px 0;
+
+            .overview {
+              padding: 20px;
+
+              img {
+                width: 100%;
+              }
+            }
+          }
+
+          &.banner3-custompage {
+            margin: 50px 0 200px 0;
+
+            h2 {
+              font-size: 1.2em;
+              margin-bottom: 20px;
+            }
+
+            .bg {
+              left: 18%;
+              position: absolute;
+              top: 10%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

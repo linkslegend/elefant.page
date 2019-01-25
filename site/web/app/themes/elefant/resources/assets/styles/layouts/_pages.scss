@@ -4,6 +4,7 @@ body {
   &.single,
   &.template-custom,
   &.blog,
+  &.error404,
   &.page-sidebar {
     background-image: linear-gradient(to bottom, #f8f8f8 0, #fff 959px);
     background-color: #fff;
@@ -110,6 +111,17 @@ h2 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 15px;
+}
+
+.alertcontent {
+  font-size: 1.1em;
+}
+
+.alertimage {
+  img {
+    padding: 25px;
+    width: 100%;
+  }
 }
 
 // Large devices (desktops, less than 1200px)
