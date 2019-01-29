@@ -25,13 +25,32 @@ body {
   }
 }
 
-.content {
-  margin-top: 50px;
-}
-
 h1 {
   font-size: 1.6rem;
   font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+h1,
+h2 {
+  a {
+    color: rgba(0, 0, 0, 0.66);
+    transition: all 0.25s;
+
+    &:hover {
+      color: rgb(242, 105, 0);
+      text-decoration: none;
+    }
+  }
+}
+
+.content {
+  margin-top: 50px;
 }
 
 .slick-list {
@@ -50,11 +69,17 @@ article {
 
     .author {
       font-size: 11px;
-      color: #93959c;
+      color: #5a5454;
       margin-bottom: 5px;
 
       a {
-        color: #93959c;
+        color: #5a5454;
+        border-bottom: 1px solid rgba(242, 105, 0, 0.5);
+
+        &:hover {
+          border-bottom: 1px solid rgba(242, 105, 0, 1);
+          text-decoration: none;
+        }
       }
     }
 
@@ -105,12 +130,6 @@ a.contact {
     display: block;
     content: "";
   }
-}
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 15px;
 }
 
 .alertcontent {

@@ -19,7 +19,7 @@
 
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
           <div class="alertimage">
-            <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" data-src="@asset('images/404-page-1.svg')" class="lozad 404image" />
+            <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="404 Error Code" data-src="@asset('images/404-page-1.svg')" class="lozad 404image" />
           </div>
         </div>
     </div>

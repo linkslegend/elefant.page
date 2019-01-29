@@ -38,7 +38,7 @@
       <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-xl-6 col-lg-5 col-md-5">
 
         <div class="img-holder">
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" data-src="@asset('images/people-checklist.svg')" class="lozad" />
+          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Warum brauche ich einen Praxis-Check?" data-src="@asset('images/people-checklist.svg')" class="lozad" />
         </div>
 
       </div>
@@ -127,7 +127,7 @@
 
       <div class="col-xl-6 col-lg-5 col-md-5 order-sm-2">
         <div class="img-holder">
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" data-src="@asset('images/working.svg')" class="lozad" />
+          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Wie läuft ein Praxis-Check ab?" data-src="@asset('images/working.svg')" class="lozad" />
         </div>
       </div>
 

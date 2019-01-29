@@ -34,7 +34,7 @@
 
       <div class="col-xl-6 col-lg-5 col-md-5 align-items-center justify-content-center">
 
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" data-src="@asset('images/csm_Konnektor_2_3345bf9754.jpg')" class="lozad img-rounded mb-5 mb-sm-0 lozad" />
+          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="TI-Konnektor" data-src="@asset('images/csm_Konnektor_2_3345bf9754.jpg')" class="lozad img-rounded mb-5 mb-sm-0 lozad" />
 
       </div>
 

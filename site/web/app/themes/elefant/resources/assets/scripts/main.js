@@ -23,6 +23,11 @@ const routes = new Router({
   aboutUs,
 });
 
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('elefant/serviceworker.js');
+    });
+}
 
 //Custom code//
 // import then needed Font Awesome functionality

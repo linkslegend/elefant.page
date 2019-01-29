@@ -60,7 +60,7 @@
       </div>
 
       <div class="col-xl-6 col-lg-5 col-sm-12">
-        <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" data-src="@asset('images/elefant-1.jpg')" alt="elefant on desktop windows 10" class="img-rounded right margin-top lozad"/>
+        <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="elefant on desktop windows 10" data-src="@asset('images/elefant-1.jpg')" class="img-rounded right margin-top lozad"/>
       </div>
 
     </div>
@@ -98,7 +98,7 @@
 <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="img-holder">
-                        <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" data-src="@asset('images/logo-background.png')" class="lozad" />
+                        <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien" data-src="@asset('images/logo-background.png')" class="lozad" />
                     </div>
                 </div>
                 <div class="col-lg-6">
