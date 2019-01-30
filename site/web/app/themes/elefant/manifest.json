@@ -3,7 +3,7 @@
   "short_name": "Intermac",
   "theme_color": "#cce8f0",
   "background_color": "#cce8f0",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "https://elefant.page/",
   "icons": [
