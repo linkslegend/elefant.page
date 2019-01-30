@@ -1,4 +1,4 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js');
 
 const cacheName = 'intermac';
 
@@ -9,3 +9,9 @@ workbox.routing.registerRoute(/.*\.(?:js|css)/, workbox.strategies.cacheFirst({
 workbox.routing.registerRoute('/', workbox.strategies.cacheFirst({
     cacheName
 }));
+
+if (workbox) {
+  console.log(`Yay! Workbox is loaded 🎉`);
+} else {
+  console.log(`Boo! Workbox didn't load 😬`);
+}

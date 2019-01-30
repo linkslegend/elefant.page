@@ -6,7 +6,7 @@
   <script>
       // register service worker:
       if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('app/themes/elefant/serviceworker.js').then(function() {
+        navigator.serviceWorker.register('/app/themes/elefant/serviceworker.js').then(function() {
           return navigator.serviceWorker.ready;
         })
         .then(function(registration) {
