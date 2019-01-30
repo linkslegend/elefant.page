@@ -4,8 +4,10 @@
   "theme_color": "#cce8f0",
   "background_color": "#cce8f0",
   "display": "standalone",
-  "Scope": "/",
-  "start_url": "https://elefant.page/",
+  "lang": "de-DE",
+  "orientation": "portrait-primary",
+  "description": "Intermac ist ein kleines, feines und hoch spezialisiertes Expertenteam.",
+  "start_url": "/",
   "icons": [
     {
       "src": "/app/themes/elefant/dist/images/icons/icon-72x72.png",
