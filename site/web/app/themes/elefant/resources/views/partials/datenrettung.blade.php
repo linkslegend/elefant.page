@@ -1,25 +1,20 @@
 <section class="banner-custompage">
   <div class="container">
+    <h2>Datenrettung und Datenwiederherstellung</h2>
     <div class="row ">
       <div class="col-xl-6 col-lg-7 col-sm-12 d-flex align-content-center flex-wrap">
-        <h2>Fernwartung mit TeamViewer</h2>
-        <p>
-Für die Fernwartungs-Sitzung verwenden wir die Die führende All-in-One Lösung <a href="https://www.teamviewer.com/de/">TeamViewer</a>.
-Die Fernwartung gibt uns die Möglichkeit,
-Ihre Bildschirmansicht online mitzuverfolgen und bei Bedarf Lösungen vorzuschlagen. Die meisten Schwierigkeiten
-können wir auf diese Weise schnell beheben.
-<br  /><br />
-Wir können per Fernwartung die Steuerung Ihres Computers via hochsicherer,
- verschlüsselter Übertragung von Bildschirminhalten, Tastatur und Mausbewegungen übernehmen. Sie sehen an Ihrem Bildschirm,
- was unser Service tut. Sie zeigen uns, wo Sie Unterstützung wünschen und sprechen dabei per Telefon mit uns.
-        </p>
+          Bei einem Crash Ihres Betriebssystems / Ihrer Festplatte bieten wir Ihnen die folgenden Optionen zur Datenrettung an:
+          Wird Die Festplatte noch im BIOS-Setup noch angezeigt.
+          Die Datensicherung erfolgt auf ein Medium Ihrer Wahl, z.B. Externe Festplatte oder USB-Stick.
+          Zusätzlich bieten wir Ihnen eine Neuinstallation des Betriebssystems inklusive Installation aller aktuellen Treiber ihres Rechners,
+          sowie die Datenrücksicherung an. Die Fehleranalyse ist kostenpflichtig und wird verrechnet, sollten Sie uns den Auftrag zur Datenrettung erteilen.
       </div>
 
       <div class="col-xl-6 col-lg-5 col-sm-12">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QR4wIgHDAvU?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-
+        Unser Service bietet Ihnen eine Datenrettung und Datenwiederherstellung für Festplatten,
+        Speicherkarten und USB Stick an. Desweiteren bieten wir ihnen Hilfe bei versehentlich
+        gelöschten und verloren gegangenen Daten an.
+         Wenn Sie Hilfe bei der Wiederherstellung Ihrer Daten brauchen oder Sie die Hoffnung haben gelöschte Dateien wiederherstellen zu können - besuchen Sie uns auf unserer Webseite.
       </div>
     </div>
   </div>
