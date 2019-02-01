@@ -203,6 +203,39 @@ a.contact {
   margin: 15px 0;
 }
 
+.inner-box {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  height: 100%;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.7);
+  transition: all 0.25s;
+
+  .outer-image {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto 30px auto;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 100%;
+    padding: 35px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.2);
+  }
+}
+
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
   #header {
