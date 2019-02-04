@@ -20,6 +20,15 @@ add_action('wp_enqueue_scripts', function () {
     }
 }, 100);
 
+
+// Google maps api key for ACF
+function acf_google_map_api($api) {
+    $api['key'] = 'AIzaSyDVLSmdnszVnSFqJspfkf8bcp5icSNmzjo';
+    return $api;
+}
+add_filter('acf/fields/google_map/api', __NAMESPACE__ . '\\acf_google_map_api');
+
+
 /**
  * Theme setup
  */
