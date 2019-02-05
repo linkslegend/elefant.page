@@ -1,3 +1,124 @@
+.form-row {
+  padding: 15px 0;
+}
+
+input,
+select,
+optgroup,
+textarea {
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  padding: 7px;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  width: auto;
+
+  &:checked {
+    background: green;
+  }
+}
+
+div.wpcf7 .ajax-loader {
+  width: 16px;
+  height: 16px;
+  border: none;
+  position: absolute;
+  padding: 0;
+  left: 30px;
+  margin: 20px 0 0 4px;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  background: #f26900;
+  padding: 10px 20px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 8px;
+  color: #fff;
+  transition: all 0.25s;
+
+  &:hover {
+    background: #cc5800;
+
+    &:disabled {
+      background: #f26900;
+    }
+  }
+}
+
+label {
+  font-size: 0.85em;
+  width: 100%;
+
+  span.text {
+    margin-bottom: 5px;
+    float: left;
+    width: 100%;
+    display: block;
+  }
+}
+
+div.wpcf7-validation-errors {
+  color: #fff;
+  background: #ff0000b5;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 1em;
+  border: none;
+  font-weight: normal;
+  display: block;
+}
+
+span.wpcf7-not-valid-tip {
+  color: #fff;
+  background: #ff0000b5;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 1em;
+  border: none;
+  font-weight: normal;
+  display: block;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(50%);
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ff4944;
+    opacity: 1;
+    -webkit-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+  }
+}
+
+.form-row > [class*="col-"] {
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.acceptance-dsgvo {
+  background: #f4f4f4;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
 /** Search form */
 .search-form {
   @extend .form-inline;

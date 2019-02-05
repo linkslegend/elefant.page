@@ -7,25 +7,32 @@
       data-icon="https://image.flaticon.com/icons/svg/143/143960.svg">
     </div>
   </div>
+
+<div class="row">
+
+  <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-md-8 col-sm-12">
     Manche IT-Probleme lassen sich bequem per Fernwartung oder durch telefonischen Support beheben. Das spart Zeit und Geld.
-<br  />
+    <br  />
     Sie erreichen mich innerhalb meiner Geschäftszeiten Montags bis Freitags von 08:00 bis 17:00.
     <br  />
-
-    Tel: 0261 / 9223155<br  />
-
     <br  />
-
-    Mobil: 0173 / 6569913<br  />
-
-    E-Mail: nd@intermac.de<br  />
-
+    Haben Sie Fragen, Wünsche oder Anregungen? Bitte nehmen Sie Kontakt mit uns auf, wir helfen Ihnen gerne weiter!<br  />
     <br  />
-
-      Haben Sie Fragen, Wünsche oder Anregungen? Bitte nehmen Sie Kontakt mit uns auf, wir helfen Ihnen gerne weiter!<br  />
-
-      <br  />
-
       <?php echo do_shortcode ('[contact-form-7 id="232" title="kontakt"]'); ?>
+  </div>
 
+  <div class="order-1 order-xl-2 order-md-2 order-sm-2 col-md-4 col-sm-12">
+
+    <a class="contact w-100" href="mailto:nd@intermac.de">
+      <button class="btn btn-primary text-white email w-100"><i class="fas fa-envelope"></i>nd@intermac.de</button>
+    </a>
+    <a class="contact w-100" href="tel:02619223155">
+      <button class="btn btn-primary text-white tel w-100"><i class="fas fa-phone"></i>0261 922 31 55</button>
+    </a>
+
+Sendnicher Straße 58a<br />
+56072, Koblenz
+  </div>
+
+</div>
 </div>
