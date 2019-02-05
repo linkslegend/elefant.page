@@ -2,7 +2,7 @@ body.blog {
   background-image: linear-gradient(to bottom, #f8f8f8 0, #f7f8fa 959px);
 
   .wrap {
-    padding: 60px 0;
+    padding: 0;
 
     .row {
       margin-right: auto;
@@ -104,23 +104,27 @@ body.blog {
     .wrap {
       padding: 15px 0;
 
-      article {
-        padding: 25px 20px 20px;
+      .container {
+        padding: 0;
 
-        .post-featured-image {
-          margin: 30px auto 40px auto;
-          height: 150px;
+        article {
+          padding: 25px 20px 20px;
 
-          &.image-shadow {
-            &::after {
-              -webkit-transform: scale(0.95) translateY(20px) translateZ(-30px);
-              transform: scale(0.95) translateY(20px) translateZ(-30px);
+          .post-featured-image {
+            margin: 30px auto 40px auto;
+            height: 150px;
+
+            &.image-shadow {
+              &::after {
+                -webkit-transform: scale(0.95) translateY(20px) translateZ(-30px);
+                transform: scale(0.95) translateY(20px) translateZ(-30px);
+              }
             }
           }
-        }
 
-        h2 {
-          font-size: 17px;
+          h2 {
+            font-size: 17px;
+          }
         }
       }
     }
