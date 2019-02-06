@@ -21,7 +21,7 @@
       <?php echo do_shortcode ('[contact-form-7 id="232" title="kontakt"]'); ?>
   </div>
 
-  <div class="order-1 order-xl-2 order-md-2 order-sm-2 col-md-4 col-sm-12">
+  <div class="order-1 order-xl-2 order-md-2 order-sm-1 col-md-4 col-sm-12">
 
     <a class="contact w-100" href="mailto:nd@intermac.de">
       <button class="btn btn-primary text-white email w-100"><i class="fas fa-envelope"></i>nd@intermac.de</button>
@@ -30,8 +30,16 @@
       <button class="btn btn-primary text-white tel w-100"><i class="fas fa-phone"></i>0261 922 31 55</button>
     </a>
 
-Sendnicher Straße 58a<br />
-56072, Koblenz
+    <address>
+    <i class="fas fa-home"></i><strong>Intermac Systems</strong><br>
+    Norbert Doetsch<br>
+    Sendnicher str. 58a<br>
+    56072 Koblenz<br>
+    <br>
+    <i class="fas fa-phone"></i><abbr title="Telefon">Telefon:</abbr> +49 0261 922-31-55<br>
+    	<abbr title="Fax">Fax:</abbr> +49 0261 922-31-56<br>
+    	<abbr title="Email">E-Mail:</abbr> <a href="mailto:info@intermac.de">info@intermac.de</a>
+    </address>
   </div>
 
 </div>
