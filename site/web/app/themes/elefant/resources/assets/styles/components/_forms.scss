@@ -1,5 +1,5 @@
 .form-row {
-  padding: 15px 0;
+  padding: 15px 0 0;
 }
 
 input,
@@ -8,7 +8,7 @@ optgroup,
 textarea {
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 5px;
-  padding: 7px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -68,7 +68,7 @@ div.wpcf7-validation-errors {
   background: #ff0000b5;
   padding: 8px 15px;
   border-radius: 5px;
-  margin-top: 15px;
+  margin: 0 5px 0 0;
   font-size: 1em;
   border: none;
   font-weight: normal;

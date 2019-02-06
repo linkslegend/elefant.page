@@ -1,28 +1,19 @@
 <section class="banner-custompage">
   <div class="container">
         <div class="row">
-          <h2>Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien</h2>
-          <div class="col-xl-6 col-lg-7 col-sm-12 d-flex align-content-center flex-wrap">
-            <p>
-              Unser Einzugsgebiet ist vor allem der Raum von Koblenz, Neuwied, Wiesbaden und Mainz.
-              Unsere Preise und Konditionen teilen wir Ihnen gerne telefonisch mit.
-              Wir betreuen mittelständische Unternehmen, Praxen, aber auch Privatpersonen.
-            </p>
 
-            <a class="contact" href="mailto:nd@intermac.de">
-              <button class="btn btn-primary text-white email"><i class="fas fa-envelope"></i>nd@intermac.de</button>
-              </a>
-              <a class="contact" href="tel:02619223155">
-              <button class="btn btn-primary text-white tel"><i class="fas fa-phone"></i>0261 922 31 55</button>
-            </a>
+          <h2>Wir sind Ihr Spezialist für alle Fragen rund um Hardware und Software</h2>
+          <div class="col-xl-6 col-lg-7 col-sm-12 d-flex align-content-center flex-wrap">
+            Elefant unterstützt Sie optimal bei Ihrer therapeutischen Tätigkeit und bietet Ihnen u.a. eine individuelle Bedienoberfläche,
+            gute Funktionalität und hervorragenden Service. Mehr als 10.000 Kunden arbeiten bereits mit der Praxissoftware Elefant.
+            Wir empfehlen ihnen
+
+            <br /><br  />
           </div>
 
           <div class="col-xl-6 col-lg-5 col-sm-12 align-content-center">
-            Falls Sie mit uns eine längerfristige Zusammenarbeit anstreben und mehr über uns und unsere Kunden erfahren möchten,
-            geben wir Ihnen gerne in einem persönlichen Gespräch nähere Auskunft.<br />
-            Senden Sie uns doch einfach eine Anfrage per E-Mail,
-            oder rufen Sie uns direkt an
           </div>
+
         </div>
   </div>
 </section>
