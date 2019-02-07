@@ -132,12 +132,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/ct-ultimate-gdpr.git",
-                "reference": "cd964fdb9334759dce0bf96d26aab39ccaddaff2"
+                "reference": "f87fbd4c4484b2d5264af6bcea3e3e6dd2b4410f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/ct-ultimate-gdpr/zipball/cd964fdb9334759dce0bf96d26aab39ccaddaff2",
-                "reference": "cd964fdb9334759dce0bf96d26aab39ccaddaff2",
+                "url": "https://api.github.com/repos/linkslegend/ct-ultimate-gdpr/zipball/f87fbd4c4484b2d5264af6bcea3e3e6dd2b4410f",
+                "reference": "f87fbd4c4484b2d5264af6bcea3e3e6dd2b4410f",
                 "shasum": ""
             },
             "require": {
@@ -156,10 +156,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/linkslegend/ct-ultimate-gdpr/tree/master",
+                "source": "https://github.com/linkslegend/ct-ultimate-gdpr/tree/1.7.1.3",
                 "issues": "https://github.com/linkslegend/ct-ultimate-gdpr/issues"
             },
-            "time": "2019-02-06T13:11:18+00:00"
+            "time": "2019-02-07T18:43:04+00:00"
         },
         {
             "name": "oscarotero/env",

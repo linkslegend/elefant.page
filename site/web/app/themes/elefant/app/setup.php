@@ -21,6 +21,22 @@ add_action('wp_enqueue_scripts', function () {
 }, 100);
 
 /**
+ * Disable the emoji's
+ */
+
+add_action( 'wp_enqueue_scripts',  function() {
+  if ( ! is_user_logged_in() ) {
+    wp_deregister_style( 'dashicons' );
+  }
+}, 100);
+
+add_action( 'wp_enqueue_scripts',  function() {
+    wp_deregister_script( 'ct-ultimate-gdpr' );
+    wp_deregister_style( 'font-awesome' );
+}, 100);
+
+
+/**
  * Set WooCommerce image dimensions upon theme activation
  */
 // Remove each style one by one
