@@ -1,7 +1,85 @@
+body.woocommerce-page {
+  background-image: linear-gradient(to bottom, #f8f8f8 0, #f7f8fa 959px);
+}
+
 .woocommerce img,
 .woocommerce-page img {
   height: auto;
   max-width: 100%;
+}
+
+.woocommerce-page {
+  ul {
+    &.products {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        &.product {
+          background: #fff;
+          border-radius: 4px;
+          padding: 20px;
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+
+          a {
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+
+          .woocommerce-loop-product__title {
+            font-size: 1em;
+            color: #1f1f32;
+            margin: 0;
+          }
+
+          .price {
+            display: block;
+            width: 100%;
+            padding: 5px 0;
+
+            del {
+              font-size: 0.8em;
+              font-weight: 500;
+              padding: 0 10px;
+              color: #555;
+            }
+
+            ins {
+              font-size: 1.1em;
+              font-weight: 600;
+              float: left;
+            }
+          }
+
+          .add_to_cart_button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            background: #f26900;
+            color: #fff;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .onsale {
+    background: #f26900;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: bold;
+    right: 0;
+    color: #fff;
+  }
 }
 
 /*
