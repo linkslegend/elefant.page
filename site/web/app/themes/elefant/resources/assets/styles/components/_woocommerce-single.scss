@@ -1,0 +1,120 @@
+body.woocommerce-page {
+  background-image: linear-gradient(to bottom, #f8f8f8 0, #f7f8fa 959px);
+
+  .wrap {
+    padding-top: 0;
+  }
+}
+
+.woocommerce-page {
+  .woocommerce-breadcrumb {
+    font-size: 0.9em;
+  }
+
+  .onsale {
+    background: #f26900;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: bold;
+    right: 0;
+    margin: -10px 10px;
+    color: #fff;
+  }
+
+  .entry-summary {
+    max-height: none;
+
+    h1 {
+      &.product_title.entry-title {
+        font-size: 1.6em;
+        line-height: 30px;
+        width: 100%;
+        color: #1f1f32;
+        border: 0 none;
+      }
+    }
+
+    .price {
+      .woocommerce-Price-amount {
+        font-size: 28px;
+        font-size: 1.75rem;
+        white-space: nowrap;
+        color: #1f1f32;
+        font-weight: 700;
+        display: inline-block;
+        line-height: 1;
+      }
+    }
+
+    form.cart {
+      display: block;
+
+      .quantity {
+        width: 100%;
+        max-width: 100px;
+
+        input {
+          padding: 13px;
+        }
+      }
+
+      .price {
+        .woocommerce-Price-amount {
+          font-size: 28px;
+          font-size: 1.75rem;
+          white-space: nowrap;
+          color: #3f4c58;
+          font-weight: 700;
+          display: inline-block;
+          line-height: 1;
+        }
+      }
+
+      .single_add_to_cart_button {
+        display: block;
+        width: 100%;
+        padding: 13px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid #f26900;
+        font-weight: 600;
+        margin: 0;
+        background: #f26900;
+        color: #fff;
+        text-align: center;
+        transition: all 0.25s;
+
+        &:hover {
+          -webkit-box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+}
+
+/*
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+/*
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+}
+*/
