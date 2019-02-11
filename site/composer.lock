@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a92fa88737b42d603a52f4f759b65c7",
+    "content-hash": "0335bfefcd47b29d7a6cefcb9782280c",
     "packages": [
         {
             "name": "composer/installers",
@@ -160,6 +160,146 @@
                 "issues": "https://github.com/linkslegend/ct-ultimate-gdpr/issues"
             },
             "time": "2019-02-07T18:43:04+00:00"
+        },
+        {
+            "name": "linkslegend/prdctfltr",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/prdctfltr.git",
+                "reference": "2130335b4a6977c62ecea986d075c58b45a46194"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/2130335b4a6977c62ecea986d075c58b45a46194",
+                "reference": "2130335b4a6977c62ecea986d075c58b45a46194",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "WooCommerce Product Filter",
+                    "homepage": "https://codecanyon.net/item/woocommerce-product-filter/8514038"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/prdctfltr",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/prdctfltr/tree/6.6.5",
+                "issues": "https://github.com/linkslegend/prdctfltr/issues"
+            },
+            "time": "2019-02-11T15:45:00+00:00"
+        },
+        {
+            "name": "linkslegend/yith-woocommerce-added-to-cart-popup-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-added-to-cart-popup-premium.git",
+                "reference": "361318fbdeed4ece81fb59bf85c1108b44febbe3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-added-to-cart-popup-premium/zipball/361318fbdeed4ece81fb59bf85c1108b44febbe3",
+                "reference": "361318fbdeed4ece81fb59bf85c1108b44febbe3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "YITH WooCommerce Added to Cart Popup Premium WooCommerce Extension",
+                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/issues"
+            },
+            "time": "2019-02-11T16:23:00+00:00"
+        },
+        {
+            "name": "linkslegend/yith-woocommerce-advanced-product-options-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-advanced-product-options-premium.git",
+                "reference": "d0f5ff16b8cda07e545cab7daf997b55142cd859"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-advanced-product-options-premium/zipball/d0f5ff16b8cda07e545cab7daf997b55142cd859",
+                "reference": "d0f5ff16b8cda07e545cab7daf997b55142cd859",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "YITH WOOCOMMERCE PRODUCT ADD-ONS",
+                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-advanced-product-options-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-advanced-product-options-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-advanced-product-options-premium/issues"
+            },
+            "time": "2019-02-11T16:33:59+00:00"
+        },
+        {
+            "name": "linkslegend/yith-woocommerce-product-bundles-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-product-bundles-premium.git",
+                "reference": "1a1971d15f0069575299a6fd4a02052d18fba64c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-product-bundles-premium/zipball/1a1971d15f0069575299a6fd4a02052d18fba64c",
+                "reference": "1a1971d15f0069575299a6fd4a02052d18fba64c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "yith-woocommerce-product-bundles-premium",
+                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/issues"
+            },
+            "time": "2019-02-11T17:33:29+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -967,6 +1107,10 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "linkslegend/ct-ultimate-gdpr": 20,
+        "linkslegend/prdctfltr": 20,
+        "linkslegend/yith-woocommerce-added-to-cart-popup-premium": 20,
+        "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
+        "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

@@ -34,6 +34,22 @@
     {
       "type": "vcs",
       "url": "git@github.com:linkslegend/ct-ultimate-gdpr.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:linkslegend/yith-woocommerce-added-to-cart-popup-premium.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:linkslegend/yith-woocommerce-advanced-product-options-premium.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:linkslegend/yith-woocommerce-product-bundles-premium.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:linkslegend/prdctfltr.git"
     }
   ],
   "require": {
@@ -51,6 +67,10 @@
     "wpackagist-plugin/wordpress-importer": "^0.6.4",
     "wpackagist-plugin/block-lab": "^1.1",
     "linkslegend/ct-ultimate-gdpr": "dev-master",
+    "linkslegend/prdctfltr": "dev-master",
+    "linkslegend/yith-woocommerce-added-to-cart-popup-premium": "dev-master",
+    "linkslegend/yith-woocommerce-advanced-product-options-premium": "dev-master",
+    "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^4.1",
     "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout": "^1.6",
