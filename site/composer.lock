@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b05fa8c0835fbd1cab1a89e06a238f35",
+    "content-hash": "85ae285ec0cf273c24d6fa51ae07d26f",
     "packages": [
         {
             "name": "composer/installers",
@@ -405,6 +405,41 @@
                 "issues": "https://github.com/linkslegend/yith-woocommerce-advanced-product-options-premium/issues"
             },
             "time": "2019-02-11T16:33:59+00:00"
+        },
+        {
+            "name": "linkslegend/yith-woocommerce-composite-products-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git",
+                "reference": "f8844959f18ff79dece15d6a4e69d47794a16140"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/f8844959f18ff79dece15d6a4e69d47794a16140",
+                "reference": "f8844959f18ff79dece15d6a4e69d47794a16140",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "yith-woocommerce-composite-products-premium",
+                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/issues"
+            },
+            "time": "2019-02-12T15:04:31+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1216,6 +1251,7 @@
         "linkslegend/yith-woocommerce-added-to-cart-popup-premium": 20,
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
         "linkslegend/woocommerce-composite-products": 20,
+        "linkslegend/yith-woocommerce-composite-products-premium": 20,
         "linkslegend/woocommerce-social-login": 20,
         "linkslegend/woocommerce-product-reviews-pro": 20,
         "linkslegend/woocommerce-order-status-manager": 20,

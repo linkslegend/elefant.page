@@ -49,6 +49,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:linkslegend/woocommerce-order-status-manager.git"
     },
     {
@@ -83,6 +87,7 @@
     "linkslegend/yith-woocommerce-added-to-cart-popup-premium": "dev-master",
     "linkslegend/yith-woocommerce-advanced-product-options-premium": "dev-master",
     "linkslegend/woocommerce-composite-products": "dev-master",
+    "linkslegend/yith-woocommerce-composite-products-premium": "dev-master",
     "linkslegend/woocommerce-social-login": "dev-master",
     "linkslegend/woocommerce-product-reviews-pro": "dev-master",
     "linkslegend/woocommerce-order-status-manager": "dev-master",
