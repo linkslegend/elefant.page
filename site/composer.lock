@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85ae285ec0cf273c24d6fa51ae07d26f",
+    "content-hash": "b27e7836cb8d4ca1f627f9848fcd37fc",
     "packages": [
         {
             "name": "composer/installers",
@@ -197,41 +197,6 @@
             "time": "2019-02-11T15:45:00+00:00"
         },
         {
-            "name": "linkslegend/woocommerce-composite-products",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/woocommerce-composite-products.git",
-                "reference": "e88beeb1b247963ac21709ecc84047e21455f861"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-composite-products/zipball/e88beeb1b247963ac21709ecc84047e21455f861",
-                "reference": "e88beeb1b247963ac21709ecc84047e21455f861",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "woocommerce-composite-products",
-                    "homepage": "https://gpldl.com/repository/woocommerce-composite-products/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/woocommerce-composite-products",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/woocommerce-composite-products/tree/master",
-                "issues": "https://github.com/linkslegend/woocommerce-composite-products/issues"
-            },
-            "time": "2019-02-12T11:31:55+00:00"
-        },
-        {
             "name": "linkslegend/woocommerce-order-status-manager",
             "version": "dev-master",
             "source": {
@@ -412,12 +377,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git",
-                "reference": "f8844959f18ff79dece15d6a4e69d47794a16140"
+                "reference": "c79ba543a81e02581899108b16c8c39b819b735e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/f8844959f18ff79dece15d6a4e69d47794a16140",
-                "reference": "f8844959f18ff79dece15d6a4e69d47794a16140",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/c79ba543a81e02581899108b16c8c39b819b735e",
+                "reference": "c79ba543a81e02581899108b16c8c39b819b735e",
                 "shasum": ""
             },
             "require": {
@@ -439,7 +404,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/issues"
             },
-            "time": "2019-02-12T15:04:31+00:00"
+            "time": "2019-02-12T16:10:36+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1250,7 +1215,6 @@
         "linkslegend/prdctfltr": 20,
         "linkslegend/yith-woocommerce-added-to-cart-popup-premium": 20,
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
-        "linkslegend/woocommerce-composite-products": 20,
         "linkslegend/yith-woocommerce-composite-products-premium": 20,
         "linkslegend/woocommerce-social-login": 20,
         "linkslegend/woocommerce-product-reviews-pro": 20,

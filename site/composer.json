@@ -45,10 +45,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:linkslegend/woocommerce-composite-products.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git"
     },
     {
@@ -86,7 +82,6 @@
     "linkslegend/prdctfltr": "dev-master",
     "linkslegend/yith-woocommerce-added-to-cart-popup-premium": "dev-master",
     "linkslegend/yith-woocommerce-advanced-product-options-premium": "dev-master",
-    "linkslegend/woocommerce-composite-products": "dev-master",
     "linkslegend/yith-woocommerce-composite-products-premium": "dev-master",
     "linkslegend/woocommerce-social-login": "dev-master",
     "linkslegend/woocommerce-product-reviews-pro": "dev-master",

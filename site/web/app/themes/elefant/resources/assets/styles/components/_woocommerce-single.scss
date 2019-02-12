@@ -25,6 +25,8 @@ body.woocommerce-page {
 
   .entry-summary {
     max-height: none;
+    float: right;
+    width: 48%;
 
     h1 {
       &.product_title.entry-title {
