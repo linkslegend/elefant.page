@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "106ba9748a87193b08f6cae5915d10f0",
+    "content-hash": "574c3bb1c968a71a89f5df9f5d5fa75d",
     "packages": [
         {
             "name": "composer/installers",
@@ -197,6 +197,146 @@
             "time": "2019-02-11T15:45:00+00:00"
         },
         {
+            "name": "linkslegend/woocommerce-composite-products",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woocommerce-composite-products.git",
+                "reference": "e88beeb1b247963ac21709ecc84047e21455f861"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-composite-products/zipball/e88beeb1b247963ac21709ecc84047e21455f861",
+                "reference": "e88beeb1b247963ac21709ecc84047e21455f861",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woocommerce-composite-products",
+                    "homepage": "https://gpldl.com/repository/woocommerce-composite-products/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woocommerce-composite-products",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woocommerce-composite-products/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-composite-products/issues"
+            },
+            "time": "2019-02-12T11:31:55+00:00"
+        },
+        {
+            "name": "linkslegend/woocommerce-order-status-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woocommerce-order-status-manager.git",
+                "reference": "921ca46bad71dc7e0bbfff8c4cb0e252fd03c64d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-order-status-manager/zipball/921ca46bad71dc7e0bbfff8c4cb0e252fd03c64d",
+                "reference": "921ca46bad71dc7e0bbfff8c4cb0e252fd03c64d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woocommerce-order-status-manager",
+                    "homepage": "https://gpldl.com/repository/woocommerce-order-status-manager/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woocommerce-order-status-manager",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woocommerce-order-status-manager/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-order-status-manager/issues"
+            },
+            "time": "2019-02-12T11:43:18+00:00"
+        },
+        {
+            "name": "linkslegend/woocommerce-product-reviews-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woocommerce-product-reviews-pro.git",
+                "reference": "324117dfc249340921afdfec6ae65d2c121c2cb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-product-reviews-pro/zipball/324117dfc249340921afdfec6ae65d2c121c2cb0",
+                "reference": "324117dfc249340921afdfec6ae65d2c121c2cb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woocommerce-product-reviews-pro",
+                    "homepage": "https://gpldl.com/repository/woocommerce-product-reviews-pro/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woocommerce-product-reviews-pro",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woocommerce-product-reviews-pro/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-product-reviews-pro/issues"
+            },
+            "time": "2019-02-12T11:41:18+00:00"
+        },
+        {
+            "name": "linkslegend/woocommerce-social-login",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woocommerce-social-login.git",
+                "reference": "bc5bb0a11ed41ff4a6284185c58c8f7109f31b8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-social-login/zipball/bc5bb0a11ed41ff4a6284185c58c8f7109f31b8d",
+                "reference": "bc5bb0a11ed41ff4a6284185c58c8f7109f31b8d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woocommerce-social-login",
+                    "homepage": "https://gpldl.com/repository/woocommerce-social-login/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woocommerce-social-login",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woocommerce-social-login/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-social-login/issues"
+            },
+            "time": "2019-02-12T11:39:43+00:00"
+        },
+        {
             "name": "linkslegend/yith-woocommerce-added-to-cart-popup-premium",
             "version": "dev-master",
             "source": {
@@ -265,41 +405,6 @@
                 "issues": "https://github.com/linkslegend/yith-woocommerce-advanced-product-options-premium/issues"
             },
             "time": "2019-02-11T16:33:59+00:00"
-        },
-        {
-            "name": "linkslegend/yith-woocommerce-product-bundles-premium",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/yith-woocommerce-product-bundles-premium.git",
-                "reference": "1a1971d15f0069575299a6fd4a02052d18fba64c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-product-bundles-premium/zipball/1a1971d15f0069575299a6fd4a02052d18fba64c",
-                "reference": "1a1971d15f0069575299a6fd4a02052d18fba64c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "yith-woocommerce-product-bundles-premium",
-                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/tree/master",
-                "issues": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/issues"
-            },
-            "time": "2019-02-11T17:33:29+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1130,7 +1235,10 @@
         "linkslegend/prdctfltr": 20,
         "linkslegend/yith-woocommerce-added-to-cart-popup-premium": 20,
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
-        "linkslegend/yith-woocommerce-product-bundles-premium": 20,
+        "linkslegend/woocommerce-composite-products": 20,
+        "linkslegend/woocommerce-social-login": 20,
+        "linkslegend/woocommerce-product-reviews-pro": 20,
+        "linkslegend/woocommerce-order-status-manager": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

@@ -37,18 +37,18 @@ add_action( 'wp_enqueue_scripts',  function() {
 }, 100);
 
 
-/**
- * Set WooCommerce image dimensions upon theme activation
- */
+/*
+  Set WooCommerce image dimensions upon theme activation
+
 // Remove each style one by one
 function jk_dequeue_styles( $enqueue_styles ) {
-	unset( $enqueue_styles['woocommerce-general'] );	// Remove the gloss
+	//unset( $enqueue_styles['woocommerce-general'] );	// Remove the gloss
 	// unset( $enqueue_styles['woocommerce-layout'] );		// Remove the layout
-	unset( $enqueue_styles['woocommerce-smallscreen'] );	// Remove the smallscreen optimisation
+	//unset( $enqueue_styles['woocommerce-smallscreen'] );	// Remove the smallscreen optimisation
 	return $enqueue_styles;
 }
 add_filter( 'woocommerce_enqueue_styles', __NAMESPACE__ . '\\jk_dequeue_styles' );
-
+ */
 
 // Google maps api key for ACF
 function acf_google_map_api($api) {

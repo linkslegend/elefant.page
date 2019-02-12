@@ -45,7 +45,19 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:linkslegend/yith-woocommerce-product-bundles-premium.git"
+      "url": "git@github.com:linkslegend/woocommerce-composite-products.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:linkslegend/woocommerce-order-status-manager.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:linkslegend/woocommerce-product-reviews-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:linkslegend/woocommerce-social-login.git"
     },
     {
       "type": "vcs",
@@ -70,7 +82,10 @@
     "linkslegend/prdctfltr": "dev-master",
     "linkslegend/yith-woocommerce-added-to-cart-popup-premium": "dev-master",
     "linkslegend/yith-woocommerce-advanced-product-options-premium": "dev-master",
-    "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
+    "linkslegend/woocommerce-composite-products": "dev-master",
+    "linkslegend/woocommerce-social-login": "dev-master",
+    "linkslegend/woocommerce-product-reviews-pro": "dev-master",
+    "linkslegend/woocommerce-order-status-manager": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^4.1",
     "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout": "^1.6",
