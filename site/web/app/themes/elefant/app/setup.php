@@ -33,7 +33,7 @@ add_action( 'wp_enqueue_scripts',  function() {
 add_action( 'wp_enqueue_scripts',  function() {
     wp_deregister_script( 'ct-ultimate-gdpr' );
     wp_deregister_style( 'font-awesome' );
-    wp_deregister_style( 'yith-wacp-frontend' );
+    //wp_deregister_style( 'yith-wacp-frontend' );
 }, 100);
 
 

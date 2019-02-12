@@ -932,15 +932,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",
-            "version": "1.0.9",
+            "version": "1.0.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-migrate-db/",
-                "reference": "tags/1.0.9"
+                "reference": "tags/1.0.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.1.0.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.1.0.10.zip",
                 "reference": null,
                 "shasum": null
             },
