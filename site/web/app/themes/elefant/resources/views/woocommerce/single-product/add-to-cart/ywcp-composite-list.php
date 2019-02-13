@@ -29,7 +29,7 @@ if ( isset( $_REQUEST['ywcp_cart_item_key'] ) ) {
 }
 
 $title_tag =  esc_html( apply_filters( 'ywcp_composite_list_title_tag', 'h3' ) ) ;
- 
+
 ?>
 
 <div class="ywcp_components_container ywcp_<?php echo esc_attr( $layout_options ) ?>" data-product-id="<?php echo $product_id; ?>" data-per-item-price="<?php echo ( $product_per_item_pricing ? 1 : 0 )?>" data-layout-option="<?php echo esc_attr( $layout_options ) ?>" data-dependencies="<?php echo esc_attr( json_encode( $product->getDependenciesDataComponentsDetails() ) ); ?>">
@@ -38,7 +38,7 @@ $title_tag =  esc_html( apply_filters( 'ywcp_composite_list_title_tag', 'h3' ) )
 
 	$component_index = 0;
 	foreach ( $component_data as $key => $component_item ) {
-		
+
 		// Variations Discount Fix
 		global $ywcp_variations_discount_fix_info;
 		$ywcp_variations_discount_fix_info = array(
@@ -63,8 +63,8 @@ $title_tag =  esc_html( apply_filters( 'ywcp_composite_list_title_tag', 'h3' ) )
 			echo '<'.$title_tag.'>'.$html_title;
 				// Accordion button
 				if ( $layout_options == 'accordion' ) {
-					$show_composite_options_img  = apply_filters( 'ywcp_composite_img_toggle_open', YITH_WCP_ASSETS_URL . '/css/images/down.png' );
-					$close_composite_options_img = apply_filters( 'ywcp_composite_img_toggle_close', YITH_WCP_ASSETS_URL . '/css/images/up.png' );
+					$show_composite_options_img  = apply_filters( 'ywcp_composite_img_toggle_open', YITH_WCP_ASSETS_URL . '/css/images/down.svg' );
+					$close_composite_options_img = apply_filters( 'ywcp_composite_img_toggle_close', YITH_WCP_ASSETS_URL . '/css/images/up.svg' );
 					echo '<a href="#" class="ywcp_selection_open"><img alt="" src="' . $show_composite_options_img . '" /></a>';
 					echo '<a href="#" class="ywcp_selection_close"><img alt="" src="' . $close_composite_options_img . '" /></a>';
 				}
@@ -99,14 +99,14 @@ $title_tag =  esc_html( apply_filters( 'ywcp_composite_list_title_tag', 'h3' ) )
 	}
 
 	if ( $layout_options == 'step' ) : ?>
-		
+
 		<div class="ywcp_step_navigation">
 			<div class="ywcp_step_current_info"></div>
 			<div class="ywcp_step_prev"><a href="#"><?php echo apply_filters( 'ywcp_step_prev_label', __( 'Prev', 'yith-composite-products-for-woocommerce' ) ) ?></a></div>
 			<div class="ywcp_step_next"><a href="#"><?php echo apply_filters( 'ywcp_step_next_label', __( 'Next', 'yith-composite-products-for-woocommerce' ) ) ?></a></div>
 			<div class="ywcp_clear"></div>
 		</div>
-		
+
 	<?php endif; ?>
 
 </div>

@@ -16,31 +16,50 @@ form {
         border-radius: 4px;
         position: relative;
         background: #fff;
-        border: 1px solid #f26900;
+        border: 1px solid rgba(31, 37, 50, 0.3);
         padding: 12px;
         color: rgba(31, 37, 50, 0.7);
         transition: all 0.25s;
+
+        a {
+          &.ywcp_selection_close {
+            box-shadow: none;
+            position: absolute;
+            margin: -2px 10px 0 0;
+            right: 0;
+            color: #f26900;
+          }
+
+          &.ywcp_selection_open {
+            box-shadow: none;
+            position: absolute;
+            margin: -2px 10px 0 0;
+            right: 0;
+          }
+        }
 
         &:hover {
           border: 1px solid #f26900;
           background: #f26900;
           color: #fff;
+
+          a {
+            &.ywcp_selection_close {
+              color: #fff;
+            }
+
+            &.ywcp_selection_open {
+              color: #fff;
+            }
+          }
         }
       }
     }
+
+    .yith_wapo_groups_container {
+      float: none;
+    }
   }
-}
-
-.yith_wapo_groups_container {
-  float: none;
-}
-
-.ywcp_accordion a.ywcp_selection_open,
-.ywcp_accordion a.ywcp_selection_close {
-  box-shadow: none;
-  position: absolute;
-  margin: -2px 10px 0 0;
-  right: 0;
 }
 
 .ywcp_component_otpions_thumbnails_container ul.products li {
