@@ -1,6 +1,40 @@
-.upsells {
-  float: left;
-  width: 100%;
+.woocommerce-page {
+  section {
+    &.upsells {
+      float: left;
+      width: 100%;
+      margin-top: 50px;
+
+      h2 {
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+
+      ul.products {
+        font-size: 0.9em;
+
+        li {
+          a {
+            h2 {
+              font-size: 1.3em;
+              text-align: center;
+
+              &.woocommerce-loop-product__title {
+                text-align: left;
+                height: 37px;
+              }
+            }
+
+            img {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 /*

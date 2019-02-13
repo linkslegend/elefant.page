@@ -3,6 +3,31 @@ body.woocommerce-page {
 
   .wrap {
     padding-top: 0;
+
+    .content {
+      .container {
+        .main {
+          .content-area {
+            position: relative;
+          }
+        }
+      }
+    }
+  }
+
+  &.banner::after {
+    background-image: url("../images/bg.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
   }
 }
 
@@ -13,7 +38,7 @@ body.woocommerce-page {
 
 .woocommerce-page {
   .woocommerce-breadcrumb {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   .onsale {
@@ -97,6 +122,38 @@ body.woocommerce-page {
           -webkit-box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
         }
+      }
+    }
+  }
+
+  .product_meta {
+    font-size: 0.85em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 8px;
+
+    .posted_in {
+      display: block;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+      width: 100%;
+      font-weight: 500;
+
+      a {
+        font-weight: 400;
+        padding: 0 3px;
+      }
+    }
+
+    .tagged_as {
+      display: block;
+      width: 100%;
+      font-weight: 500;
+
+      a {
+        font-weight: 400;
+        padding: 0 3px;
       }
     }
   }

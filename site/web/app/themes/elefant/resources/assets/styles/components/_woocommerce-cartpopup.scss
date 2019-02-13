@@ -27,6 +27,27 @@
   }
 }
 
+#yith-wacp-mini-cart {
+  position: fixed;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  cursor: pointer;
+
+  .yith-wacp-mini-cart-count {
+    background: #f66900;
+  }
+
+  .yith-wacp-mini-cart-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-49 141 512 512'%3E%3Cpath d='M457.3 250.7a25 25 0 0 1 5.2 21l-35.2 170.7a25.2 25.2 0 0 1-24.6 20h-311l7.5 36h301.2a12.6 12.6 0 1 1 0 25.1H99.2a25.2 25.2 0 0 1-24.6-20L13.7 208.1l-55.1-24a12.6 12.6 0 1 1 10-23l55.2 24c7.5 3.2 13 9.9 14.6 17.9l7.9 38.4h391.6a25 25 0 0 1 19.4 9.2zm-54.6 186.6l35.2-170.7H51.5l35.1 170.7h316.1z' fill='%23f26900'/%3E%3Cg fill='%23f26900'%3E%3Cpath d='M323.6 543.8a45 45 0 1 1 0 90.2 45 45 0 0 1 0-90.2zm20 45a20 20 0 1 0-39.9.1 20 20 0 0 0 39.8 0zM334.7 306.8a12.6 12.6 0 1 1 0 25.1H154.6a12.6 12.6 0 1 1 0-25.1h180.1z'/%3E%3C/g%3E%3Cg fill='%23f26900'%3E%3Cpath d='M325 372a12.6 12.6 0 1 1 0 25.2H164.3a12.6 12.6 0 1 1 0-25.2h160.5zM165.7 543.8a45 45 0 1 1-.1 90.2 45 45 0 0 1 0-90.2zm19.9 45a20 20 0 1 0-39.9.1 20 20 0 0 0 39.9 0z'/%3E%3C/g%3E%3C/svg%3E") !important;
+    background-size: 30px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
 /*
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
