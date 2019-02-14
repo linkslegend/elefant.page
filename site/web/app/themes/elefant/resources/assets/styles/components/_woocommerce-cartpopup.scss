@@ -4,22 +4,110 @@
   }
 
   .yith-wacp-wrapper {
+    height: auto !important;
+
     .yith-wacp-main {
       border-radius: 8px;
+      padding: 0;
+      overflow: hidden;
 
       .yith-wacp-head {
         .yith-wacp-close {
           display: block;
+          top: 10px;
+          right: 10px;
+          color: black;
+          z-index: 9999;
         }
       }
 
       .yith-wacp-content {
+        padding: 0;
+
+        h3 {
+          font-size: 1.2em;
+          font-weight: 600;
+          background: #e6ffc5;
+          padding: 15px;
+
+          &.product-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            background: transparent;
+            padding: 0;
+          }
+        }
+
+        .product-price {
+          font-size: 1.1em;
+        }
+
+        .cart-info {
+          font-size: 1em;
+          font-weight: 600;
+        }
+
         .popup-actions {
           .button {
             background: #f26900;
             color: #fff;
             padding: 15px;
             border-radius: 8px;
+          }
+        }
+
+        table.cart-list {
+          tr {
+            font-size: 0.95em;
+
+            &.ywcp_component_child_item {
+              font-size: 0.8em;
+              background: #f4f4f4;
+              border-radius: 4px;
+
+              td {
+                &.item-info {
+                  .ywcp_cart_component_name {
+                    label {
+                      font-size: 0.8em;
+                    }
+
+                    a.item-name {
+                      font-size: 0.9em;
+                    }
+                  }
+                }
+              }
+            }
+
+            td.item-remove {
+              a.remove {
+                background-image: url("../images/cancel-black.svg");
+                height: 35px;
+                width: 35px;
+                background-position: 9px;
+                margin: 0;
+                text-align: center;
+                background-repeat: no-repeat;
+                border: 2px solid #f4f4f4;
+                top: 0;
+                background-size: 13px;
+                -webkit-transition: all 0.25s;
+                -o-transition: all 0.25s;
+                transition: all 0.25s;
+                padding: 0;
+                right: 0;
+                text-decoration: none;
+                -webkit-box-shadow: none;
+                border-radius: 100%;
+
+                &:hover {
+                  background-image: url("../images/cancel-white.svg");
+                  background-color: #f66900;
+                  border: 2px solid #f66900;
+                }
+              }
+            }
           }
         }
       }
