@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af37d8272925fcd12f59b8c3c54306e9",
+    "content-hash": "3669c294310b962f22a6adaaf58e7825",
     "packages": [
         {
             "name": "composer/installers",
@@ -412,12 +412,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git",
-                "reference": "aa7c03fe8b2703132acdf5aef7bb86fe045ee8ff"
+                "reference": "d60655c1ffb60176c46ff59ed22f2df820934048"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/aa7c03fe8b2703132acdf5aef7bb86fe045ee8ff",
-                "reference": "aa7c03fe8b2703132acdf5aef7bb86fe045ee8ff",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/d60655c1ffb60176c46ff59ed22f2df820934048",
+                "reference": "d60655c1ffb60176c46ff59ed22f2df820934048",
                 "shasum": ""
             },
             "require": {
@@ -439,7 +439,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/issues"
             },
-            "time": "2019-02-15T17:05:35+00:00"
+            "time": "2019-02-18T18:29:06+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-product-bundles-premium",
