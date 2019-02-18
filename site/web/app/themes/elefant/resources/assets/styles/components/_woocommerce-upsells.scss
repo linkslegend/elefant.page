@@ -1,6 +1,7 @@
 .woocommerce-page {
   section {
-    &.upsells {
+    &.upsells,
+    &.related {
       float: left;
       width: 100%;
       margin-top: 50px;

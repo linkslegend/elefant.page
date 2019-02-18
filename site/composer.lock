@@ -377,12 +377,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git",
-                "reference": "eeee8daed6f3e496516018c776e375369e23fa6c"
+                "reference": "aa7c03fe8b2703132acdf5aef7bb86fe045ee8ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/eeee8daed6f3e496516018c776e375369e23fa6c",
-                "reference": "eeee8daed6f3e496516018c776e375369e23fa6c",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/aa7c03fe8b2703132acdf5aef7bb86fe045ee8ff",
+                "reference": "aa7c03fe8b2703132acdf5aef7bb86fe045ee8ff",
                 "shasum": ""
             },
             "require": {
@@ -404,7 +404,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/issues"
             },
-            "time": "2019-02-14T15:08:26+00:00"
+            "time": "2019-02-15T17:05:35+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-product-bundles-premium",
@@ -412,12 +412,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-product-bundles-premium.git",
-                "reference": "1a1971d15f0069575299a6fd4a02052d18fba64c"
+                "reference": "a945f529207462868c6f83acd9834f7896342010"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-product-bundles-premium/zipball/1a1971d15f0069575299a6fd4a02052d18fba64c",
-                "reference": "1a1971d15f0069575299a6fd4a02052d18fba64c",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-product-bundles-premium/zipball/a945f529207462868c6f83acd9834f7896342010",
+                "reference": "a945f529207462868c6f83acd9834f7896342010",
                 "shasum": ""
             },
             "require": {
@@ -439,7 +439,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/issues"
             },
-            "time": "2019-02-11T17:33:29+00:00"
+            "time": "2019-02-15T17:04:36+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -787,15 +787,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.7.10",
+            "version": "5.7.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.7.10"
+                "reference": "tags/5.7.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.12.zip",
                 "reference": null,
                 "shasum": null
             },
