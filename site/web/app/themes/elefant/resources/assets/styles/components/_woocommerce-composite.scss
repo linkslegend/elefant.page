@@ -28,7 +28,7 @@ form {
           border: none;
 
           img {
-            width: 80px;
+            width: 50px;
             margin-bottom: 5px;
             display: inline-block;
             float: left;
@@ -112,6 +112,8 @@ form {
             cursor: pointer;
 
             .ywcp_image_container {
+              width: 50px;
+
               img {
                 border-radius: 8px;
               }
@@ -123,6 +125,7 @@ form {
               .ywcp_product_title {
                 font-size: 1em;
                 font-weight: 600;
+                margin-bottom: 5px;
               }
 
               .ywcp_product_price {

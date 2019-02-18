@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cbb3e0d866a52616eb59782853536908",
+    "content-hash": "af37d8272925fcd12f59b8c3c54306e9",
     "packages": [
         {
             "name": "composer/installers",
@@ -230,6 +230,41 @@
                 "issues": "https://github.com/linkslegend/woocommerce-order-status-manager/issues"
             },
             "time": "2019-02-12T11:43:18+00:00"
+        },
+        {
+            "name": "linkslegend/woocommerce-product-bundles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woocommerce-product-bundles.git",
+                "reference": "edade74ed0556e98bc0ffc895acf1459e94ac3b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-product-bundles/zipball/edade74ed0556e98bc0ffc895acf1459e94ac3b7",
+                "reference": "edade74ed0556e98bc0ffc895acf1459e94ac3b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woocommerce-product-bundles",
+                    "homepage": "https://gpldl.com/repository/woocommerce-product-bundles/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woocommerce-product-bundles",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woocommerce-product-bundles/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-product-bundles/issues"
+            },
+            "time": "2019-02-18T12:16:58+00:00"
         },
         {
             "name": "linkslegend/woocommerce-product-reviews-pro",
@@ -1255,6 +1290,7 @@
         "linkslegend/woocommerce-product-reviews-pro": 20,
         "linkslegend/woocommerce-order-status-manager": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
+        "linkslegend/woocommerce-product-bundles": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

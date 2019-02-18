@@ -53,6 +53,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:linkslegend/woocommerce-product-bundles.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:linkslegend/woocommerce-order-status-manager.git"
     },
     {
@@ -91,6 +95,7 @@
     "linkslegend/woocommerce-product-reviews-pro": "dev-master",
     "linkslegend/woocommerce-order-status-manager": "dev-master",
     "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
+    "linkslegend/woocommerce-product-bundles": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^4.1",
     "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout": "^1.6",
