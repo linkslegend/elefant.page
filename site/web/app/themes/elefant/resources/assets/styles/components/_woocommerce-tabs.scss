@@ -1,45 +1,71 @@
-.woocommerce-tabs {
-  float: left;
-  width: 100%;
-  margin-top: 100px;
+.woocommerce {
+  div.product {
+    .woocommerce-tabs {
+      float: left;
+      width: 100%;
+      margin-top: 100px;
 
-  ul.tabs {
-    margin: 0;
-    padding: 0;
+      ul.tabs {
+        margin: 0;
+        padding: 0;
 
-    li {
-      padding: 0 20px 20px 0;
+        li {
+          padding: 0 20px 1px 20px;
+          border: none;
+          background: transparent;
 
-      a {
-        font-weight: 500;
-        color: rgba(0, 0, 0, 0.7);
-        transition: all 0.25s;
-        padding: 5px 15px;
-        text-decoration: none;
+          a {
+            font-weight: 500;
+            color: rgba(0, 0, 0, 0.7);
+            transition: all 0.25s;
+            padding: 5px 15px;
+            text-decoration: none;
 
-        &:hover {
-          border-bottom: 3px solid #f26900;
-          text-decoration: none;
+            &:hover {
+              border-bottom: 3px solid #f26900;
+              text-decoration: none;
+            }
+          }
+
+          &::before {
+            display: none;
+          }
+
+          &::after {
+            display: none;
+          }
+
+          &.active {
+            a {
+              font-weight: 500;
+              border-bottom: 3px solid #f26900;
+            }
+
+            &::before {
+              display: none;
+            }
+
+            &::after {
+              display: none;
+            }
+          }
+        }
+
+        &::before {
+          border-bottom: 1px solid #fff;
         }
       }
 
-      &.active {
-        a {
-          font-weight: 500;
-          border-bottom: 3px solid #f26900;
+      .woocommerce-Tabs-panel {
+        font-size: 0.9em;
+        padding: 15px;
+        background: #fff;
+        line-height: 1.6em;
+
+        h2 {
+          font-size: 1.3rem;
         }
       }
-    }
-  }
-
-  .woocommerce-Tabs-panel {
-    font-size: 0.9em;
-    padding: 15px 0;
-    background: #fff;
-    line-height: 1.6em;
-
-    h2 {
-      font-size: 1.3rem;
     }
   }
 }

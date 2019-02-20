@@ -1,4 +1,4 @@
-body.woocommerce-page,
+body.woocommerce,
 body.single.single-product {
   background-image: linear-gradient(to bottom, #f8f8f8 0, #f7f8fa 959px);
 
@@ -37,6 +37,7 @@ body.single.single-product {
   margin-bottom: 20px;
 }
 
+.woocommerce,
 .woocommerce-page {
   .woocommerce-breadcrumb {
     font-size: 0.8em;
@@ -62,6 +63,7 @@ body.single.single-product {
 
     .woocommerce-product-details__short-description {
       padding: 0;
+      margin-bottom: 10px;
 
       p {
         padding: 0;
@@ -134,6 +136,10 @@ body.single.single-product {
         color: #fff;
         text-align: center;
         transition: all 0.25s;
+
+        &.button {
+          float: right;
+        }
 
         &:hover {
           -webkit-box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
