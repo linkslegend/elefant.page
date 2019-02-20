@@ -7,7 +7,24 @@ form {
     }
 
     .ywcp_wcp_group_total {
-      padding: 0;
+      background: #fff;
+      float: left;
+      width: 100%;
+      border: 1px solid #d2d2d2;
+      border-radius: 4px;
+      padding: 10px;
+      margin: 0 0 15px 0;
+
+      table {
+        tr {
+          border-bottom: 1px solid #d2d2d2;
+          padding: 2px;
+
+          &#ywcp_wcp_tr_order_total {
+            font-weight: 700;
+          }
+        }
+      }
     }
 
     .ywcp_customer_advice {
@@ -28,20 +45,21 @@ form {
           border: none;
 
           img {
-            width: 50px;
-            margin-bottom: 5px;
+            width: 100%;
+            margin-bottom: 0;
             display: inline-block;
             float: left;
           }
         }
 
         .ywcp_product_info {
-          padding: 0 20px 0 15px;
+          padding: 0 20px 0 0;
           float: left;
 
           .ywcp_product_title {
             font-size: 1em;
             font-weight: 600;
+            margin-bottom: 3px;
           }
 
           .ywcp_product_link {
@@ -112,7 +130,7 @@ form {
             cursor: pointer;
 
             .ywcp_image_container {
-              width: 50px;
+              width: 60px;
 
               img {
                 border-radius: 8px;

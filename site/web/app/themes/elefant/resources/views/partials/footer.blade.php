@@ -15,7 +15,7 @@
 
     </div>
     </section>
-    <div class="copyright">© <?php echo date("Y"); ?> Intermac  |  <a href="/impressum">Impressum</a>  |  <a href="/datenschutz">Datenschutz</a></div>
+    <div class="copyright">© <?php echo date("Y"); ?> Intermac  |  <a href="/impressum">Impressum</a>  |  <a href="/agb">AGB</a>  |  <a href="/cookies">Cookies</a>  |  <a href="/datenschutzerklaerung">Datenschutzerklaerung</a></div>
 
   </div>
 </footer>

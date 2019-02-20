@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-05 12:34:06+0000\n"
+"PO-Revision-Date: 2019-02-18 14:07:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,15 +16,15 @@ msgstr ""
 msgid "Invalid image: %s"
 msgstr "Ungültiges Bild: %s"
 
+#: includes/api/v1/class-wc-rest-webhooks-controller.php:414
+msgid "Webhook status must be valid."
+msgstr "Webhook-Status muss gültig sein."
+
 #. translators: %s: Order number
 #: templates/emails/plain/customer-processing-order.php:27
 #: templates/emails/customer-processing-order.php:30
 msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
-msgstr "Zu Ihrer Information &mdash; wir haben Ihre Bestellung #%s erhalten und sie befindet sich nun in Bearbeitung:"
-
-#: includes/api/v1/class-wc-rest-webhooks-controller.php:414
-msgid "Webhook status must be valid."
-msgstr "Webhook-Status muss gültig sein."
+msgstr "Nur damit Sie Bescheid wissen &mdash; Wir haben Ihre Bestellung #%s erhalten und diese wird gerade bearbeitet:"
 
 #: includes/api/v2/class-wc-rest-system-status-tools-v2-controller.php:195
 #: includes/api/v2/class-wc-rest-system-status-tools-v2-controller.php:196
