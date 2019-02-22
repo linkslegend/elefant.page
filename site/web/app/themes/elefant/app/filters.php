@@ -101,8 +101,6 @@ add_filter('wp_get_attachment_image_attributes', function ($attr, $attachment) {
     return $attr;
 }, 10, 2);
 
-
-
 add_filter('wp_nav_menu_objects', __NAMESPACE__ . '\\my_wp_nav_menu_objects', 10, 2);
 function my_wp_nav_menu_objects( $items, $args ) {
 	// loop

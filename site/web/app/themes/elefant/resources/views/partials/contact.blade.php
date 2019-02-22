@@ -26,8 +26,8 @@
     <a class="contact w-100" href="mailto:nd@intermac.de">
       <button class="btn btn-primary text-white email w-100"><i class="fas fa-envelope"></i>nd@intermac.de</button>
     </a>
-    <a class="contact w-100" href="tel:02619223155">
-      <button class="btn btn-primary text-white tel w-100"><i class="fas fa-phone"></i>0261 922 31 55</button>
+    <a class="contact w-100" href="tel:015127555942">
+      <button class="btn btn-primary text-white tel w-100"><i class="fas fa-phone"></i>0151 27 555 942</button>
     </a>
 
     <address>
