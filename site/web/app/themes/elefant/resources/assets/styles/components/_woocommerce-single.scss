@@ -17,7 +17,7 @@ body.single.single-product {
   }
 
   &::after {
-    background-image: url("../images/bg.svg");
+    background-image: url("../images/bg-top.svg");
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: 50% 100%;
@@ -79,7 +79,7 @@ body.woocommerce.single {
 
         p {
           padding: 0;
-          margin: 0;
+          margin: 10px 0;
         }
       }
 

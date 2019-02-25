@@ -1,0 +1,54 @@
+body.woocommerce.prdctfltr-shop {
+  display: block;
+
+  ul.products {
+    width: 75%;
+    float: left;
+    clear: none;
+  }
+}
+
+.woocommerce .woocommerce-ordering,
+.woocommerce-page .woocommerce-ordering {
+  float: right;
+  width: 100%;
+  display: none;
+}
+
+.woocommerce .woocommerce-result-count,
+.woocommerce-page .woocommerce-result-count {
+  float: left;
+  width: 100%;
+}
+
+.prdctfltr_wc {
+  position: relative;
+  margin-bottom: 35px;
+  clear: none;
+  width: 25%;
+  float: left;
+}
+
+/*
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+/*
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+}
+*/
