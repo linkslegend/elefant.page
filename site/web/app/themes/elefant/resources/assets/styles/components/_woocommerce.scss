@@ -1,5 +1,36 @@
 body.woocommerce-page {
   background-image: linear-gradient(to bottom, #f8f8f8 0, #f7f8fa 959px);
+
+  .woocommerce-error,
+  .woocommerce-info,
+  .woocommerce-message {
+    padding: 10px 10px 10px 50px;
+    margin: 0 0 15px;
+    position: relative;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #fff;
+    border-top: 3px solid #a46497;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+
+    &::before {
+      display: inline-block;
+      position: absolute;
+      top: 11px;
+      left: 19px;
+    }
+  }
+
+  .woocommerce-info {
+    border: none;
+    background: #f9746d;
+
+    &::before {
+      color: #fff;
+    }
+  }
 }
 
 .woocommerce img,

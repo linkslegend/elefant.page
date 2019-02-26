@@ -39,6 +39,19 @@ body.woocommerce.prdctfltr-shop {
       .prdctfltr_wc {
         padding: 0 25px 0 0;
 
+        .prdctfltr_filter_title {
+          display: none;
+        }
+
+        .prdctfltr_collector {
+          margin-top: 0;
+          width: 100%;
+          position: absolute;
+          display: inline-block !important;
+          padding: 0 !important;
+          margin-left: 280px;
+        }
+
         form {
           margin: 0;
 
@@ -63,6 +76,8 @@ body.woocommerce.prdctfltr-shop {
     float: right;
 
     .prdctfltr_sc {
+      margin: 0;
+
       .prdctfltr_wc {
         width: 250px;
         float: right;
@@ -73,10 +88,22 @@ body.woocommerce.prdctfltr-shop {
           .prdctfltr_filter_wrapper {
             .prdctfltr_filter_inner {
               .prdctfltr_filter {
-                width: 250px;
+                width: 100%;
+                padding: 0;
 
                 span.prdctfltr_regular_title {
                   border-radius: 8px;
+                }
+
+                .prdctfltr_add_scroll {
+                  .prdctfltr_checkboxes {
+                    label {
+                      &.prdctfltr_ft_none {
+                        margin: 0;
+                        padding: 0;
+                      }
+                    }
+                  }
                 }
               }
             }
