@@ -20,6 +20,10 @@ add_action('wp_enqueue_scripts', function () {
     }
 }, 100);
 
+/**
+ * not working with filters 
+ */
+/*
 add_action( 'woocommerce_after_shop_loop_item', __NAMESPACE__ . '\\remove_add_to_cart_buttons', 1 );
 function remove_add_to_cart_buttons() {
   // replace a_category and another_category with the slugs of the categories you'd like to have the button removed from
@@ -27,6 +31,7 @@ function remove_add_to_cart_buttons() {
     remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );
   }
 }
+*/
 
 /**
  * Disable the emoji's

@@ -63,6 +63,15 @@ body.woocommerce.prdctfltr-shop {
                 margin-bottom: 20px;
                 padding: 15px;
                 border-radius: 8px;
+
+                .prdctfltr_add_scroll {
+                  .prdctfltr_checkboxes {
+                    label {
+                      margin: 0;
+                      padding: 0;
+                    }
+                  }
+                }
               }
             }
           }
@@ -98,10 +107,8 @@ body.woocommerce.prdctfltr-shop {
                 .prdctfltr_add_scroll {
                   .prdctfltr_checkboxes {
                     label {
-                      &.prdctfltr_ft_none {
-                        margin: 0;
-                        padding: 0;
-                      }
+                      margin: 0;
+                      padding: 0;
                     }
                   }
                 }
