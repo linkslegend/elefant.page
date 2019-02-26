@@ -25,13 +25,27 @@ the readme will list any important changes.
   <header class="woocommerce-products-header">
     @if(apply_filters('woocommerce_show_page_title', true))
       <h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
+      <div class="page-description">
+          <strong>Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien</strong>
+          Wir betreuen, reparieren und verkaufen Windows PC-Systeme, Apple Mac-Rechner, Netzwerkzubehör, Webseiten, Software. 
+          Zu unseren Kunden zählen kleine Betriebe, mittelständische Unternehmen und Arztpraxen im Großraum Koblenz.
+      </div>
     @endif
 
     @php
       do_action('woocommerce_archive_description');
     @endphp
+
+    <div class="product-filter-top">
+      <?php echo do_shortcode('[prdctfltr_sc_get_filter preset="desktop-filter-top"]'); ?>
+    </div>
   </header>
 
+<div class="aside">
+  <?php echo do_shortcode('[prdctfltr_sc_get_filter preset="desktop-filter-left"]'); ?>
+</div>
+
+<div class="product-list">
   @if(woocommerce_product_loop())
     @php
       do_action('woocommerce_before_shop_loop');
@@ -63,4 +77,5 @@ the readme will list any important changes.
     do_action('get_sidebar', 'shop');
     do_action('get_footer', 'shop');
   @endphp
-@endsection
+</div>
+  @endsection
