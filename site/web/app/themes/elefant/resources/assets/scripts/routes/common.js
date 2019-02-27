@@ -63,6 +63,12 @@ export default {
     // instead of a settings object
     ],
     });
+
+    $('#mobile-filters > button').on('click', function () {
+      $('div.aside').toggleClass('visible');
+      $(this).toggleClass('visible');
+    });
+
     });
   },
   finalize() {

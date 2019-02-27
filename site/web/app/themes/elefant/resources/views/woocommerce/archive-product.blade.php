@@ -16,6 +16,9 @@ the readme will list any important changes.
 
 @extends('layouts.woo')
 
+<div class="overlay">
+</div>
+
 @section('content')
   @php
     do_action('get_header', 'shop');
@@ -36,13 +39,20 @@ the readme will list any important changes.
       do_action('woocommerce_archive_description');
     @endphp
 
-    <div class="product-filter-top">
-      <?php echo do_shortcode('[prdctfltr_sc_get_filter preset="desktop-filter-top"]'); ?>
-    </div>
   </header>
+
+  <div id="mobile-filters" class="d-xl-none d-lg-none filter-button">
+      <button class="filter-by">Produkte Filtern</button>
+  </div>
+
+  </div>
 
 <div class="aside">
   <?php echo do_shortcode('[prdctfltr_sc_get_filter preset="desktop-filter-left"]'); ?>
+</div>
+
+<div class="product-filter-top">
+    <?php echo do_shortcode('[prdctfltr_sc_get_filter preset="desktop-filter-top"]'); ?>
 </div>
 
 <div class="product-list">
