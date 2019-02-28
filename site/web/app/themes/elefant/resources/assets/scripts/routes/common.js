@@ -66,9 +66,13 @@ export default {
 
     $('#mobile-filters > button').on('click', function () {
       $('div.aside').toggleClass('visible');
-      $(this).toggleClass('visible');
+      $('body').toggleClass('lock-scroll2');
     });
 
+    $('.overlay').on('click', function () {
+      $('div.aside').toggleClass('visible');
+      $('body').toggleClass('lock-scroll2');    
+    });
     });
   },
   finalize() {
