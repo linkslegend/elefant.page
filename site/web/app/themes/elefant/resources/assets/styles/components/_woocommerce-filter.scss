@@ -50,6 +50,10 @@ body.woocommerce.prdctfltr-shop {
       .prdctfltr_wc {
         padding: 0 25px 0 0;
 
+        .prdctfltr_added_loader {
+          display: none !important;
+        }
+
         .prdctfltr_filter_title {
           display: none;
         }
@@ -81,6 +85,24 @@ body.woocommerce.prdctfltr-shop {
                       margin: 0;
                       padding: 0;
                     }
+
+                    span.irs {
+                      span.irs {
+                        .irs-from,
+                        .irs-to {
+                          background: #f96900;
+                        }
+                      }
+
+                      .irs-bar {
+                        height: 10px;
+                        top: 33px;
+                        border-top: 1px solid #f96900;
+                        border-bottom: 1px solid #f96900;
+                        background: #f96900;
+                        background: linear-gradient(to top, rgb(249, 105, 0) 0%, rgb(249, 105, 0) 100%);
+                      }
+                    }
                   }
                 }
               }
@@ -94,6 +116,7 @@ body.woocommerce.prdctfltr-shop {
   .product-filter-top {
     width: 75%;
     float: right;
+    margin: 25px 0 0 0;
 
     .prdctfltr_sc {
       margin: 0;
@@ -106,12 +129,75 @@ body.woocommerce.prdctfltr-shop {
 
         form {
           &.prdctfltr_woocommerce_ordering {
-            margin: 0;
+            margin: 0 !important;
+            width: 100%;
+            float: left;
           }
 
           .prdctfltr_collector {
             float: left;
             width: 65%;
+            margin: 0;
+            padding: 0 !important;
+
+            span {
+              &.prdctfltr_title_selected {
+                margin: 0 10px 0 0;
+                padding: 10px 45px 10px 15px;
+                border-radius: 4px;
+                position: relative;
+                background-color: rgb(255, 255, 255);
+
+                a {
+                  &.prdctfltr_title_remove {
+                    margin-left: 0;
+                    line-height: 0;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    height: 40px;
+                    width: 35px;
+                    background: rgba(249, 105, 0, 0.1);
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 8px;
+                    transition: all 0.25s;
+
+                    i {
+                      display: block;
+                      height: 40px;
+                      width: 35px;
+
+                      &::before {
+                        font-size: 1.8em;
+                        display: block;
+                        text-align: center;
+                        padding: 21px 0;
+                      }
+
+                      &.prdctfltr-delete {
+                        display: block;
+                      }
+                    }
+
+                    &:hover {
+                      background: #f96900;
+                      text-decoration: none;
+
+                      i {
+                        &::before {
+                          color: #fff;
+                        }
+                      }
+
+                      .prdctfltr_title_selected {
+                        box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.15);
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
 
           .prdctfltr_filter_wrapper {
@@ -121,9 +207,6 @@ body.woocommerce.prdctfltr-shop {
 
             .prdctfltr_filter_inner {
               .prdctfltr_filter {
-                width: 100%;
-                padding: 0;
-
                 &.prdctfltr_cat {
                   display: none;
                 }
@@ -152,6 +235,10 @@ body.woocommerce.prdctfltr-shop {
     width: 75%;
     float: left;
     clear: none;
+
+    p.woocommerce-result-count {
+      font-size: 0.8em;
+    }
   }
 
   ul {
@@ -218,10 +305,14 @@ body.woocommerce.prdctfltr-shop {
     #mobile-filters {
       width: 50%;
       float: left;
+      margin-top: 15px;
 
       button.filter-by {
         background: #fff;
-        padding: 10px;
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        padding: 11px;
       }
     }
 
@@ -255,6 +346,8 @@ body.woocommerce.prdctfltr-shop {
       }
 
       .prdctfltr_sc {
+        margin: 0 !important;
+
         .prdctfltr_wc {
           padding: 20px;
 
@@ -281,11 +374,11 @@ body.woocommerce.prdctfltr-shop {
             .prdctfltr_filter_wrapper {
               .prdctfltr_filter_inner {
                 .prdctfltr_filter {
-                  width: 100% !important;
-                  background: #fff;
-                  margin-bottom: 20px;
-                  padding: 15px;
-                  border-radius: 8px;
+                  padding: 0;
+                  position: absolute;
+                  top: 0;
+                  margin-top: -48px;
+                  right: 0 !important;
 
                   .prdctfltr_add_scroll {
                     .prdctfltr_checkboxes {
@@ -304,24 +397,45 @@ body.woocommerce.prdctfltr-shop {
     }
 
     .product-filter-top {
-      width: auto;
+      width: 100%;
+      position: relative;
+      height: 50px;
+      margin: 0;
       float: right;
 
       .prdctfltr_sc {
         margin: 0;
 
         .prdctfltr_wc {
-          width: 250px;
+          width: 100%;
           float: right;
           margin: 0;
+          position: relative;
           padding: 0;
 
           form {
+            &.prdctfltr_woocommerce_ordering {
+              margin: 0 !important;
+              width: 100%;
+              position: relative;
+              float: left;
+            }
+
+            .prdctfltr_collector {
+              float: left;
+              margin-top: 15px;
+              width: 100%;
+            }
+
             .prdctfltr_filter_wrapper {
               .prdctfltr_filter_inner {
                 .prdctfltr_filter {
                   width: 100%;
                   padding: 0;
+
+                  &.prdctfltr_cat {
+                    display: none !important;
+                  }
 
                   span.prdctfltr_regular_title {
                     border-radius: 8px;
