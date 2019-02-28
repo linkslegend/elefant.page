@@ -467,7 +467,8 @@ body.woocommerce.prdctfltr-shop {
                   padding: 0 0 0 10px !important;
                   margin: 0 !important;
 
-                  &.prdctfltr_cat {
+                  &.prdctfltr_cat,
+                  &.prdctfltr_attributes {
                     display: none !important;
                   }
 
