@@ -132,12 +132,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/ct-ultimate-gdpr.git",
-                "reference": "f87fbd4c4484b2d5264af6bcea3e3e6dd2b4410f"
+                "reference": "ca63408344809ce1e7415960a1d0310b926a828e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/ct-ultimate-gdpr/zipball/f87fbd4c4484b2d5264af6bcea3e3e6dd2b4410f",
-                "reference": "f87fbd4c4484b2d5264af6bcea3e3e6dd2b4410f",
+                "url": "https://api.github.com/repos/linkslegend/ct-ultimate-gdpr/zipball/ca63408344809ce1e7415960a1d0310b926a828e",
+                "reference": "ca63408344809ce1e7415960a1d0310b926a828e",
                 "shasum": ""
             },
             "require": {
@@ -156,10 +156,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/linkslegend/ct-ultimate-gdpr/tree/1.7.1.3",
+                "source": "https://github.com/linkslegend/ct-ultimate-gdpr/tree/master",
                 "issues": "https://github.com/linkslegend/ct-ultimate-gdpr/issues"
             },
-            "time": "2019-02-07T18:43:04+00:00"
+            "time": "2019-03-07T13:10:37+00:00"
         },
         {
             "name": "linkslegend/prdctfltr",
@@ -376,12 +376,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-added-to-cart-popup-premium.git",
-                "reference": "62370b6de50e0d5e4962d7f4081a7a6f0d4965d3"
+                "reference": "e0d1fcd2d204b39da2147fc98cd1387215a19776"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-added-to-cart-popup-premium/zipball/62370b6de50e0d5e4962d7f4081a7a6f0d4965d3",
-                "reference": "62370b6de50e0d5e4962d7f4081a7a6f0d4965d3",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-added-to-cart-popup-premium/zipball/e0d1fcd2d204b39da2147fc98cd1387215a19776",
+                "reference": "e0d1fcd2d204b39da2147fc98cd1387215a19776",
                 "shasum": ""
             },
             "require": {
@@ -403,7 +403,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/issues"
             },
-            "time": "2019-02-14T18:27:16+00:00"
+            "time": "2019-03-07T16:27:22+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-advanced-product-options-premium",
@@ -945,15 +945,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.5.5",
+            "version": "3.5.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.5.5"
+                "reference": "tags/3.5.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.5.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.5.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -963,15 +963,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout",
-            "version": "1.6.9",
+            "version": "1.6.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-paypal-express-checkout/",
-                "reference": "tags/1.6.9"
+                "reference": "tags/1.6.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.1.6.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.1.6.10.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

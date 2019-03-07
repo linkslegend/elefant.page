@@ -242,6 +242,7 @@ body.woocommerce.prdctfltr-shop {
 
     p.woocommerce-result-count {
       font-size: 0.8em;
+      margin: 15px 0 15px;
     }
   }
 
@@ -257,12 +258,6 @@ body.woocommerce.prdctfltr-shop {
   float: right;
   width: 100%;
   display: none;
-}
-
-.woocommerce .woocommerce-result-count,
-.woocommerce-page .woocommerce-result-count {
-  float: left;
-  width: 100%;
 }
 
 /*
@@ -284,6 +279,7 @@ body.woocommerce.prdctfltr-shop {
       top: 0;
       left: 0;
       opacity: 0;
+      transition: opacity 0.4s ease-in-out;
       will-change: opacity;
       background: #3c3442;
     }
@@ -291,8 +287,7 @@ body.woocommerce.prdctfltr-shop {
     &.lock-scroll2 {
       overflow: hidden;
       position: fixed; /* scroll body to top */
-      -webkit-transition: opacity 0.35s ease;
-      transition: opacity 0.35s ease;
+      transition: opacity 0.4s ease-in-out;
 
       .overlay {
         opacity: 0.8;
@@ -343,6 +338,17 @@ body.woocommerce.prdctfltr-shop {
         border-radius: 8px;
         border: 1px solid #ddd;
         padding: 11px;
+      }
+
+      &::after {
+        content: "";
+        background: no-repeat url("../images/filter.svg") 50% 50%;
+        display: block;
+        width: 20px;
+        margin-top: -33px;
+        margin-left: 15px;
+        position: absolute;
+        height: 20px;
       }
     }
 
@@ -481,6 +487,202 @@ body.woocommerce.prdctfltr-shop {
 
                   span.prdctfltr_regular_title {
                     border-radius: 8px;
+                    text-align: center;
+                    font-size: 1em;
+                    color: #000;
+                    font-weight: 500;
+                  }
+
+                  .prdctfltr_add_scroll {
+                    width: -moz-calc(100% - 10px);
+                    width: -webkit-calc(100% - 10px);
+                    width: calc(100% - 10px);
+
+                    .prdctfltr_checkboxes {
+                      label {
+                        margin: 0;
+                        padding: 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .product-list {
+      width: 100%;
+      float: left;
+      clear: none;
+    }
+
+    ul {
+      &.products {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  body.woocommerce.prdctfltr-shop {
+    .wrap {
+      .content {
+        margin-top: 15px;
+      }
+    }
+
+    header {
+      width: 100%;
+      padding: 15px;
+    }
+
+    .prdctfltr_wc {
+      margin-bottom: 35px;
+      width: 100%;
+    }
+
+    #mobile-filters {
+      width: 100%;
+      margin-top: 15px;
+
+      button.filter-by {
+        border: 1px solid #ddd;
+        padding: 11px;
+      }
+
+      &::after {
+        content: "";
+        margin-top: -33px;
+        right: 0;
+        margin-right: 15px;
+      }
+    }
+
+    .aside {
+      top: 0;
+      right: -435px;
+      width: 70%;
+
+      &.visible {
+        width: 70%;
+        height: 100%;
+      }
+
+      .prdctfltr_sc {
+        margin: 0 !important;
+
+        .prdctfltr_wc {
+          padding: 20px;
+
+          .prdctfltr_added_loader {
+            display: none !important;
+          }
+
+          .prdctfltr_filter_title {
+            display: none;
+          }
+
+          .prdctfltr_collector {
+            margin-top: 0;
+            width: 100%;
+            position: absolute;
+            display: inline-block !important;
+            padding: 0 !important;
+            margin-left: 280px;
+          }
+
+          form {
+            margin: 0;
+
+            .prdctfltr_filter_wrapper {
+              .prdctfltr_filter_inner {
+                .prdctfltr_filter {
+                  position: relative;
+                  width: 100% !important;
+                  padding: 15px !important;
+
+                  .prdctfltr_add_scroll {
+                    padding-bottom: 0 !important;
+
+                    .prdctfltr_checkboxes {
+                      label {
+                        margin: 0;
+                        padding: 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .product-filter-top {
+      width: 100%;
+      position: relative;
+      height: auto;
+      margin: 0;
+      float: right;
+
+      .prdctfltr_sc {
+        margin: 0;
+
+        .prdctfltr_wc {
+          width: 100%;
+          float: right;
+          margin: 0;
+          position: relative;
+          padding: 0;
+
+          form {
+            &.prdctfltr_woocommerce_ordering {
+              margin: 0 !important;
+              width: 100%;
+              position: relative;
+              float: left;
+            }
+
+            .prdctfltr_collector {
+              float: left;
+              margin-top: 15px;
+              width: 100%;
+            }
+
+            .prdctfltr_filter_wrapper {
+              padding: 0;
+              position: relative;
+              top: 0;
+              width: 100%;
+              margin-top: 15px;
+              right: 0 !important;
+
+              .prdctfltr_filter_inner {
+                .prdctfltr_filter {
+                  width: 100% !important;
+                  padding: 0 !important;
+                  margin: 0 !important;
+
+                  &.prdctfltr_cat {
+                    display: none !important;
+                  }
+
+                  &.prdctfltr_attributes {
+                    display: none !important;
+                  }
+
+                  span.prdctfltr_regular_title {
+                    border-radius: 8px;
+                    text-align: center;
+                    font-size: 1em;
+                    color: #000;
+                    font-weight: 500;
                   }
 
                   .prdctfltr_add_scroll {
@@ -518,10 +720,6 @@ body.woocommerce.prdctfltr-shop {
 }
 
 /*
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-}
-
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 }

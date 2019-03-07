@@ -486,8 +486,12 @@ address {
     display: block;
   }
 
-  .container {
-    max-width: 90%;
+  .wrap {
+    .content {
+      .container {
+        max-width: 100%;
+      }
+    }
   }
 }
 

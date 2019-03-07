@@ -68,12 +68,17 @@ export default {
       $('div.aside').toggleClass('visible');
       $('body').toggleClass('lock-scroll2');
     });
-
     $('.overlay').on('click', function () {
-      $('div.aside').toggleClass('visible');
-      $('body').toggleClass('lock-scroll2');    
+      $('div.aside').removeClass('visible');
+      $('body').removeClass('lock-scroll2');
     });
+    $('.navbar-toggler').on('click', function () {
+      $('body').toggleClass('overlay-show'); 
     });
+
+
+  });
+    
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired

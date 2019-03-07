@@ -9,54 +9,169 @@
     .yith-wacp-main {
       border-radius: 8px;
       padding: 0;
-      overflow: hidden;
+      overflow: visible;
 
       .yith-wacp-head {
         .yith-wacp-close {
-          display: block;
-          top: 10px;
-          right: 10px;
-          color: black;
+          display: flex;
+          background: #fff;
+          border: 1px solid #d2d2d2;
+          border-radius: 100%;
+          top: -15px;
+          font-size: 1.5em;
+          position: absolute;
+          width: 40px;
+          padding: 7px 11px;
+          height: 40px;
+          text-align: center;
+          right: -15px;
+          color: #333;
           z-index: 9999;
+          transition: all 0.3s;
+
+          &:hover {
+            background: #f26900;
+            color: #fff;
+            border: 1px solid #f26900;
+          }
         }
+      }
+
+      h3 {
+        font-size: 1em;
+        font-weight: 600;
+        text-transform: inherit;
+        background: transparent;
+        padding: 12px;
+        margin-bottom: 0;
+
+        &.product-title {
+          font-size: 1.1em;
+          font-weight: 600;
+          background: transparent;
+          padding: 0;
+        }
+      }
+
+      .product-price {
+        font-size: 1.1em;
       }
 
       .yith-wacp-content {
         padding: 0;
 
-        h3 {
-          font-size: 1.2em;
-          font-weight: 600;
-          background: #e6ffc5;
-          padding: 15px;
+        .yith-wacp-message {
+          color: rgba(0, 0, 0, 0.8);
+          background-color: #e6ffc5;
+          z-index: 2;
+          position: absolute;
+          border-radius: 8px 8px 0 0;
+        }
 
-          &.product-title {
-            font-size: 1.1em;
+        h3 {
+          &.cart-list-title {
+            font-size: 1em;
             font-weight: 600;
-            background: transparent;
-            padding: 0;
+            text-transform: inherit;
+            background: #e6ffc3;
+            padding: 17px;
+            color: rgba(0, 0, 0, 0.8);
+            display: block;
+            position: relative;
+            z-index: 1;
+            border-radius: 8px 8px 0 0;
+            margin: 0 0 10px 0;
           }
         }
 
-        .product-price {
-          font-size: 1.1em;
+        .yith-wacp-related {
+          margin-top: 20px;
+
+          ul.products {
+            list-style: none;
+            padding: 15px;
+            margin: 0;
+
+            li {
+              &.product {
+                width: 25%;
+                margin: 0;
+                border: none;
+                box-shadow: none;
+
+                a {
+                  text-decoration: none;
+                  display: block;
+                  padding: 10px;
+                  margin: 0;
+                  border: 1px solid #e8e8e8;
+                  min-height: 200px;
+
+                  .product-image {
+                    margin-bottom: 7px;
+
+                    img {
+                      margin-bottom: 7px;
+                    }
+                  }
+
+                  h3.product-title {
+                    font-size: 0.8em;
+                    line-height: 15px;
+                    color: rgba(0, 0, 0, 0.7);
+                  }
+
+                  .product-price {
+                    font-size: 0.8em;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .cart-container {
+          padding: 15px;
         }
 
         .cart-info {
           font-size: 1em;
           font-weight: 600;
+          padding: 10px 25px;
+
+          div {
+            &.cart-shipping {
+              font-size: 0.7em;
+              text-transform: inherit;
+            }
+
+            &.cart-tax {
+              font-size: 0.7em;
+              text-transform: inherit;
+            }
+
+            &.cart-totals {
+              font-size: 1em;
+              text-transform: inherit;
+            }
+          }
         }
 
         .popup-actions {
+          margin-bottom: 0;
+
           .button {
             background: #f26900;
             color: #fff;
             padding: 15px;
+            margin-top: 0;
             border-radius: 8px;
           }
         }
 
         table.cart-list {
+          padding: 0 15px;
+
           tr {
             font-size: 0.95em;
 
@@ -123,6 +238,7 @@
   box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.15);
   z-index: 1000;
   cursor: pointer;
+  transition: all 0.3s;
 
   .yith-wacp-mini-cart-count {
     background: #f66900;
@@ -133,6 +249,13 @@
     background-size: 30px;
     width: 50px;
     height: 50px;
+  }
+}
+
+body.lock-scroll2 {
+  #yith-wacp-mini-cart {
+    left: 40% !important;
+    top: 3% !important;
   }
 }
 
@@ -148,9 +271,16 @@
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
 }
+*/
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  body.lock-scroll2 {
+    #yith-wacp-mini-cart {
+      left: 10% !important;
+      top: 5% !important;
+    }
+  }
 }
 
 /*
