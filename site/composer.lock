@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35dee691f190aedb64768942b75b3f10",
+    "content-hash": "0e0699e0f4a7f7a7f7261785dbeaa1d7",
     "packages": [
         {
             "name": "composer/installers",
@@ -127,17 +127,52 @@
             "time": "2018-08-27T06:10:37+00:00"
         },
         {
+            "name": "linkslegend/content-egg",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/content-egg.git",
+                "reference": "9d77caac31f67f84a65bb1d95e0db55c41df4df6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/content-egg/zipball/9d77caac31f67f84a65bb1d95e0db55c41df4df6",
+                "reference": "9d77caac31f67f84a65bb1d95e0db55c41df4df6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Original Plugin Author's Name",
+                    "homepage": "https://originalpluginurl.com"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/content-egg",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/content-egg/tree/master",
+                "issues": "https://github.com/linkslegend/content-egg/issues"
+            },
+            "time": "2019-03-08T16:18:52+00:00"
+        },
+        {
             "name": "linkslegend/ct-ultimate-gdpr",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/ct-ultimate-gdpr.git",
-                "reference": "ca63408344809ce1e7415960a1d0310b926a828e"
+                "reference": "1d5d08f153cdddc0ff5c9f2a01fcdf65b4e89dcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/ct-ultimate-gdpr/zipball/ca63408344809ce1e7415960a1d0310b926a828e",
-                "reference": "ca63408344809ce1e7415960a1d0310b926a828e",
+                "url": "https://api.github.com/repos/linkslegend/ct-ultimate-gdpr/zipball/1d5d08f153cdddc0ff5c9f2a01fcdf65b4e89dcd",
+                "reference": "1d5d08f153cdddc0ff5c9f2a01fcdf65b4e89dcd",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +194,42 @@
                 "source": "https://github.com/linkslegend/ct-ultimate-gdpr/tree/master",
                 "issues": "https://github.com/linkslegend/ct-ultimate-gdpr/issues"
             },
-            "time": "2019-03-07T13:10:37+00:00"
+            "time": "2019-03-08T11:08:45+00:00"
+        },
+        {
+            "name": "linkslegend/multiple-external-product-urls-for-woocommerce",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/multiple-external-product-urls-for-woocommerce.git",
+                "reference": "da33848a776b2423e50b8e5f6e7c2d32ec9538d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/multiple-external-product-urls-for-woocommerce/zipball/da33848a776b2423e50b8e5f6e7c2d32ec9538d8",
+                "reference": "da33848a776b2423e50b8e5f6e7c2d32ec9538d8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Original Plugin Author's Name",
+                    "homepage": "https://originalpluginurl.com"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/multiple-external-product-urls-for-woocommerce",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/multiple-external-product-urls-for-woocommerce/tree/master",
+                "issues": "https://github.com/linkslegend/multiple-external-product-urls-for-woocommerce/issues"
+            },
+            "time": "2019-03-08T14:14:30+00:00"
         },
         {
             "name": "linkslegend/prdctfltr",
@@ -376,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-added-to-cart-popup-premium.git",
-                "reference": "e0d1fcd2d204b39da2147fc98cd1387215a19776"
+                "reference": "cc6f61a31f170c996b9c96f27be092d432e97a8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-added-to-cart-popup-premium/zipball/e0d1fcd2d204b39da2147fc98cd1387215a19776",
-                "reference": "e0d1fcd2d204b39da2147fc98cd1387215a19776",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-added-to-cart-popup-premium/zipball/cc6f61a31f170c996b9c96f27be092d432e97a8c",
+                "reference": "cc6f61a31f170c996b9c96f27be092d432e97a8c",
                 "shasum": ""
             },
             "require": {
@@ -403,7 +473,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/issues"
             },
-            "time": "2019-03-07T16:27:22+00:00"
+            "time": "2019-03-08T11:19:25+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-advanced-product-options-premium",
@@ -1305,6 +1375,8 @@
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/woocommerce-product-bundles": 20,
         "linkslegend/wp-sync-db": 20,
+        "linkslegend/content-egg": 20,
+        "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

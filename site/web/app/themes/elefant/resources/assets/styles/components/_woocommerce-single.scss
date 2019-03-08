@@ -56,7 +56,7 @@ body.woocommerce.single {
     }
 
     .onsale {
-      background: #f26900;
+      background: #ff7003;
       padding: 10px;
       border-radius: 10px;
       position: absolute;
@@ -147,10 +147,10 @@ body.woocommerce.single {
           padding: 13px;
           cursor: pointer;
           border-radius: 5px;
-          border: 1px solid #f26900;
+          border: 1px solid #ff7003;
           font-weight: 600;
           margin: 0;
-          background: #f26900;
+          background: #ff7003;
           color: #fff;
           text-align: center;
           transition: all 0.25s;
@@ -162,6 +162,7 @@ body.woocommerce.single {
           &:hover {
             -webkit-box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
             box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+            background: #f26900;
           }
         }
       }

@@ -22,7 +22,7 @@
             text-decoration: none;
 
             &:hover {
-              border-bottom: 3px solid #f26900;
+              border-bottom: 3px solid #ff7003;
               text-decoration: none;
             }
           }
@@ -38,7 +38,7 @@
           &.active {
             a {
               font-weight: 500;
-              border-bottom: 3px solid #f26900;
+              border-bottom: 3px solid #ff7003;
             }
 
             &::before {
