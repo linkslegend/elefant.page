@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e0699e0f4a7f7a7f7261785dbeaa1d7",
+    "content-hash": "1db9a8a17b2d94a16a441a4cba940819",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,41 +125,6 @@
                 "zikula"
             ],
             "time": "2018-08-27T06:10:37+00:00"
-        },
-        {
-            "name": "linkslegend/content-egg",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/content-egg.git",
-                "reference": "9d77caac31f67f84a65bb1d95e0db55c41df4df6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/content-egg/zipball/9d77caac31f67f84a65bb1d95e0db55c41df4df6",
-                "reference": "9d77caac31f67f84a65bb1d95e0db55c41df4df6",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Original Plugin Author's Name",
-                    "homepage": "https://originalpluginurl.com"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/content-egg",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/content-egg/tree/master",
-                "issues": "https://github.com/linkslegend/content-egg/issues"
-            },
-            "time": "2019-03-08T16:18:52+00:00"
         },
         {
             "name": "linkslegend/ct-ultimate-gdpr",
@@ -1375,7 +1340,6 @@
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/woocommerce-product-bundles": 20,
         "linkslegend/wp-sync-db": 20,
-        "linkslegend/content-egg": 20,
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "roave/security-advisories": 20
     },

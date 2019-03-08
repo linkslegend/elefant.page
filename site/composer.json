@@ -73,10 +73,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:linkslegend/content-egg.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:linkslegend/multiple-external-product-urls-for-woocommerce.git"
     },
     {
@@ -109,7 +105,6 @@
     "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
     "linkslegend/woocommerce-product-bundles": "dev-master",
     "linkslegend/wp-sync-db": "dev-master",
-    "linkslegend/content-egg": "dev-master",
     "linkslegend/multiple-external-product-urls-for-woocommerce": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^4.1",
