@@ -1,6 +1,8 @@
 body.woocommerce,
+body.woocommerce-cart,
+body.woocommerce-checkout,
 body.single.single-product {
-  background-image: linear-gradient(to bottom, #f8f8f8 0, #f7f8fa 959px);
+  background-image: linear-gradient(to bottom, #f8f8f8 0, #fdfdfd 959px);
 
   .wrap {
     padding-top: 0;
@@ -90,7 +92,7 @@ body.woocommerce.single {
 
       h1 {
         &.product_title.entry-title {
-          font-size: 1.6em;
+          font-size: 1.4em;
           line-height: 30px;
           width: 100%;
           color: #1f1f32;
@@ -105,7 +107,7 @@ body.woocommerce.single {
       .price {
         .woocommerce-Price-amount {
           font-size: 28px;
-          font-size: 1.4em;
+          font-size: 1.3em;
           white-space: nowrap;
           color: #1f1f32;
           font-weight: 700;

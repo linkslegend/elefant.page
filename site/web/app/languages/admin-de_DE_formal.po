@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-03-08 07:38:12+0000\n"
+"PO-Revision-Date: 2019-03-10 15:08:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -174,7 +174,7 @@ msgstr "Den Menü-Button Speichern klicken, um die Änderungen zu speichern."
 
 #: wp-admin/nav-menus.php:754
 msgid "Edit your menu below, or <a href=\"%s\">create a new menu</a>. Don&#8217;t forget to save your changes!"
-msgstr "Bearbeiten Sie Ihr Menü unten, oder <a href=\"%s\">erstellen Sie ein neues Menü (engl.)</a>. Vergessen Sie nicht, Ihre Änderungen zu speichern!"
+msgstr "Bearbeiten Sie Ihr Menü unten, oder <a href=\"%s\">erstellen Sie ein neues Menü</a>. Vergessen Sie nicht, Ihre Änderungen zu speichern!"
 
 #: wp-admin/nav-menus.php:748
 msgid "Fill in the Menu Name and click the Create Menu button to create your first menu."

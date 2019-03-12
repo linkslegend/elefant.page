@@ -1,0 +1,179 @@
+body.woocommerce-cart {
+  .wrap {
+    .content {
+      margin-bottom: 50px;
+
+      .container {
+        main.main {
+          .woocommerce {
+            .row {
+              .woocommerce-cart-form {
+                .woocommerce-cart-form__contents {
+                  background: #fff;
+                  height: 100%;
+                  font-size: 0.95em;
+                  border-radius: 8px;
+                  border: none;
+                  padding: 15px;
+
+                  tbody {
+                    tr {
+                      &.woocommerce-cart-form__cart-item {
+                        td {
+                          &.product-thumbnail {
+                            padding: 0;
+
+                            a {
+                              img {
+                                width: 100%;
+                                padding: 0;
+                                height: auto;
+                              }
+                            }
+                          }
+                        }
+                      }
+
+                      &.coupon {
+                        td.actions {
+                          padding: 0;
+
+                          .coupon {
+                            padding: 15px;
+
+                            input {
+                              width: 100%;
+                              padding: 10px;
+                            }
+                          }
+
+                          div.col-sm-6 {
+                            .button {
+                              width: 100%;
+                              padding: 10px;
+                              transition: all 0.3s;
+                              font-size: 0.9em;
+
+                              &:hover {
+                                background-color: #fe7003;
+                                text-decoration: none;
+                                background-image: none;
+                                color: #fff;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              .cart-collaterals {
+                .cart_totals {
+                  background: #fff;
+                  border-radius: 8px;
+                  width: 100%;
+                  font-size: 0.95em;
+                  padding: 15px;
+
+                  table {
+                    border: none;
+                  }
+
+                  .wc-proceed-to-checkout {
+                    a.checkout-button {
+                      background: #ff7003;
+                      padding: 10px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+*/
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  body.woocommerce-cart {
+    .wrap {
+      .content {
+        .container {
+          main.main {
+            .woocommerce {
+              .row {
+                .woocommerce-cart-form {
+                  .shop_table {
+                    background: #fff;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 15px;
+
+                    tbody {
+                      tr {
+                        td {
+                          &.product-name,
+                          &.product-price,
+                          &.product-quantity,
+                          &.product-subtotal {
+                            width: 75%;
+                            padding: 5px 0 5px 5px;
+                            float: none;
+                            text-align: right;
+                            display: block;
+                            margin-left: 25%;
+                          }
+
+                          &.product-thumbnail {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-flex: 1;
+                            -ms-flex-positive: 1;
+                            flex-grow: 1;
+                            position: absolute;
+                            padding: 30px 0;
+                            margin: 0;
+                            width: 25%;
+                            float: left;
+                            border-top: 0;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+/*
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+}
+*/

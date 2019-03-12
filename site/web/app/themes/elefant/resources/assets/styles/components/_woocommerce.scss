@@ -17,13 +17,13 @@ body.woocommerce-page {
   .woocommerce-error,
   .woocommerce-info,
   .woocommerce-message {
-    padding: 10px 10px 10px 50px;
-    margin: 0 0 15px;
+    padding: 11px 11px 11px 50px;
+    margin: 0 0 20px;
     position: relative;
-    background-color: transparent;
+    background-color: #fff;
     border-radius: 8px;
-    color: #fff;
-    border-top: 3px solid #a46497;
+    color: #fe7003;
+    border-top: none;
     list-style: none outside;
     width: auto;
     word-wrap: break-word;
@@ -42,6 +42,27 @@ body.woocommerce-page {
 
     &::before {
       color: #fff;
+    }
+  }
+
+  .blockUI.blockOverlay {
+    background-image: none !important;
+
+    &::before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      border: 5px solid #ccc;
+      border-top-color: #f66900;
+      top: 50%;
+      left: 50%;
+      width: 35px;
+      height: 35px;
+      margin-top: -12px;
+      margin-left: -12px;
+      border-radius: 50%;
+      animation: spinner 0.6s linear infinite;
+      background: none;
     }
   }
 }
