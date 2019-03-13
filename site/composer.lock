@@ -411,12 +411,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-added-to-cart-popup-premium.git",
-                "reference": "cc6f61a31f170c996b9c96f27be092d432e97a8c"
+                "reference": "2854363edf19dc43bde07d65959688ec2ab9c90d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-added-to-cart-popup-premium/zipball/cc6f61a31f170c996b9c96f27be092d432e97a8c",
-                "reference": "cc6f61a31f170c996b9c96f27be092d432e97a8c",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-added-to-cart-popup-premium/zipball/2854363edf19dc43bde07d65959688ec2ab9c90d",
+                "reference": "2854363edf19dc43bde07d65959688ec2ab9c90d",
                 "shasum": ""
             },
             "require": {
@@ -438,7 +438,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/issues"
             },
-            "time": "2019-03-08T11:19:25+00:00"
+            "time": "2019-03-13T11:28:19+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-advanced-product-options-premium",
