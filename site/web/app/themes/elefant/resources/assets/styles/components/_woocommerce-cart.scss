@@ -10,7 +10,6 @@ body.woocommerce-cart {
               .woocommerce-cart-form {
                 .woocommerce-cart-form__contents {
                   background: #fff;
-                  height: 100%;
                   font-size: 0.95em;
                   border-radius: 8px;
                   border: none;
@@ -85,6 +84,7 @@ body.woocommerce-cart {
                     a.checkout-button {
                       background: #ff7003;
                       padding: 10px;
+                      margin-bottom: 0;
                     }
                   }
                 }
@@ -144,9 +144,13 @@ body.woocommerce-cart {
                             position: absolute;
                             padding: 30px 0;
                             margin: 0;
-                            width: 25%;
+                            width: 20%;
                             float: left;
                             border-top: 0;
+
+                            &::before {
+                              display: none;
+                            }
                           }
                         }
                       }

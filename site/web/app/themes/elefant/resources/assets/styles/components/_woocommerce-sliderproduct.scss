@@ -1,0 +1,153 @@
+.woocommerce-cart,
+.woocommerce-checkout {
+  .wrap {
+    .content {
+      .container {
+        main.main {
+          section.related {
+            h3 {
+              font-size: 1.2em;
+              text-align: center;
+              text-transform: none;
+            }
+
+            ul.products {
+              li {
+                &.product-item {
+                  width: 20%;
+                  background: transparent;
+                  border: none;
+                  -webkit-box-shadow: none;
+                  box-shadow: none;
+                }
+
+                .product-inner {
+                  border-radius: 4px;
+                  margin: 0 15px;
+                  padding: 15px;
+                  background: #fff;
+                  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+                  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+                  -webkit-transition: all 0.25s;
+                  -o-transition: all 0.25s;
+                  transition: all 0.25s;
+
+                  &:hover {
+                    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                  }
+
+                  a {
+                    h3 {
+                      text-align: left;
+                      text-overflow: ellipsis;
+                      font-size: 0.95em;
+                      margin: 0 0 10px 0;
+                      overflow: hidden;
+                      white-space: nowrap;
+                    }
+
+                    &.button.product_type_external {
+                      display: none;
+                    }
+
+                    &.button.add_to_cart_button {
+                      display: none;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+*/
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .woocommerce-cart,
+  .woocommerce-checkout {
+    .wrap {
+      .content {
+        .container {
+          main.main {
+            section.related {
+              float: none;
+
+              h3 {
+                font-size: 1.1em;
+                text-align: center;
+                text-transform: none;
+              }
+
+              ul.products {
+                padding: 15px 15px 40px 15px;
+
+                button {
+                  &.prev {
+                    top: 50%;
+                    left: -30px;
+                  }
+
+                  &.next {
+                    top: 50%;
+                    right: -30px;
+                    left: unset;
+                  }
+                }
+
+                .slick-list {
+                  padding: 0;
+                }
+
+                li {
+                  &.product-item {
+                    width: 33%;
+                  }
+
+                  .product-inner {
+                    margin: 0 10px;
+                    padding: 10px;
+
+                    a {
+                      &.button.product_type_external {
+                        display: none;
+                      }
+
+                      &.button.add_to_cart_button {
+                        display: none;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+/*
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+}
+*/
