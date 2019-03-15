@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59fafeb2985f65477534ed165104ddf2",
+    "content-hash": "a33a4e2a0d3cf4220043ee3550487344",
     "packages": [
         {
             "name": "composer/installers",
@@ -232,76 +232,6 @@
             "time": "2019-02-11T15:45:00+00:00"
         },
         {
-            "name": "linkslegend/woocommerce-order-status-manager",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/woocommerce-order-status-manager.git",
-                "reference": "921ca46bad71dc7e0bbfff8c4cb0e252fd03c64d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-order-status-manager/zipball/921ca46bad71dc7e0bbfff8c4cb0e252fd03c64d",
-                "reference": "921ca46bad71dc7e0bbfff8c4cb0e252fd03c64d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "woocommerce-order-status-manager",
-                    "homepage": "https://gpldl.com/repository/woocommerce-order-status-manager/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/woocommerce-order-status-manager",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/woocommerce-order-status-manager/tree/master",
-                "issues": "https://github.com/linkslegend/woocommerce-order-status-manager/issues"
-            },
-            "time": "2019-02-12T11:43:18+00:00"
-        },
-        {
-            "name": "linkslegend/woocommerce-product-bundles",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/woocommerce-product-bundles.git",
-                "reference": "edade74ed0556e98bc0ffc895acf1459e94ac3b7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-product-bundles/zipball/edade74ed0556e98bc0ffc895acf1459e94ac3b7",
-                "reference": "edade74ed0556e98bc0ffc895acf1459e94ac3b7",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "woocommerce-product-bundles",
-                    "homepage": "https://gpldl.com/repository/woocommerce-product-bundles/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/woocommerce-product-bundles",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/woocommerce-product-bundles/tree/master",
-                "issues": "https://github.com/linkslegend/woocommerce-product-bundles/issues"
-            },
-            "time": "2019-02-18T12:16:58+00:00"
-        },
-        {
             "name": "linkslegend/woocommerce-product-reviews-pro",
             "version": "dev-master",
             "source": {
@@ -476,17 +406,17 @@
             "time": "2019-02-11T16:33:59+00:00"
         },
         {
-            "name": "linkslegend/yith-woocommerce-composite-products-premium",
+            "name": "linkslegend/yith-woocommerce-custom-order-status",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git",
-                "reference": "d60655c1ffb60176c46ff59ed22f2df820934048"
+                "url": "git@github.com:linkslegend/yith-woocommerce-custom-order-status.git",
+                "reference": "dfc260b17870a4dcfb9599ec06a7fd111672f0e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/d60655c1ffb60176c46ff59ed22f2df820934048",
-                "reference": "d60655c1ffb60176c46ff59ed22f2df820934048",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-custom-order-status/zipball/dfc260b17870a4dcfb9599ec06a7fd111672f0e6",
+                "reference": "dfc260b17870a4dcfb9599ec06a7fd111672f0e6",
                 "shasum": ""
             },
             "require": {
@@ -495,20 +425,20 @@
             "type": "wordpress-plugin",
             "authors": [
                 {
-                    "name": "yith-woocommerce-composite-products-premium",
-                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
+                    "name": "Original Plugin Author's Name",
+                    "homepage": "https://originalpluginurl.com"
                 }
             ],
-            "homepage": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium",
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-custom-order-status",
             "keywords": [
                 "plugin",
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/tree/master",
-                "issues": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/issues"
+                "source": "https://github.com/linkslegend/yith-woocommerce-custom-order-status/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-custom-order-status/issues"
             },
-            "time": "2019-02-18T18:29:06+00:00"
+            "time": "2019-03-15T11:08:12+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-product-bundles-premium",
@@ -1051,6 +981,24 @@
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "10.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/10.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.10.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
             "name": "wpackagist-plugin/wp-migrate-db",
             "version": "1.0.10",
             "source": {
@@ -1333,14 +1281,12 @@
         "linkslegend/prdctfltr": 20,
         "linkslegend/yith-woocommerce-added-to-cart-popup-premium": 20,
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
-        "linkslegend/yith-woocommerce-composite-products-premium": 20,
+        "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
+        "linkslegend/yith-woocommerce-custom-order-status": 20,
         "linkslegend/woocommerce-social-login": 20,
         "linkslegend/woocommerce-product-reviews-pro": 20,
-        "linkslegend/woocommerce-order-status-manager": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
-        "linkslegend/woocommerce-product-bundles": 20,
         "linkslegend/wp-sync-db": 20,
-        "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

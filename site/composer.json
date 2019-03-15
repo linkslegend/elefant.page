@@ -49,6 +49,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:linkslegend/yith-woocommerce-custom-order-status.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:linkslegend/yith-woocommerce-product-bundles-premium.git"
     },
     {
@@ -98,18 +102,17 @@
     "linkslegend/prdctfltr": "dev-master",
     "linkslegend/yith-woocommerce-added-to-cart-popup-premium": "dev-master",
     "linkslegend/yith-woocommerce-advanced-product-options-premium": "dev-master",
-    "linkslegend/yith-woocommerce-composite-products-premium": "dev-master",
+    "linkslegend/multiple-external-product-urls-for-woocommerce": "dev-master",
+    "linkslegend/yith-woocommerce-custom-order-status": "dev-master",
     "linkslegend/woocommerce-social-login": "dev-master",
     "linkslegend/woocommerce-product-reviews-pro": "dev-master",
-    "linkslegend/woocommerce-order-status-manager": "dev-master",
     "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
-    "linkslegend/woocommerce-product-bundles": "dev-master",
     "linkslegend/wp-sync-db": "dev-master",
-    "linkslegend/multiple-external-product-urls-for-woocommerce": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^4.1",
     "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout": "^1.6",
-    "wpackagist-plugin/woo-gutenberg-products-block": "^1.3"
+    "wpackagist-plugin/woo-gutenberg-products-block": "^1.3",
+    "wpackagist-plugin/wordpress-seo": "^10.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
