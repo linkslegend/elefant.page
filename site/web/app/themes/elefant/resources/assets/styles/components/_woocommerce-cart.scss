@@ -3,7 +3,7 @@ body.woocommerce-cart {
     .content {
       margin-bottom: 50px;
 
-      .container {
+      .container-fluid {
         main.main {
           .woocommerce {
             .row {
@@ -108,7 +108,7 @@ body.woocommerce-cart {
   body.woocommerce-cart {
     .wrap {
       .content {
-        .container {
+        .container-fluid {
           main.main {
             .woocommerce {
               .row {
@@ -151,6 +151,10 @@ body.woocommerce-cart {
                             &::before {
                               display: none;
                             }
+                          }
+
+                          &.actions {
+                            background: transparent;
                           }
                         }
                       }

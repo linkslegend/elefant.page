@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
   <div class="google-map js-google-map">
     <div
       class="google-map-marker js-google-map-marker"

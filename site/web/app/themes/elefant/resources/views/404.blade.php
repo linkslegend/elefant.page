@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="container">
+  <div class="container-fluid">
   @if (!have_posts())
     <div class="row align-items-center">
         <div class="col-xl-6 col-lg-5 col-md-6 col-sm-12">

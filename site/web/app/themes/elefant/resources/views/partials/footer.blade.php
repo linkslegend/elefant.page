@@ -1,5 +1,5 @@
 <footer class="content-info d-flex align-items-end">
-    <div class="container">
+    <div class="container-fluid">
     @php dynamic_sidebar('sidebar-footer') @endphp
     <section class="bottom">
     <div class="d-flex align-items-center justify-content-center">

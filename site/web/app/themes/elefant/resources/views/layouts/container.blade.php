@@ -6,7 +6,7 @@
     @include('partials.header')
     <div class="wrap" role="document">
       <div class="content">
-        <div class="container">
+        <div class="container-fluid">
           <main class="main">
             @yield('content')
           </main>

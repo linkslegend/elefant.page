@@ -1,6 +1,6 @@
 <header id="header" class="banner">
   <nav class="navbar navbar-expand-lg">
-    <div class="container maxWidth">
+    <div class="container-fluid">
       <a class="navbar-brand" href="{{ home_url('/') }}" alt="{{ get_bloginfo('name', 'display') }}">
         <img class="logo" alt="intermac logo" src="@asset('images/logo-elefant2.png')" width="30" height="30" alt="">
       </a>

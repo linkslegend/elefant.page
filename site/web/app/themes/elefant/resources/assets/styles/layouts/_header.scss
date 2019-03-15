@@ -66,7 +66,7 @@
     z-index: 10001;
     display: block;
     right: 0;
-    margin-right: -10px;
+    margin-right: -5px;
     margin-top: -40px;
     border-radius: 100%;
     position: relative;
@@ -171,17 +171,19 @@
   }
 
   .navbar-collapse {
-    background: #fff !important;
-    box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1) !important;
-    border-radius: 8px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0;
     overflow: hidden;
     position: absolute;
     font-size: 17px;
     line-height: 40px;
     white-space: nowrap;
     flex-grow: 1;
-    margin: 0 auto;
-    max-width: 720px;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
     left: 0;
     top: 10px;
     right: 0;
@@ -215,6 +217,13 @@
       z-index: -10;
       transition: all 0.35s;
       visibility: hidden;
+    }
+
+    .menu-menu-container {
+      background: #fff !important;
+      box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+      border-radius: 8px;
+      margin: 0 auto;
     }
   }
 
@@ -292,16 +301,16 @@
   }
 
   .navbar-toggler {
-    margin-right: -25px;
-    margin-top: -40px;
+    margin-right: -10px;
+    margin-top: -45px;
   }
 
   .navbar-collapse {
     margin: 0 auto;
-    max-width: 90%;
-    left: 15px;
+    max-width: 100%;
+    left: 0;
     top: 10px;
-    right: 15px;
+    right: 0;
   }
 }
 
@@ -394,9 +403,9 @@
   .navbar-collapse {
     margin: 0 auto;
     max-width: 100%;
-    left: 12px;
+    left: 0;
     top: 0;
-    right: 12px;
+    right: 0;
   }
 
   .dropdown-menu.show {
