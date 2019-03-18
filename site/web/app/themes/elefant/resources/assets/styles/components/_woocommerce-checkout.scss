@@ -33,6 +33,11 @@ body.woocommerce-checkout {
               }
 
               &.checkout {
+                .woocommerce-NoticeGroup {
+                  width: 100%;
+                  padding: 0 15px;
+                }
+
                 #customer_details {
                   font-size: 0.95em;
 
@@ -181,6 +186,10 @@ body.woocommerce-checkout {
                           float: left;
                           margin: 0;
                           padding: 15px;
+
+                          &::before {
+                            display: none;
+                          }
                         }
                       }
                     }

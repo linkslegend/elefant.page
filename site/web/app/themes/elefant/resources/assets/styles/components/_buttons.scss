@@ -133,11 +133,21 @@ article.slick-slide {
         top: 0;
         left: 0;
         width: 20px;
+        font-size: 9px;
         height: 20px;
         line-height: 20px;
         text-align: center;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+      }
+    }
+
+    &.slick-active {
+      button {
+        &::before {
+          color: #ff7300;
+          opacity: 1;
+        }
       }
     }
   }

@@ -36,6 +36,15 @@ body.woocommerce-page {
     }
   }
 
+  .woocommerce-error {
+    background: #f9635a;
+    color: #fff;
+
+    &::before {
+      color: #fff;
+    }
+  }
+
   .woocommerce-info {
     border: none;
     background: #f9746d;
