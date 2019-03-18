@@ -322,11 +322,9 @@ body.lock-scroll2 {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  body.overlay-show {
-    #yith-wacp-mini-cart {
-      bottom: 20px;
-      top: auto !important;
-    }
+  #yith-wacp-mini-cart {
+    bottom: 10px;
+    top: auto !important;
   }
 }
 
@@ -342,6 +340,258 @@ body.lock-scroll2 {
     #yith-wacp-mini-cart {
       left: 10% !important;
       top: 5% !important;
+    }
+  }
+
+  #yith-wacp-popup {
+    .yith-wacp-overlay {
+      opacity: 0.6;
+    }
+
+    .yith-wacp-wrapper {
+      height: auto !important;
+
+      .yith-wacp-main {
+        border-radius: 8px;
+        padding: 0;
+        overflow: visible;
+
+        .yith-wacp-head {
+          .yith-wacp-close {
+            display: flex;
+            background: #fff;
+            border: 1px solid #d2d2d2;
+            border-radius: 100%;
+            top: -15px;
+            font-size: 1.5em;
+            position: absolute;
+            width: 40px;
+            padding: 7px 11px;
+            height: 40px;
+            text-align: center;
+            right: -15px;
+            color: #333;
+            z-index: 9999;
+            transition: all 0.3s;
+
+            &:hover {
+              background: #ff7003;
+              color: #fff;
+              border: 1px solid #ff7003;
+            }
+          }
+        }
+
+        .product-price {
+          font-size: 1em;
+        }
+
+        .yith-wacp-content {
+          h3 {
+            &.cart-list-title {
+              font-size: 1em;
+              font-weight: 600;
+              text-transform: inherit;
+              background: #e6ffc3;
+              padding: 17px;
+              color: rgba(0, 0, 0, 0.8);
+              display: block;
+              position: relative;
+              z-index: 1;
+              border-radius: 8px 8px 0 0;
+              margin: 0 0 10px 0;
+            }
+          }
+
+          .cart-info {
+            div {
+              &.cart-shipping {
+                font-size: 0.75em;
+                text-transform: inherit;
+              }
+
+              &.cart-tax {
+                font-size: 0.75em;
+                text-transform: inherit;
+              }
+
+              &.cart-totals {
+                font-size: 0.85em;
+                text-transform: inherit;
+              }
+            }
+          }
+
+          .popup-actions {
+            .button {
+              background: #ff7003;
+              width: 90%;
+              color: #fff;
+              padding: 10px;
+              margin: 0 0 10px 0;
+              border-radius: 8px;
+              font-size: 0.9em;
+              text-transform: none;
+              transition: all 0.25s;
+
+              &:hover {
+                box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                background: #ff7003;
+              }
+            }
+          }
+
+          table.cart-list {
+            display: block;
+            padding: 15px 15px 0 15px;
+
+            tbody {
+              width: 100%;
+
+              tr {
+                font-size: 0.9em;
+
+                td {
+                  padding: 7px 4px;
+
+                  &.item-info {
+                    font-size: 0.9em;
+                    width: 100%;
+
+                    a {
+                      font-size: 0.9em;
+                    }
+
+                    .ywcp_cart_component_name {
+                      label {
+                        font-size: 0.8em;
+                      }
+
+                      a.item-name {
+                        font-size: 0.9em;
+                      }
+                    }
+                  }
+
+                  &.item-thumb {
+                    a {
+                      img {
+                        max-width: 25px;
+                      }
+                    }
+                  }
+                }
+
+                td.item-remove {
+                  padding-left: 0;
+                  position: absolute;
+                  margin: -23px 3px 3px -13px;
+
+                  a.remove {
+                    background-image: url("../images/cancel-black.svg");
+                    height: 30px;
+                    width: 30px;
+                    background-position: 9px;
+                    margin: 0;
+                    text-align: center;
+                    background-repeat: no-repeat;
+                    border: 2px solid #f4f4f4;
+                    top: 0;
+                    background-size: 13px;
+                    -webkit-transition: all 0.25s;
+                    -o-transition: all 0.25s;
+                    transition: all 0.25s;
+                    padding: 0;
+                    right: 0;
+                    text-decoration: none;
+                    -webkit-box-shadow: none;
+                    border-radius: 100%;
+
+                    &:hover {
+                      background-image: url("../images/cancel-white.svg");
+                      background-color: #f66900;
+                      border: 2px solid #f66900;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .woocommmerce.yith-wacp-related {
+            margin-top: 20px;
+
+            h3 {
+              margin-bottom: 0;
+              font-size: 0.9em;
+              font-weight: 600;
+            }
+
+            ul.products {
+              list-style: none;
+              padding: 0 15px 15px 15px;
+              margin: 0;
+
+              li {
+                &.product {
+                  width: 25%;
+                  margin: 0;
+                  border: none;
+                  box-shadow: none;
+
+                  a {
+                    text-decoration: none;
+                    display: block;
+                    padding: 10px;
+                    margin: 0;
+                    border: none;
+                    box-shadow: none;
+                    min-height: 200px;
+                    transition: all 0.25s;
+                    border-radius: 4px;
+
+                    .product-image {
+                      margin-bottom: 7px;
+
+                      img {
+                        margin-bottom: 7px;
+                      }
+
+                      span.onsale {
+                        padding: 0 5px;
+                        margin: 10px;
+                        font-size: 10px;
+                      }
+                    }
+
+                    h3.product-title {
+                      font-size: 0.8em;
+                      line-height: 15px;
+                      color: rgba(0, 0, 0, 0.7);
+                      text-transform: none;
+                      text-overflow: ellipsis;
+                      -webkit-line-clamp: 2;
+                      -webkit-box-orient: vertical;
+                      height: 32px;
+                      margin: 0;
+                      display: -webkit-box;
+                      overflow: hidden;
+                    }
+
+                    .product-price {
+                      font-size: 0.8em;
+                    }
+
+                    &:hover {
+                      box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

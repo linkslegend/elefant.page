@@ -20,4 +20,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
+
+<?php global $woocommerce_loop; ?>
+
+<?php if (is_product() && $woocommerce_loop['name'] == 'related' ):?>
+<ul class="product-slider products">
+<?php else: ?>
 <ul class="products columns-<?php echo esc_attr( wc_get_loop_prop( 'columns' ) ); ?>">
+<?php endif;?>

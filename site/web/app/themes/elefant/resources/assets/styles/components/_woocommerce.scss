@@ -183,7 +183,8 @@ body.woocommerce-page {
   }
 }
 
-body.archive.woocommerce {
+body.archive.woocommerce,
+body.single-product.woocommerce {
   ul.products {
     li.product {
       .product_type_external,
