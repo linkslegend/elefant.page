@@ -1,19 +1,6 @@
 body.woocommerce-page {
   background-image: linear-gradient(to bottom, #f8f8f8 0, #f7f8fa 959px);
 
-  &.woocommerce.overlay-show {
-    .overlay {
-      opacity: 0.8;
-      z-index: 991;
-    }
-
-    .menu-menu-container,
-    .navbar-toggler,
-    #header {
-      z-index: 999;
-    }
-  }
-
   .woocommerce-error,
   .woocommerce-info,
   .woocommerce-message {

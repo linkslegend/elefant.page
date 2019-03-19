@@ -16,9 +16,6 @@ the readme will list any important changes.
 
 @extends('layouts.woo')
 
-<div class="overlay">
-</div>
-
 @section('content')
   @php
     do_action('get_header', 'shop');
