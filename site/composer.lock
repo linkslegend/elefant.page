@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be4a36ef556df82a8c6a865866f276c6",
+    "content-hash": "36aa99742e53ad75340729e164037ad1",
     "packages": [
         {
             "name": "composer/installers",
@@ -302,6 +302,41 @@
             "time": "2019-02-12T11:39:43+00:00"
         },
         {
+            "name": "linkslegend/woocommerce-woocart-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woocommerce-woocart-pro.git",
+                "reference": "20b619427f43348933afbb3b26149fd7b5f3c00e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-woocart-pro/zipball/20b619427f43348933afbb3b26149fd7b5f3c00e",
+                "reference": "20b619427f43348933afbb3b26149fd7b5f3c00e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Original Plugin Author's Name",
+                    "homepage": "https://originalpluginurl.com"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woocommerce-woocart-pro",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woocommerce-woocart-pro/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-woocart-pro/issues"
+            },
+            "time": "2019-03-20T15:24:47+00:00"
+        },
+        {
             "name": "linkslegend/wp-sync-db",
             "version": "dev-master",
             "source": {
@@ -334,41 +369,6 @@
                 "source": "https://github.com/linkslegend/wp-sync-db/tree/master"
             },
             "time": "2019-02-22T11:18:39+00:00"
-        },
-        {
-            "name": "linkslegend/yith-woocommerce-added-to-cart-popup-premium",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/yith-woocommerce-added-to-cart-popup-premium.git",
-                "reference": "2854363edf19dc43bde07d65959688ec2ab9c90d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-added-to-cart-popup-premium/zipball/2854363edf19dc43bde07d65959688ec2ab9c90d",
-                "reference": "2854363edf19dc43bde07d65959688ec2ab9c90d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "YITH WooCommerce Added to Cart Popup Premium WooCommerce Extension",
-                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/tree/master",
-                "issues": "https://github.com/linkslegend/yith-woocommerce-added-to-cart-popup-premium/issues"
-            },
-            "time": "2019-03-13T11:28:19+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-advanced-product-options-premium",
@@ -404,6 +404,41 @@
                 "issues": "https://github.com/linkslegend/yith-woocommerce-advanced-product-options-premium/issues"
             },
             "time": "2019-02-11T16:33:59+00:00"
+        },
+        {
+            "name": "linkslegend/yith-woocommerce-composite-products-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git",
+                "reference": "d60655c1ffb60176c46ff59ed22f2df820934048"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/d60655c1ffb60176c46ff59ed22f2df820934048",
+                "reference": "d60655c1ffb60176c46ff59ed22f2df820934048",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "yith-woocommerce-composite-products-premium",
+                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/issues"
+            },
+            "time": "2019-02-18T18:29:06+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-custom-order-status",
@@ -927,6 +962,42 @@
             "homepage": "https://wordpress.org/plugins/mailchimp-for-woocommerce/"
         },
         {
+            "name": "wpackagist-plugin/super-socializer",
+            "version": "7.12.18",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/super-socializer/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1552983462"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/super-socializer/"
+        },
+        {
+            "name": "wpackagist-plugin/ti-woocommerce-wishlist",
+            "version": "1.9.16",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ti-woocommerce-wishlist/",
+                "reference": "tags/1.9.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ti-woocommerce-wishlist.1.9.16.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ti-woocommerce-wishlist/"
+        },
+        {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
             "version": "1.4.0",
             "source": {
@@ -946,15 +1017,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.5.6",
+            "version": "3.5.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.5.6"
+                "reference": "tags/3.5.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.5.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.5.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1018,15 +1089,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "10.0",
+            "version": "10.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/10.0"
+                "reference": "tags/10.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.10.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.10.0.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1060,12 +1131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "3521da8036ce31b11490433aaae47f9601774191"
+                "reference": "33bad66e16fa13d87493018fd339eff48d431ad1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3521da8036ce31b11490433aaae47f9601774191",
-                "reference": "3521da8036ce31b11490433aaae47f9601774191",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/33bad66e16fa13d87493018fd339eff48d431ad1",
+                "reference": "33bad66e16fa13d87493018fd339eff48d431ad1",
                 "shasum": ""
             },
             "conflict": {
@@ -1198,7 +1269,7 @@
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "tecnickcom/tcpdf": "<6.2.22",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
+                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
@@ -1256,20 +1327,20 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-03-12T13:04:55+00:00"
+            "time": "2019-03-19T18:31:23+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.4.0",
+            "version": "3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "379deb987e26c7cd103a7b387aea178baec96e48"
+                "reference": "5b4333b4010625d29580eb4a41f1e53251be6baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/379deb987e26c7cd103a7b387aea178baec96e48",
-                "reference": "379deb987e26c7cd103a7b387aea178baec96e48",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5b4333b4010625d29580eb4a41f1e53251be6baa",
+                "reference": "5b4333b4010625d29580eb4a41f1e53251be6baa",
                 "shasum": ""
             },
             "require": {
@@ -1302,12 +1373,12 @@
                 }
             ],
             "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
-            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
             "keywords": [
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-12-19T23:57:18+00:00"
+            "time": "2019-03-19T03:22:27+00:00"
         }
     ],
     "aliases": [],
@@ -1315,11 +1386,12 @@
     "stability-flags": {
         "linkslegend/ct-ultimate-gdpr": 20,
         "linkslegend/prdctfltr": 20,
-        "linkslegend/yith-woocommerce-added-to-cart-popup-premium": 20,
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
+        "linkslegend/yith-woocommerce-composite-products-premium": 20,
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "linkslegend/yith-woocommerce-custom-order-status": 20,
         "linkslegend/woocommerce-social-login": 20,
+        "linkslegend/woocommerce-woocart-pro": 20,
         "linkslegend/woocommerce-product-reviews-pro": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/wp-sync-db": 20,

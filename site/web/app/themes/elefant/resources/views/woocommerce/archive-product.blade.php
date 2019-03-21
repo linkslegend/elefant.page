@@ -24,10 +24,8 @@ the readme will list any important changes.
 
   <header class="woocommerce-products-header">
     @if(apply_filters('woocommerce_show_page_title', true))
-      <h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
       <div class="page-description">
-          <strong>Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien</strong>
-          Wir betreuen, reparieren und verkaufen Windows PC-Systeme, Apple Mac-Rechner, Netzwerkzubehör, Webseiten, Software. 
+          <strong>Intermac ist Ihr Spezialist für alle Fragen rund um Informationstechnologien</strong><br />
           Zu unseren Kunden zählen kleine Betriebe, mittelständische Unternehmen und Arztpraxen im Großraum Koblenz.
       </div>
     @endif
