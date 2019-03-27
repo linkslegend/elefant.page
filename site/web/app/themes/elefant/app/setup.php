@@ -20,35 +20,131 @@ add_action('wp_enqueue_scripts', function () {
     }
 }, 100);
 
-/**
- * not working with filters 
- */
-/*
-add_action( 'woocommerce_after_shop_loop_item', __NAMESPACE__ . '\\remove_add_to_cart_buttons', 1 );
-function remove_add_to_cart_buttons() {
-  // replace a_category and another_category with the slugs of the categories you'd like to have the button removed from
-  if( is_shop() ) { 
-    remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );
-  }
-}
+
+/* 
+    Ajax login 
 */
+function ajax_login_init(){
+    wp_register_script('ajax-login-script', get_template_directory_uri() . '/ajax-login-script.js', array('jquery'), false, true );
+    wp_enqueue_script('ajax-login-script');
+    wp_localize_script( 'ajax-login-script', 'ajax_login_object', array(
+        'ajaxurl' => admin_url( 'admin-ajax.php' ),
+        'redirecturl' => get_permalink(''),
+        'loadingmessage' => __('Sending user info, please wait...')
+    ));
+    // Enable the user with no privileges to run ajax_login() in AJAX
+    add_action( 'wp_ajax_nopriv_ajaxlogin', __NAMESPACE__ . '\\ajax_login' );
+}
+// Execute the action only if the user isn't logged in
+if (!is_user_logged_in()) {
+    add_action('init', __NAMESPACE__ . '\\ajax_login_init');
+}
+function ajax_login(){
+    // First check the nonce, if it fails the function will break
+    check_ajax_referer( 'ajax-login-nonce', 'security' );
+
+    // Nonce is checked, get the POST data and sign user on
+    $info = array();
+    $info['user_login'] = $_POST['username'];
+    $info['user_password'] = $_POST['password'];
+    $info['remember'] = true;
+
+    $user_signon = wp_signon( $info, false );
+    if ( is_wp_error($user_signon) ){
+        echo json_encode(array('loggedin'=>false, 'message'=>__('Wrong username or password.')));
+    } else {
+        echo json_encode(array('loggedin'=>true, 'message'=>__('Login successful, redirecting...')));
+    }
+
+    die();
+}
+
+function wc_bypass_logout_confirmation() {
+    global $wp;
+
+    if ( isset( $wp->query_vars['customer-logout'] ) ) {
+        wp_redirect( str_replace( '&amp;', '&', wp_logout_url( wc_get_page_permalink( 'myaccount' ) ) ) );
+        exit;
+    }
+}
+add_action( 'template_redirect', __NAMESPACE__ . '\\wc_bypass_logout_confirmation' );
+/* END Ajax Login */
 
 /**
- * Disable the emoji's
- */
+* Custom Registration Form Fields  
+*/
+function wooc_extra_register_fields() {?>
+    <p class="form-row form-row-wide">
+    <label for="reg_billing_phone"><?php _e( 'Telefon', 'woocommerce' ); ?></label>
+    <input type="text" class="input-text" name="billing_phone" id="reg_billing_phone" value="<?php if ( ! empty( $_POST['billing_phone'] ) ) esc_attr_e( $_POST['billing_phone'] ); ?>" />
+    </p>
+    <p class="form-row form-row-first">
+    <label for="reg_billing_first_name"><?php _e( 'Name', 'woocommerce' ); ?><span class="required">*</span></label>
+    <input type="text" class="input-text" name="billing_first_name" id="reg_billing_first_name" value="<?php if ( ! empty( $_POST['billing_first_name'] ) ) esc_attr_e( $_POST['billing_first_name'] ); ?>" />
+    </p>
+    <p class="form-row form-row-last">
+    <label for="reg_billing_last_name"><?php _e( 'Nachname', 'woocommerce' ); ?><span class="required">*</span></label>
+    <input type="text" class="input-text" name="billing_last_name" id="reg_billing_last_name" value="<?php if ( ! empty( $_POST['billing_last_name'] ) ) esc_attr_e( $_POST['billing_last_name'] ); ?>" />
+    </p>
+    <div class="clear"></div>
+    <?php
+}
+add_action( 'woocommerce_register_form_start', __NAMESPACE__ . '\\wooc_extra_register_fields' );
 
+/**
+* register fields Validating.
+*/
+function wooc_validate_extra_register_fields( $username, $email, $validation_errors ) {
+    if ( isset( $_POST['billing_first_name'] ) && empty( $_POST['billing_first_name'] ) ) {
+           $validation_errors->add( 'billing_first_name_error', __( '<strong>Error</strong>: First name is required!', 'woocommerce' ) );
+    }
+    if ( isset( $_POST['billing_last_name'] ) && empty( $_POST['billing_last_name'] ) ) {
+           $validation_errors->add( 'billing_last_name_error', __( '<strong>Error</strong>: Last name is required!.', 'woocommerce' ) );
+    }
+       return $validation_errors;
+}
+add_action( 'woocommerce_register_post', __NAMESPACE__ . '\\wooc_validate_extra_register_fields', 10, 3 );
+
+/**
+* Below code save extra fields.
+*/
+function wooc_save_extra_register_fields( $customer_id ) {
+    if ( isset( $_POST['billing_phone'] ) ) {
+                 // Phone input filed which is used in WooCommerce
+                 update_user_meta( $customer_id, 'billing_phone', sanitize_text_field( $_POST['billing_phone'] ) );
+          }
+      if ( isset( $_POST['billing_first_name'] ) ) {
+             //First name field which is by default
+             update_user_meta( $customer_id, 'first_name', sanitize_text_field( $_POST['billing_first_name'] ) );
+             // First name field which is used in WooCommerce
+             update_user_meta( $customer_id, 'billing_first_name', sanitize_text_field( $_POST['billing_first_name'] ) );
+      }
+      if ( isset( $_POST['billing_last_name'] ) ) {
+             // Last name field which is by default
+             update_user_meta( $customer_id, 'last_name', sanitize_text_field( $_POST['billing_last_name'] ) );
+             // Last name field which is used in WooCommerce
+             update_user_meta( $customer_id, 'billing_last_name', sanitize_text_field( $_POST['billing_last_name'] ) );
+      }
+}
+add_action( 'woocommerce_created_customer', __NAMESPACE__ . '\\wooc_save_extra_register_fields' );
+
+/* 
+    Disable the emoji's 
+*/
 add_action( 'wp_enqueue_scripts',  function() {
   if ( ! is_user_logged_in() ) {
     wp_deregister_style( 'dashicons' );
   }
 }, 100);
 
+/* 
+    Disable Plugin CSS 
+*/
 add_action( 'wp_enqueue_scripts',  function() {
     wp_deregister_script( 'ct-ultimate-gdpr' );
     wp_deregister_style( 'font-awesome' );
     //wp_deregister_style( 'yith-wacp-frontend' );
 }, 100);
-
 
 /*
   Set WooCommerce image dimensions upon theme activation
@@ -57,11 +153,10 @@ add_action( 'wp_enqueue_scripts',  function() {
 function jk_dequeue_styles( $enqueue_styles ) {
 	  // unset( $enqueue_styles['woocommerce-general'] );	// Remove the gloss
       // unset( $enqueue_styles['woocommerce-layout'] );		// Remove the layout
-	   //  unset( $enqueue_styles['woocommerce-smallscreen'] );	// Remove the smallscreen optimisation
+	  // unset( $enqueue_styles['woocommerce-smallscreen'] );	// Remove the smallscreen optimisation
 	return $enqueue_styles;
 }
 add_filter( 'woocommerce_enqueue_styles', __NAMESPACE__ . '\\jk_dequeue_styles' );
-
 
 // Google maps api key for ACF
 function acf_google_map_api($api) {
@@ -69,7 +164,6 @@ function acf_google_map_api($api) {
     return $api;
 }
 add_filter('acf/fields/google_map/api', __NAMESPACE__ . '\\acf_google_map_api');
-
 
 /**
  * Theme setup
@@ -84,9 +178,7 @@ add_action('after_setup_theme', function () {
     add_theme_support('soil-nav-walker');
     add_theme_support('soil-nice-search');
     add_theme_support('soil-relative-urls');
-
     add_theme_support('soil-js-to-footer');
-
     add_theme_support( 'wc-product-gallery-zoom' );
     add_theme_support( 'wc-product-gallery-lightbox' );
     add_theme_support( 'wc-product-gallery-slider' );

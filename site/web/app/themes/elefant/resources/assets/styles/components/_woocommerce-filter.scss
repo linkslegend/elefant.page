@@ -21,6 +21,72 @@ body.woocommerce.prdctfltr-shop {
     }
   }
 
+  .prdctfltr_collector {
+    float: left;
+    width: 65%;
+    margin: 0;
+    padding: 0 !important;
+
+    span {
+      &.prdctfltr_title_selected {
+        margin: 0 10px 0 0;
+        padding: 10px 45px 10px 15px;
+        border-radius: 4px;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+
+        a {
+          &.prdctfltr_title_remove {
+            margin-left: 0;
+            line-height: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 40px;
+            width: 35px;
+            background: rgba(249, 105, 0, 0.1);
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.25s;
+
+            i {
+              display: block;
+              height: 40px;
+              width: 35px;
+
+              &::before {
+                font-size: 1.8em;
+                display: block;
+                text-align: center;
+                padding: 21px 0;
+              }
+
+              &.prdctfltr-delete {
+                display: block;
+              }
+            }
+
+            &:hover {
+              background: #f96900;
+              text-decoration: none;
+
+              i {
+                &::before {
+                  color: #fff;
+                }
+              }
+
+              .prdctfltr_title_selected {
+                box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.15);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   .prdctfltr_wc {
     position: relative;
     margin-bottom: 35px;
@@ -80,10 +146,49 @@ body.woocommerce.prdctfltr-shop {
                 border-radius: 8px;
 
                 .prdctfltr_add_scroll {
+                  margin-top: 5px;
+
                   .prdctfltr_checkboxes {
                     label {
+                      transition: all 0.3s;
                       margin: 0;
                       padding: 0;
+
+                      &.pf_adoptive_hide {
+                        &:hover {
+                          color: inherit;
+                        }
+                      }
+
+                      span {
+                        &::before {
+                          width: 10px;
+                          height: 10px;
+                          padding: 0;
+                          border: 1px double #ff7003;
+                          margin-top: 4px;
+                          margin-bottom: 4px;
+                          border-radius: 100%;
+                          margin-right: 8px;
+                          vertical-align: middle;
+                          -webkit-box-sizing: content-box;
+                          box-sizing: content-box;
+                          -webkit-transition: all 0.3s;
+                          -o-transition: all 0.3s;
+                          transition: all 0.3s;
+                          background-color: #fff;
+                        }
+                      }
+
+                      &:hover {
+                        color: #ff7003;
+
+                        span {
+                          &::before {
+                            background: #ff7003;
+                          }
+                        }
+                      }
                     }
 
                     span.irs {
@@ -118,7 +223,7 @@ body.woocommerce.prdctfltr-shop {
     float: right;
     margin: 25px 0 0 0;
 
-    .prdctfltr_sc {
+    .prdctfltr_sc.prdctfltr_sc_filter {
       margin: 0 !important;
 
       .prdctfltr_wc {
@@ -132,72 +237,6 @@ body.woocommerce.prdctfltr-shop {
             margin: 0 !important;
             width: 100%;
             float: left;
-          }
-
-          .prdctfltr_collector {
-            float: left;
-            width: 65%;
-            margin: 0;
-            padding: 0 !important;
-
-            span {
-              &.prdctfltr_title_selected {
-                margin: 0 10px 0 0;
-                padding: 10px 45px 10px 15px;
-                border-radius: 4px;
-                position: relative;
-                background-color: rgb(255, 255, 255);
-
-                a {
-                  &.prdctfltr_title_remove {
-                    margin-left: 0;
-                    line-height: 0;
-                    position: absolute;
-                    right: 0;
-                    top: 0;
-                    height: 40px;
-                    width: 35px;
-                    background: rgba(249, 105, 0, 0.1);
-                    text-align: center;
-                    text-decoration: none;
-                    border-radius: 8px;
-                    transition: all 0.25s;
-
-                    i {
-                      display: block;
-                      height: 40px;
-                      width: 35px;
-
-                      &::before {
-                        font-size: 1.8em;
-                        display: block;
-                        text-align: center;
-                        padding: 21px 0;
-                      }
-
-                      &.prdctfltr-delete {
-                        display: block;
-                      }
-                    }
-
-                    &:hover {
-                      background: #f96900;
-                      text-decoration: none;
-
-                      i {
-                        &::before {
-                          color: #fff;
-                        }
-                      }
-
-                      .prdctfltr_title_selected {
-                        box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.15);
-                      }
-                    }
-                  }
-                }
-              }
-            }
           }
 
           .prdctfltr_filter_wrapper {
@@ -218,12 +257,46 @@ body.woocommerce.prdctfltr-shop {
                 span.prdctfltr_regular_title {
                   border-radius: 8px;
                 }
+              }
+
+              .prdctfltr_orderby {
+                padding-right: 0;
 
                 .prdctfltr_add_scroll {
+                  width: calc(100% - 10px);
+                  margin-top: 5px;
+                  border-radius: 8px;
+
                   .prdctfltr_checkboxes {
                     label {
-                      margin: 0;
-                      padding: 0;
+                      transition: all 0.3s;
+
+                      span {
+                        &::before {
+                          width: 10px;
+                          height: 10px;
+                          padding: 0;
+                          border: 1px double #ff7003;
+                          margin-top: 4px;
+                          margin-bottom: 4px;
+                          border-radius: 100%;
+                          margin-right: 8px;
+                          vertical-align: middle;
+                          box-sizing: content-box;
+                          transition: all 0.3s;
+                          background-color: #fff;
+                        }
+                      }
+
+                      &:hover {
+                        color: #ff7003;
+
+                        span {
+                          &::before {
+                            background: #ff7003;
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -269,30 +342,10 @@ body.woocommerce.prdctfltr-shop {
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
   body.woocommerce.prdctfltr-shop {
-    .overlay {
-      z-index: -999;
-      position: fixed;
-      width: 100%;
-      max-width: 100%;
-      height: 100%;
-      min-height: 100vh;
-      top: 0;
-      left: 0;
-      opacity: 0;
-      transition: opacity 0.4s ease-in-out;
-      will-change: opacity;
-      background: #3c3442;
-    }
-
     &.lock-scroll2 {
       overflow: hidden;
       position: fixed; /* scroll body to top */
       transition: opacity 0.4s ease-in-out;
-
-      .overlay {
-        opacity: 0.8;
-        z-index: 999;
-      }
     }
 
     .wrap {
@@ -439,7 +492,7 @@ body.woocommerce.prdctfltr-shop {
       margin: 0;
       float: right;
 
-      .prdctfltr_sc {
+      .prdctfltr_sc.prdctfltr_sc_filter {
         margin: 0;
 
         .prdctfltr_wc {
@@ -547,19 +600,21 @@ body.woocommerce.prdctfltr-shop {
     }
 
     #mobile-filters {
-      width: 100%;
+      width: 49%;
       margin-top: 15px;
 
       button.filter-by {
         border: 1px solid #ddd;
         padding: 11px;
+        font-size: 0.9em;
       }
 
       &::after {
         content: "";
         margin-top: -33px;
-        right: 0;
-        margin-right: 15px;
+        width: 15px;
+        margin-right: 0;
+        margin-left: 10px;
       }
     }
 
@@ -631,7 +686,7 @@ body.woocommerce.prdctfltr-shop {
       margin: 0;
       float: right;
 
-      .prdctfltr_sc {
+      .prdctfltr_sc.prdctfltr_sc_filter {
         margin: 0;
 
         .prdctfltr_wc {
@@ -657,10 +712,7 @@ body.woocommerce.prdctfltr-shop {
 
             .prdctfltr_filter_wrapper {
               padding: 0;
-              position: relative;
-              top: 0;
-              width: 100%;
-              margin-top: 15px;
+              width: 49%;
               right: 0 !important;
 
               .prdctfltr_filter_inner {
@@ -680,15 +732,15 @@ body.woocommerce.prdctfltr-shop {
                   span.prdctfltr_regular_title {
                     border-radius: 8px;
                     text-align: center;
-                    font-size: 1em;
+                    font-size: 0.9em;
                     color: #000;
                     font-weight: 500;
                   }
 
                   .prdctfltr_add_scroll {
-                    width: -moz-calc(100% - 10px);
-                    width: -webkit-calc(100% - 10px);
-                    width: calc(100% - 10px);
+                    width: -moz-calc(100%);
+                    width: -webkit-calc(100%);
+                    width: calc(100%);
 
                     .prdctfltr_checkboxes {
                       label {

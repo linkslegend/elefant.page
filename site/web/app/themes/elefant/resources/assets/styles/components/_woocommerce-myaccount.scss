@@ -1,0 +1,319 @@
+body {
+  &.woocommerce-account {
+    .wrap {
+      .content {
+        .container-fluid {
+          main.main {
+            .page-header {
+              h1 {
+                font-size: 1.3em;
+                display: none;
+              }
+            }
+
+            .woocommerce {
+              .woocommerce-notices-wrapper {
+                padding: 0;
+
+                .woocommerce-error {
+                  margin: 15px 0 15px;
+                }
+              }
+
+              .u-columns.col2-set {
+                .tab-content {
+                  margin: 15px 0 0 0;
+
+                  .u-column1.col-1,
+                  .u-column2.col-2 {
+                    float: left;
+                    padding-left: 0;
+                    max-width: 50%;
+                    width: 50%;
+
+                    h2 {
+                      padding-left: 10px;
+                      font-size: 1.2em;
+                    }
+
+                    form {
+                      .woocommerce-privacy-policy-text {
+                        background: #f2f2f2;
+                        padding: 15px;
+                        font-size: 0.9em;
+                        border-radius: 8px;
+                        margin: 15px 0 0;
+
+                        p {
+                          margin: 0;
+                          padding: 0;
+                        }
+                      }
+
+                      &.woocommerce-form.woocommerce-form-login.login,
+                      &.woocommerce-form.woocommerce-form-register.register {
+                        border: 1px solid #e8e8e8;
+                        padding: 20px;
+                        margin: 15px 0;
+                        text-align: left;
+                        border-radius: 8px;
+                        background: #fff;
+
+                        p {
+                          &.form-row {
+                            padding: 3px 0;
+
+                            button {
+                              &.woocommerce-Button {
+                                background-color: #ff7003;
+                                color: #fff;
+                                padding: 15px;
+                                margin: 15px 0;
+                                width: 100%;
+                                border-radius: 8px;
+                              }
+                            }
+
+                            .woocommerce-password-strength {
+                              padding: 15px;
+                              width: 100%;
+                              margin: 15px 0 0;
+                              border-radius: 8px;
+
+                              &.short {
+                                background-color: #fa635a;
+                                border-color: #fa635a;
+                                color: #fff;
+                              }
+                            }
+
+                            small {
+                              &.woocommerce-password-hint {
+                                margin: 15px 0 0 0;
+                                display: block;
+                                border: 2px solid #fa635a;
+                                background: #fff;
+                                position: relative;
+                                border-radius: 8px;
+                                padding: 15px;
+
+                                &::before {
+                                  content: "";
+                                  position: absolute;
+                                  left: 50%;
+                                  right: auto;
+                                  -webkit-transform: translateX(-50%);
+                                  -o-transform: translateX(-50%);
+                                  transform: translateX(-50%);
+                                  height: 0;
+                                  top: -23px;
+                                  width: 0;
+                                  border: 11px solid transparent;
+                                  border-bottom-color: #fa635a;
+                                  opacity: 1;
+                                  -webkit-transition: opacity 0.2s;
+                                  -o-transition: opacity 0.2s;
+                                  transition: opacity 0.2s;
+                                }
+                              }
+                            }
+                          }
+
+                          &.woocommerce-LostPassword.lost_password {
+                            font-size: 0.9em;
+                          }
+
+                          label {
+                            line-height: 100%;
+                            font-size: 0.8em;
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  .u-column2.col-2 {
+                    padding-right: 0;
+                    padding-left: 15px;
+                    opacity: 1;
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
+*/
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  body {
+    &.woocommerce-account {
+      .wrap {
+        .content {
+          .container-fluid {
+            main.main {
+              .woocommerce {
+                .u-columns.col2-set {
+                  ul.nav.nav-tabs {
+                    width: 100%;
+                    float: left;
+
+                    li.nav-item {
+                      margin-bottom: 0;
+                      width: 50%;
+                      float: left;
+
+                      a.nav-link {
+                        border-radius: 8px;
+                        margin: 0;
+                        text-align: center;
+                        position: relative;
+                        border: none;
+                        background-color: #ff7003;
+
+                        &::before {
+                          content: "";
+                          position: absolute;
+                          bottom: 100%;
+                          top: 15px;
+                          left: 15px;
+                          right: auto;
+                          height: 0;
+                          transform: rotate(90deg);
+                          width: 0;
+                          border: 10px solid transparent;
+                          border-bottom-color: #fff;
+                          opacity: 1;
+                          -webkit-transition: opacity 0.2s;
+                          -o-transition: opacity 0.2s;
+                          transition: opacity 0.2s;
+                        }
+
+                        &.active {
+                          background-color: #fff;
+
+                          &::before {
+                            border-bottom-color: #ff7003;
+                            background-color: #fff;
+                            transform: rotate(180deg);
+                            top: 20px;
+                            left: 15px;
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  .tab-content {
+                    margin-top: 0;
+                    width: 100%;
+                    float: left;
+
+                    .u-column1.col-1,
+                    .u-column2.col-2 {
+                      padding: 0;
+                      max-width: 100%;
+                      width: 100%;
+
+                      h2 {
+                        padding-left: 10px;
+                        font-size: 1.1em;
+                      }
+
+                      form {
+                        .woocommerce-privacy-policy-text {
+                          background: #f2f2f2;
+                          padding: 15px;
+                          font-size: 0.9em;
+                          border-radius: 8px;
+                          margin: 15px 0 0;
+
+                          p {
+                            margin: 0;
+                            padding: 0;
+                          }
+                        }
+
+                        &.woocommerce-form.woocommerce-form-login.login,
+                        &.woocommerce-form.woocommerce-form-register.register {
+                          border: 1px solid #e8e8e8;
+                          padding: 20px;
+                          margin: 15px 0;
+                          text-align: left;
+                          border-radius: 8px;
+                          background: #fff;
+
+                          p {
+                            &.form-row {
+                              padding: 3px 0;
+
+                              button {
+                                &.woocommerce-Button {
+                                  background-color: #ff7003;
+                                  color: #fff;
+                                  padding: 15px;
+                                  margin: 15px 0;
+                                  width: 100%;
+                                  border-radius: 8px;
+                                }
+                              }
+                            }
+
+                            &.woocommerce-LostPassword.lost_password {
+                              font-size: 0.9em;
+                            }
+
+                            label {
+                              line-height: 100%;
+                              font-size: 0.8em;
+                            }
+                          }
+                        }
+                      }
+                    }
+
+                    .u-column2.col-2 {
+                      opacity: 0;
+                      display: none;
+
+                      &.show {
+                        display: block;
+                        opacity: 1;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+/*
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+}
+*/

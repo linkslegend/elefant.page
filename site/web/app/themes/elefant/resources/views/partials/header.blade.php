@@ -10,6 +10,15 @@
           @if (has_nav_menu('primary_navigation'))
             {!! wp_nav_menu($primarymenu) !!}
           @endif
+
+          <div class="icon-menu mobile-block d-block d-md-none">
+              <ul class="header links">
+                <li id="icons" class="account"><div class="inner-account myaccount"><a href="/account" class="my-account">Konto</a></div></li>
+                <li id="icons" class="account"><div class="inner-account wishlist"><a href="/login">Wishlist</a></div></li>
+                <li id="icons" class="account"><div class="inner-account cart"><span>Warenkorb</span></div></li>
+              </ul>
+          </div>
+
         </div>
       </nav>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,3 +56,39 @@
   </div><!--end container-->
 </nav>
 </header>
+
+<div class="modal fade loginmodal" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <!--<div class="profile-image"><?php echo get_avatar( $id_or_email, $size, $default, $alt, $args ); ?></div>-->
+    <div class="modal-content lozad" data-background-image="https://d1zczzapudl1mr.cloudfront.net/geometric-abstraction2.png" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2>Welcome</h2>
+      </div>
+      <div class="modal-body">
+        <form id="login" action="login" method="post">
+            <p class="status"></p>
+            <div class="input-1">
+              <label class="username" for="username"><i class="fa fa-lock" aria-hidden="true"></i></label>
+              <input id="username" type="text" name="username" placeholder="Username or Email">
+            </div>
+            <div class="input-2">
+              <label class="password" for="password"><i class="fa fa-user" aria-hidden="true"></i></label>
+              <input id="password" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="input-3">
+              <div class="lost-reg">
+                <a class="lost" href="/my-account/lost-password">Lost your password?</a><br />
+                <span>Are you a new customer?</span> <a class="lost" href="<?php echo home_url(); ?>/register">Register Now</a>
+              </div>
+              <input class="submit_button" type="submit" value="Login" name="submit">
+              <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
+              <div class="seperate"><span class="hr-social">or</span></div>
+              <div class="social-login-container"><?php echo do_shortcode('[TheChamp-Login]') ?></div>
+              <!--<div class="secure-connection">Secure connection</div>-->
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

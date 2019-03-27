@@ -25,6 +25,10 @@ body {
     }
   }
 
+  .wrap {
+    transition: all 0.3s;
+  }
+
   .overlay {
     z-index: -999;
     position: fixed;
@@ -53,14 +57,18 @@ body {
 
   &.overlay-show {
     .overlay {
-      opacity: 0.8;
-      z-index: 991;
+      opacity: 0.8 !important;
+      z-index: 991 !important;
     }
 
     .menu-menu-container,
     .navbar-toggler,
     #header {
       z-index: 999;
+    }
+
+    .wrap {
+      filter: blur(10px);
     }
   }
 }

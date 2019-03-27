@@ -1,21 +1,21 @@
 body {
   .festi-cart-products {
-    max-width: 1145px !important;
+    max-width: 1140px !important;
     padding-top: 0 !important;
     position: fixed;
     z-index: 1001;
     display: block !important;
     visibility: hidden;
-    right: 15px;
+    right: 10px;
     left: 0;
-    top: 77px;
+    top: 112px;
     width: auto;
     margin: 0 auto;
     opacity: 0;
     transition: all 0.3s;
 
     &.festi-show {
-      top: 70px !important;
+      top: 118px !important;
       display: block;
       visibility: visible !important;
       opacity: 1 !important;
@@ -28,8 +28,8 @@ body {
       min-width: 370px;
       max-width: 370px;
       overflow: visible;
-      margin-top: 33px;
-      right: 15px;
+      margin-top: 0;
+      right: 10px;
       position: absolute;
       z-index: 38 !important;
       font-size: 0.8em !important;
@@ -181,11 +181,22 @@ body {
 
         a {
           &.festi-cart-view-cart {
-            background-color: transparent;
-            border: 2px solid #777;
-            color: #777;
-            float: none !important;
-            margin: 0 10px !important;
+            display: inline-block !important;
+            padding: 0 !important;
+            height: 40px;
+            text-align: center;
+            border: 2px solid #ff7003;
+            line-height: 36px;
+            font-weight: 600;
+            font-size: 1.1em;
+            border-radius: 3px;
+            width: 49% !important;
+            margin: 10px 0 0;
+            background-color: #ff7003;
+            color: #fff;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
 
             &:hover {
               background-color: transparent;
@@ -446,4 +457,18 @@ body div.festi-cart-arrow::after {
   position: absolute;
   top: -9px;
   left: -11px;
+}
+
+@media (max-width: 1199.98px) {
+  body {
+    .festi-cart-products {
+      right: 15px;
+      top: 65px;
+
+      .festi-cart-products-content {
+        margin-top: 49px;
+        right: 15px;
+      }
+    }
+  }
 }

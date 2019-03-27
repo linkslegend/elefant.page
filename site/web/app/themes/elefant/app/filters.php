@@ -138,3 +138,37 @@ function woo_rename_tabs( $tabs ) {
 	return $tabs;
 
 }
+
+/*Allow customers to login with their email address or username */
+add_filter('authenticate', __NAMESPACE__ . 'internet_allow_email_login', 20, 3);
+/**
+ * internet_allow_email_login filter to the authenticate filter hook, to fetch a username based on entered email
+ * @param  obj $user
+ * @param  string $username [description]
+ * @param  string $password [description]
+ * @return boolean
+ */
+function internet_allow_email_login( $user, $username, $password ) {
+    if ( is_email( $username ) ) {
+        $user = get_user_by_email( $username );
+        if ( $user ) $username = $user->user_login;
+    }
+    return wp_authenticate_username_password( null, $username, $password );
+}
+
+/**
+ * Modify the "must_log_in" string of the comment form.
+ *
+ * @see http://wordpress.stackexchange.com/a/170492/26350
+ */
+add_filter( 'comment_form_defaults', function( $fields ) {
+    $fields['must_log_in'] = sprintf(
+        __( '<p class="must-log-in">
+                 You must <a href="/my-account/">Register</a> or
+                 <a data-toggle="modal" data-target="#loginmodal" href="#">Login</a> to post a comment.</p>'
+        ),
+        wp_registration_url(),
+        wp_login_url( apply_filters( 'the_permalink', get_permalink() ) )
+    );
+    return $fields;
+});
