@@ -1,7 +1,78 @@
+
+.social-login-container {
+  div {
+    .the_champ_login_container {
+      ul.the_champ_login_ul {
+        margin: 0;
+        float: left;
+        width: 100%;
+        display: block;
+
+        li {
+          background: none;
+          float: left;
+          width: 50% !important;
+          padding: 0 10px 0 10px !important;
+          margin: 0;
+          clear: none;
+          list-style-type: none;
+
+          &:first-child {
+            padding-left: 0 !important;
+          }
+
+          &:last-child {
+            padding-right: 0 !important;
+          }
+
+          i {
+            padding: 10px !important;
+            margin: 0 !important;
+            height: 45px !important;
+            border-radius: 8px !important;
+            width: 100% !important;
+            float: left;
+            cursor: pointer;
+            border: none;
+
+            .theChampTwitterLoginSvg {
+              &::after {
+                content: "Twitter";
+                text-align: center;
+                color: #fff;
+                font-weight: 600;
+                font-size: 1.1em;
+                font-style: normal;
+                padding: 1px;
+                display: block;
+              }
+            }
+
+            .theChampFacebookLoginSvg {
+              &::after {
+                content: "Facebook";
+                text-align: center;
+                color: #fff;
+                font-weight: 600;
+                font-size: 1.1em;
+                font-style: normal;
+                padding: 1px;
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 body {
   &.woocommerce-account {
     .wrap {
       .content {
+        margin: 15px 0 0 0;
+
         .container-fluid {
           main.main {
             .page-header {
@@ -137,6 +208,87 @@ body {
                     padding-left: 15px;
                     opacity: 1;
                     display: block;
+                  }
+                }
+              }
+
+              nav.woocommerce-MyAccount-navigation {
+                background: #fff;
+                padding: 10px;
+                border-radius: 8px;
+
+                ul {
+                  margin: 0;
+                  padding: 0;
+
+                  li {
+                    padding: 7px 10px;
+                    font-size: 0.9em;
+                    margin: 0 0 3px 0;
+                    border-radius: 8px;
+                    list-style: none;
+                    transition: all 0.3s;
+
+                    a {
+                      color: rgba(0, 0, 0, 0.7);
+                      padding: 0 0 0 20px;
+                      text-decoration: none;
+                      font-size: 0.95em;
+                      position: relative;
+                      width: 100%;
+                      display: block;
+
+                      &:hover {
+                        text-decoration: none;
+                        color: #fff;
+                      }
+
+                      &::before {
+                        content: "";
+                        position: absolute;
+                        bottom: 100%;
+                        left: 5px;
+                        top: 5px;
+                        transform: rotate(90deg);
+                        right: auto;
+                        height: 0;
+                        width: 0;
+                        border: 6px solid transparent;
+                        border-bottom-color: #ff7003;
+                        opacity: 1;
+                        -webkit-transition: opacity 0.2s;
+                        -o-transition: opacity 0.2s;
+                        transition: opacity 0.2s;
+                      }
+                    }
+
+                    &.is-active {
+                      background: #ff7003;
+                      color: #fff;
+
+                      a {
+                        color: #fff;
+
+                        &::before {
+                          border: 6px solid transparent;
+                          border-bottom-color: #fff;
+                        }
+                      }
+                    }
+
+                    &:hover {
+                      background: #ff7003;
+                      color: #fff;
+
+                      a {
+                        color: #fff;
+
+                        &::before {
+                          border: 6px solid transparent;
+                          border-bottom-color: #fff;
+                        }
+                      }
+                    }
                   }
                 }
               }

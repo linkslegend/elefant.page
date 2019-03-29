@@ -1,0 +1,259 @@
+/* @group popup cart */
+div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
+  padding: 0;
+  background: #fff;
+  max-width: 600px;
+  min-width: 600px;
+  margin: 0 auto;
+  font-size: 0.9em;
+  overflow: hidden;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+  span {
+    &.festi-cart-closed.b-close {
+      display: block !important;
+      float: right !important;
+      border-radius: 100%;
+      height: 35px;
+      width: 35px;
+      padding: 3px 9px;
+      background: transparent;
+      transition: all 0.3s;
+      cursor: pointer !important;
+      position: relative !important;
+      right: 5px !important;
+      top: 4px !important;
+
+      .festi-cart-closed-button {
+        font-size: 2em !important;
+        font-weight: 500 !important;
+        line-height: 100%;
+        color: #303030 !important;
+      }
+
+      &:hover {
+        background: #fff;
+        color: #fff;
+
+        .festi-cart-closed-button {
+          background: #fff;
+        }
+      }
+    }
+  }
+
+  .festi-cart-pop-up-header {
+    background-color: #f1ffeb !important;
+    font-weight: 600 !important;
+    line-height: 45px !important;
+    margin: 0 !important;
+    vertical-align: middle !important;
+
+    span {
+      &.festi-cart-added-to-cart-msg {
+        color: #1a1a1a !important;
+        font-size: 1.1em !important;
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin: 0;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        font-size: 1.1em;
+        display: inline-block;
+        background-repeat: no-repeat;
+        height: 15px;
+        width: 15px;
+        margin-left: -25px;
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .festi-cart-pop-up-products-content {
+    #festi-cart-pop-up-products-list-body {
+      max-height: 430px !important;
+      scroll-behavior: smooth;
+      overflow: auto;
+      min-height: 100px;
+      width: auto !important;
+      margin: 20px;
+
+      table.festi-cart-list {
+        width: 100%;
+        font-size: 100%;
+
+        tbody {
+          tr.festi-cart-item {
+            border: 1px solid #dadada;
+            display: block;
+            margin: 15px 0;
+            position: relative;
+            border-radius: 8px;
+
+            &:first-child {
+              margin-top: 0;
+            }
+
+            td {
+              &.festi-cart-product-delete {
+                width: 25px;
+                vertical-align: top;
+                position: absolute;
+                right: 0;
+                overflow: visible;
+                padding-top: 0 !important;
+
+                a.festi-cart-remove-product {
+                  border: 1px solid #dadada;
+                  text-align: center;
+                  display: block;
+                  height: 33px;
+                  width: 33px;
+                  margin: 0;
+                  line-height: normal;
+                  padding-top: 0;
+                  position: absolute;
+                  left: -7px;
+                  top: -1px;
+                  padding-left: 0;
+                  background: transparent;
+                  font-size: 1.5em;
+                  border-radius: 8px;
+                  font-weight: 500;
+                  transition: all 0.3s;
+                  color: rgba(15, 15, 15, 0.85) !important;
+
+                  &:hover {
+                    background: #0f0f0f;
+                    color: #fff !important;
+                    border: 1px solid #0f0f0f;
+                    text-decoration: none;
+                  }
+                }
+              }
+
+              &.festi-cart-product-img {
+                max-width: 100px;
+                vertical-align: middle;
+
+                a.festi-cart-img {
+                  img {
+                    height: 100px;
+                    width: 100px;
+                    padding: 10px;
+                  }
+                }
+              }
+
+              &.festi-cart-product-title {
+                vertical-align: top !important;
+                padding: 15px 30px 0 5px !important;
+                text-align: left !important;
+
+                a.festi-cart-title {
+                  color: #0f0f0f;
+                  margin-bottom: 10px;
+                  font-size: 1em;
+                  display: inline-block;
+                  width: 100%;
+                  font-weight: 500;
+                  transition: all 0.3s;
+
+                  &:hover {
+                    text-decoration: none;
+                    color: #f26900;
+                  }
+                }
+
+                span.festi-cart-product-variation-attribut {
+                  font-size: 0.9em;
+                  margin-top: 0;
+                  display: block;
+                  font-weight: 400;
+                }
+
+                .festi-cart-product-count-and-price {
+                  width: 100%;
+                  position: absolute;
+                  bottom: 15px;
+
+                  span {
+                    &.festi-cart-product-count {
+                      line-height: normal;
+                      text-align: center;
+                      margin: 0;
+                    }
+
+                    &.festi-cart-product-price {
+                      line-height: normal;
+                      text-align: center;
+                      margin: 0;
+
+                      span.woocommerce-Price-amount.amount {
+                        line-height: normal;
+                        text-align: center;
+                        margin: 0;
+                      }
+                    }
+                  }
+
+                  p {
+                    margin: 0;
+                    padding: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .festi-cart-total.subtotal {
+      display: none !important;
+    }
+
+    #popup-nav-wrapper {
+      text-align: center;
+      display: block;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding: 0 0 20px;
+      width: 100%;
+
+      p.festi-cart-buttons {
+        margin: 15px 0;
+
+        a {
+          height: 45px;
+          font-weight: 500;
+          padding: 10px;
+          display: inline-block;
+          border-radius: 3px;
+          font-size: 1.1em;
+          text-decoration: none;
+          width: 40%;
+          margin: 0 10px;
+
+          &.festi-cart-view-cart {
+            background-color: #777;
+            color: #fff;
+            border: 2px solid #777;
+            float: none;
+          }
+
+          &.festi-cart-checkout {
+            background-color: #00aa5b;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

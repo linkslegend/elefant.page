@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
 
     // Perform AJAX login on form submit
     $('form#login').on('submit', function(e){
-        $('form#login p.status').show().text(ajax_login_object.loadingmessage);
+        $('form#login p.status').show().addClass('loading').text(ajax_login_object.loadingmessage);
         $.ajax({
             type: 'POST',
             dataType: 'json',
@@ -11,15 +11,16 @@ jQuery(document).ready(function($) {
                 'action': 'ajaxlogin', //calls wp_ajax_nopriv_ajaxlogin
                 'username': $('form#login #username').val(),
                 'password': $('form#login #password').val(),
-                'security': $('form#login #security').val() },
+                'security': $('form#login #security').val() 
+            },
             success: function(data){
                 $('form#login p.status').text(data.message);
                 if (data.loggedin == true){
                     document.location.href = ajax_login_object.redirecturl;
-                    $('p.status').addClass('success');
+                    $('p.status').removeClass('loading').addClass('success');
                 }
                 if (data.loggedin == false){
-                  $('p.status').addClass('error');
+                  $('p.status').removeClass('loading').addClass('error');
                 }
             }
         });

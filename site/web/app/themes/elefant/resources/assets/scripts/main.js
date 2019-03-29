@@ -31,10 +31,10 @@ const routes = new Router({
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
 // import the Facebook and Twitter icons
 import { faFacebook, faFacebookSquare, faTwitter, faTwitterSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faDownload, faTimes, faHome, faPlus, faMinus, faHeart, faBox, faAddressCard, faCompressArrowsAlt, faClipboardCheck, faProjectDiagram, faDesktop, faLifeRing, faChalkboardTeacher, faFileDownload, faHandsHelping, faPhone, faEnvelope, faArrowRight, faArrowLeft} from '@fortawesome/free-solid-svg-icons';
+import { faDownload, faTimes, faHome, faPlus, faLock, faUser, faMinus, faHeart, faBox, faAddressCard, faCompressArrowsAlt, faClipboardCheck, faProjectDiagram, faDesktop, faLifeRing, faChalkboardTeacher, faFileDownload, faHandsHelping, faPhone, faEnvelope, faArrowRight, faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 
 // add the imported icons to the library
-library.add(faDownload, faTimes, faHome, faPlus, faMinus, faFacebook, faFacebookSquare, faTwitter, faTwitterSquare, faLinkedin, faBox, faHeart, faAddressCard, faCompressArrowsAlt, faClipboardCheck, faProjectDiagram, faDesktop, faLifeRing, faChalkboardTeacher, faFileDownload, faHandsHelping, faPhone, faEnvelope, faArrowRight, faArrowLeft);
+library.add(faDownload, faTimes, faHome, faPlus, faLock, faUser, faMinus, faFacebook, faFacebookSquare, faTwitter, faTwitterSquare, faLinkedin, faBox, faHeart, faAddressCard, faCompressArrowsAlt, faClipboardCheck, faProjectDiagram, faDesktop, faLifeRing, faChalkboardTeacher, faFileDownload, faHandsHelping, faPhone, faEnvelope, faArrowRight, faArrowLeft);
 
 // tell FontAwesome to watch the DOM and add the SVGs when it detects icon markup
 dom.watch();

@@ -29,8 +29,8 @@ function ajax_login_init(){
     wp_enqueue_script('ajax-login-script');
     wp_localize_script( 'ajax-login-script', 'ajax_login_object', array(
         'ajaxurl' => admin_url( 'admin-ajax.php' ),
-        'redirecturl' => get_permalink(''),
-        'loadingmessage' => __('Sending user info, please wait...')
+        'redirecturl' => get_permalink('http://elefant.test2'),
+        'loadingmessage' => __('Senden von Benutzerinformationen, bitte warten ...')
     ));
     // Enable the user with no privileges to run ajax_login() in AJAX
     add_action( 'wp_ajax_nopriv_ajaxlogin', __NAMESPACE__ . '\\ajax_login' );
@@ -51,9 +51,9 @@ function ajax_login(){
 
     $user_signon = wp_signon( $info, false );
     if ( is_wp_error($user_signon) ){
-        echo json_encode(array('loggedin'=>false, 'message'=>__('Wrong username or password.')));
+        echo json_encode(array('loggedin'=>false, 'message'=>__('Falscher Benutzername/Email oder Passwort.')));
     } else {
-        echo json_encode(array('loggedin'=>true, 'message'=>__('Login successful, redirecting...')));
+        echo json_encode(array('loggedin'=>true, 'message'=>__('Anmeldung erfolgreich, Bitte warten ...')));
     }
 
     die();

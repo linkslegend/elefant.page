@@ -140,7 +140,7 @@ function woo_rename_tabs( $tabs ) {
 }
 
 /*Allow customers to login with their email address or username */
-add_filter('authenticate', __NAMESPACE__ . 'internet_allow_email_login', 20, 3);
+add_filter('authenticate', __NAMESPACE__ . '\\internet_allow_email_login', 20, 3);
 /**
  * internet_allow_email_login filter to the authenticate filter hook, to fetch a username based on entered email
  * @param  obj $user
