@@ -28,7 +28,7 @@
 #header.banner {
   nav {
     &.navbar {
-      padding: 15px 15px 0 15px;
+      padding: 15px 0 0 0;
     }
 
     .container-fluid {
@@ -292,6 +292,13 @@
                   font-size: 95%;
                   padding: 15px 0 10px;
                 }
+
+                &.username {
+                  padding: 0 0 15px 0;
+                  font-size: 1.15em;
+                  display: block;
+                  font-weight: 600;
+                }
               }
             }
 
@@ -374,7 +381,7 @@
   }
 
   #header {
-    padding: 12px 0;
+    padding: 15px 0;
     position: relative;
     left: 0;
     right: 0;
@@ -580,7 +587,7 @@
       position: absolute;
       background-color: transparent;
       text-align: center;
-      padding-top: 6px;
+      padding-top: 10px;
       color: rgb(242, 105, 0);
       height: 45px;
       width: 45px;
@@ -983,7 +990,7 @@
   }
 
   #header {
-    padding: 12px 0;
+    padding: 15px 0;
     position: relative;
     left: 0;
     right: 0;

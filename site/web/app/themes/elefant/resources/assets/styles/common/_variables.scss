@@ -9,18 +9,18 @@ $slick-loader-path: "~slick-carousel/slick/";
 @import "~bootstrap/scss/functions";
 
 $theme-colors: (
-  primary: #ff7003,
-  danger: #ff4136
+  primary: rgb(255, 112, 3),
+  danger: rgb(255, 65, 54)
 );
 
 $font-family-sans-serif: "Open Sans", Arial, sans-serif;
 
-$white: #fff;
-$off-white: #fafafa;
-$black: #000;
-$gray: #f0f0f0;
-$dark-gray: #959595;
-$light-gray: #838383;
+$white: rgb(255, 255, 255);
+$off-white: rgb(250, 250, 250);
+$black: rgb(0, 0, 0);
+$gray: rgb(240, 240, 240);
+$dark-gray: rgb(149, 149, 149);
+$light-gray: rgb(131, 131, 131);
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;

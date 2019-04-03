@@ -29,6 +29,19 @@
             <ul class="header links">
               <li id="hover" class="account myaccount"><a href="/account" class="my-account">Konto</a>
                 <div id="popup" class="account-popup popover-content">
+
+                    <?php if (is_user_logged_in()) : ?>
+                    <span class='username'>Hallo, <?php $current_user = wp_get_current_user(); echo $current_user->user_firstname; echo '&nbsp;' . $current_user->user_lastname; ?></span>
+                    <a class='button' href='/my-account'>Mein Konto</a>
+                    <hr class='hr-light'></hr>
+                    <a class='poplink' href='/order-tracking'>Order Tracking</a>
+                    <a class='poplink' href='/my-account/orders/'>Bestellungen</a>
+                    <a class='poplink' href='/faq'>FAQ</a>
+                    <a class='poplink' href='/help'>Hilfe</a>
+                    <hr class='hr-light'></hr>
+                    <a class='poplink' href='<?php echo wp_logout_url( home_url() ); ?>'>Abmelden / Logout</a>
+                  <?php else : ?>
+
                   <div class="arrow"></div> 
                   <a class="button" data-toggle="modal" data-target="#loginmodal" href="#" title="register">Anmelden</a>
                   <span class="light">Sie haben noch kein Konto?</span> 
@@ -37,6 +50,9 @@
                   <a class="poplink" href="/faq">FAQ</a>
                   <a class="poplink" href="/help">Hilfe</a>
                   <a class="poplink" href="/help">Telefon Support</a>
+
+                <?php endif;?>
+                
                 </div>
               </li>
               <li id="hover" class="account wishlist"><a href="/login">Wunschliste</a>
@@ -57,36 +73,4 @@
 </nav>
 </header>
 
-<div class="modal fade loginmodal" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h2>Willkommen</h2>
-      </div>
-      <div class="modal-body">
-        <form id="login" action="login" method="post">
-            <p class="status"></p>
-            <div class="input-1">
-              <label class="username" for="username"><i class="fas fa-user"></i></label>
-              <input id="username" type="text" name="username" placeholder="Benutzername oder Email">
-            </div>
-            <div class="input-2">
-              <label class="password" for="password"><i class="fas fa-lock"></i></label>
-              <input id="password" type="password" name="password" placeholder="Passwort">
-            </div>
-            <div class="input-3">
-              <div class="lost-reg">
-                <a class="lost" href="/my-account/lost-password">Haben Sie Ihr Passwort vergessen?</a><br />
-                <span>Sind Sie ein neuer Kunde?</span> <a class="lost" href="<?php echo home_url(); ?>/register">Jetzt registrieren</a>
-              </div>
-              <input class="submit_button" type="submit" value="Anmelden" name="submit">
-              <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
-              <div class="seperate"><span class="hr-social">oder</span></div>
-              <div class="social-login-container"><?php echo do_shortcode('[TheChamp-Login]') ?></div>
-            </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+@include('partials.login-modal')

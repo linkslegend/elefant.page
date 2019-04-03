@@ -18,6 +18,7 @@ jQuery(document).ready(function($) {
                 if (data.loggedin == true){
                     document.location.href = ajax_login_object.redirecturl;
                     $('p.status').removeClass('loading').addClass('success');
+                    $('svg.checkmark').removeClass('hidden').addClass('checkmark-animation');
                 }
                 if (data.loggedin == false){
                   $('p.status').removeClass('loading').addClass('error');

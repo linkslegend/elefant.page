@@ -2,11 +2,23 @@ body.blog {
   background-image: linear-gradient(to bottom, #f8f8f8 0, #f7f8fa 959px);
 
   .wrap {
-    padding: 0;
+    padding: 10px 0 0;
 
     .row {
       margin-right: auto;
       margin-left: auto;
+
+      .col-lg-4 {
+        padding: 0 10px;
+
+        &:nth-of-type(3n+1) {
+          padding: 0 15px 0 0;
+        }
+
+        &:nth-of-type(3n+3) {
+          padding: 0 0 0 15px;
+        }
+      }
     }
   }
 
@@ -17,7 +29,7 @@ body.blog {
   article {
     margin-bottom: 30px;
     background: #fff;
-    border-radius: 3px;
+    border-radius: 8px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
     padding: 34px 20px 22px;
     position: relative;
@@ -84,8 +96,35 @@ body.blog {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  #header {
-    display: block;
+  body.blog {
+    .wrap {
+      padding: 10px 0 0;
+
+      .row {
+        margin-right: auto;
+        margin-left: auto;
+
+        .col-lg-4 {
+          padding: 0;
+
+          &:nth-of-type(3n+1) {
+            padding: 0;
+          }
+
+          &:nth-of-type(3n+3) {
+            padding: 0;
+          }
+
+          &:nth-of-type(odd) {
+            padding-right: 12px;
+          }
+
+          &:nth-of-type(even) {
+            padding-left: 12px;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -104,11 +143,28 @@ body.blog {
 
   body.blog {
     .wrap {
-      padding: 15px 0;
+      padding: 0;
 
       .container-fluid {
+        .row {
+          margin-right: auto;
+          margin-left: auto;
+
+          .col-lg-4 {
+            padding: 0;
+
+            &:nth-of-type(3n+1),
+            &:nth-of-type(3n+3),
+            &:nth-of-type(odd),
+            &:nth-of-type(even) {
+              padding-right: 0;
+            }
+          }
+        }
+
         article {
           padding: 25px 20px 20px;
+          margin-bottom: 15px;
 
           .post-featured-image {
             margin: 30px auto 40px auto;

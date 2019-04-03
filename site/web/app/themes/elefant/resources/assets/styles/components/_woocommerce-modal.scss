@@ -30,6 +30,73 @@
 
       .modal-body {
         form#login {
+          svg {
+            &.hidden {
+              visibility: hidden;
+              height: 0;
+            }
+
+            &.checkmark-animation {
+              width: 27px;
+              height: 27px;
+              border-radius: 50%;
+              display: block;
+              stroke-width: 5;
+              stroke: #60a74f;
+              stroke-miterlimit: 10;
+              position: absolute;
+              top: 25px;
+              left: 27px;
+              margin: 0;
+              box-shadow: inset 0 0 0 #fff;
+              animation: fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+
+              circle {
+                &.checkmark__circle {
+                  stroke-dasharray: 166;
+                  stroke-dashoffset: 166;
+                  stroke-width: 2;
+                  stroke-miterlimit: 10;
+                  stroke: #60a74f;
+                  fill: none;
+                  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+                }
+              }
+
+              path {
+                &.checkmark__check {
+                  transform-origin: 50% 50%;
+                  stroke-dasharray: 48;
+                  stroke-dashoffset: 48;
+                  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+                }
+
+                @keyframes stroke {
+                  100% {
+                    stroke-dashoffset: 0;
+                  }
+                }
+
+                @keyframes scale {
+                  0%,
+                  100% {
+                    transform: none;
+                  }
+
+                  50% {
+                    transform: scale3d(1.1, 1.1, 1);
+                  }
+                }
+
+                @keyframes fill {
+                  100% {
+                    box-shadow: inset 0 0 0 30px #fff;
+                  }
+                }
+              }
+            }
+          }
+
           p.status {
             height: 0;
             font-size: 0.95em;
@@ -67,6 +134,37 @@
               height: 45px;
               line-height: 20px;
               background: #fa635a;
+              border-radius: 8px;
+              padding: 13px 15px;
+
+              &::before {
+                content: "×";
+                font-size: 18px;
+                line-height: normal;
+                padding: 0;
+                height: 27px;
+                width: 27px;
+                position: absolute;
+                margin-left: 0;
+                background: transparent;
+                vertical-align: middle;
+                margin-top: 0;
+                float: left;
+                text-align: center;
+                top: 9px;
+                left: 11px;
+                border: 1px solid $white;
+                border-radius: 100%;
+                color: $white;
+                transition: all 0.3s;
+              }
+            }
+
+            &.success {
+              background: #60a74f;
+              height: 45px;
+              color: $white;
+              line-height: 20px;
               border-radius: 8px;
               padding: 13px 15px;
             }

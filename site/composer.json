@@ -121,7 +121,8 @@
     "wpackagist-plugin/facebook-for-woocommerce": "^1.9",
     "wpackagist-plugin/mailchimp-for-woocommerce": "^2.1",
     "wpackagist-plugin/ti-woocommerce-wishlist": "^1.9",
-    "wpackagist-plugin/super-socializer": "^7.12"
+    "wpackagist-plugin/super-socializer": "^7.12",
+    "wpackagist-plugin/woo-preview-emails": "^1.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

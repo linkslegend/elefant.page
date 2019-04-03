@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Block Lab - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-01-04 06:13:30+0000\n"
+"PO-Revision-Date: 2019-03-24 07:57:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,14 +11,229 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: Plugins - Block Lab - Development (trunk)\n"
 
+#: php/blocks/controls/class-user.php:29
+msgid "User"
+msgstr "Benutzer"
+
+#: php/views/upgrade.php:78
+msgid "Subscribe to our newsletter for news, updates, and tutorials on working with Gutenberg."
+msgstr "Abonnieren Sie unseren Newsletter mit Neuigkeiten, Updates und Tutorials zur Zusammenarbeit mit Gutenberg."
+
+#: php/views/upgrade.php:77
+msgid "Get more out of Block Lab"
+msgstr "Mehr aus dem Block-Lab herausholen"
+
+#: php/views/upgrade.php:71
+msgid "★ Leave Review ★"
+msgstr "★ Schreibe eine Bewertung ★"
+
+#: php/views/upgrade.php:70
+msgid "If Block Lab has helped you build amazing custom blocks for your site, leave us a review on WordPress.org."
+msgstr "Wenn Block Lab Ihnen geholfen hat, erstaunliche individuelle Blöcke für Ihre Website zu erstellen, geben Sie uns eine Bewertung auf WordPress.org."
+
+#: php/views/upgrade.php:69
+msgid "★★ Loving Block Lab? ★★"
+msgstr "★★ Mögen Sie Block Lab? ★★"
+
+#: php/views/upgrade.php:63
+msgid "Priority support and regular feature and fix updates."
+msgstr "Bevorzugter Support und regelmäßige Updates von Funktionen und Fehlerbehebungen."
+
+#: php/views/upgrade.php:62
+msgid "Support & Updates"
+msgstr "Support & Updates"
+
+#: php/views/upgrade.php:53
+msgid "Features including conditional logic, custom validation, and white-labeling, to help you extend Block Lab and leverage the best of Gutenberg."
+msgstr "Die Funktionen beinhalten eine bedingte Logik, individuelle Validierung und White Labeling um Ihnen zu helfen, Block Lab zu erweitern und das Beste von Gutenberg zu nutzen."
+
+#: php/views/upgrade.php:52
+msgid "Pro Features"
+msgstr "Pro-Funktionen"
+
+#: php/views/upgrade.php:43
+msgid "More fields including repeater, post object, and more to help you build the custom blocks you need for yourself and your clients."
+msgstr "Mehr Felder, darunter Repeater, Beitrags-Objekt und mehr, um Ihnen zu helfen die indivduellen Blöcke zu erstellen, die Sie für sich und Ihre Kunden benötigen."
+
+#: php/views/upgrade.php:42
+msgid "Pro Fields"
+msgstr "Pro-Felder"
+
+#: php/views/upgrade.php:28
+msgid "Check out Early Access"
+msgstr "Informieren Sie sich über Frühbucherrabatte"
+
+#: php/views/upgrade.php:25
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: php/views/upgrade.php:17
+msgid "Lock in a lifetime discount and help kickstart Block Lab Pro."
+msgstr "Holen Sie sich den Rabatt-Discount und verhelfen Sie Block Lab Pro zum Kickstart."
+
+#: php/views/upgrade.php:16
+msgid "Early Access Pass"
+msgstr "Frühbucherrabatt"
+
+#: php/views/license.php:92
+msgid "License key"
+msgstr "Lizenzschlüssel"
+
+#. translators: Opening and closing anchor and emphasis tags.
+#: php/views/license.php:80
+msgid "%1$sGet Block Lab Pro!%2$s"
+msgstr "%1$sHolen Sie sich Block Lab Pro!%2$s"
+
+#: php/views/license.php:77
+msgid "No Pro license was found for this installation."
+msgstr "Für diese Installation wurde keine Pro-Lizenz gefunden."
+
+#. translators: An opening and closing anchor tag.
+#: php/views/license.php:67
+msgid "%1$sManage Licenses%2$s"
+msgstr "%1$sLizenzen verwalten%2$s"
+
+#. translators: A date.
+#: php/views/license.php:62
+msgid "Your license will be automatically renewed on %1$s."
+msgstr "Ihre Lizenz wird automatisch auf %1$s verlängert."
+
+#. translators: A number, wrapped in <strong> tags.
+#: php/views/license.php:51
+msgid "%1$s of them are in use."
+msgstr "%1$s davon sind im Einsatz."
+
+#. translators: A number, wrapped in <strong> tags.
+#: php/views/license.php:46
+msgid "Your license includes %1$s site installs."
+msgstr "Ihre Lizenz beinhaltet %1$s Website-Installationen."
+
+#: php/views/license.php:26
+msgid "unlimited"
+msgstr "unbegrenzt"
+
+#: php/blocks/controls/class-textarea.php:79
+msgid "Number of Rows"
+msgstr "Anzahl Zeilen"
+
+#: php/post-types/class-block-post.php:1055
+#: php/post-types/class-block-post.php:1081
+msgid "Export"
+msgstr "Export"
+
+#. translators: Placeholder is a post title.
+#: php/post-types/class-block-post.php:1052
+msgid "Export %1$s"
+msgstr "Export %1$s"
+
+#: php/admin/class-import.php:216
+msgid "A block with this slug already exists."
+msgstr "Ein Block mit dieser Titelform existiert bereits."
+
+#: php/admin/class-import.php:193
+msgid "Invalid JSON."
+msgstr "Ungültige JSON."
+
+#: php/admin/class-import.php:192
+msgid "Sorry, there was an error processing the file."
+msgstr "Es tut uns leid, es gab einen Fehler bei der Verarbeitung der Datei."
+
+#. translators: placeholder refers to a file directory.
+#: php/admin/class-import.php:176
+msgid "The export file could not be found at %1$s. It is likely that this was caused by a permissions problem."
+msgstr "Die Exportdatei konnte nicht bei %1$s gefunden werden. Vermutlich wurde dies durch ein Genehmigungsproblem verursacht."
+
+#: php/admin/class-import.php:164 php/admin/class-import.php:173
+msgid "Sorry, there was an error uploading the file."
+msgstr "Es tut uns leid, es gab einen Fehler beim Hochladen der Datei."
+
+#: php/admin/class-import.php:149
+msgid "All done!"
+msgstr "Alles erledigt!"
+
+#. translators: placeholder refers to title of custom block.
+#: php/admin/class-import.php:136
+msgid "Error importing %s."
+msgstr "Fehler beim Import von %s."
+
+#. translators: placeholder refers to title of custom block.
+#: php/admin/class-import.php:117
+msgid "Successfully imported %1$s."
+msgstr "Erfolgreich importiert %1$s."
+
+#: php/admin/class-import.php:94
+msgid "Choose a JSON (.json) file to upload, then click Upload file and import."
+msgstr "Wählen Sie eine JSON (.json)-Datei aus, um sie hochzuladen und klicken Sie dann auf Datei uploaden, um diese zu importieren."
+
+#: php/admin/class-import.php:93
+msgid "Welcome! This importer processes Block Lab JSON files, adding custom blocks to this site."
+msgstr "Willkommen! Dieser Import verarbeitet Block Lab JSON-Dateien und fügt auf dieser Website individuelle Blöcke hinzu."
+
+#: php/admin/class-import.php:84
+msgid "Import Block Lab Content Blocks"
+msgstr "Block Lab Inhalts-Blöcke importieren"
+
+#: php/admin/class-import.php:40
+msgid "Import custom blocks created with Block Lab."
+msgstr "Importieren Sie individuelle Blöcke, die mit Block Lab erstellt wurden."
+
+#: php/admin/class-settings.php:111
+msgid "Help"
+msgstr "Hilfe"
+
+#: php/admin/class-settings.php:108
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: php/admin/class-settings.php:104 php/admin/class-settings.php:105
+#: php/views/license.php:19
+msgid "License"
+msgstr "Lizenz"
+
+#: php/admin/class-settings.php:62
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: php/admin/class-settings.php:61
+msgid "Block Lab Settings"
+msgstr "Block Lab-Einstellungen"
+
+#: php/admin/class-license.php:155
+msgid "There was a problem activating your Block Lab license."
+msgstr "Es gab ein Problem bei der Aktivierung Ihrer Block Lab-Lizenz."
+
+#: php/admin/class-license.php:145
+msgid "Your Block Lab license was successfully activated!"
+msgstr "Ihre Block Lab-Lizenz wurde erfolgreich aktiviert!"
+
+#: php/admin/class-upgrade.php:84
+msgid "Go Pro"
+msgstr "Pro erwerben"
+
+#: php/admin/class-upgrade.php:83 php/views/upgrade.php:15
+msgid "Block Lab Pro"
+msgstr "Block Lab Pro"
+
+#: php/blocks/controls/class-image.php:56
+msgid "An image URL."
+msgstr "Eine Bild-URL."
+
+#: php/blocks/controls/class-image.php:31
+msgid "Image"
+msgstr "Bild"
+
+#: php/blocks/controls/class-color.php:31
+msgid "Color"
+msgstr "Farbe"
+
 #: php/blocks/controls/class-color.php:43
-#: php/blocks/controls/class-select.php:42
-#: php/blocks/controls/class-toggle.php:49
+#: php/blocks/controls/class-select.php:43
+#: php/blocks/controls/class-toggle.php:50
 #: php/blocks/controls/class-image.php:43
-#: php/blocks/controls/class-multiselect.php:49
-#: php/blocks/controls/class-url.php:43 php/blocks/controls/class-radio.php:42
-#: php/blocks/controls/class-checkbox.php:49
-#: php/blocks/controls/class-range.php:49
+#: php/blocks/controls/class-multiselect.php:50
+#: php/blocks/controls/class-url.php:43 php/blocks/controls/class-radio.php:43
+#: php/blocks/controls/class-checkbox.php:50
+#: php/blocks/controls/class-user.php:41 php/blocks/controls/class-range.php:50
 #: php/blocks/controls/class-email.php:43
 #: php/blocks/controls/class-textarea.php:43
 #: php/blocks/controls/class-number.php:50
@@ -26,127 +241,346 @@ msgstr ""
 msgid "Help Text"
 msgstr "Hilfstext"
 
-#: php/blocks/controls/class-email.php:31
-msgid "Email"
-msgstr "E-Mail"
-
-#: php/blocks/controls/class-multiselect.php:38
-msgid "Multi-Select"
-msgstr "Mehrfach-Auswahl"
-
 #: php/blocks/controls/class-number.php:38
 msgid "Number"
 msgstr "Zahl"
+
+#: php/blocks/controls/class-email.php:31
+msgid "Email"
+msgstr "E-Mail"
 
 #: php/blocks/controls/class-url.php:31
 msgid "URL"
 msgstr "URL"
 
+#: php/blocks/controls/class-multiselect.php:38
+msgid "Multi-Select"
+msgstr "Mehrfach-Auswahl"
+
 #: block-lab.php:78
 msgid "Block Lab plugin error: Your version of WordPress is too old. You must be running WordPress 5.0 to use Block Lab."
 msgstr "Block Lab Plugin-Fehler: Ihre Version von WordPress ist zu alt. Sie müssen WordPress 5.0 ausführen, um Block Lab verwenden zu können."
 
-#: php/post-types/class-block-post.php:284
+#: php/post-types/class-block-post.php:309
 msgid "Save Draft"
 msgstr "Entwurf speichern"
 
-#: php/post-types/class-block-post.php:372
-msgid "A comma separated list of keywords, used when searching. Maximum of 3 keywords."
-msgstr "Eine durch Komma getrennte Liste von Schlüsselwörtern, die bei der Suche genutzt werden. Maximal 3 Schlüsselwörter."
+#. Author URI of the plugin
+msgid "https://getblocklab.com"
+msgstr "https://getblocklab.com"
 
-#: php/post-types/class-block-post.php:529
+#. Description of the plugin
+msgid "Create custom blocks effortlessly. No Gutenberg development know-how required."
+msgstr "Erstellen Sie problemlos individuelle Blöcke. Es ist kein Gutenberg-Entwicklungs-Know-how erforderlich."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/getblocklab/block-lab"
+msgstr "https://github.com/getblocklab/block-lab"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: php/admin/class-import.php:39
+msgid "Block Lab"
+msgstr "Block Lab"
+
+#: php/post-types/class-block-post.php:999
+msgid "No template found."
+msgstr "Kein Template gefunden."
+
+#: php/post-types/class-block-post.php:949
+msgid "Enter block name here"
+msgstr "Hier den Block-Namen eingeben"
+
+#: php/post-types/class-block-post.php:719
+msgid "This block uses the following template:"
+msgstr "Dieser Block nutzt das folgende Template:"
+
+#: php/post-types/class-block-post.php:716
+msgid "Template found."
+msgstr "Template gefunden."
+
+#: php/post-types/class-block-post.php:683
+msgid "To display this block, Block Lab will look for one of these templates:"
+msgstr "Um diesen Block anzuzeigen, sucht Block Lab nach einem dieser Templates:"
+
+#: php/post-types/class-block-post.php:680
+msgid "Template not found."
+msgstr "Template nicht gefunden."
+
+#: php/post-types/class-block-post.php:667
+msgid "The template path will be available after publishing this block."
+msgstr "Der Template-Pfad ist nach der Veröffentlichung dieses Blocks verfügbar."
+
+#: php/post-types/class-block-post.php:644
+#: php/post-types/class-block-post.php:645
+msgid "Close Field"
+msgstr "Feld schließen"
+
+#: php/post-types/class-block-post.php:578
+msgid "Single word, no spaces."
+msgstr "Einzelnes Wort, keine Leerzeichen."
+
+#: php/post-types/class-block-post.php:554
 msgid "A label describing your block's custom field."
 msgstr "Eine Bezeichnung, die das individuelle Feld des Blocks beschreibt."
 
-#: php/post-types/class-block-post.php:107
+#: php/post-types/class-block-post.php:540
+#: php/post-types/class-block-post.php:633
+msgid "Inspector"
+msgstr "Inspektor"
+
+#: php/post-types/class-block-post.php:538
+#: php/post-types/class-block-post.php:628
+msgid "Editor"
+msgstr "Editor"
+
+#: php/post-types/class-block-post.php:525
+msgid "Delete"
+msgstr "Löschen"
+
+#: php/post-types/class-block-post.php:521
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: php/post-types/class-block-post.php:487
+msgid "New Field"
+msgstr "Neues Feld"
+
+#: php/post-types/class-block-post.php:481
+msgid "+ Add Field"
+msgstr "+ Feld hinzufügen"
+
+#. Translators: Placeholders are for <strong> HTML tags.
+#: php/post-types/class-block-post.php:456
+msgid "Click the %1$s+ Add Field%2$s button below to add your first field."
+msgstr "Klicken Sie unten auf den Button %1$s+ Feld hinzufügen%2$s, um Ihr erstes Feld hinzuzufügen."
+
+#: php/post-types/class-block-post.php:444
+#: php/post-types/class-block-post.php:617
+msgid "Field Location"
+msgstr "Feld-Position"
+
+#: php/post-types/class-block-post.php:441
+#: php/post-types/class-block-post.php:595
+msgid "Field Type"
+msgstr "Feld-Typ"
+
+#: php/post-types/class-block-post.php:438
+#: php/post-types/class-block-post.php:575
+msgid "Field Name"
+msgstr "Feld-Name"
+
+#: php/post-types/class-block-post.php:435
+#: php/post-types/class-block-post.php:550
+msgid "Field Label"
+msgstr "Feld-Bezeichnung"
+
+#: php/post-types/class-block-post.php:397
+msgid "A comma separated list of keywords, used when searching. Maximum of 3 keywords."
+msgstr "Eine durch Komma getrennte Liste von Schlüsselwörtern, die bei der Suche genutzt werden. Maximal 3 Schlüsselwörter."
+
+#: php/post-types/class-block-post.php:393
+#: php/post-types/class-block-post.php:968
+msgid "Keywords"
+msgstr "Schlüsselwörter"
+
+#: php/post-types/class-block-post.php:352
+#: php/post-types/class-block-post.php:966
+msgid "Icon"
+msgstr "Icon"
+
+#: php/post-types/class-block-post.php:379
+msgid "Category"
+msgstr "Kategorie"
+
+#: php/post-types/class-block-post.php:331
+msgid "Used to determine the location of the template file. Lowercase letters, numbers, and hyphens."
+msgstr "Wird verwendet, um die Position des Templates zu bestimmen. Kleinbuchstaben, Zahlen und Bindestriche."
+
+#: php/post-types/class-block-post.php:327
+msgid "Slug"
+msgstr "Titelform"
+
+#: php/post-types/class-block-post.php:270
+#: php/post-types/class-block-post.php:967
+msgid "Template"
+msgstr "Template"
+
+#: php/post-types/class-block-post.php:261
+msgid "Block Fields"
+msgstr "Block-Felder"
+
+#: php/post-types/class-block-post.php:252
+msgid "Block Properties"
+msgstr "Block-Eigenschaften"
+
+#: php/post-types/class-block-post.php:141
+msgid "No blocks found in Trash."
+msgstr "Keine Blöcke im Papierkorb gefunden."
+
+#: php/post-types/class-block-post.php:140
+msgid "No blocks found."
+msgstr "Keine Blöcke gefunden."
+
+#: php/post-types/class-block-post.php:139
+msgid "Parent Blocks:"
+msgstr "Übergeordnete Blöcke:"
+
+#: php/post-types/class-block-post.php:138
+msgid "Search Blocks"
+msgstr "Blöcke suchen"
+
+#: php/post-types/class-block-post.php:137
+msgid "All Blocks"
+msgstr "Alle Blöcke"
+
+#: php/post-types/class-block-post.php:136
+msgid "View Block"
+msgstr "Block anzeigen"
+
+#: php/post-types/class-block-post.php:135
+msgid "Edit Block"
+msgstr "Block bearbiten"
+
+#: php/post-types/class-block-post.php:134
+msgid "New Block"
+msgstr "Neuer Block"
+
+#: php/post-types/class-block-post.php:133
+msgid "Add New Block"
+msgstr "Neuen Block hinzufügen"
+
+#: php/post-types/class-block-post.php:132
 msgctxt "block"
 msgid "Add New"
 msgstr "Neu hinzufügen"
 
-#: php/post-types/class-block-post.php:108
-msgid "Add New Block"
-msgstr "Neuen Block hinzufügen"
-
-#: php/post-types/class-block-post.php:112
-msgid "All Blocks"
-msgstr "Alle Blöcke"
-
-#: php/blocks/controls/class-select.php:57
-#: php/blocks/controls/class-multiselect.php:64
-#: php/blocks/controls/class-radio.php:57
-msgctxt "Format for the menu values. option_value : Option Name"
-msgid "bar : Bar"
-msgstr "bar : Bar"
-
-#: php/post-types/class-block-post.php:106
+#: php/post-types/class-block-post.php:131
 msgctxt "add new on admin bar"
 msgid "Block"
 msgstr "Block"
 
-#: php/post-types/class-block-post.php:236
-msgid "Block Fields"
-msgstr "Block-Felder"
-
-#: php/post-types/class-block-post.php:105
+#: php/post-types/class-block-post.php:130
 msgctxt "admin menu"
 msgid "Block Lab"
 msgstr "Block Lab"
 
-#. Plugin Name of the plugin
-#. Author of the plugin
-msgid "Block Lab"
-msgstr "Block Lab"
+#: php/post-types/class-block-post.php:129
+msgctxt "post type singular name"
+msgid "Content Block"
+msgstr "Inhalts-Block"
 
-#: php/post-types/class-block-post.php:227
-msgid "Block Properties"
-msgstr "Block-Eigenschaften"
+#: php/post-types/class-block-post.php:128
+msgctxt "post type general name"
+msgid "Content Blocks"
+msgstr "Inhalts-Blöcke"
 
-#: php/post-types/class-block-post.php:354
-msgid "Category"
-msgstr "Kategorie"
+#. Translators: Placeholder is a file path.
+#: php/blocks/class-loader.php:328
+msgid "Template file %s not found."
+msgstr "Template-Datei %s nicht gefunden."
+
+#: php/helpers.php:85
+msgid "No"
+msgstr "Nein"
+
+#: php/helpers.php:81
+msgid "Yes"
+msgstr "Ja"
+
+#: php/blocks/controls/class-toggle.php:38
+msgid "Toggle"
+msgstr "Umschalten"
+
+#: php/blocks/controls/class-textarea.php:31
+msgid "Textarea"
+msgstr "Textbereich"
 
 #: php/blocks/controls/class-textarea.php:70
 #: php/blocks/controls/class-text.php:70
 msgid "Character Limit"
 msgstr "Zeichenlimitierung"
 
-#: php/blocks/controls/class-checkbox.php:38
-msgid "Checkbox"
-msgstr "Auswahlfeld"
+#: php/blocks/controls/class-url.php:61 php/blocks/controls/class-user.php:50
+#: php/blocks/controls/class-email.php:61
+#: php/blocks/controls/class-textarea.php:61
+#: php/blocks/controls/class-number.php:70
+#: php/blocks/controls/class-text.php:61
+msgid "Placeholder Text"
+msgstr "Platzhalter-Text"
 
-#: php/blocks/controls/class-select.php:49
-#: php/blocks/controls/class-multiselect.php:56
-#: php/blocks/controls/class-radio.php:49
+#: php/blocks/controls/class-text.php:31
+msgid "Text"
+msgstr "Text"
+
+#: php/blocks/controls/class-multiselect.php:79
+msgid "Enter each default value on a new line."
+msgstr "Geben Sie jeden Standard-Wert in einer neuen Zeile ein."
+
+#: php/blocks/controls/class-select.php:31
+msgid "Select"
+msgstr "Auswählen"
+
+#: php/blocks/controls/class-range.php:77
+msgid "Step Size"
+msgstr "Schrittweite"
+
+#: php/blocks/controls/class-range.php:68
+msgid "Maximum Value"
+msgstr "Größter Wert"
+
+#: php/blocks/controls/class-range.php:59
+msgid "Minimum Value"
+msgstr "Kleinster Wert"
+
+#: php/blocks/controls/class-range.php:38
+msgid "Range"
+msgstr "Bereich"
+
+#: php/blocks/controls/class-select.php:60
+#: php/blocks/controls/class-multiselect.php:67
+#: php/blocks/controls/class-radio.php:60
+msgctxt "Format for the menu values. option_value : Option Name"
+msgid "bar : Bar"
+msgstr "bar : Bar"
+
+#: php/blocks/controls/class-select.php:59
+#: php/blocks/controls/class-multiselect.php:66
+#: php/blocks/controls/class-radio.php:59
+msgctxt "Format for the menu values. option_value : Option Name"
+msgid "foo : Foo"
+msgstr "foo : Foo"
+
+#: php/blocks/controls/class-select.php:58
+#: php/blocks/controls/class-multiselect.php:65
+#: php/blocks/controls/class-radio.php:58
+msgid "To specify the value and label separately, use this format:"
+msgstr "Um den Wert und die Bezeichnung getrennt anzugeben, verwenden Sie dieses Format:"
+
+#: php/blocks/controls/class-select.php:57
+#: php/blocks/controls/class-multiselect.php:64
+#: php/blocks/controls/class-radio.php:57
+msgid "Enter each choice on a new line."
+msgstr "Geben Sie jede Auswahl in einer neuen Zeile ein."
+
+#: php/blocks/controls/class-select.php:52
+#: php/blocks/controls/class-multiselect.php:59
+#: php/blocks/controls/class-radio.php:52
 msgid "Choices"
 msgstr "Auswahlmöglichkeiten"
 
-#: php/post-types/class-block-post.php:619
-#: php/post-types/class-block-post.php:620
-msgid "Close Field"
-msgstr "Feld schließen"
-
-#: php/post-types/class-block-post.php:104
-msgctxt "post type singular name"
-msgid "Content Block"
-msgstr "Inhalts-Block"
-
-#: php/post-types/class-block-post.php:103
-msgctxt "post type general name"
-msgid "Content Blocks"
-msgstr "Inhalts-Blöcke"
-
-#. Description of the plugin
-msgid "Create custom blocks effortlessly. No Gutenberg development know-how required."
-msgstr "Erstellen Sie problemlos individuelle Blöcke. Es ist kein Gutenberg-Entwicklungs-Know-how erforderlich."
+#: php/blocks/controls/class-radio.php:31
+msgid "Radio"
+msgstr "Radio"
 
 #: php/blocks/controls/class-color.php:52
-#: php/blocks/controls/class-select.php:63
-#: php/blocks/controls/class-toggle.php:56
+#: php/blocks/controls/class-select.php:68
+#: php/blocks/controls/class-toggle.php:59
 #: php/blocks/controls/class-image.php:52
-#: php/blocks/controls/class-multiselect.php:70
-#: php/blocks/controls/class-url.php:52 php/blocks/controls/class-radio.php:63
-#: php/blocks/controls/class-checkbox.php:56
-#: php/blocks/controls/class-range.php:77
+#: php/blocks/controls/class-multiselect.php:76
+#: php/blocks/controls/class-url.php:52 php/blocks/controls/class-radio.php:68
+#: php/blocks/controls/class-checkbox.php:59
+#: php/blocks/controls/class-range.php:86
 #: php/blocks/controls/class-email.php:52
 #: php/blocks/controls/class-textarea.php:52
 #: php/blocks/controls/class-number.php:59
@@ -154,226 +588,9 @@ msgstr "Erstellen Sie problemlos individuelle Blöcke. Es ist kein Gutenberg-Ent
 msgid "Default Value"
 msgstr "Standard-Wert"
 
-#: php/post-types/class-block-post.php:500
-msgid "Delete"
-msgstr "Löschen"
-
-#: php/post-types/class-block-post.php:496
-msgid "Edit"
-msgstr "Bearbeiten"
-
-#: php/post-types/class-block-post.php:110
-msgid "Edit Block"
-msgstr "Block bearbiten"
-
-#: php/post-types/class-block-post.php:513
-#: php/post-types/class-block-post.php:603
-msgid "Editor"
-msgstr "Editor"
-
-#: php/post-types/class-block-post.php:924
-msgid "Enter block name here"
-msgstr "Hier den Block-Namen eingeben"
-
-#: php/blocks/controls/class-select.php:54
-#: php/blocks/controls/class-multiselect.php:61
-#: php/blocks/controls/class-radio.php:54
-msgid "Enter each choice on a new line."
-msgstr "Geben Sie jede Auswahl in einer neuen Zeile ein."
-
-#: php/blocks/controls/class-multiselect.php:73
-msgid "Enter each default value on a new line."
-msgstr "Geben Sie jeden Standard-Wert in einer neuen Zeile ein."
-
-#: php/post-types/class-block-post.php:410
-#: php/post-types/class-block-post.php:525
-msgid "Field Label"
-msgstr "Feld-Bezeichnung"
-
-#: php/post-types/class-block-post.php:419
-#: php/post-types/class-block-post.php:592
-msgid "Field Location"
-msgstr "Feld-Position"
-
-#: php/post-types/class-block-post.php:413
-#: php/post-types/class-block-post.php:550
-msgid "Field Name"
-msgstr "Feld-Name"
-
-#: php/post-types/class-block-post.php:416
-#: php/post-types/class-block-post.php:570
-msgid "Field Type"
-msgstr "Feld-Typ"
-
-#: php/blocks/controls/class-select.php:56
-#: php/blocks/controls/class-multiselect.php:63
-#: php/blocks/controls/class-radio.php:56
-msgctxt "Format for the menu values. option_value : Option Name"
-msgid "foo : Foo"
-msgstr "foo : Foo"
-
-#. Author URI of the plugin
-msgid "https://getblocklab.com"
-msgstr "https://getblocklab.com"
-
-#. Plugin URI of the plugin
-msgid "https://github.com/getblocklab/block-lab"
-msgstr "https://github.com/getblocklab/block-lab"
-
-#: php/post-types/class-block-post.php:327
-#: php/post-types/class-block-post.php:941
-msgid "Icon"
-msgstr "Icon"
-
-#: php/post-types/class-block-post.php:515
-#: php/post-types/class-block-post.php:608
-msgid "Inspector"
-msgstr "Inspektor"
-
-#: php/post-types/class-block-post.php:368
-#: php/post-types/class-block-post.php:943
-msgid "Keywords"
-msgstr "Schlüsselwörter"
-
-#: php/blocks/controls/class-range.php:63
-msgid "Maximum Value"
-msgstr "Größter Wert"
-
-#: php/blocks/controls/class-range.php:56
-msgid "Minimum Value"
-msgstr "Kleinster Wert"
-
-#: php/post-types/class-block-post.php:109
-msgid "New Block"
-msgstr "Neuer Block"
-
-#: php/post-types/class-block-post.php:462
-msgid "New Field"
-msgstr "Neues Feld"
-
-#: php/helpers.php:68
-msgid "No"
-msgstr "Nein"
-
-#: php/post-types/class-block-post.php:116
-msgid "No blocks found in Trash."
-msgstr "Keine Blöcke im Papierkorb gefunden."
-
-#: php/post-types/class-block-post.php:115
-msgid "No blocks found."
-msgstr "Keine Blöcke gefunden."
-
-#: php/post-types/class-block-post.php:974
-msgid "No template found."
-msgstr "Kein Template gefunden."
-
-#: php/blocks/controls/class-url.php:61 php/blocks/controls/class-email.php:61
-#: php/blocks/controls/class-textarea.php:61
-#: php/blocks/controls/class-number.php:70
-#: php/blocks/controls/class-text.php:61
-msgid "Placeholder Text"
-msgstr "Platzhalter-Text"
-
-#: php/blocks/controls/class-radio.php:31
-msgid "Radio"
-msgstr "Radio"
-
-#: php/blocks/controls/class-range.php:38
-msgid "Range"
-msgstr "Bereich"
-
-#: php/post-types/class-block-post.php:113
-msgid "Search Blocks"
-msgstr "Blöcke suchen"
-
-#: php/blocks/controls/class-select.php:31
-msgid "Select"
-msgstr "Auswählen"
-
-#: php/post-types/class-block-post.php:553
-msgid "Single word, no spaces."
-msgstr "Einzelnes Wort, keine Leerzeichen."
-
-#: php/post-types/class-block-post.php:302
-msgid "Slug"
-msgstr "Titelform"
-
-#: php/blocks/controls/class-range.php:70
-msgid "Step Size"
-msgstr "Schrittweite"
-
-#: php/post-types/class-block-post.php:245
-#: php/post-types/class-block-post.php:942
-msgid "Template"
-msgstr "Template"
-
-#. Translators: Placeholder is a file path.
-#: php/helpers.php:168
-msgid "Template file %s not found."
-msgstr "Template-Datei %s nicht gefunden."
-
-#: php/post-types/class-block-post.php:691
-msgid "Template found."
-msgstr "Template gefunden."
-
-#: php/post-types/class-block-post.php:655
-msgid "Template not found."
-msgstr "Template nicht gefunden."
-
-#: php/blocks/controls/class-text.php:31
-msgid "Text"
-msgstr "Text"
-
-#: php/blocks/controls/class-textarea.php:31
-msgid "Textarea"
-msgstr "Textbereich"
-
-#: php/post-types/class-block-post.php:642
-msgid "The template path will be available after publishing this block."
-msgstr "Der Template-Pfad ist nach der Veröffentlichung dieses Blocks verfügbar."
-
-#: php/post-types/class-block-post.php:694
-msgid "This block uses the following template:"
-msgstr "Dieser Block nutzt das folgende Template:"
-
-#: php/blocks/controls/class-select.php:55
-#: php/blocks/controls/class-multiselect.php:62
-#: php/blocks/controls/class-radio.php:55
-msgid "To specify the value and label separately, use this format:"
-msgstr "Um den Wert und die Bezeichnung getrennt anzugeben, verwenden Sie dieses Format:"
-
-#: php/blocks/controls/class-toggle.php:38
-msgid "Toggle"
-msgstr "Umschalten"
-
-#: php/post-types/class-block-post.php:306
-msgid "Used to determine the location of the template file. Lowercase letters, numbers, and hyphens."
-msgstr "Wird verwendet, um die Position des Templates zu bestimmen. Kleinbuchstaben, Zahlen und Bindestriche."
-
-#: php/post-types/class-block-post.php:111
-msgid "View Block"
-msgstr "Block anzeigen"
-
-#: php/helpers.php:64
-msgid "Yes"
-msgstr "Ja"
-
-#: php/post-types/class-block-post.php:456
-msgid "+ Add Field"
-msgstr "+ Feld hinzufügen"
-
-#: php/post-types/class-block-post.php:114
-msgid "Parent Blocks:"
-msgstr "Übergeordnete Blöcke:"
-
-#: php/post-types/class-block-post.php:658
-msgid "To display this block, Block Lab will look for one of these templates:"
-msgstr "Um diesen Block anzuzeigen, sucht Block Lab nach einem dieser Templates:"
-
-#. Translators: Placeholders are for <strong> HTML tags.
-#: php/post-types/class-block-post.php:431
-msgid "Click the %1$s+ Add Field%2$s button below to add your first field."
-msgstr "Klicken Sie unten auf den Button %1$s+ Feld hinzufügen%2$s, um Ihr erstes Feld hinzuzufügen."
+#: php/blocks/controls/class-checkbox.php:38
+msgid "Checkbox"
+msgstr "Auswahlfeld"
 
 #: block-lab.php:49
 msgid "Block Lab plugin error: Your version of PHP is too old to run this plugin. You must be running PHP 5.4 or higher."

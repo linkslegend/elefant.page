@@ -86,22 +86,6 @@ body {
               display: inline-block;
               text-align: center;
               width: 100%;
-
-              td.festi-cart-empty {
-                ::before {
-                  width: 50px;
-                  height: 60px;
-                  background-position: 0 0;
-                  content: "";
-                  background-repeat: no-repeat;
-                  display: block;
-                  margin: 0 auto;
-                  background-image: url("https://d1zczzapudl1mr.cloudfront.net/empty-cart-transparent.png");
-                  position: relative;
-                  float: none;
-                  background-size: 50px;
-                }
-              }
             }
 
             &.festi-cart-item {
@@ -124,6 +108,25 @@ body {
             }
 
             td {
+              &.festi-cart-empty {
+                width: 100%;
+                display: block;
+
+                &::before {
+                  width: 50px;
+                  height: 60px;
+                  background-position: 0 0;
+                  content: "";
+                  background-repeat: no-repeat;
+                  display: block;
+                  margin: 0 auto;
+                  background-image: url("https://d1zczzapudl1mr.cloudfront.net/empty-cart-transparent.png");
+                  position: relative;
+                  float: none;
+                  background-size: 50px;
+                }
+              }
+
               &.festi-cart-product-delete {
                 position: relative;
 
@@ -143,6 +146,14 @@ body {
                   border: 1px solid rgb(193, 193, 193);
                   border-radius: 100%;
                   color: #1d1d1d;
+                  transition: all 0.3s;
+
+                  &:hover {
+                    background: #fa635a;
+                    text-decoration: none;
+                    color: #fff;
+                    border: 1px solid #fa635a;
+                  }
                 }
               }
 
@@ -236,7 +247,7 @@ body {
 
           &.festi-cart-view-cart {
             display: inline-block !important;
-            padding: 4px !important;
+            padding: 11px !important;
             height: 45px;
             text-align: center;
             border: none;
@@ -261,7 +272,7 @@ body {
 
           &.festi-cart-checkout {
             display: inline-block !important;
-            padding: 4px !important;
+            padding: 11px !important;
             height: 45px;
             text-align: center;
             border: none;

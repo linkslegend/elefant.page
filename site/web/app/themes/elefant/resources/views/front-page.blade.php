@@ -9,6 +9,7 @@
 @extends('layouts.front')
 
 @section('content')
+  @include('partials.frontpage-top')
   @include('partials.banner')
 
 <div class="container-fluid">

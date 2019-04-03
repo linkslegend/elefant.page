@@ -1,5 +1,6 @@
 body {
   color: rgba(0, 0, 0, 0.7);
+  font-size: 0.9em;
 
   &.single,
   &.template-custom,
@@ -74,14 +75,18 @@ body {
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.4em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.3em;
   font-weight: 700;
   margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.2em;
 }
 
 h1,
@@ -549,7 +554,7 @@ address {
   }
 
   .content {
-    margin-top: 20px;
+    margin-top: 0;
   }
 
   a.contact {
@@ -672,7 +677,7 @@ address {
     }
 
     .list-item-text {
-      font-size: 0.85em;
+      font-size: 0.95em;
     }
 
     h4 {
@@ -814,7 +819,7 @@ address {
     }
 
     .list-item-text {
-      font-size: 0.85em;
+      font-size: 0.9em;
     }
 
     h4 {
@@ -880,7 +885,8 @@ address {
   }
 
   .entry-summary {
-    font-size: 0.85em;
+    font-size: 1em;
+    padding-top: 10px;
     line-height: 1.428571428571429;
     color: rgba(31, 37, 50, 0.7);
     max-height: 4.285714285714286em;

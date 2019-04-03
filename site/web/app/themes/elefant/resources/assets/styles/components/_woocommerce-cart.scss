@@ -18,14 +18,49 @@ body.woocommerce-cart {
                   tbody {
                     tr {
                       &.woocommerce-cart-form__cart-item {
+                        font-size: 0.9em;
+
                         td {
+                          &.product-remove {
+                            position: relative;
+                            width: 35px;
+
+                            a.remove {
+                              border: 1px solid #dadada;
+                              text-align: center;
+                              display: block;
+                              height: 33px;
+                              width: 33px;
+                              margin: 0;
+                              line-height: normal;
+                              padding-top: 1px;
+                              position: absolute;
+                              left: 0;
+                              top: 10px;
+                              padding-left: 0;
+                              background: transparent;
+                              font-size: 1.5em;
+                              border-radius: 100%;
+                              font-weight: 500;
+                              transition: all 0.3s;
+                              color: rgba(15, 15, 15, 0.85) !important;
+
+                              &:hover {
+                                background: #fa635a;
+                                color: #fff !important;
+                                border: 1px solid #fa635a;
+                                text-decoration: none;
+                              }
+                            }
+                          }
+
                           &.product-thumbnail {
                             padding: 0;
 
                             a {
                               img {
                                 width: 100%;
-                                padding: 0;
+                                padding: 10px;
                                 height: auto;
                               }
                             }
@@ -50,6 +85,8 @@ body.woocommerce-cart {
                             .button {
                               width: 100%;
                               padding: 10px;
+                              height: 45px;
+                              border-radius: 8px;
                               transition: all 0.3s;
                               font-size: 0.9em;
 
@@ -73,18 +110,26 @@ body.woocommerce-cart {
                   background: #fff;
                   border-radius: 8px;
                   width: 100%;
-                  font-size: 0.95em;
+                  font-size: 0.9em;
                   padding: 15px;
 
                   table {
                     border: none;
+                    font-size: 1em;
                   }
 
                   .wc-proceed-to-checkout {
                     a.checkout-button {
                       background: #ff7003;
-                      padding: 10px;
+                      padding: 13px;
+                      height: 45px;
+                      border-radius: 8px;
                       margin-bottom: 0;
+                      transition: all 0.3s;
+
+                      &:hover {
+                        background: #72a700;
+                      }
                     }
                   }
                 }
