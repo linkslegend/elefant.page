@@ -562,8 +562,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1.1",
-                "reference": "5.1.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -873,7 +872,7 @@
         },
         {
             "name": "wpackagist-plugin/block-lab",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-lab/",
@@ -881,7 +880,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1553143473"
+                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1554419335"
             },
             "require": {
                 "composer/installers": "~1.0"
