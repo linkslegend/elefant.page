@@ -1,5 +1,22 @@
 body {
   &.home {
+    background-image: linear-gradient(to bottom, #f8f8f8 0, rgba(184, 222, 232, 0.1) 959px);
+    background-color: #fff;
+
+    &::after {
+      background: no-repeat url("../images/bg.svg") 50% 50%;
+      background-size: cover;
+      background-position: 100% 100%;
+      width: 100%;
+      height: 800px;
+      top: -15%;
+      left: 0;
+      position: absolute;
+      z-index: -2;
+      display: block;
+      content: "";
+    }
+
     .wrap {
       .content {
         main.main {
@@ -28,7 +45,7 @@ body {
                       }
 
                       h2.title {
-                        font-size: 1.1em;
+                        font-size: 1.2em;
                         color: rgba(0, 0, 0, 0.7);
                         padding-left: 10px;
                         padding-bottom: 10px;
@@ -71,6 +88,106 @@ body {
 
                             &:hover {
                               background: #f26900;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            &.middle-banner {
+              margin-top: 25px;
+
+              .container-fluid {
+                .d-flex {
+                  .my-flex-item {
+                    .content-box {
+                      background: #fff;
+                      padding: 15px;
+                      border-radius: 8px;
+                      width: 100%;
+
+                      a.contact {
+                        display: block;
+
+                        button.btn {
+                          &.btn-primary {
+                            margin: 10px 0;
+                            width: 100%;
+                          }
+                        }
+                      }
+
+                      h2.title {
+                        font-size: 1.2em;
+                        color: rgba(0, 0, 0, 0.7);
+                        padding-left: 10px;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #d5ebf1;
+                      }
+
+                      ul {
+                        &.product-slider-frontpage {
+                          padding: 15px 15px 0 15px;
+
+                          .slick-list {
+                            padding: 5px 15px 5px 15px;
+
+                            .slick-track {
+                              li {
+                                &.product-item {
+                                  width: 20%;
+                                  height: auto;
+                                  background: transparent;
+                                  border: none;
+                                  -webkit-box-shadow: none;
+                                  box-shadow: none;
+
+                                  .product-inner {
+                                    border-radius: 4px;
+                                    margin: 0 15px;
+                                    padding: 15px;
+                                    background: #fff;
+                                    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+                                    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+                                    -webkit-transition: all 0.25s;
+                                    -o-transition: all 0.25s;
+                                    transition: all 0.25s;
+
+                                    a {
+                                      img {
+                                        margin-bottom: 10px;
+                                        max-width: 100%;
+                                        height: auto;
+                                      }
+
+                                      h3 {
+                                        text-align: left;
+                                        text-overflow: ellipsis;
+                                        font-size: 0.95em;
+                                        margin: 0 0 10px 0;
+                                        overflow: hidden;
+                                        white-space: nowrap;
+                                      }
+
+                                      &.button.product_type_external {
+                                        display: none;
+                                      }
+
+                                      &.button.add_to_cart_button {
+                                        display: none;
+                                      }
+                                    }
+
+                                    &:hover {
+                                      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+                                    }
+                                  }
+                                }
+                              }
                             }
                           }
                         }

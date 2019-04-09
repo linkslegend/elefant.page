@@ -10,6 +10,7 @@
 
 @section('content')
   @include('partials.frontpage-top')
+  @include('partials.frontpage-sliderproduct')
   @include('partials.banner')
 
 <div class="container-fluid">
@@ -20,6 +21,7 @@
     {!! get_search_form(false) !!}
   @endif
 
+  <!--
 <h2 class="slider-title">Unser Blog</h2>
   <div class="multiple-items">
   @if ($Posts->have_posts())
@@ -27,7 +29,7 @@
     @include('partials.slidercontent-'.get_post_type())
   @endwhile
   @endif
-  </div>
+  </div> -->
 
   {!! get_the_posts_navigation() !!}
 </div>

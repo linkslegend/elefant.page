@@ -69,6 +69,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:linkslegend/woocommerce-tab-manager.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:linkslegend/woocommerce-social-login.git"
     },
     {
@@ -109,6 +113,7 @@
     "linkslegend/multiple-external-product-urls-for-woocommerce": "dev-master",
     "linkslegend/yith-woocommerce-custom-order-status": "dev-master",
     "linkslegend/woocommerce-social-login": "dev-master",
+    "linkslegend/woocommerce-tab-manager": "dev-master",
     "linkslegend/woocommerce-woocart-pro": "dev-master",
     "linkslegend/woocommerce-product-reviews-pro": "dev-master",
     "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
@@ -122,7 +127,8 @@
     "wpackagist-plugin/mailchimp-for-woocommerce": "^2.1",
     "wpackagist-plugin/ti-woocommerce-wishlist": "^1.9",
     "wpackagist-plugin/super-socializer": "^7.12",
-    "wpackagist-plugin/woo-preview-emails": "^1.5"
+    "wpackagist-plugin/woo-preview-emails": "^1.5",
+    "wpackagist-plugin/cf7-conditional-fields": "^1.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

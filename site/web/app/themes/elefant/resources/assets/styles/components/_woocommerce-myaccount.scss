@@ -24,39 +24,107 @@
       }
 
       i {
-        padding: 10px !important;
+        padding: 0 !important;
         margin: 0 !important;
         height: 45px !important;
         border-radius: 8px !important;
         width: 100% !important;
         float: left;
+        transition: all 0.25s;
         cursor: pointer;
         border: none;
 
-        .theChampTwitterLoginSvg {
+        &.theChampTwitterBackground {
           &::after {
             content: "Twitter";
+            padding: 12px 35px;
+            height: 45px;
+            width: 100%;
+            font-size: 1.1em;
             text-align: center;
+            font-family: inherit;
             color: #fff;
             font-weight: 600;
-            font-size: 1.1em;
             font-style: normal;
-            padding: 0;
             display: block;
+          }
+
+          &::before {
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            font-style: normal;
+            font-weight: 400;
+            border-radius: 3px 0 0 3px;
+            background-color: rgba(0, 0, 0, 0.4);
+            float: left;
+            color: #fff;
+            padding: 10px 15px;
+          }
+
+          &:hover {
+            background: #1895e0;
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+          }
+        }
+
+        .theChampTwitterLoginSvg {
+          display: inline-block;
+          width: 45px !important;
+          position: relative !important;
+          background-size: 35px !important;
+          background-position: 50% !important;
+          float: left !important;
+          margin-left: 0 !important;
+          text-align: center !important;
+          vertical-align: middle !important;
+        }
+
+        &.theChampFacebookBackground {
+          &::after {
+            content: "Facebook";
+            padding: 12px 35px;
+            height: 45px;
+            width: 100%;
+            font-size: 1.1em;
+            text-align: center;
+            font-family: inherit;
+            color: #fff;
+            font-weight: 600;
+            font-style: normal;
+            display: block;
+          }
+
+          &::before {
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            font-style: normal;
+            font-weight: 400;
+            border-radius: 3px 0 0 3px;
+            background-color: rgba(0, 0, 0, 0.4);
+            float: left;
+            color: #fff;
+            padding: 10px 15px;
+          }
+
+          &:hover {
+            background: #29477d;
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
           }
         }
 
         .theChampFacebookLoginSvg {
-          &::after {
-            content: "Facebook";
-            text-align: center;
-            color: #fff;
-            font-weight: 600;
-            font-size: 1.1em;
-            font-style: normal;
-            padding: 0;
-            display: block;
-          }
+          display: inline-block;
+          width: 45px !important;
+          padding: 0 !important;
+          position: relative !important;
+          background-size: 35px !important;
+          background-position: 50% !important;
+          float: left !important;
+          margin-left: 0 !important;
+          text-align: center !important;
+          vertical-align: middle !important;
         }
       }
     }

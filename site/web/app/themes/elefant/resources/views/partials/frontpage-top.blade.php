@@ -35,11 +35,5 @@
           </div>
      </div>
 
-     <div class="d-flex flex-row row mt-3">
-     <div class="col-sm-4 flex-fill my-flex-item">
-        <div class="content-box"></div>
-      </div>
-    </div>
-
   </div>
 </section>

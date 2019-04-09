@@ -1,3 +1,26 @@
+
+<section class="banner3">
+    <div class="container">
+  <div class="row align-items-center">
+                  <div class="col-lg-6">
+                      <div class="img-holder">
+                          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien" data-src="@asset('images/logo-background.png')" class="lozad" />
+                      </div>
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="section-head text-lg-left">
+                          <h2 class="section-title">Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien</h2>
+                          <div class="section-description">
+                            Wir betreuen, reparieren und verkaufen Windows PC-Systeme, Apple Mac-Rechner,
+                             Netzwerkzubehör, Webseiten, Software. Zu unseren Kunden zählen kleine Betriebe,
+                            mittelständische Unternehmen und Arztpraxen im Großraum Koblenz.
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+  </div>
+  </section>
+
 <section class="banner">
   <div class="container">
     <div class="row ">
@@ -65,52 +88,4 @@
 
     </div>
   </div>
-</section>
-
-
-
-<!--
-<section class="banner3">
-  <div class="bg"><img src="@asset('images/bg-2.svg')" /></div>
-  <div class="container">
-    <div class="row ">
-
-      <div class="col-xl-6 col-lg-7 align-items-ceter">
-        Intermac ist ein kleines, feines und hoch spezialisiertes Expertenteam.
-        Wir kümmern uns ohne Reibungsverluste und ohne “Wasserkopf” stets individuell um die
-        Wünsche und praxisorientierten Erfordernisse jedes einzelnen Projekts.
-      </div>
-
-      <div class="col-xl-6 col-lg-7 align-items-ceter">
-        Vom IT Service für kleine Unternehmen über Telefonsupport und PC Fernwartung bis zur Unterstützung bei der KV Abrechnung für Ärzte und Therapeuten.
-        Rufen Sie uns an - wir finden eine passende Lösung für Sie.
-      </div>
-
-
-      </div>
-
-    </div>
-</section>
--->
-
-<section class="banner3">
-  <div class="container">
-<div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="img-holder">
-                        <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien" data-src="@asset('images/logo-background.png')" class="lozad" />
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="section-head text-lg-left">
-                        <h2 class="section-title">Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien</h2>
-                        <div class="section-description">
-                          Wir betreuen, reparieren und verkaufen Windows PC-Systeme, Apple Mac-Rechner,
-                           Netzwerkzubehör, Webseiten, Software. Zu unseren Kunden zählen kleine Betriebe,
-                          mittelständische Unternehmen und Arztpraxen im Großraum Koblenz.
-                        </div>
-                    </div>
-                  </div>
-                </div>
-</div>
 </section>

@@ -8,7 +8,7 @@ body {
   &.blog,
   &.error404,
   &.page-sidebar {
-    background-image: linear-gradient(to bottom, #f8f8f8 0, #fff 959px);
+    background-image: linear-gradient(to bottom, #f8f8f8 0, rgba(184, 222, 232, 0.1) 959px);
     background-color: #fff;
 
     &::after {
@@ -329,21 +329,6 @@ address {
       display: flex;
     }
 
-    &.banner::after {
-      background-image: url("../images/bg.svg");
-      background-color: transparent;
-      background-repeat: no-repeat;
-      background-position: 50% 100%;
-      background-size: cover;
-      z-index: -1;
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      content: "";
-    }
-
     &.banner3 {
       position: relative;
       margin: 150px 0;
@@ -519,14 +504,13 @@ address {
   }
 
   h2.entry-title {
-    font-size: 18px;
+    font-size: 1.2em;
   }
 
   .entry-summary {
     font-size: 1em;
     line-height: 1.428571428571429;
     color: rgba(31, 37, 50, 0.7);
-    max-height: 4.285714285714286em;
     overflow: hidden;
     letter-spacing: -0.032em;
   }
@@ -599,21 +583,6 @@ address {
     .align-items-center {
       justify-content: center;
       display: flex;
-    }
-
-    &.banner::after {
-      background-image: url("../images/bg.svg");
-      background-color: transparent;
-      background-repeat: no-repeat;
-      background-position: 50% 100%;
-      background-size: cover;
-      z-index: -1;
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      content: "";
     }
 
     &.banner3 {
@@ -729,21 +698,6 @@ address {
     .align-items-center {
       justify-content: center;
       display: flex;
-    }
-
-    &.banner::after {
-      background-image: url("../images/bg.svg");
-      background-color: transparent;
-      background-repeat: no-repeat;
-      background-position: 50% 100%;
-      background-size: cover;
-      z-index: -1;
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      content: "";
     }
 
     &.banner3 {
@@ -881,7 +835,7 @@ address {
   }
 
   h2.entry-title {
-    font-size: 18px;
+    font-size: 1.2em;
   }
 
   .entry-summary {
@@ -889,7 +843,6 @@ address {
     padding-top: 10px;
     line-height: 1.428571428571429;
     color: rgba(31, 37, 50, 0.7);
-    max-height: 4.285714285714286em;
     overflow: hidden;
     letter-spacing: -0.032em;
   }

@@ -84,7 +84,7 @@ $text_lighter_20 = wc_hex_lighter( $text, 20 );
 	font-size:12px;
 	line-height:125%;
 	text-align:center;
-	padding: 0 48px 48px 48px;
+	padding: 0;
 }
 
 #body_content {
@@ -92,7 +92,7 @@ $text_lighter_20 = wc_hex_lighter( $text, 20 );
 }
 
 #body_content table td {
-	padding: 48px 48px 0;
+	padding: 28px 38px 38px 38px;
 }
 
 #body_content table td td {

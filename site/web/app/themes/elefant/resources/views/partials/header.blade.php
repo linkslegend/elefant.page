@@ -14,8 +14,8 @@
           <div class="icon-menu mobile-block d-block d-md-none">
               <ul class="header links">
                 <li id="icons" class="account"><div class="inner-account myaccount"><a href="/account" class="my-account">Konto</a></div></li>
-                <li id="icons" class="account"><div class="inner-account wishlist"><a href="/login">Wunschliste</a></div></li>
-                <li id="icons" class="account"><div class="inner-account cart"><span>Warenkorb</span></div></li>
+                <li id="icons" class="account"><div class="inner-account wishlist"><a href="/login" class="my-wishlist">Wunschliste</a></div></li>
+                <li id="icons" class="account"><div class="inner-account cart"><span class="my-cart">Warenkorb</span></div></li>
               </ul>
           </div>
 
@@ -27,17 +27,17 @@
 
       <div class="icon-menu d-none d-lg-block">
             <ul class="header links">
-              <li id="hover" class="account myaccount"><a href="/account" class="my-account">Konto</a>
+              <li id="hover" class="account myaccount"><a href="/mein-konto" class="my-account">Konto</a>
                 <div id="popup" class="account-popup popover-content">
 
                     <?php if (is_user_logged_in()) : ?>
                     <span class='username'>Hallo, <?php $current_user = wp_get_current_user(); echo $current_user->user_firstname; echo '&nbsp;' . $current_user->user_lastname; ?></span>
-                    <a class='button' href='/my-account'>Mein Konto</a>
+                    <a class='button' href='/mein-konto'>Mein Konto</a>
                     <hr class='hr-light'></hr>
                     <a class='poplink' href='/order-tracking'>Order Tracking</a>
-                    <a class='poplink' href='/my-account/orders/'>Bestellungen</a>
+                    <a class='poplink' href='/mein-konto/orders/'>Bestellungen</a>
                     <a class='poplink' href='/faq'>FAQ</a>
-                    <a class='poplink' href='/help'>Hilfe</a>
+                    <a class='poplink' href='/hilfe'>Hilfe</a>
                     <hr class='hr-light'></hr>
                     <a class='poplink' href='<?php echo wp_logout_url( home_url() ); ?>'>Abmelden / Logout</a>
                   <?php else : ?>
@@ -45,17 +45,18 @@
                   <div class="arrow"></div> 
                   <a class="button" data-toggle="modal" data-target="#loginmodal" href="#" title="register">Anmelden</a>
                   <span class="light">Sie haben noch kein Konto?</span> 
-                  <a class="poplink" href="/my-account" title="Register">Registrierung</a>
+                  <a class="poplink" href="/mein-konto" title="Register">Registrierung</a>
                   <hr class="hr-light"> 
                   <a class="poplink" href="/faq">FAQ</a>
-                  <a class="poplink" href="/help">Hilfe</a>
-                  <a class="poplink" href="/help">Telefon Support</a>
+                  <a class="poplink" href="/hilfe">Hilfe</a>
+                  <a class="poplink" href="/telefon-support">Telefon Support</a>
 
                 <?php endif;?>
                 
                 </div>
               </li>
-              <li id="hover" class="account wishlist"><a href="/login">Wunschliste</a>
+              <li id="hover" class="account wishlist">
+                <a href="/login" class="my-wishlist">Wunschliste</a>
                 <div id="popup" class="wishlist-popup popover-content">
                     in Bearbeitung ...
                       <!--<?php echo do_shortcode('[ti_wishlist_products_counter]'); ?>-->
@@ -63,7 +64,7 @@
               </li>
               <li id="hover" class="account cart">
                     <?php echo do_shortcode('[WooCommerceWooCartPro]'); ?>
-                    <span>Warenkorb</span>
+                    <span class="my-cart">Warenkorb</span>
               </li>
             </ul>
           </div>
