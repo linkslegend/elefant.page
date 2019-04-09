@@ -268,6 +268,14 @@ function intermac_woocommerce_email_styles( $css ) {
 	return $css;
 }
 
+/* Change Read more text */
+// Replaces the excerpt "Read More" text by a link
+function new_excerpt_more($more) {
+    global $post;
+ return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Read the full article...</a>';
+}
+add_filter('excerpt_more', __NAMESPACE__ . '\\new_excerpt_more');
+
 /**
  * Theme setup
  */
@@ -324,6 +332,13 @@ add_action('after_setup_theme', function () {
      */
     add_editor_style(asset_path('styles/main.css'));
 }, 20);
+
+add_filter('loop_shop_columns', __NAMESPACE__ . '\\loop_columns', 999);
+if (!function_exists('loop_columns')) {
+	function loop_columns() {
+		return 3; // 3 products per row
+	}
+}
 
 /**
  * Register sidebars

@@ -30,7 +30,7 @@ add_filter('body_class', function (array $classes) {
  * Add "… Continued" to the excerpt
  */
 add_filter('excerpt_more', function () {
-    return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
+    return ' &hellip; <a class="readmore" href="' . get_permalink() . '">' . __('Weiterlesen ....', 'sage') . '</a>';
 });
 
 
@@ -82,11 +82,7 @@ add_filter('comments_template', function ($comments_template) {
     return $comments_template;
 }, 100);
 
-
-
-
 // Lazyload Converter for lozad.js
-
 /**
  * Use Lozad (lazy loading) for attachments/featured images
  */
@@ -124,19 +120,15 @@ function custom_excerpt_length( $length ) {
    return 20; // you can use any integer per your requirement.
 }
 
-
 /**
  * Rename product data tabs
  */
 add_filter( 'woocommerce_product_tabs', __NAMESPACE__ . '\\woo_rename_tabs', 98 );
 function woo_rename_tabs( $tabs ) {
-
 	//$tabs['description']['title'] = __( 'More Information' );		// Rename the description tab
 	//$tabs['reviews']['title'] = __( 'Ratings' );				// Rename the reviews tab
 	$tabs['additional_information']['title'] = __( 'Zusätzliche Infos' );	// Rename the additional information tab
-
 	return $tabs;
-
 }
 
 /*Allow customers to login with their email address or username */

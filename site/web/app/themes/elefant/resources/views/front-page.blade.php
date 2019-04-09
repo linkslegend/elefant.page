@@ -11,6 +11,7 @@
 @section('content')
   @include('partials.frontpage-top')
   @include('partials.frontpage-sliderproduct')
+  @include('partials.frontpage-logoslider')
   @include('partials.banner')
 
 <div class="container-fluid">

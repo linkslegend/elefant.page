@@ -167,7 +167,10 @@ body {
                                       h3 {
                                         text-align: left;
                                         text-overflow: ellipsis;
-                                        font-size: 0.95em;
+                                        font-size: 1.1em;
+                                        text-transform: inherit;
+                                        color: rgba(0, 0, 0, 0.8);
+                                        height: 19px;
                                         margin: 0 0 10px 0;
                                         overflow: hidden;
                                         white-space: nowrap;
@@ -180,12 +183,115 @@ body {
                                       &.button.add_to_cart_button {
                                         display: none;
                                       }
+
+                                      span {
+                                        &.price {
+                                          margin-bottom: 5px;
+
+                                          del {
+                                            opacity: 1;
+                                            padding: 3px 9px 0 0;
+                                            display: block;
+                                            font-size: 0.9em;
+                                            float: left;
+
+                                            span.woocommerce-Price-amount.amount {
+                                              position: relative;
+
+                                              &::after {
+                                                display: block;
+                                                position: absolute;
+                                                width: 100%;
+                                                height: 0.1em;
+                                                top: 50%;
+                                                left: 0;
+                                                content: "";
+                                                z-index: 2;
+                                                background: none;
+                                                text-shadow: transparent;
+                                                background-image: radial-gradient(#ff4136 70%, transparent 0);
+                                                transform: rotate(-14deg) scaleX(1.2);
+                                              }
+                                            }
+                                          }
+
+                                          .woocommerce-Price-amount {
+                                            font-size: 1.1em;
+                                            white-space: nowrap;
+                                            color: #1f1f32;
+                                            font-weight: 700;
+                                            display: inline-block;
+                                            line-height: 1;
+                                          }
+                                        }
+                                      }
+
+                                      &:hover {
+                                        text-decoration: none;
+                                      }
                                     }
 
                                     &:hover {
                                       box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+                                      a {
+                                        h3.product-title {
+                                          color: #ff7003;
+                                          text-decoration: none;
+                                        }
+                                      }
                                     }
                                   }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            &.logo-banner {
+              margin-top: 20px;
+
+              .container-fluid {
+                .row {
+                  .my-flex-item {
+                    .content-box {
+                      background: #fff;
+                      padding: 15px;
+                      border-radius: 8px;
+                      width: 100%;
+
+                      h2.title {
+                        font-size: 1.2em;
+                        color: rgba(0, 0, 0, 0.7);
+                        text-align: center;
+                        padding-left: 10px;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #d5ebf1;
+                      }
+
+                      ul.logo-slider-frontpage {
+                        padding: 15px 15px 0 15px;
+
+                        .slick-list {
+                          .slick-track {
+                            li.logo-item {
+                              height: auto;
+
+                              .logo-inner {
+                                display: block;
+                                padding: 20px;
+
+                                img.logo-img {
+                                  margin: 0;
+                                  float: none;
+                                  padding: 20px;
+                                  width: 100%;
                                 }
                               }
                             }
