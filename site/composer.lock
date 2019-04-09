@@ -598,8 +598,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1.1",
-                "reference": "5.1.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1017,7 +1016,7 @@
         },
         {
             "name": "wpackagist-plugin/super-socializer",
-            "version": "7.12.19",
+            "version": "7.12.20",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/super-socializer/",
@@ -1025,7 +1024,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1554610864"
+                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1554798137"
             },
             "require": {
                 "composer/installers": "~1.0"
