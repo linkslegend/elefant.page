@@ -1,5 +1,5 @@
 
-<section class="banner3">
+<!--<section class="banner3">
     <div class="container">
   <div class="row align-items-center">
                   <div class="col-lg-6">
@@ -19,25 +19,19 @@
                     </div>
                   </div>
   </div>
-  </section>
+  </section>-->
 
-<section class="banner">
-  <div class="container">
-    <div class="row ">
-      <div class="col-xl-6 col-lg-7 align-items-ceter">
+
+  <section class="tele-banner">
+    
+  <div class="container-fluid">
+    <div class="content-box">
+    <div class="row">
+      <div class="col-lg-12">
         <h2>Telematikinfrastruktur</h2>
         <p>
           Das Wohl der Patienten steht im Mittelpunkt des "Gesetzes für sichere digitale Kommunikation und Anwendungen im Gesundheitswesen" - kurz E-Health-Gesetz.
         </p>
-
-
-        <a class="contact" href="mailto:nd@intermac.de">
-          <button class="btn btn-primary text-white email"><i class="fas fa-envelope"></i>nd@intermac.de</button>
-        </a>
-        <a class="contact" href="tel:015127555942">
-          <button class="btn btn-primary text-white tel"><i class="fas fa-phone"></i>0151 27 555 942</button>
-        </a>
-
 
 
         <ul class="list-inline">
@@ -82,10 +76,11 @@
 
       </div>
 
-      <div class="col-xl-6 col-lg-5 col-sm-12">
+      <!--<div class="col-xl-6 col-lg-5 col-sm-12">
         <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="elefant on desktop windows 10" data-src="@asset('images/elefant-1.jpg')" class="img-rounded right margin-top lozad"/>
-      </div>
+      </div>-->
 
     </div>
   </div>
+</div>
 </section>

@@ -1,6 +1,6 @@
 body {
   &.home {
-    background-image: linear-gradient(to bottom, #f8f8f8 0, rgba(184, 222, 232, 0.1) 959px);
+    background-image: linear-gradient(to bottom, #f8f8f8 0, rgba(25, 152, 185, 0.1) 959px);
     background-color: #fff;
 
     &::after {
@@ -21,8 +21,135 @@ body {
       .content {
         main.main {
           section {
+            .contact-group {
+              a.contact {
+                display: block;
+
+                button.btn {
+                  &.btn-primary {
+                    margin: 10px 0;
+                    float: left;
+                    width: 100%;
+                  }
+                }
+              }
+            }
+
+            button {
+              &.next {
+                right: -25px;
+                left: auto;
+                border: none;
+                top: 45%;
+                background: #fff;
+
+                &:hover {
+                  background: #f26900;
+                }
+              }
+
+              &.prev {
+                left: -25px;
+                border: none;
+                top: 45%;
+                background: #fff;
+
+                &:hover {
+                  background: #f26900;
+                }
+              }
+            }
+
+            &.tele-banner {
+              margin: 125px 0;
+              width: 100%;
+              float: left;
+              display: block;
+
+              .container-fluid {
+                .content-box {
+                  background: transparent;
+                  padding: 20px;
+                  border-radius: 8px;
+                  width: 100%;
+
+                  .row {
+                    .col-lg-12 {
+                      ul.list-inline {
+                        padding: 20px 0 0 0;
+                        margin: 0;
+                        color: $black;
+
+                        li {
+                          padding: 1em;
+                          border-radius: 8px;
+                          float: left;
+                          width: 50%;
+                          transition: all 0.3s;
+
+                          &:hover {
+                            box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                            background: rgba($white, 1);
+                          }
+                        }
+
+                        .list-item {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+                          justify-content: flex-start;
+                          align-content: center;
+                          align-items: center;
+                        }
+
+                        .list-content {
+                          width: 100%;
+                          height: auto;
+                          padding: 0 0 0 2em;
+                        }
+
+                        .list-image {
+                          display: flex;
+                        }
+
+                        .list-item-text {
+                          font-size: 0.95em;
+                          color: rgba(0, 0, 0, 0.7);
+                        }
+
+                        h4 {
+                          font-size: 1.1em;
+                          font-weight: 600;
+                        }
+
+                        .svg-inline--fa {
+                          width: 70px;
+                          border: 1px solid rgba(238, 105, 0, 1);
+                          height: 70px;
+                          color: rgba(238, 105, 0, 1);
+                          padding: 20px;
+                          border-radius: 100%;
+                        }
+
+                        a {
+                          color: $black;
+
+                          &:hover {
+                            text-decoration: none;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
             &.top-banner {
               margin-top: 10px;
+              float: left;
+              display: block;
+              width: 100%;
 
               .container-fluid {
                 .d-flex {
@@ -32,17 +159,6 @@ body {
                       padding: 15px;
                       border-radius: 8px;
                       width: 100%;
-
-                      a.contact {
-                        display: block;
-
-                        button.btn {
-                          &.btn-primary {
-                            margin: 10px 0;
-                            width: 100%;
-                          }
-                        }
-                      }
 
                       h2.title {
                         font-size: 1.2em;
@@ -66,31 +182,6 @@ body {
                             }
                           }
                         }
-
-                        button {
-                          &.next {
-                            right: -25px;
-                            left: auto;
-                            border: none;
-                            top: 45%;
-                            background: #fff;
-
-                            :hover {
-                              background: #f26900;
-                            }
-                          }
-
-                          &.prev {
-                            left: -25px;
-                            border: none;
-                            top: 45%;
-                            background: #fff;
-
-                            &:hover {
-                              background: #f26900;
-                            }
-                          }
-                        }
                       }
                     }
                   }
@@ -100,26 +191,18 @@ body {
 
             &.middle-banner {
               margin-top: 25px;
+              float: left;
+              display: block;
+              width: 100%;
 
               .container-fluid {
                 .d-flex {
                   .my-flex-item {
                     .content-box {
                       background: #fff;
-                      padding: 15px;
+                      padding: 20px 15px 15px;
                       border-radius: 8px;
                       width: 100%;
-
-                      a.contact {
-                        display: block;
-
-                        button.btn {
-                          &.btn-primary {
-                            margin: 10px 0;
-                            width: 100%;
-                          }
-                        }
-                      }
 
                       h2.title {
                         font-size: 1.2em;
@@ -202,7 +285,7 @@ body {
                                                 display: block;
                                                 position: absolute;
                                                 width: 100%;
-                                                height: 0.1em;
+                                                height: 0.15em;
                                                 top: 50%;
                                                 left: 0;
                                                 content: "";
@@ -255,14 +338,17 @@ body {
             }
 
             &.logo-banner {
-              margin-top: 20px;
+              margin: 25px 0 100px 0;
+              float: left;
+              width: 100%;
+              display: block;
 
               .container-fluid {
-                .row {
+                .flex-row.row {
                   .my-flex-item {
                     .content-box {
                       background: #fff;
-                      padding: 15px;
+                      padding: 20px 15px 10px 15px;
                       border-radius: 8px;
                       width: 100%;
 
@@ -275,10 +361,17 @@ body {
                         border-bottom: 1px solid #d5ebf1;
                       }
 
+                      .section-description {
+                        font-size: 1em;
+                        padding: 0 35px 0 35px;
+                      }
+
                       ul.logo-slider-frontpage {
                         padding: 15px 15px 0 15px;
 
                         .slick-list {
+                          padding: 15px 0 0 0;
+
                           .slick-track {
                             li.logo-item {
                               height: auto;
@@ -290,8 +383,9 @@ body {
                                 img.logo-img {
                                   margin: 0;
                                   float: none;
-                                  padding: 20px;
+                                  padding: 35px;
                                   width: 100%;
+                                  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
                                 }
                               }
                             }
@@ -314,15 +408,602 @@ body {
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
 }
+*/
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+  body {
+    &.home {
+      .wrap {
+        .content {
+          main.main {
+            section {
+              .contact-group {
+                a.contact {
+                  display: flex;
+                  width: 50%;
+                  float: left;
+
+                  button.btn {
+                    &.btn-primary {
+                      margin: 10px;
+                      padding: 10px;
+                      float: left;
+                      width: 100%;
+
+                      &.email {
+                        margin-right: 10px;
+                        margin-left: 0;
+                      }
+
+                      &.tel {
+                        margin-right: 0;
+                        margin-left: 10px;
+                      }
+                    }
+                  }
+                }
+              }
+
+              &.tele-banner {
+                margin: 80px 0;
+                width: 100%;
+                float: left;
+                display: block;
+
+                .container-fluid {
+                  .content-box {
+                    background: transparent;
+                    padding: 20px;
+                    border-radius: 8px;
+                    width: 100%;
+
+                    .row {
+                      .col-lg-12 {
+                        ul.list-inline {
+                          padding: 20px 0 0 0;
+                          margin: 0;
+                          color: $black;
+
+                          li {
+                            padding: 1em;
+                            border-radius: 8px;
+                            float: left;
+                            width: 50%;
+                            transition: all 0.3s;
+
+                            &:hover {
+                              box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                              background: rgba($white, 1);
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              &.top-banner {
+                margin-top: 0;
+
+                .container-fluid {
+                  .d-flex {
+                    .my-flex-item {
+                      .content-box {
+                        background: #fff;
+                        padding: 15px;
+                        border-radius: 8px;
+                        width: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+
+              &.middle-banner {
+                margin-top: 25px;
+                float: left;
+                display: block;
+                width: 100%;
+
+                .container-fluid {
+                  .d-flex {
+                    .my-flex-item {
+                      .content-box {
+                        background: #fff;
+                        padding: 20px 15px 15px;
+                        border-radius: 8px;
+                        width: 100%;
+
+                        h2.title {
+                          font-size: 1.2em;
+                          color: rgba(0, 0, 0, 0.7);
+                          padding-left: 10px;
+                          padding-bottom: 10px;
+                          border-bottom: 1px solid #d5ebf1;
+                        }
+
+                        ul {
+                          &.product-slider-frontpage {
+                            padding: 15px 15px 0 15px;
+
+                            .slick-list {
+                              padding: 5px 15px 5px 15px;
+
+                              .slick-track {
+                                li {
+                                  &.product-item {
+                                    width: 20%;
+                                    height: auto;
+                                    background: transparent;
+                                    border: none;
+                                    -webkit-box-shadow: none;
+                                    box-shadow: none;
+
+                                    .product-inner {
+                                      border-radius: 4px;
+                                      margin: 0 15px;
+                                      padding: 15px;
+                                      background: #fff;
+                                      -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+                                      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+                                      -webkit-transition: all 0.25s;
+                                      -o-transition: all 0.25s;
+                                      transition: all 0.25s;
+
+                                      a {
+                                        img {
+                                          margin-bottom: 10px;
+                                          max-width: 100%;
+                                          height: auto;
+                                        }
+
+                                        h3 {
+                                          text-align: left;
+                                          text-overflow: ellipsis;
+                                          font-size: 1.1em;
+                                          text-transform: inherit;
+                                          color: rgba(0, 0, 0, 0.8);
+                                          height: 19px;
+                                          margin: 0 0 10px 0;
+                                          overflow: hidden;
+                                          white-space: nowrap;
+                                        }
+
+                                        &.button.product_type_external {
+                                          display: none;
+                                        }
+
+                                        &.button.add_to_cart_button {
+                                          display: none;
+                                        }
+
+                                        span {
+                                          &.price {
+                                            margin-bottom: 5px;
+
+                                            del {
+                                              opacity: 1;
+                                              padding: 3px 9px 0 0;
+                                              display: block;
+                                              font-size: 0.9em;
+                                              float: left;
+
+                                              span.woocommerce-Price-amount.amount {
+                                                position: relative;
+
+                                                &::after {
+                                                  display: block;
+                                                  position: absolute;
+                                                  width: 100%;
+                                                  height: 0.15em;
+                                                  top: 50%;
+                                                  left: 0;
+                                                  content: "";
+                                                  z-index: 2;
+                                                  background: none;
+                                                  text-shadow: transparent;
+                                                  background-image: radial-gradient(#ff4136 70%, transparent 0);
+                                                  transform: rotate(-14deg) scaleX(1.2);
+                                                }
+                                              }
+                                            }
+
+                                            .woocommerce-Price-amount {
+                                              font-size: 1.1em;
+                                              white-space: nowrap;
+                                              color: #1f1f32;
+                                              font-weight: 700;
+                                              display: inline-block;
+                                              line-height: 1;
+                                            }
+                                          }
+                                        }
+
+                                        &:hover {
+                                          text-decoration: none;
+                                        }
+                                      }
+
+                                      &:hover {
+                                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+                                        a {
+                                          h3.product-title {
+                                            color: #ff7003;
+                                            text-decoration: none;
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              &.logo-banner {
+                margin: 25px 0 100px 0;
+                float: left;
+                width: 100%;
+                display: block;
+
+                .container-fluid {
+                  .flex-row.row {
+                    .my-flex-item {
+                      .content-box {
+                        background: #fff;
+                        padding: 20px 15px 10px 15px;
+                        border-radius: 8px;
+                        width: 100%;
+
+                        h2.title {
+                          font-size: 1.2em;
+                          color: rgba(0, 0, 0, 0.7);
+                          text-align: center;
+                          padding-left: 10px;
+                          padding-bottom: 10px;
+                          border-bottom: 1px solid #d5ebf1;
+                        }
+
+                        .section-description {
+                          font-size: 1em;
+                          padding: 0 35px 0 35px;
+                        }
+
+                        ul.logo-slider-frontpage {
+                          padding: 15px 15px 0 15px;
+
+                          .slick-list {
+                            padding: 15px 0 0 0;
+
+                            .slick-track {
+                              li.logo-item {
+                                height: auto;
+
+                                .logo-inner {
+                                  display: block;
+                                  padding: 20px;
+
+                                  img.logo-img {
+                                    margin: 0;
+                                    float: none;
+                                    padding: 35px;
+                                    width: 100%;
+                                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
+  body {
+    &.home {
+      .wrap {
+        .content {
+          main.main {
+            section {
+              .contact-group {
+                a.contact {
+                  display: flex;
+                  width: 100%;
+                  float: left;
+
+                  button.btn {
+                    &.btn-primary {
+                      margin: 10px;
+                      padding: 10px;
+                      float: left;
+                      width: 100%;
+
+                      &.email {
+                        margin-right: 10px;
+                        margin-left: 10px;
+                      }
+
+                      &.tel {
+                        margin-right: 10px;
+                        margin-left: 10px;
+                      }
+                    }
+                  }
+                }
+              }
+
+              &.tele-banner {
+                margin: 50px 0;
+
+                .container-fluid {
+                  .content-box {
+                    background: transparent;
+                    padding: 20px;
+                    border-radius: 8px;
+                    width: 100%;
+
+                    .row {
+                      .col-lg-12 {
+                        ul.list-inline {
+                          padding: 20px 0 0 0;
+                          margin: 0;
+                          color: $black;
+
+                          li {
+                            padding: 1em 0;
+                            border-radius: 8px;
+                            float: left;
+                            width: 100%;
+                            transition: all 0.3s;
+
+                            &:hover {
+                              box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                              background: rgba($white, 1);
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              &.top-banner {
+                margin-top: -10px;
+
+                .container-fluid {
+                  .d-flex {
+                    .my-flex-item {
+                      .content-box {
+                        padding: 15px;
+                      }
+                    }
+                  }
+                }
+              }
+
+              &.middle-banner {
+                margin-top: 25px;
+
+                .container-fluid {
+                  .d-flex {
+                    .my-flex-item {
+                      .content-box {
+                        padding: 20px 15px 15px;
+
+                        h2.title {
+                          font-size: 1.2em;
+                          padding-left: 10px;
+                          padding-bottom: 10px;
+                        }
+
+                        ul {
+                          &.product-slider-frontpage {
+                            padding: 15px 15px 0 15px;
+
+                            .slick-list {
+                              padding: 5px 15px 5px 15px;
+
+                              .slick-track {
+                                li {
+                                  &.product-item {
+                                    width: 20%;
+                                    height: auto;
+                                    background: transparent;
+                                    border: none;
+                                    -webkit-box-shadow: none;
+                                    box-shadow: none;
+
+                                    .product-inner {
+                                      border-radius: 4px;
+                                      margin: 0 15px;
+                                      padding: 15px;
+                                      background: #fff;
+                                      -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+                                      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+                                      -webkit-transition: all 0.25s;
+                                      -o-transition: all 0.25s;
+                                      transition: all 0.25s;
+
+                                      a {
+                                        img {
+                                          margin-bottom: 10px;
+                                          max-width: 100%;
+                                          height: auto;
+                                        }
+
+                                        h3 {
+                                          text-align: left;
+                                          text-overflow: ellipsis;
+                                          font-size: 1.1em;
+                                          text-transform: inherit;
+                                          color: rgba(0, 0, 0, 0.8);
+                                          height: 19px;
+                                          margin: 0 0 10px 0;
+                                          overflow: hidden;
+                                          white-space: nowrap;
+                                        }
+
+                                        &.button.product_type_external {
+                                          display: none;
+                                        }
+
+                                        &.button.add_to_cart_button {
+                                          display: none;
+                                        }
+
+                                        span {
+                                          &.price {
+                                            margin-bottom: 5px;
+
+                                            del {
+                                              opacity: 1;
+                                              padding: 3px 9px 0 0;
+                                              display: block;
+                                              font-size: 0.9em;
+                                              float: left;
+
+                                              span.woocommerce-Price-amount.amount {
+                                                position: relative;
+
+                                                &::after {
+                                                  display: block;
+                                                  position: absolute;
+                                                  width: 100%;
+                                                  height: 0.15em;
+                                                  top: 50%;
+                                                  left: 0;
+                                                  content: "";
+                                                  z-index: 2;
+                                                  background: none;
+                                                  text-shadow: transparent;
+                                                  background-image: radial-gradient(#ff4136 70%, transparent 0);
+                                                  transform: rotate(-14deg) scaleX(1.2);
+                                                }
+                                              }
+                                            }
+
+                                            .woocommerce-Price-amount {
+                                              font-size: 1.1em;
+                                              white-space: nowrap;
+                                              color: #1f1f32;
+                                              font-weight: 700;
+                                              display: inline-block;
+                                              line-height: 1;
+                                            }
+                                          }
+                                        }
+
+                                        &:hover {
+                                          text-decoration: none;
+                                        }
+                                      }
+
+                                      &:hover {
+                                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+                                        a {
+                                          h3.product-title {
+                                            color: #ff7003;
+                                            text-decoration: none;
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              &.logo-banner {
+                margin: 25px 0 50px 0;
+
+                .container-fluid {
+                  .flex-row.row {
+                    .my-flex-item {
+                      .content-box {
+                        padding: 20px 15px 10px 15px;
+
+                        h2.title {
+                          font-size: 1.2em;
+                          padding-left: 0;
+                          padding-bottom: 10px;
+                        }
+
+                        .section-description {
+                          padding: 10px;
+                        }
+
+                        ul.logo-slider-frontpage {
+                          padding: 15px 15px 0 15px;
+
+                          .slick-list {
+                            padding: 15px 0 0 0;
+
+                            .slick-track {
+                              li.logo-item {
+                                .logo-inner {
+                                  padding: 10px;
+
+                                  img.logo-img {
+                                    padding: 25px;
+                                    width: 100%;
+                                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+                                  }
+                                }
+                              }
+                            }
+                          }
+
+                          button.next {
+                            top: 60%;
+                          }
+
+                          button.prev {
+                            top: 60%;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
+/*
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 }

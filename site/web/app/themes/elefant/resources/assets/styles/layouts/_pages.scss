@@ -6,6 +6,7 @@ body {
   &.template-custom,
   &.kontakt,
   &.blog,
+  &.webseite,
   &.error404,
   &.page-sidebar {
     background-image: linear-gradient(to bottom, #f8f8f8 0, rgba(184, 222, 232, 0.1) 959px);
@@ -24,6 +25,11 @@ body {
       display: block;
       content: "";
     }
+  }
+
+  :focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   }
 
   .wrap {
@@ -389,69 +395,6 @@ address {
 
     &.margin-top {
       margin: 50px auto 0 auto;
-    }
-  }
-
-  .list-inline {
-    padding: 20px 0 0 0;
-    margin: 0;
-    color: $black;
-
-    li {
-      padding: 1em;
-      border-radius: 8px;
-      transition: all 0.3s;
-
-      &:hover {
-        box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
-        background: rgba($white, 0.7);
-      }
-    }
-
-    .list-item {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-      align-content: center;
-      align-items: center;
-    }
-
-    .list-content {
-      width: 100%;
-      height: auto;
-      padding: 0 0 0 2em;
-    }
-
-    .list-image {
-      display: flex;
-    }
-
-    .list-item-text {
-      font-size: 0.95em;
-      color: rgba(0, 0, 0, 0.7);
-    }
-
-    h4 {
-      font-size: 1.1em;
-      font-weight: 600;
-    }
-
-    .svg-inline--fa {
-      width: 70px;
-      border: 1px solid rgba(238, 105, 0, 1);
-      height: 70px;
-      color: rgba(238, 105, 0, 1);
-      padding: 20px;
-      border-radius: 100%;
-    }
-
-    a {
-      color: $black;
-
-      &:hover {
-        text-decoration: none;
-      }
     }
   }
 

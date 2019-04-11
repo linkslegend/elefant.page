@@ -8,6 +8,7 @@ article.slick-slide {
 
 .next {
   right: -25px;
+  left: auto;
 }
 
 /* Arrows */
@@ -62,17 +63,16 @@ article.slick-slide {
 
     .svg-inline--fa {
       &:hover {
-        color: rgba(242, 105, 0, 0.75);
+        color: #fff;
       }
     }
 
     &:hover {
-      background: transparent;
-      color: rgba(242, 105, 0, 0.75);
+      background: rgba(242, 105, 0, 1);
       cursor: auto;
 
       .svg-inline--fa {
-        color: rgba(242, 105, 0, 0.75);
+        color: rgba(255, 255, 255, 1);
       }
     }
 
@@ -178,20 +178,6 @@ article.slick-slide {
     .slick-list {
       padding: 15px 0 15px 0;
     }
-  }
-
-  .prev {
-    left: 145px;
-  }
-
-  .next {
-    left: 215px;
-    right: auto;
-  }
-
-  .prev,
-  .next {
-    top: -15px;
   }
 }
 

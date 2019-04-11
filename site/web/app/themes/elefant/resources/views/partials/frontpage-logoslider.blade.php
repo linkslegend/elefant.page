@@ -4,6 +4,11 @@
           <div class="col-12 flex-fill my-flex-item">
               <div class="content-box">
               <h2 class="title">Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien</h2>
+              <div class="section-description">
+                Wir betreuen, reparieren und verkaufen Windows PC-Systeme, Apple Mac-Rechner,
+                 Netzwerkzubehör, Webseiten, Software. Zu unseren Kunden zählen kleine Betriebe,
+                mittelständische Unternehmen und Arztpraxen im Großraum Koblenz.
+              </div>
                 <ul class="logo-slider-frontpage">
                 <li class="logo-item">
                     <div class="logo-inner">
@@ -43,7 +48,7 @@
 
                   <li class="logo-item">
                     <div class="logo-inner">
-                      <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Teamviewer" data-src="@asset('images/teamviewer-s.jpg')" class="img-rounded right logo-img lozad"/>
+                      <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Teamviewer" data-src="@asset('images/teamviewer-s.svg')" class="img-rounded right logo-img lozad"/>
                     </div>
                   </li>
 

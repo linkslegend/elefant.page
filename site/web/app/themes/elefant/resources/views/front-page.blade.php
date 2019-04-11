@@ -11,8 +11,8 @@
 @section('content')
   @include('partials.frontpage-top')
   @include('partials.frontpage-sliderproduct')
-  @include('partials.frontpage-logoslider')
   @include('partials.banner')
+  @include('partials.frontpage-logoslider')
 
 <div class="container-fluid">
   @if (!have_posts())

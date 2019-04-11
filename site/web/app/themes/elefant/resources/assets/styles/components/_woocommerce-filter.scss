@@ -388,7 +388,10 @@ body.woocommerce.prdctfltr-shop {
       button.filter-by {
         background: #fff;
         width: 100%;
+        color: rgba(0, 0, 0, 0.7);
         border-radius: 8px;
+        font-size: 1em;
+        font-weight: 600;
         border: 1px solid #ddd;
         padding: 11px;
       }
@@ -521,7 +524,7 @@ body.woocommerce.prdctfltr-shop {
               position: absolute;
               top: 0;
               width: 50%;
-              margin-top: -48px;
+              margin-top: -45px;
               right: 0 !important;
 
               .prdctfltr_filter_inner {
@@ -585,7 +588,7 @@ body.woocommerce.prdctfltr-shop {
   body.woocommerce.prdctfltr-shop {
     .wrap {
       .content {
-        margin-top: 15px;
+        margin-top: 0;
       }
     }
 
@@ -605,8 +608,8 @@ body.woocommerce.prdctfltr-shop {
 
       button.filter-by {
         border: 1px solid #ddd;
+        color: rgba(0, 0, 0, 0.7);
         padding: 11px;
-        font-size: 0.9em;
       }
 
       &::after {
@@ -732,9 +735,11 @@ body.woocommerce.prdctfltr-shop {
                   span.prdctfltr_regular_title {
                     border-radius: 8px;
                     text-align: center;
-                    font-size: 0.9em;
-                    color: #000;
-                    font-weight: 500;
+                    font-size: 1em;
+                    padding: 9px 0;
+                    height: 45px;
+                    color: rgba(0, 0, 0, 0.7);
+                    font-weight: 600;
                   }
 
                   .prdctfltr_add_scroll {
