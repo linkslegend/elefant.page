@@ -28,13 +28,102 @@
 <section class="web3-banner">
     <div class="container-fluid">
         <div class="row">
-            Als erfahrene Dienstleister mit Spezialisten in Technik und Design bieten wir 
+            <p class="lead">
+                Als erfahrene Dienstleister mit Spezialisten in Technik und Design bieten wir 
             vom Webdesign bis hin zur technischen Implemen­tierungen Ihres Web­auftrittes 
-            alle Services für die Umsetzung Ihrer Homepage aus einer Hand.
+            alle Services für die Umsetzung Ihrer Homepage aus einer Hand.</p>
+
+
+            <section class="pricing py-5">
+                <div class="container-fluid">
+                  <div class="row">
+                    <!-- Free Tier -->
+                    <div class="col-lg-4">
+                      <div class="card mb-5 mb-lg-0">
+                          <div class="card-header">
+                              <h5 class="card-title text-muted text-uppercase text-center">Starter</h5>
+                              <h6 class="card-price text-center">499€<span class="period">monatlich 14€</span></h6>
+                            </div>
+                        <div class="card-body">
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Seite (HTML)</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Design</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Datenschutz-Paket (DSGVO)</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Besucherstatistik</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Domains (.de)</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>SSL Verschlüsselung (Sicherheit)</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Suchmaschinenoptimierung</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Performance CDN</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Responsive Webdesign</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Google Karte</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Kontaktformular</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Content Management System (CMS)</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Ladezeitoptimierung</li>
+                          </ul>
+                          <a href="/kontakt" class="btn btn-block btn-primary text-uppercase">Anfrage</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Plus Tier -->
+                    <div class="col-lg-4">
+                      <div class="card mb-5 mb-lg-0">
+                        <div class="card-header">
+                            <h5 class="card-title text-muted text-uppercase text-center">Basic</h5>
+                            <h6 class="card-price text-center">799€<span class="period">monatlich 19€</span></h6>
+                        </div>
+                          <div class="card-body">
+                              <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>bis zu 5 Seiten (HTML)</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Design</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Datenschutz-Paket (DSGVO)</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Besucherstatistik</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Domains (.de)</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>SSL Verschlüsselung (Sicherheit)</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Suchmaschinenoptimierung</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Performance CDN</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Responsive Webdesign</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Kontaktformular</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Google Karte</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Content Management System (CMS)</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Ladezeitoptimierung</li>
+                              </ul>
+                              <a href="/kontakt" class="btn btn-block btn-primary text-uppercase">Anfrage</a>
+                            </div>
+                      </div>
+                    </div>
+                    <!-- Pro Tier -->
+                    <div class="col-lg-4">
+                      <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title text-muted text-uppercase text-center">Complete</h5>
+                            <h6 class="card-price text-center">999€<span class="period">monatlich 24€</span></h6>
+                        </div>
+                          <div class="card-body">
+                              <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>bis zu 10 Seiten (HTML)</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>1 Design</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Datenschutz-Paket (DSGVO)</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Besucherstatistik</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Domains (.de)</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>SSL Verschlüsselung (Sicherheit)</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Suchmaschinenoptimierung</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Performance CDN</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Responsive Webdesign</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Kontaktformular</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Google Karte</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Content Management System (CMS)</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Ladezeitoptimierung</li>
+                              </ul>
+                              <a href="/kontakt" class="btn btn-block btn-primary text-uppercase">Anfrage</a>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
           </div>
-          <div class="col-xl-6 col-lg-7 col-sm-12 "></div>
-          <div class="col-xl-6 col-lg-7 col-sm-12 "></div>
-          <div class="col-xl-6 col-lg-7 col-sm-12 "></div>
     </div>
 </section>
 
@@ -44,23 +133,23 @@
           <div class="row">             
               <h2>Auch nach der Entwicklung kümmern Wir uns um alles für Sie.</h2>
             <div class="col-xl-6 col-lg-7 col-sm-12 flex-column align-items-center">
-                <ul class="weblist">
+                <ul class="fa-ul weblist">
                     Zuverlässige Website-Pflege 
-                <li>Wartungsvertrag für technische Website-Pflege</li>
-                <li>WordPress-Updates mindestens 1x monatlich</li>
-                <li>Plugin-Updates mindestens 1x monatlich</li>
-                <li>zusätzlich sicherheitsrelevante wichtige Updates sofort und außerplanmäßig</li>
-                <li>regelmäßige Backups (tägliche Sicherung der Datenbank, wöchentliche Komplettsicherung des Webspace)</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Wartungsvertrag für technische Website-Pflege</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>WordPress-Updates mindestens 1x monatlich</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Plugin-Updates mindestens 1x monatlich</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>zusätzlich sicherheitsrelevante wichtige Updates sofort und außerplanmäßig</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>regelmäßige Backups (tägliche Sicherung der Datenbank, wöchentliche Komplettsicherung des Webspace)</li>
                 </ul>
             </div>
 
               <div class="col-xl-6 col-lg-7 col-sm-12 flex-column align-items-center">
-                  <ul class="weblist">
-                  <li>Prüfung auf Funktion mindestens 1x wöchentlich</li>
-                  <li>Prüfung auf Malware mindestens 1x monatlich</li>
-                  <li>Prüfung der Sicherheitseinstellungen mindestens 1x monatlich</li>
-                  <li>Monitoring</li>
-                  <li>Einrichtung von Web-Analysetool Google Analytics</li>
+                  <ul class="fa-ul weblist">
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Prüfung auf Funktion mindestens 1x wöchentlich</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Prüfung auf Malware mindestens 1x monatlich</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Prüfung der Sicherheitseinstellungen mindestens 1x monatlich</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Monitoring</li>
+                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Einrichtung von Web-Analysetool Google Analytics</li>
                   </ul>
                   <strong>und vieles mehr ... </strong>
                </div>

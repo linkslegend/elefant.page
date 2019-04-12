@@ -1,5 +1,5 @@
 <section class="banner-custompage">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row ">
       <div class="col-xl-6 col-lg-7">
         <h2>TI-Praxis-Check</h2>
@@ -32,7 +32,7 @@
 
 
 <section class="banner2-custompage">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row ">
 
       <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-xl-6 col-lg-5 col-md-5">
@@ -43,7 +43,7 @@
 
       </div>
 
-      <div class="order-1 order-xl-2 order-md-2 order-sm-2 col-xl-6 col-lg-7 col-md-7 align-content-center flex-wrap">
+      <div class="order-1 order-xl-2 order-md-2 order-sm-2 col-xl-6 col-lg-7 col-md-7 d-flex align-content-center flex-wrap">
         <h2>Warum brauche ich einen Praxis-Check?</h2>
         Steht die zertifizierte Hardware im Markt bereit, müssen alle Psychotherapeuten und Ärzte in einem knappen Zeitraum angeschlossen werden. Sind zu diesem Zeitpunkt eine oder mehrere Bedingungen innerhalb einer Praxis nicht erfüllt, kann dies zu ungewollten Verzögerungen und zur Erhöhung von Nachfolgekosten führen.
         <br /><br />
@@ -59,7 +59,7 @@
 
 <section class="banner3-custompage">
   <div class="bg"><img src="@asset('images/bg-2.svg')" /></div>
-  <div class="container">
+  <div class="container-fluid">
                             <h2>Was wird beim Praxis-Check überprüft?</h2>
                             <ul class="nav nav-tabs align-items-center">
                               <li class="active"><a data-toggle="tab" href="#menu1" class="active show">Ist ein Internetanschluss vorhanden?</a></li>
@@ -113,7 +113,7 @@
 
 
 <section class="banner2-custompage">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row ">
 
       <div class="col-xl-6 col-lg-7 col-md-7 order-sm-1 d-flex align-content-center flex-wrap">
@@ -138,7 +138,7 @@
 
 
 <section class="banner4-custompage">
-  <div class="container">
+  <div class="container-fluid">
 
         <h2>Was kostet der Praxis-Check?</h2>
         Der Praxis-Check kostet einmalig 199 Euro zzgl. MwSt. Er beinhaltet die Anfahrt des Technikers sowie die vollständige Überprüfung aller erforderlichen Punkte nach einem standardisierten Formular.

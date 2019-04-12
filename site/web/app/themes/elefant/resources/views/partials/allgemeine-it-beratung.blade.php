@@ -1,7 +1,7 @@
 <section class="banner-custompage">
-  <div class="container">
+  <div class="container-fluid">
         <div class="row">
-          <h2>Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien</h2>
+            <h2 class="col-12">Wir sind Ihr Spezialist für alle Fragen rund um Informationstechnologien</h2>
           <div class="col-xl-6 col-lg-7 col-sm-12 d-flex align-content-center flex-wrap">
             <p>
               Unser Einzugsgebiet ist vor allem der Raum von Koblenz, Neuwied, Wiesbaden und Mainz.
@@ -28,7 +28,7 @@
 </section>
 
 <section class="banner3-custompage">
-  <div class="container">
+  <div class="container-fluid">
 
     <div class="row">
 

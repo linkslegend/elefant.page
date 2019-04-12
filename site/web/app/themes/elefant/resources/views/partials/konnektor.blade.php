@@ -1,5 +1,5 @@
 <section class="banner-custompage">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row ">
       <div class="col-xl-6 col-lg-7 col-sm-12">
         <h2>TI-Konnektor</h2>
@@ -29,7 +29,7 @@
 
 
 <section class="banner2-custompage">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row ">
 
       <div class="col-xl-6 col-lg-5 col-md-5 align-items-center justify-content-center">
@@ -59,7 +59,7 @@
 
 <section class="banner3-custompage">
   <div class="bg"><img src="@asset('images/bg-2.svg')" /></div>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <h2>secunet konnektor - das Herzstück Ihrer sicheren TI-Kommunikation</h2>
 
@@ -92,7 +92,7 @@
 
 
 <section class="banner2-custompage">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row ">
 
       <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-xl-6 col-lg-7 col-md-12 d-flex align-content-center flex-wrap">
@@ -135,7 +135,7 @@
 
 
 <section class="banner4-custompage">
-  <div class="container">
+  <div class="container-fluid">
 
 Quelle Bilder und Text: secunet Security Networks AG
 

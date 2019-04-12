@@ -1,5 +1,5 @@
 <section class="banner-custompage">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
 
       <div class="p-3 col-xl-4 col-lg-4 col-md-12">
@@ -41,7 +41,7 @@
 
 <section class="banner3-custompage">
   <div class="bg"><img src="@asset('images/bg-2.svg')" /></div>
-  <div class="container">
+  <div class="container-fluid">
     <h2>Datenrettung und Datenwiederherstellung</h2>
     <div class="row ">
       <div class="col-xl-6 col-lg-7 col-sm-12 d-flex align-content-center flex-wrap">
@@ -65,7 +65,7 @@
 
 
 <section class="banner4-custompage">
-<div class="container">
+<div class="container-fluid">
   <div class="row">
 
     <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-xl-6 col-lg-6 col-md-6 col-sm-12">

@@ -1,6 +1,6 @@
 <section class="banner-custompage">
-  <div class="container">
-    <div class="row ">
+  <div class="container-fluid">
+    <div class="row">
       <div class="col-xl-6 col-lg-7 col-sm-12 d-flex align-content-center flex-wrap">
         <h2>Fernwartung mit TeamViewer</h2>
         <p>
@@ -27,7 +27,7 @@ Wir können per Fernwartung die Steuerung Ihres Computers via hochsicherer,
 
 
 <section class="banner4-custompage">
-<div class="container">
+<div class="container-fluid">
   <div class="row">
 
     <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-xl-6 col-lg-6 col-md-6 col-sm-12">

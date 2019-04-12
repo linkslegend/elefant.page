@@ -6,7 +6,7 @@
 
 @section('content')
   @while(have_posts()) @php the_post() @endphp
-    <div class="container">
+    <div class="container-fluid">
       <div class="content-box">
         @include('partials.page-header')
         @include('partials.content-page')

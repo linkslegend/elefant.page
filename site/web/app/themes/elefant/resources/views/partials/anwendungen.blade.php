@@ -1,5 +1,5 @@
 <section class="banner-custompage">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row ">
       <div class="col-xl-6 col-lg-7 col-sm-12 d-flex align-content-center flex-wrap">
         <h2>Die TI-Anwendungen im Überblick</h2>
@@ -29,7 +29,7 @@
 
 <section class="banner3-custompage">
   <div class="bg"><img src="@asset('images/bg-2.svg')" /></div>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
 
     <div class="p-3 col-xl-4 col-lg-4 col-md-6">

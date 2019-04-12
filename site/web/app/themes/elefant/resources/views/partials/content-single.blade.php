@@ -3,7 +3,7 @@ $featured_image = get_the_post_thumbnail_url(get_the_id(), 'large', array( 'clas
 @endphp
 
 <article @php post_class() @endphp>
-  <div class="container">
+  <div class="container-fluid">
   <div class="content-centered">
     <h1 class="entry-title">{{ get_the_title() }}</h1>
     @include('partials/entry-meta')
