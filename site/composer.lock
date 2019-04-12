@@ -342,12 +342,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woocommerce-woocart-pro.git",
-                "reference": "20b619427f43348933afbb3b26149fd7b5f3c00e"
+                "reference": "e69132e606c86e4450b4e57977a3fb0333e07cec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-woocart-pro/zipball/20b619427f43348933afbb3b26149fd7b5f3c00e",
-                "reference": "20b619427f43348933afbb3b26149fd7b5f3c00e",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-woocart-pro/zipball/e69132e606c86e4450b4e57977a3fb0333e07cec",
+                "reference": "e69132e606c86e4450b4e57977a3fb0333e07cec",
                 "shasum": ""
             },
             "require": {
@@ -369,7 +369,7 @@
                 "source": "https://github.com/linkslegend/woocommerce-woocart-pro/tree/master",
                 "issues": "https://github.com/linkslegend/woocommerce-woocart-pro/issues"
             },
-            "time": "2019-03-20T15:24:47+00:00"
+            "time": "2019-04-12T16:36:47+00:00"
         },
         {
             "name": "linkslegend/wp-sync-db",
@@ -927,15 +927,15 @@
         },
         {
             "name": "wpackagist-plugin/cf7-conditional-fields",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf7-conditional-fields/",
-                "reference": "tags/1.4.1"
+                "reference": "tags/1.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.4.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.4.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1017,7 +1017,7 @@
         },
         {
             "name": "wpackagist-plugin/super-socializer",
-            "version": "7.12.20",
+            "version": "7.12.21",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/super-socializer/",
@@ -1025,7 +1025,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1554798137"
+                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1554926446"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1203,12 +1203,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a0112223428a14391f094c5fa7301677d49bccf2"
+                "reference": "ff41a9a96718245c7160588928e6d217cfb0393c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a0112223428a14391f094c5fa7301677d49bccf2",
-                "reference": "a0112223428a14391f094c5fa7301677d49bccf2",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ff41a9a96718245c7160588928e6d217cfb0393c",
+                "reference": "ff41a9a96718245c7160588928e6d217cfb0393c",
                 "shasum": ""
             },
             "conflict": {
@@ -1243,7 +1243,7 @@
                 "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/core": ">=7,<7.64|>=8,<8.5.13|>=8.6,<8.6.12",
+                "drupal/core": ">=7,<7.65|>=8,<8.5.14|>=8.6,<8.6.13",
                 "drupal/drupal": ">=7,<7.64|>=8,<8.5.13|>=8.6,<8.6.12",
                 "erusev/parsedown": "<1.7.2",
                 "ezsystems/ezpublish-kernel": ">=5.3,<5.3.12.1|>=5.4,<5.4.13.1|>=6,<6.7.9.1|>=6.8,<6.13.5.1|>=7,<7.2.4.1|>=7.3,<7.3.2.1",
@@ -1400,20 +1400,20 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-04-09T13:39:27+00:00"
+            "time": "2019-04-12T16:05:24+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.4.1",
+            "version": "3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "5b4333b4010625d29580eb4a41f1e53251be6baa"
+                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5b4333b4010625d29580eb4a41f1e53251be6baa",
-                "reference": "5b4333b4010625d29580eb4a41f1e53251be6baa",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
+                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
                 "shasum": ""
             },
             "require": {
@@ -1451,7 +1451,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-03-19T03:22:27+00:00"
+            "time": "2019-04-10T23:49:02+00:00"
         }
     ],
     "aliases": [],
