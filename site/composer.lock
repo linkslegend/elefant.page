@@ -598,8 +598,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1.1",
-                "reference": "5.1.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -927,15 +926,15 @@
         },
         {
             "name": "wpackagist-plugin/cf7-conditional-fields",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf7-conditional-fields/",
-                "reference": "tags/1.4.2"
+                "reference": "tags/1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.4.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
