@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff7a2bfa008adfe797b9249fed41af92",
+    "content-hash": "f8d57d2aaf2365147a9de36c6802893c",
     "packages": [
         {
             "name": "composer/installers",
@@ -927,15 +927,15 @@
         },
         {
             "name": "wpackagist-plugin/cf7-conditional-fields",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf7-conditional-fields/",
-                "reference": "tags/1.4.2"
+                "reference": "tags/1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.4.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -978,6 +978,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7-dynamic-text-extension",
+            "version": "2.0.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7-dynamic-text-extension/",
+                "reference": "tags/2.0.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7-dynamic-text-extension.2.0.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7-dynamic-text-extension/"
         },
         {
             "name": "wpackagist-plugin/facebook-for-woocommerce",
@@ -1035,15 +1053,15 @@
         },
         {
             "name": "wpackagist-plugin/ti-woocommerce-wishlist",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ti-woocommerce-wishlist/",
-                "reference": "tags/1.10.0"
+                "reference": "tags/1.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ti-woocommerce-wishlist.1.10.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/ti-woocommerce-wishlist.1.10.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

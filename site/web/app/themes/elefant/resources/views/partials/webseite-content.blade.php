@@ -60,7 +60,7 @@
                             <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Content Management System (CMS)</li>
                             <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Ladezeitoptimierung</li>
                           </ul>
-                          <a href="/kontakt" class="btn btn-block btn-primary text-uppercase">Anfrage</a>
+                          <a href="/" class="paketstarter btn btn-block btn-primary" data-toggle="modal" data-target="#exampleModal">Anfrage</a>
                         </div>
                       </div>
                     </div>
@@ -87,7 +87,7 @@
                                 <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Content Management System (CMS)</li>
                                 <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Ladezeitoptimierung</li>
                               </ul>
-                              <a href="/kontakt" class="btn btn-block btn-primary text-uppercase">Anfrage</a>
+                              <a href="/" class="paketbasic btn btn-block btn-primary" data-toggle="modal" data-target="#exampleModal">Anfrage</a>
                             </div>
                       </div>
                     </div>
@@ -114,7 +114,7 @@
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Content Management System (CMS)</li>
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Ladezeitoptimierung</li>
                               </ul>
-                              <a href="/kontakt" class="btn btn-block btn-primary text-uppercase">Anfrage</a>
+                              <a href="/" class="paketcomplete btn btn-block btn-primary" data-toggle="modal" data-target="#exampleModal">Anfrage</a>
                             </div>
                       </div>
                     </div>
@@ -217,3 +217,20 @@
     </div>
 </section>
 -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Angebots-Formular</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[contact-form-7 id="537" title="Angebots-Formular"]'); ?>
+      </div>
+    </div>
+  </div>
+</div>
