@@ -1,6 +1,7 @@
 body {
   color: rgba(0, 0, 0, 0.7);
   font-size: 0.9em;
+  line-height: 1.8em;
 
   &.single,
   &.template-custom,
@@ -625,8 +626,6 @@ address {
 // No media query since the extra-large breakpoint has no upper bound on its width
 @media (min-width: 992px) {
   section {
-    line-height: 1.6;
-
     &.banner {
       margin: 50px 0 100px 0;
       color: $black;

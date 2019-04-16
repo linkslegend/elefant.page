@@ -101,13 +101,13 @@ body.woocommerce-page {
           }
 
           .woocommerce-loop-product__title {
-            font-size: 1.1em;
+            font-size: 1em;
             color: #1f1f32;
-            margin: 0;
+            margin: 0 0 5px 0;
             text-overflow: ellipsis;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
-            height: 48px;
+            height: 45px;
             display: -webkit-box;
             transition: all 0.25s;
             overflow: hidden;

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8d57d2aaf2365147a9de36c6802893c",
+    "content-hash": "321059e0bf2e54845e23b34c9e3969d3",
     "packages": [
         {
             "name": "composer/installers",
@@ -232,41 +232,6 @@
             "time": "2019-02-11T15:45:00+00:00"
         },
         {
-            "name": "linkslegend/woocommerce-product-reviews-pro",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/woocommerce-product-reviews-pro.git",
-                "reference": "324117dfc249340921afdfec6ae65d2c121c2cb0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-product-reviews-pro/zipball/324117dfc249340921afdfec6ae65d2c121c2cb0",
-                "reference": "324117dfc249340921afdfec6ae65d2c121c2cb0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "woocommerce-product-reviews-pro",
-                    "homepage": "https://gpldl.com/repository/woocommerce-product-reviews-pro/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/woocommerce-product-reviews-pro",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/woocommerce-product-reviews-pro/tree/master",
-                "issues": "https://github.com/linkslegend/woocommerce-product-reviews-pro/issues"
-            },
-            "time": "2019-02-12T11:41:18+00:00"
-        },
-        {
             "name": "linkslegend/woocommerce-social-login",
             "version": "dev-master",
             "source": {
@@ -439,6 +404,41 @@
                 "issues": "https://github.com/linkslegend/yith-woocommerce-advanced-product-options-premium/issues"
             },
             "time": "2019-02-11T16:33:59+00:00"
+        },
+        {
+            "name": "linkslegend/yith-woocommerce-advanced-reviews-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-advanced-reviews-premium.git",
+                "reference": "7c674a45af52f683bd703191c11016b77545799d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-advanced-reviews-premium/zipball/7c674a45af52f683bd703191c11016b77545799d",
+                "reference": "7c674a45af52f683bd703191c11016b77545799d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Original Plugin Author's Name",
+                    "homepage": "https://originalpluginurl.com"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-advanced-reviews-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-advanced-reviews-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-advanced-reviews-premium/issues"
+            },
+            "time": "2019-04-16T16:17:40+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-composite-products-premium",
@@ -1107,15 +1107,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.5.7",
+            "version": "3.5.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.5.7"
+                "reference": "tags/3.5.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.5.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.5.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1478,13 +1478,13 @@
         "linkslegend/ct-ultimate-gdpr": 20,
         "linkslegend/prdctfltr": 20,
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
+        "linkslegend/yith-woocommerce-advanced-reviews-premium": 20,
         "linkslegend/yith-woocommerce-composite-products-premium": 20,
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "linkslegend/yith-woocommerce-custom-order-status": 20,
         "linkslegend/woocommerce-social-login": 20,
         "linkslegend/woocommerce-tab-manager": 20,
         "linkslegend/woocommerce-woocart-pro": 20,
-        "linkslegend/woocommerce-product-reviews-pro": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/wp-sync-db": 20,
         "roave/security-advisories": 20

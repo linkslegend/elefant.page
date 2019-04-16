@@ -24,6 +24,56 @@
   </div>
 </section>
 
+<section class="web4-banner">
+    <div class="container-fluid">
+      <div class="row">
+            <h2>Unser Prozess ist auf Ihre individuellen Bedürfnisse zugeschnitten, aber hier ist ein allgemeiner Überblick, Was wir tun.</h2>
+            
+            <div class="whatwedo col-6">
+                <div class="list-image">
+                    <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Beratung" data-src="@asset('images/consulting-black.svg')" class="lozad">
+                </div>
+                <div class="list-content">
+                <h3>Beratung</h3>
+                Wenn Sie ein neues Branding benötigen, erstellen wir eine einheitliche visuelle Identifikation Ihrer Dienstleistung oder Ihres Produkts.
+                Wenn Sie es bereits haben, arbeiten wir an Designs nach Ihren Richtlinien.
+                </div>
+            </div>
+  
+            <div class="whatwedo col-6">
+                <div class="list-image">
+                    <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Planung" data-src="@asset('images/branding-black.svg')" class="lozad">
+                </div>
+                <div class="list-content">
+              <h3>Planung</h3>
+              Wenn Sie ein neues Branding benötigen, erstellen wir eine einheitliche visuelle Identifikation Ihrer Dienstleistung oder Ihres Produkts.
+              Wenn Sie es bereits haben, arbeiten wir an Designs nach Ihren Richtlinien.
+                </div>
+            </div>
+  
+            <div class="whatwedo col-6">
+              <div class="list-image">
+                  <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Web Design" data-src="@asset('images/design-black.svg')" class="lozad">
+              </div>
+              <div class="list-content">
+              <h3>Web Design</h3>
+              We start from structuring information architecture and mapping out functionalities (UX).
+              Then, we design final layouts of user interface (UI) and apply content strategy.
+              </div>
+            </div>
+  
+            <div class="whatwedo col-6">
+                <div class="list-image">
+                    <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Development" data-src="@asset('images/code-black.svg')" class="lozad">
+                </div>
+                <div class="list-content">
+              <h3>Development</h3>
+              In dieser Phase haben wir alle Entwürfe genehmigt. Unser Hauptaugenmerk liegt auf der Entwicklung von sicherem und sauberem Code. Das bedeutet, dass unser Code einfach zu implementieren, getestet und wartungsfähig ist.
+                </div>
+            </div>
+      </div>
+    </div>
+  </section>
 
 <section class="web3-banner">
     <div class="container-fluid">
@@ -127,14 +177,12 @@
     </div>
 </section>
 
-
 <section class="web2-banner">
     <div class="container-fluid">
           <div class="row">             
               <h2>Auch nach der Entwicklung kümmern Wir uns um alles für Sie.</h2>
             <div class="col-xl-6 col-lg-7 col-sm-12 flex-column align-items-center">
                 <ul class="fa-ul weblist">
-                    Zuverlässige Website-Pflege 
                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Wartungsvertrag für technische Website-Pflege</li>
                 <li><span class="fa-li"><i class="fas fa-check"></i></span>WordPress-Updates mindestens 1x monatlich</li>
                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Plugin-Updates mindestens 1x monatlich</li>
@@ -144,79 +192,20 @@
             </div>
 
               <div class="col-xl-6 col-lg-7 col-sm-12 flex-column align-items-center">
-                  <ul class="fa-ul weblist">
+                <ul class="fa-ul weblist">
                   <li><span class="fa-li"><i class="fas fa-check"></i></span>Prüfung auf Funktion mindestens 1x wöchentlich</li>
                   <li><span class="fa-li"><i class="fas fa-check"></i></span>Prüfung auf Malware mindestens 1x monatlich</li>
                   <li><span class="fa-li"><i class="fas fa-check"></i></span>Prüfung der Sicherheitseinstellungen mindestens 1x monatlich</li>
                   <li><span class="fa-li"><i class="fas fa-check"></i></span>Monitoring</li>
                   <li><span class="fa-li"><i class="fas fa-check"></i></span>Einrichtung von Web-Analysetool Google Analytics</li>
-                  </ul>
-                  <strong>und vieles mehr ... </strong>
+                  <li><strong>und vieles mehr ... </strong></li>
+                </ul>
                </div>
 
            </div>
       </div>
 </section>
 
-
-
-
-
-<!--
-<section class="web2-banner">
-  <div class="container">
-
-
-    <h2>Unsere Leistungen</h2>
-
-    <div class="row">
-
-      <div class="col-xl-4 col-lg-4 col-md-6">
-        <div class="outer-image">
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Software Installation" data-src="@asset('images/laptop.svg')" class="lozad" /></div>
-        <h2>Software Installation</h2>
-        Wir richten die Software Ihrer Rechner vollständig für Sie ein, von Betriebssystem, über das Netzwerk bis hin zum E-Mail-Postfach. Auch spezielle Anwendungen werden von uns für Sie installiert und eingerichtet.
-      </div>
-
-      <div class="col-xl-4 col-lg-4 col-md-6">
-        <div class="outer-image">
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Hardware & Software Wartung" data-src="@asset('images/maintenance.svg')" class="lozad" /></div>
-        <h2>Hardware & Software Wartung</h2>
-        Ausfälle der IT-Systeme sind ärgerlich, können den Betrieb lähmen und kosten so schnell viel Geld. Wir helfen in allen Fragen der Reparatur und der Wartung, damit Sie Ihre Rechner ohne Ausfallzeiten optimal nutzen können.
-      </div>
-
-      <div class="col-xl-4 col-lg-4 col-md-6">
-        <div class="outer-image">
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Datensicherung" data-src="@asset('images/data.svg')" class="lozad" /></div>
-        <h2>Datensicherung</h2>
-        Eine Datensicherung schützt vor dem Datenverlust, sei es durch versehentliches Löschen, Viren oder einen Festplattendefekt. Wenn keine Sicherung vorhanden ist, können jahrelang gesammelte Daten und Dokumente verloren gehen.
-      </div>
-
-      <div class="col-xl-4 col-lg-4 col-md-6">
-        <div class="outer-image">
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Sicherheit" data-src="@asset('images/shield.svg')" class="lozad" /></div>
-        <h2>Sicherheit</h2>
-        Nur ein gut geschützter PC ist wirklich sicher vor Viren, Trojanern und Datenspionage. Als ESET-Partner helfen wir Ihnen, Ihren PC zu schützen.
-      </div>
-
-      <div class="col-xl-4 col-lg-4 col-md-6">
-        <div class="outer-image">
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Virtuelle Maschinen (VM)" data-src="@asset('images/laptop.svg')" class="lozad" /></div>
-        <h2>Virtuelle Maschinen (VM)</h2>
-        Seit dem 1. Januar 2017 wird der eArztbrief mit 55 Cent vergütet, wenn er mittels eines elektronischen Heilberufsausweises (eHBA) qualifiziert signiert und sicher übermittelt wird - aktuell im Sicheren Netz der KVen über KV-Connect, künftig über die TI. Die Vergütung wird 2018 neu verhandelt.
-      </div>
-
-      <div class="col-xl-4 col-lg-4 col-md-6">
-        <div class="outer-image">
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Vor Ort Service" data-src="@asset('images/customer-service.svg')" class="lozad" /></div>
-        <h2>Vor Ort Service</h2>
-        Eine virtuelle Maschine auf Ihrem Arbeitsplatzrechner gibt Ihnen die Möglichkeit, bestehende Hard- und Software weiter zu betreiben, die sonst nicht mehr kompatibel wäre.
-      </div>
-
-      </div>
-    </div>
-</section>
--->
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
