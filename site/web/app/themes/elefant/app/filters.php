@@ -156,11 +156,12 @@ function internet_allow_email_login( $user, $username, $password ) {
 add_filter( 'comment_form_defaults', function( $fields ) {
     $fields['must_log_in'] = sprintf(
         __( '<p class="must-log-in">
-                 You must <a href="/my-account/">Register</a> or
-                 <a data-toggle="modal" data-target="#loginmodal" href="#">Login</a> to post a comment.</p>'
+                 Sie müssen <a href="/my-account/">registriert</a> sein oder
+                 <a data-toggle="modal" data-target="#loginmodal" href="#">Anmelden</a> , um einen Kommentar zu schreiben.</p>'
         ),
         wp_registration_url(),
         wp_login_url( apply_filters( 'the_permalink', get_permalink() ) )
     );
     return $fields;
 });
+
