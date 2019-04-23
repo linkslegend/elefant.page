@@ -10,7 +10,7 @@ body.woocommerce-cart {
               .woocommerce-cart-form {
                 .woocommerce-cart-form__contents {
                   background: #fff;
-                  font-size: 0.95em;
+                  font-size: 1em;
                   border-radius: 8px;
                   border: none;
                   padding: 15px;
@@ -18,7 +18,7 @@ body.woocommerce-cart {
                   tbody {
                     tr {
                       &.woocommerce-cart-form__cart-item {
-                        font-size: 0.9em;
+                        font-size: 1em;
 
                         td {
                           &.product-remove {
@@ -29,15 +29,15 @@ body.woocommerce-cart {
                               border: 1px solid #dadada;
                               text-align: center;
                               display: block;
-                              height: 33px;
-                              width: 33px;
+                              height: 32px;
+                              width: 32px;
                               margin: 0;
                               line-height: normal;
-                              padding-top: 1px;
+                              padding-top: 0;
+                              padding-left: 1px;
                               position: absolute;
                               left: 0;
                               top: 10px;
-                              padding-left: 0;
                               background: transparent;
                               font-size: 1.5em;
                               border-radius: 100%;
@@ -87,8 +87,9 @@ body.woocommerce-cart {
                               padding: 10px;
                               height: 45px;
                               border-radius: 8px;
+                              font-weight: 400;
                               transition: all 0.3s;
-                              font-size: 0.9em;
+                              font-size: 1em;
 
                               &:hover {
                                 background-color: #fe7003;
@@ -110,7 +111,7 @@ body.woocommerce-cart {
                   background: #fff;
                   border-radius: 8px;
                   width: 100%;
-                  font-size: 0.9em;
+                  font-size: 1em;
                   padding: 15px;
 
                   table {

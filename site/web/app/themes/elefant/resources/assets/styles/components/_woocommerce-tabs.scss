@@ -59,9 +59,11 @@
       .woocommerce-Tabs-panel {
         font-size: 1em;
         padding: 15px;
+        margin-bottom: 0;
         background: #fff;
+        border-radius: 8px;
         line-height: 1.6em;
-        box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.03);
+        box-shadow: none;
 
         h2 {
           font-size: 1.3rem;
@@ -87,7 +89,7 @@
         ul.tabs {
           background: #fff;
           border: 1px solid #e2e2e2;
-          padding: 15px 0 5px;
+          padding: 15px 0 0;
           float: left;
           overflow: visible;
           width: 100%;
@@ -113,7 +115,7 @@
             height: 0;
             left: 0;
             right: 0;
-            margin: 134px auto;
+            margin: 129px auto;
             position: absolute;
             border-left: 13px solid transparent;
             border-right: 13px solid transparent;
@@ -132,7 +134,7 @@
 
             a {
               transition: all 0.25s ease 0s;
-              background: #f4f4f4;
+              background: #fff;
               display: block;
               padding: 9px;
               border: 1px solid #d0d0d0;
@@ -208,12 +210,10 @@
           padding: 15px;
           background: #fff;
           float: left;
-          border-radius: 4px;
           font-size: 1em;
           width: 100%;
           border: 1px solid #e2e2e2;
           margin: 20px 0;
-          box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.03);
 
           h2 {
             font-size: 1.3rem;

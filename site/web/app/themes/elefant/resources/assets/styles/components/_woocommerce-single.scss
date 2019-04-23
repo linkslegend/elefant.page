@@ -3,7 +3,7 @@ body.woocommerce-cart,
 body.woocommerce-account,
 body.woocommerce-checkout,
 body.single.single-product {
-  background-image: linear-gradient(to bottom, rgb(248, 248, 248) 0, rgba(227, 241, 245, 0.231) 959px);
+  background-image: linear-gradient(to bottom, rgb(248, 248, 248) 0, rgba(25, 152, 185, 0.1) 959px);
 
   .wrap {
     padding-top: 0;
@@ -84,6 +84,7 @@ body.woocommerce.single {
     .entry-summary {
       max-height: none;
       float: right;
+      margin-bottom: 15px;
       width: 55%;
       background: #fff;
       border-radius: 8px;
@@ -172,8 +173,8 @@ body.woocommerce.single {
       }
 
       .you_save_price {
-        color: #72a700;
-        margin-top: 0;
+        color: #fe7004;
+        margin: 10px 0 0 0;
         font-weight: 700;
 
         .save_prefix {

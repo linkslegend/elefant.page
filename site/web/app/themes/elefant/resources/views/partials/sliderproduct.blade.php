@@ -15,7 +15,7 @@
     while ( $loop->have_posts() ) : $loop->the_post(); global $product;
   ?>
 
-  <li class="product-item">
+  <li class="product-item type-product">
     <div class="product-inner">
       <a id="id-<?php the_id(); ?>" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
       
@@ -25,7 +25,7 @@
         echo '<img class="lozad" src="" data-src="'.woocommerce_placeholder_img_src().'" alt="My Image Placeholder" width="65px" height="115px" />'; 
       ?>
 
-      <h3 class="product-title"><?php the_title(); ?></h3>
+      <h2 class="woocommerce-loop-product__title"><?php the_title(); ?></h2>
       <span class="price"><?php echo $product->get_price_html(); ?></span>
       </a>
       <?php woocommerce_template_loop_add_to_cart( $loop->post, $product ); ?>

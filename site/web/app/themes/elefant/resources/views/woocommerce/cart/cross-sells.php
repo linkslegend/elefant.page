@@ -27,7 +27,7 @@ if ( $cross_sells ) : ?>
 		<h2><?php _e( 'You may be interested in&hellip;', 'woocommerce' ) ?></h2>
 
 		<?php woocommerce_product_loop_start(); ?>
-
+		<div class="div-li-slider">
 			<?php foreach ( $cross_sells as $cross_sell ) : ?>
 
 				<?php
@@ -38,7 +38,7 @@ if ( $cross_sells ) : ?>
 					wc_get_template_part( 'content', 'product' ); ?>
 
 			<?php endforeach; ?>
-
+			</div>
 		<?php woocommerce_product_loop_end(); ?>
 
 	</div>

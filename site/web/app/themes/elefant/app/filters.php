@@ -165,3 +165,34 @@ add_filter( 'comment_form_defaults', function( $fields ) {
     return $fields;
 });
 
+/**
+* @snippet Move & Change Number of Cross-Sells @ WooCommerce Cart
+* @how-to Watch tutorial @ https://businessbloomer.com/?p=19055
+* @sourcecode https://businessbloomer.com/?p=20449
+* @author Rodolfo Melogli
+* @testedwith WooCommerce 2.6.2
+*/
+
+// ---------------------------------------------
+// Remove Cross Sells From Default Position 
+
+remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display' );
+// ---------------------------------------------
+// Add them back UNDER the Cart Table
+ 
+add_action( 'woocommerce_after_cart', 'woocommerce_cross_sell_display' );
+// ---------------------------------------------
+// Display Cross Sells on 3 columns instead of default 4
+ 
+add_filter( 'woocommerce_cross_sells_columns', __NAMESPACE__ . '\\bbloomer_change_cross_sells_columns' );
+
+function bbloomer_change_cross_sells_columns( $columns ) {
+return 8;
+}
+
+// ---------------------------------------------
+// Display Only 3 Cross Sells instead of default 4
+add_filter( 'woocommerce_cross_sells_total', __NAMESPACE__ . '\\bbloomer_change_cross_sells_product_no' );
+function bbloomer_change_cross_sells_product_no( $columns ) {
+return 8;
+}
