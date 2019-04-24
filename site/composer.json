@@ -133,7 +133,8 @@
     "wpackagist-plugin/super-socializer": "^7.12",
     "wpackagist-plugin/woo-preview-emails": "^1.5",
     "wpackagist-plugin/cf7-conditional-fields": "^1.4",
-    "wpackagist-plugin/contact-form-7-dynamic-text-extension": "2.0.2.1"
+    "wpackagist-plugin/contact-form-7-dynamic-text-extension": "2.0.2.1",
+    "wpackagist-plugin/breeze": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
