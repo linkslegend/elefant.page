@@ -1,0 +1,92 @@
+body.woocommerce-checkout {
+  .wrap {
+    .content {
+      margin-bottom: 50px;
+
+      .container-fluid {
+        main.main {
+          .woocommerce {
+            .woocommerce-info {
+              background: #fff;
+              color: #4c4c4c;
+
+              &::before {
+                color: #4c4c4c;
+              }
+            }
+
+            .woocommerce-order {
+              background: #fff;
+              padding: 20px;
+              border-radius: 8px;
+
+              .woocommerce-notice {
+                font-size: 1.1em;
+                font-weight: 700;
+                text-align: left;
+                margin: 5px 0 15px;
+              }
+
+              ul.woocommerce-order-overview {
+                margin: 0 0 25px;
+                background: #f2f2f2;
+                padding: 15px;
+                list-style: none;
+                border-radius: 8px;
+
+                li {
+                  font-size: 0.815em;
+                }
+              }
+
+              .woocommerce-customer-details {
+                section.woocommerce-columns {
+                  .woocommerce-column {
+                    max-width: none;
+
+                    address {
+                      font-style: normal;
+                      margin-bottom: 0;
+                      border: 1px solid #d2d2d2;
+                      background: #fff;
+                      text-align: left;
+                      font-size: 1em;
+                      width: 100%;
+                      border-radius: 8px;
+                      padding: 6px 12px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+/*
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+}
+*/

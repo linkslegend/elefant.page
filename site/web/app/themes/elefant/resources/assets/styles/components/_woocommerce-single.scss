@@ -104,15 +104,13 @@ body.woocommerce.single {
         }
 
         ul {
-          &.item-small-description {
-            display: block;
-            margin-top: 10px;
-            margin-left: 0;
-            padding: 0 25px;
+          display: block;
+          margin-top: 10px;
+          margin-left: 0;
+          padding: 0 25px;
 
-            li {
-              padding: 2px;
-            }
+          li {
+            padding: 2px;
           }
         }
       }
@@ -351,7 +349,7 @@ body.woocommerce.single {
         width: 100%;
         float: left;
         margin-top: 0;
-        background: #e3f1f5;
+        background: #f8fbfd;
         border-radius: 8px;
         padding: 20px;
 
@@ -369,6 +367,23 @@ body.woocommerce.single {
 
             .must-log-in {
               display: block;
+            }
+
+            form {
+              .form-submit {
+                #submit {
+                  color: #fff;
+                  border-radius: 8px;
+                  background-color: #fe7004;
+                  transition: all 0.3s;
+
+                  &:hover {
+                    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                    background-color: #fe7004;
+                    color: #fff;
+                  }
+                }
+              }
             }
           }
         }

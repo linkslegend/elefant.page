@@ -25,6 +25,10 @@ body.woocommerce-page {
     }
   }
 
+  .table {
+    font-size: 1em;
+  }
+
   .woocommerce-error {
     background: #f9635a;
     color: #fff;
@@ -63,10 +67,6 @@ body.woocommerce-page {
       background: none;
     }
   }
-}
-
-.table {
-  font-size: 1em;
 }
 
 .woocommerce img,
@@ -219,6 +219,15 @@ body.single-product.woocommerce {
       }
     }
   }
+}
+
+.woocommerce table.shop_table {
+  font-size: 1em;
+}
+
+mark {
+  padding: 0.2em 0.3em;
+  background-color: rgba(255, 112, 3, 0.1);
 }
 
 /*
