@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git",
-                "reference": "d60655c1ffb60176c46ff59ed22f2df820934048"
+                "reference": "a78fe44d1d9caef309677a0830cd5bd4841871a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/d60655c1ffb60176c46ff59ed22f2df820934048",
-                "reference": "d60655c1ffb60176c46ff59ed22f2df820934048",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/a78fe44d1d9caef309677a0830cd5bd4841871a7",
+                "reference": "a78fe44d1d9caef309677a0830cd5bd4841871a7",
                 "shasum": ""
             },
             "require": {
@@ -473,7 +473,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/issues"
             },
-            "time": "2019-02-18T18:29:06+00:00"
+            "time": "2019-04-29T13:30:51+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-custom-order-status",

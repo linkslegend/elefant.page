@@ -196,3 +196,4 @@ add_filter( 'woocommerce_cross_sells_total', __NAMESPACE__ . '\\bbloomer_change_
 function bbloomer_change_cross_sells_product_no( $columns ) {
 return 8;
 }
+

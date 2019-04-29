@@ -21,8 +21,9 @@ body.woocommerce-checkout {
               .form-row {
                 button {
                   &.button {
-                    background: #ff7003;
-                    color: #fff;
+                    background: transparent;
+                    color: #ff7003;
+                    border: 2px solid #ff7003;
                     border-radius: 8px;
                     padding: 12px;
                     height: 45px;
@@ -30,8 +31,9 @@ body.woocommerce-checkout {
                     transition: all 0.3s;
 
                     &:hover {
-                      background-color: #ff8d00;
+                      background-color: #ff7003;
                       color: #fff;
+                      box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.1);
                     }
                   }
                 }
@@ -386,18 +388,9 @@ body.woocommerce-checkout {
                 .form-row {
                   button {
                     &.button {
-                      background: #ff7003;
-                      color: #fff;
-                      border-radius: 8px;
                       padding: 12px;
                       height: 45px;
                       width: 100%;
-                      transition: all 0.3s;
-
-                      &:hover {
-                        background-color: #ff8d00;
-                        color: #fff;
-                      }
                     }
                   }
                 }
@@ -626,13 +619,15 @@ body.woocommerce-checkout {
                         &.button {
                           background-color: #fe730d;
                           color: #fff;
-                          padding: 15px;
+                          font-weight: 700;
+                          padding: 10px 15px;
                           width: 100%;
                           transition: all 0.3s;
                           border-radius: 8px;
 
                           &:hover {
                             background-color: #72a700;
+                            border-color: #72a700;
                           }
                         }
                       }
