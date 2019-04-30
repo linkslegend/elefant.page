@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git",
-                "reference": "a78fe44d1d9caef309677a0830cd5bd4841871a7"
+                "reference": "99bf8dc02031bd0b4469e844cea8805d32d420fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/a78fe44d1d9caef309677a0830cd5bd4841871a7",
-                "reference": "a78fe44d1d9caef309677a0830cd5bd4841871a7",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/99bf8dc02031bd0b4469e844cea8805d32d420fa",
+                "reference": "99bf8dc02031bd0b4469e844cea8805d32d420fa",
                 "shasum": ""
             },
             "require": {
@@ -473,7 +473,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/issues"
             },
-            "time": "2019-04-29T13:30:51+00:00"
+            "time": "2019-04-30T16:44:58+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-custom-order-status",
@@ -1251,15 +1251,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-migrate-db/",
-                "reference": "tags/1.0.10"
+                "reference": "tags/1.0.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.1.0.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.1.0.11.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1275,12 +1275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "1b329f4f2d9a0a3981fd79dbfe37754bedd383e2"
+                "reference": "1dfa887a7e87ba9b7c635299462554b9ad241d5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1b329f4f2d9a0a3981fd79dbfe37754bedd383e2",
-                "reference": "1b329f4f2d9a0a3981fd79dbfe37754bedd383e2",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1dfa887a7e87ba9b7c635299462554b9ad241d5b",
+                "reference": "1dfa887a7e87ba9b7c635299462554b9ad241d5b",
                 "shasum": ""
             },
             "conflict": {
@@ -1301,7 +1301,7 @@
                 "composer/composer": "<=1.0.0-alpha11",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/core": ">=2,<3.5.39",
-                "contao/core-bundle": ">=4,<4.4.37|>=4.5,<4.7.3",
+                "contao/core-bundle": ">=4,<4.4.39|>=4.5,<4.7.5",
                 "contao/listing-bundle": ">=4,<4.4.8",
                 "contao/newsletter-bundle": ">=4,<4.1",
                 "david-garcia/phpwhois": "<=4.3.1",
@@ -1475,7 +1475,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-04-24T06:22:37+00:00"
+            "time": "2019-04-30T09:56:45+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
