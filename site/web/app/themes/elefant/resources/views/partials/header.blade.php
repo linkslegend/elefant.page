@@ -13,9 +13,9 @@
 
             <div class="icon-menu mobile-block d-block d-md-none">
                 <ul class="header links">
-                  <li id="icons" class="account"><div class="inner-account myaccount"><a href="/account" class="my-account">Konto</a></div></li>
+                  <li id="icons" class="account"><div class="inner-account myaccount"><a href="/mein-konto" class="my-account">Konto</a></div></li>
                   <li id="icons" class="account"><div class="inner-account wishlist"><a href="/login" class="my-wishlist">Wunschliste</a></div></li>
-                  <li id="icons" class="account"><div class="inner-account cart"><span class="my-cart">Warenkorb</span></div></li>
+                  <li id="icons" class="account"><div class="inner-account cart"><a href="/warenkorb"><span class="my-cart">Warenkorb</span></a></div></li>
                 </ul>
             </div>
 

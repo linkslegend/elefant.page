@@ -1,4 +1,8 @@
 import lozad from 'lozad';
+//import mailtoui
+
+import mailtoui from 'mailtoui/dist/mailtoui-min.js';
+
 
 export default {
   init() {
@@ -6,8 +10,8 @@ export default {
 
     /* eslint-disable */
     /* eslint-enable */
-    $(document).ready(function(){
 
+    $(document).ready(function(){
       jQuery.event.special.touchstart = {
           setup: function( _, ns, handle ){
               if ( ns.includes('noPreventDefault') ) {
@@ -17,6 +21,8 @@ export default {
               }
           },
       };
+
+    mailtoui.run({ autoClose: false, linkClass: 'mailtoui' });
 
     const observer = lozad('.lozad', {
       rootMargin: '500px 0px',

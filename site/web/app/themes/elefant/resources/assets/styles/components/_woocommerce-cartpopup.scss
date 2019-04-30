@@ -92,7 +92,7 @@ body {
               background: transparent;
               border: none;
               border-bottom: 1px solid #e2e2e2;
-              margin-top: 15px;
+              margin-top: 5px;
               border-radius: 8px;
               padding: 5px;
               display: block;
@@ -129,7 +129,7 @@ body {
 
               &.festi-cart-product-delete {
                 position: relative;
-                vertical-align: top;
+                vertical-align: middle;
                 width: 20px;
 
                 a.festi-cart-remove-product {
@@ -143,7 +143,7 @@ body {
                   position: relative;
                   background: #fff;
                   left: 0;
-                  margin-top: 5px;
+                  margin-top: 0;
                   top: 0;
                   border: 1px solid #dedede;
                   border-radius: 100%;
@@ -160,25 +160,27 @@ body {
               }
 
               &.festi-cart-product-img {
-                vertical-align: top !important;
                 float: none;
+                padding: 0 0 0 10px;
 
                 a.festi-cart-img {
                   img {
-                    max-width: 80px;
+                    max-width: 60px;
                     width: 100%;
-                    min-width: 80px;
+                    min-width: 60px;
                     display: block;
-                    padding: 10px;
+                    padding: 0;
                     height: auto;
+                    border: 1px solid #d2d2d2;
+                    border-radius: 8px;
                   }
                 }
               }
 
               &.festi-cart-product-title {
                 text-align: left;
-                padding: 10px 10px 0 0 !important;
-                vertical-align: top;
+                padding: 0 0 0 10px;
+                vertical-align: middle;
                 float: none;
 
                 a.festi-cart-title {
@@ -197,10 +199,14 @@ body {
                   }
                 }
 
+                br {
+                  display: none;
+                }
+
                 .festi-cart-inner-wrap {
                   font-weight: 600;
                   margin-top: 0;
-                  font-size: 1.05em;
+                  font-size: 1em;
                   float: left;
                   color: rgba(0, 0, 0, 0.7);
                   margin-bottom: 10px;
@@ -227,6 +233,12 @@ body {
                         font-weight: 500;
                       }
                     }
+                  }
+                }
+
+                .ywcp_cart_component_name {
+                  a.festi-cart-title {
+                    display: none;
                   }
                 }
               }

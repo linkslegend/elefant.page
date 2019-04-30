@@ -78,7 +78,7 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
     #festi-cart-pop-up-products-list-body {
       max-height: 430px !important;
       scroll-behavior: smooth;
-      overflow: visible !important;
+      overflow: auto !important;
       min-height: 100px;
       width: auto !important;
       margin: 20px;
@@ -91,8 +91,8 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
           tr.festi-cart-item {
             border-bottom: 1px solid #e4e4e4;
             display: block;
-            margin: 10px 0;
-            padding: 10px 0;
+            margin: 7px 0;
+            padding: 7px 0;
             position: relative;
             border-radius: 0;
 
@@ -100,10 +100,14 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
               margin-top: 0;
             }
 
+            &:last-child {
+              border-bottom: none;
+            }
+
             td {
               &.festi-cart-product-delete {
                 width: 25px;
-                vertical-align: top;
+                vertical-align: middle;
                 position: relative;
                 right: 0;
                 overflow: visible;
@@ -113,14 +117,14 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
                   border: 1px solid #dadada;
                   text-align: center;
                   display: block;
-                  height: 33px;
-                  width: 33px;
+                  height: 31px;
+                  width: 31px;
                   margin: 0;
                   line-height: normal;
                   padding-top: 0;
-                  position: absolute;
-                  left: -5px;
-                  top: 5px;
+                  position: relative;
+                  left: 9;
+                  top: 0;
                   padding-left: 0;
                   background: transparent;
                   font-size: 1.4em;
@@ -149,22 +153,22 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
                     height: auto;
                     width: 100px;
                     max-width: 80px;
-                    margin: 0 10px;
-                    padding: 10px;
+                    margin: 0 15px;
+                    padding: 0 15px 0 15px;
                   }
                 }
               }
 
               &.festi-cart-product-title {
-                vertical-align: top !important;
-                padding: 10px 0 0 !important;
+                vertical-align: middle !important;
+                padding: 0 !important;
                 text-align: left !important;
 
                 a.festi-cart-title {
                   color: rgba(0, 0, 0, 0.7);
-                  margin-bottom: 10px;
+                  margin-bottom: 0;
                   font-size: 1em;
-                  height: 38px;
+                  height: auto;
                   font-weight: 600;
                   display: inline-block;
                   width: 100%;
@@ -174,6 +178,16 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
                     text-decoration: none;
                     color: #f26900;
                   }
+                }
+
+                .ywcp_cart_component_name {
+                  label {
+                    display: none;
+                  }
+                }
+
+                br {
+                  display: none;
                 }
 
                 span.festi-cart-product-variation-attribut {
@@ -290,7 +304,7 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
 
         span.festi-cart-continue-shopping {
           display: block;
-          padding: 10px;
+          padding: 0;
           font-weight: 500;
           width: 100%;
           background: transparent;
@@ -301,6 +315,37 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
           &:hover {
             background: transparent;
             color: #fd7004;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  div.festi-cart-pop-up-content.festi-cart-pop-up-content-active {
+    left: 0 !important;
+    top: 10px !important;
+
+    .festi-cart-pop-up-body {
+      padding: 0;
+      background: #fff;
+      height: 100%;
+      max-width: 95%;
+      min-width: 95%;
+      margin: 0 auto;
+
+      .festi-cart-pop-up-products-content {
+        #festi-cart-pop-up-products-list-body {
+          margin: 10px;
+        }
+
+        #popup-nav-wrapper {
+          .festi-cart-continue {
+            .festi-cart-continue-shopping {
+              padding: 0;
+            }
           }
         }
       }

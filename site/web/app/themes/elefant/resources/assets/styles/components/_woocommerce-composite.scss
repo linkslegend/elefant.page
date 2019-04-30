@@ -11,12 +11,13 @@ form {
       float: left;
       width: 100%;
       border: 1px solid #d2d2d2;
-      border-radius: 4px;
-      padding: 10px;
-      margin: 0 0 15px 0;
+      border-radius: 8px;
+      padding: 5px 10px;
+      margin: 15px 0;
 
       table {
         width: 100%;
+        font-size: 1em;
 
         tr {
           border-bottom: 1px solid #d2d2d2;
@@ -31,7 +32,7 @@ form {
           }
 
           td {
-            padding: 5px;
+            padding: 10px;
           }
         }
       }
@@ -45,14 +46,15 @@ form {
       position: relative;
       box-shadow: none;
       background-color: #fff;
-      border-radius: 4px;
-      border: 1px solid rgba(31, 37, 50, 0.3);
+      border-radius: 8px;
+      border: 1px solid #d2d2d2;
 
       .product {
-        display: flex;
+        display: block;
 
         .ywcp_image_container.images {
           border: none;
+          width: 15%;
 
           img {
             width: 100%;
@@ -63,23 +65,27 @@ form {
         }
 
         .ywcp_product_info {
-          padding: 0 20px 0 0;
+          padding: 0 20px 0 10px;
+          width: 85%;
           float: left;
 
           .ywcp_product_title {
             font-size: 1em;
             font-weight: 600;
-            margin-bottom: 3px;
+            margin-bottom: 0;
           }
 
           .ywcp_product_link {
-            bottom: 15px;
-            right: 11px;
+            float: left;
             font-size: 0.9em;
           }
 
           .ywcp_product_price {
-            bottom: 15px;
+            display: block;
+            float: left;
+            padding-right: 10px;
+            border-right: 1px solid #d2d2d2;
+            margin-right: 10px;
 
             del {
               font-weight: 400;
@@ -94,26 +100,29 @@ form {
               text-decoration: none;
             }
           }
+
+          .ywcp_product_short_description {
+            float: none;
+            display: inline-block;
+            font-size: 0.9em;
+            width: 100%;
+          }
         }
       }
     }
 
     a.ywcp_selection_clear {
       background-color: transparent;
-      padding: 5px;
+      padding: 8px;
       height: 30px;
       width: 30px;
-      text-decoration: none;
-      box-shadow: none;
-      -webkit-border-radius: 2px;
-      -moz-border-radius: 2px;
-      border-radius: 4px;
+      border-radius: 8px;
       color: #fff;
       text-indent: -9999px;
       background-image: url("../images/cancel-orange.svg");
-      background-position: 9px;
-      background-size: 13px;
-      margin: 5px 15px 0 0;
+      background-position: 10px;
+      background-size: 10px;
+      margin: 10px 40px 0 0;
       right: 0;
       position: absolute;
       text-transform: uppercase;
@@ -132,15 +141,17 @@ form {
             clear: both;
             display: flex;
             width: 100%;
-            border-radius: 4px;
+            border-radius: 8px;
             background: #fff;
             padding: 10px;
-            border: 1px solid #e8e8e8;
+            border: 1px solid #d2d2d2;
             margin-bottom: 10px;
             cursor: pointer;
+            transition: all 0.3s;
 
             .ywcp_image_container {
               width: 60px;
+              margin-bottom: 0;
 
               img {
                 border-radius: 8px;
@@ -148,7 +159,7 @@ form {
             }
 
             .ywcp_product_info {
-              height: 100%;
+              height: auto;
 
               .ywcp_product_title {
                 font-size: 1em;
@@ -173,6 +184,27 @@ form {
                 }
               }
             }
+
+            &::after {
+              transition: all 0.3s;
+              content: "+";
+              font-size: 3em;
+              color: transparent;
+              position: absolute;
+              right: 40px;
+            }
+
+            &:hover {
+              background: #f2f2f2;
+
+              &::after {
+                content: "+";
+                font-size: 3em;
+                color: #ff7003;
+                position: absolute;
+                right: 40px;
+              }
+            }
           }
         }
       }
@@ -180,14 +212,19 @@ form {
 
     .ywcp_components_container {
       float: left;
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #d2d2d2;
+      background: #fdfdfd;
+      padding: 15px 15px 5px 15px;
 
       h3 {
         margin: 0 0 10px 0;
-        border-radius: 4px;
+        border-radius: 8px;
         position: relative;
         background: #fff;
         text-transform: none;
-        border: 1px solid rgba(31, 37, 50, 0.3);
+        border: 1px solid #d2d2d2;
         padding: 12px;
         color: rgba(31, 37, 50, 0.7);
         transition: all 0.25s;
@@ -233,8 +270,32 @@ form {
         }
       }
 
+      .ywcp_component_description {
+        padding: 0 10px;
+      }
+
       .ywcp_component_subtotal {
-        padding: 5px;
+        padding: 0 5px;
+        font-size: 0.9em;
+        border: none;
+        background: #fff;
+        margin-bottom: 0;
+        position: relative;
+        top: -10px;
+        margin-right: 20px;
+
+        span.amount {
+          font-weight: 600;
+        }
+      }
+
+      .ywcp_selection_selected {
+        h3 {
+          visibility: hidden;
+          height: 0;
+          padding: 0;
+          margin: 0 !important;
+        }
       }
     }
 
