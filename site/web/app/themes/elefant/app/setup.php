@@ -29,7 +29,7 @@ function ajax_login_init(){
     wp_enqueue_script('ajax-login-script');
     wp_localize_script( 'ajax-login-script', 'ajax_login_object', array(
         'ajaxurl' => admin_url( 'admin-ajax.php' ),
-        'redirecturl' => get_permalink('httsp://elefant.page'),
+        'redirecturl' => get_permalink('http://elefant.page'),
         'loadingmessage' => __('Senden von Benutzerinformationen, bitte warten ...')
     ));
     // Enable the user with no privileges to run ajax_login() in AJAX

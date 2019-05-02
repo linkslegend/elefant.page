@@ -5785,11 +5785,6 @@ magic-string@^0.14.0:
   dependencies:
     vlq "^0.2.1"
 
-mailtoui@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/mailtoui/-/mailtoui-1.0.1.tgz#ea56ae865a7953c1ce22e05c52cc57aca20399b6"
-  integrity sha512-SGuR+Cv9LK3WV9voW43SsdsetLzyZFaKRo1WT0tDJUvSYfgYbT1ttqF9JiIEmc+neTQs87EYmpDFMsYHxvOwQw==
-
 make-dir@^1.0.0, make-dir@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.3.0.tgz#79c1033b80515bd6d24ec9933e860ca75ee27f0c"

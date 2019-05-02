@@ -42,13 +42,18 @@ the readme will list any important changes.
 
   </div>
 
+
 <div class="aside">
-  <?php echo do_shortcode('[prdctfltr_sc_get_filter preset="desktop-filter-left"]'); ?>
+  <?php echo do_shortcode('[prdctfltr_sc_get_filter ajax="yes" preset="left-side"]'); ?>
 </div>
 
+  <!--
 <div class="product-filter-top">
-    <?php echo do_shortcode('[prdctfltr_sc_get_filter preset="desktop-filter-top"]'); ?>
+  <?php echo do_shortcode('[prdctfltr_sc_get_filter ajax="yes" preset="filter-top"]'); ?>
 </div>
+-->
+
+
 
 <div class="product-list">
   @if(woocommerce_product_loop())
