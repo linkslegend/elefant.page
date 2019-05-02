@@ -202,12 +202,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/prdctfltr.git",
-                "reference": "1f590a96b7f1360eb6377021b83cd77ebffaa06b"
+                "reference": "e1cec881209b49ad444f19f9b3d860e34d89bac3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/1f590a96b7f1360eb6377021b83cd77ebffaa06b",
-                "reference": "1f590a96b7f1360eb6377021b83cd77ebffaa06b",
+                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/e1cec881209b49ad444f19f9b3d860e34d89bac3",
+                "reference": "e1cec881209b49ad444f19f9b3d860e34d89bac3",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 "source": "https://github.com/linkslegend/prdctfltr/tree/master",
                 "issues": "https://github.com/linkslegend/prdctfltr/issues"
             },
-            "time": "2019-05-02T09:42:58+00:00"
+            "time": "2019-05-02T13:23:45+00:00"
         },
         {
             "name": "linkslegend/woocommerce-social-login",
