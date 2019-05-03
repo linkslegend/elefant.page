@@ -202,12 +202,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/prdctfltr.git",
-                "reference": "e1cec881209b49ad444f19f9b3d860e34d89bac3"
+                "reference": "d73666a65c116aa44432aa40d42efd66271d4ac8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/e1cec881209b49ad444f19f9b3d860e34d89bac3",
-                "reference": "e1cec881209b49ad444f19f9b3d860e34d89bac3",
+                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/d73666a65c116aa44432aa40d42efd66271d4ac8",
+                "reference": "d73666a65c116aa44432aa40d42efd66271d4ac8",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 "source": "https://github.com/linkslegend/prdctfltr/tree/master",
                 "issues": "https://github.com/linkslegend/prdctfltr/issues"
             },
-            "time": "2019-05-02T13:23:45+00:00"
+            "time": "2019-05-02T14:09:20+00:00"
         },
         {
             "name": "linkslegend/woocommerce-social-login",
@@ -598,8 +598,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1.1",
-                "reference": "5.1.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -825,7 +824,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -1061,7 +1060,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1556097139"
+                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1556791597"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1071,15 +1070,15 @@
         },
         {
             "name": "wpackagist-plugin/ti-woocommerce-wishlist",
-            "version": "1.12.0",
+            "version": "1.12.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ti-woocommerce-wishlist/",
-                "reference": "tags/1.12.0"
+                "reference": "tags/1.12.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ti-woocommerce-wishlist.1.12.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/ti-woocommerce-wishlist.1.12.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1097,7 +1096,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1555549460"
+                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1556580116"
             },
             "require": {
                 "composer/installers": "~1.0"
