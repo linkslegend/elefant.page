@@ -22,7 +22,7 @@ the readme will list any important changes.
     do_action('woocommerce_before_main_content');
   @endphp
 
-  <header class="woocommerce-products-header">
+  <!--<header class="woocommerce-products-header">
     @if(apply_filters('woocommerce_show_page_title', true))
       <div class="page-description">
           <strong>Intermac ist Ihr Spezialist für alle Fragen rund um Informationstechnologien</strong><br />
@@ -34,25 +34,13 @@ the readme will list any important changes.
       do_action('woocommerce_archive_description');
     @endphp
 
-  </header>
+  </header>-->
 
   <div id="mobile-filters" class="d-xl-none d-lg-none filter-button">
       <button class="filter-by">Produkte Filtern</button>
   </div>
 
   </div>
-
-
-<div class="aside">
-  <?php echo do_shortcode('[prdctfltr_sc_get_filter ajax="yes" preset="left-side"]'); ?>
-</div>
-
-  <!--
-<div class="product-filter-top">
-  <?php echo do_shortcode('[prdctfltr_sc_get_filter ajax="yes" preset="filter-top"]'); ?>
-</div>
--->
-
 
 
 <div class="product-list">
