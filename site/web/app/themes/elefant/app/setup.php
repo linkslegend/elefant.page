@@ -146,6 +146,18 @@ add_action( 'wp_enqueue_scripts',  function() {
     //wp_deregister_style( 'yith-wacp-frontend' );
 }, 100);
 
+/**
+ * Change number of products that are displayed per page (shop page)
+ */
+add_filter( 'loop_shop_per_page', __NAMESPACE__ . '\\new_loop_shop_per_page', 10 );
+
+function new_loop_shop_per_page( $cols ) {
+  // $cols contains the current number of products per page based on the value stored on Options -> Reading
+  // Return the number of products you wanna show per page.
+  $cols = 100;
+  return $cols;
+}
+
 /*
   Set WooCommerce image dimensions upon theme activation
  */
