@@ -234,93 +234,108 @@ mark {
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
 }
+*/
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-}
-*/
+  .woocommerce {
+    ul.products {
+      &.columns-3 {
+        li.product {
+          width: 30.75%;
+          float: left;
+          clear: none;
+          margin: 0 3.8% 1.592em 0;
 
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-  .woocommerce-page {
-    ul {
-      &.products {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
+          &.last {
+            margin-right: 0 !important;
+          }
 
-        li {
-          &.product {
-            background: #fff;
-            width: 47%;
-            border-radius: 4px;
-            padding: 15px;
-            margin: 0 15px 15px 0;
-
-            &:nth-child(even) {
-              margin: 0 0 15px 0;
-            }
-
-            a {
-              text-decoration: none;
-
-              &:hover {
-                text-decoration: none;
-              }
-            }
-
-            .woocommerce-loop-product__title {
-              font-size: 1.1em;
-              margin: 0;
-              height: 48px;
-              overflow: hidden;
-            }
-
-            .price {
-              display: block;
-              width: 100%;
-              padding: 5px 0 0 0;
-              margin: 0;
-
-              del {
-                font-size: 0.8em;
-                font-weight: 500;
-                padding: 5px 0 0 10px;
+          .product-inner {
+            a.woocommerce-LoopProduct-link {
+              h2.woocommerce-loop-product__title {
+                font-size: 1em;
+                height: 44px;
               }
 
-              ins {
-                font-size: 1.1em;
-                font-weight: 600;
+              span.price {
+                display: block;
+                width: 100%;
                 float: left;
-                text-decoration: none;
-              }
+                padding: 5px 0 0 0;
+                height: 25px;
+                margin: 0;
 
-              .woocommerce-Price-amount {
-                font-size: 1.1em;
-                font-weight: 600;
+                ins {
+                  span.woocommerce-Price-amount.amount {
+                    font-size: 1em;
+                  }
+                }
               }
-            }
-
-            .add_to_cart_button {
-              width: 100%;
-              padding: 10px;
-              border-radius: 4px;
-              margin: 10px 0;
             }
           }
         }
       }
-    }
 
-    span.onsale {
-      background: #ff7003;
-      padding: 3px 5px;
-      letter-spacing: 0.2px;
-      border-radius: 10px;
-      font-size: 10px;
-      right: 0;
-      margin: -10px 10px;
-      color: #fff;
+      &[class*=columns-] {
+        li.product:nth-child(2n) {
+          float: left;
+          clear: none !important;
+          margin: 0 3.8% 1.592em 0;
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .woocommerce {
+    ul.products {
+      &.columns-3 {
+        li.product {
+          width: 48%;
+          float: left;
+          clear: both;
+          margin: 0 0 0.992em;
+
+          &.last {
+            margin-right: 0 !important;
+          }
+
+          .product-inner {
+            a.woocommerce-LoopProduct-link {
+              h2.woocommerce-loop-product__title {
+                font-size: 1em;
+                height: 44px;
+              }
+
+              span.price {
+                display: block;
+                width: 100%;
+                float: left;
+                padding: 5px 0 0 0;
+                height: 25px;
+                margin: 0;
+
+                ins {
+                  span.woocommerce-Price-amount.amount {
+                    font-size: 1em;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &[class*=columns-] {
+        li.product:nth-child(2n) {
+          float: right;
+          clear: none !important;
+          margin: 0 0 0.992em;
+        }
+      }
     }
   }
 }

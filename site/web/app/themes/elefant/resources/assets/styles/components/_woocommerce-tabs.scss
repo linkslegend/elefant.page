@@ -93,7 +93,7 @@
           float: left;
           overflow: visible;
           width: 100%;
-          border-radius: 4px;
+          border-radius: 8px;
 
           &::before {
             content: "";
@@ -139,7 +139,7 @@
               padding: 9px;
               border: 1px solid #d0d0d0;
               font-size: 0.85em;
-              border-radius: 4px;
+              border-radius: 8px;
               margin: 0 10px 15px;
               width: auto;
               font-weight: 500;
@@ -228,9 +228,110 @@
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
 }
+*/
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  .woocommerce {
+    div.product {
+      .woocommerce-tabs {
+        margin-top: 20px;
+
+        ul.tabs {
+          background: #fff;
+          border: 1px solid #e2e2e2;
+          padding: 15px 0 0;
+          float: left;
+          overflow: visible;
+          width: 100%;
+          border-radius: 8px;
+
+          li {
+            background: none;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 0;
+            float: left;
+            width: 50%;
+            padding: 0;
+            border: none;
+
+            a {
+              transition: all 0.25s ease 0s;
+              background: #fff;
+              display: block;
+              padding: 9px;
+              border: 1px solid #d0d0d0;
+              font-size: 0.85em;
+              border-radius: 8px;
+              margin: 0 10px 15px;
+              width: auto;
+              font-weight: 500;
+              color: #515151;
+              text-decoration: none;
+
+              &:hover {
+                background: #ff7003;
+                text-decoration: none;
+              }
+            }
+
+            &::before {
+              content: "";
+              width: 5px;
+              height: 5px;
+              display: inline-block;
+              position: absolute;
+              -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+              border-left: 7px solid transparent;
+              border-right: 7px solid transparent;
+              border-bottom: 7px solid #fe7004;
+              box-shadow: none;
+              left: 20px;
+              bottom: 50%;
+              margin: 2px;
+              opacity: 1;
+            }
+
+            &::after {
+              display: none;
+            }
+
+            &.active {
+              a {
+                background: #ff7003;
+                color: #fff;
+                border: 1px solid #ff7003;
+              }
+
+              &::before {
+                content: "";
+                width: 5px;
+                height: 5px;
+                display: inline-block;
+                position: absolute;
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+                border-left: 7px solid transparent;
+                border-right: 7px solid transparent;
+                border-bottom: 7px solid #fff;
+                box-shadow: none;
+                left: 20px;
+                bottom: 50%;
+                margin: 2px;
+                opacity: 1;
+              }
+
+              &::after {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 /*
