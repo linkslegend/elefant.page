@@ -199,7 +199,6 @@ function you_save_echo_product() {
 }
 add_action( 'woocommerce_single_product_summary', __NAMESPACE__ . '\\you_save_echo_product', 11 ); // hook number
 
-
 /* Change Read more text */
 // Replaces the excerpt "Read More" text by a link
 function new_excerpt_more($more) {
@@ -345,3 +344,73 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+/* Woocommerce Email style */
+add_action( 'woocommerce_email_header', __NAMESPACE__ . '\\intermac_email_header', 10, 2 );
+function intermac_email_header( $email_heading, $email ) { 
+    echo "
+    <table id='main-header' border='0' height='auto' width='100%'>
+    <tbody>
+    <tr>
+    <td>
+    <div class='navbar-brand'>
+    <img class='logo' src='https://elefant.page/app/themes/elefant/dist/images/logo-elefant2_247d1fda.png'>
+    </div>
+    <div class='email-nav'>
+        <ul>
+            <li><a href='elefant.link'>Elefant.page</a></li> |
+            <li><a href='elefant.link/mein-konto'>Meine Bestellungen</a></li> |
+            <li><a href='elefant.link/mein-konto'>Mein Konto</a></li> |
+            <li><a href='elefant.link/blog'>News/Blog</a></li>
+        </ul>
+    </div>
+    </td>
+    </tr>
+    </tbody>
+    </table>";
+}
+
+/* WooCommerce Email CSS */
+add_filter( 'woocommerce_email_styles', __NAMESPACE__ . '\\intermac_woocommerce_email_styles', 9999, 2 );
+function intermac_woocommerce_email_styles( $css, $email ) {
+    $css .= "
+    body { font-family: sans-serif; background: #f7f7f7; }
+    .navbar-brand { text-align: left; width: 600px; white-space: nowrap; padding-left: 20px; margin: 40px auto 0 auto; }
+    img.logo { height: auto; width: 120px; outline: none; }
+    h1 { color: #ff7003 !important; font-family: sans-serif; font-size: 20px; font-weight: 600; line-height: 150%; margin: 0; text-align: left; text-shadow: none; }
+    h2 { font-size: 17px; }
+    h3 { font-size: 16px; }
+    #wrapper { padding: 20px 0 70px 0; }
+    table#template_container { border-radius: 8px !important; position: relative; }
+    table#template_header { color: #ff7003; background-color: transparent; font-size: 1.3em; font-weight: 500; border-radius: 8px !important; }
+    #header_wrapper { padding: 28px 38px 0; }
+    #main-header { background-color: #f7f7f7; margin: 0; width: 100%; -webkit-text-size-adjust: none; }
+    #body_content_inner p { z-index: 4; position: relative; }
+    blockquote { background: #f4f4f4; border: 1px solid #e5e5e5; padding: 20px; border-radius: 4px; font-size: 15px; margin: 15px 0px; }
+    .email-nav { display: block; width: 600px; background: #ffffff; box-shadow: 0 1px 4px rgba(0,0,0,0.1); color: #dedede; border: 1px solid #dedede; border-radius: 8px; padding: 0; margin: 20px auto 0 auto; }
+    .email-nav ul { list-style: none; display: inline-block; padding: 15px; margin: 0;}
+    .email-nav ul li { list-style: none; display: inline-block; padding: 0 5px; }
+    .email-nav ul li a { color: #ff7003; text-decoration: none; transition: all 0.3s; border-radius: 4px; font-size: 0.85em; }
+    .legal ul, .contact ul, .social-media ul { padding: 0; margin: 15px 0; text-align: center; }
+    .legal ul li, .contact ul li, .social-media ul li { list-style: none; display: inline-block; padding-right: 5px; }
+    .legal { font-size: 0.85em; color: #afafaf; position: relative; }
+    .legal a { padding-right: 5px; text-decoration: none; }
+    a.link { color: #636363; font-weight: normal; text-decoration: underline; background: #bbdee9; padding: 10px; margin: 0; display: block; text-decoration: none; position: relative; font-size: 14px; border-radius: 8px; text-align: center; width: 332px; }
+    td.td { padding: 15px !important; }
+    table.td { border: none; font-size: 15px; }
+    table.td thead { background: #f4f4f4; }
+    tfoot tr th.td { color: #636363; border: 1px solid #e5e5e5; vertical-align: middle; padding: 12px; text-align: left; border-top-width: 2px !important; }
+    tfoot tr td.td span.woocommerce-Price-amount.amount { font-weight: 600; }
+    #credit { background: #f2f2f2; }
+    .footer { border-top: 5px solid #e5e5e5; padding: 20px 0 0; }
+    .footer a { text-decoration: none; }
+    .footer p { margin: 0; padding: 0; }
+    .footer-nav { z-index: 2; position: relative; color: #636363; }
+    span.line { width: auto; background: #d2d2d2; height: 1px; display: block; margin: 10px 38px; }
+    .footer-logo { font-weight: normal; text-decoration: underline; width: 100%; padding: 0; display: block; text-align: center;}
+    .footer-logo img { width: 110px; }
+    address { padding: 12px; color: #636363; background: #f4f4f4; line-height: 20px; font-size: 15px; border: 1px solid #e5e5e5; }
+    ";
+	return $css;
+}
+ 
