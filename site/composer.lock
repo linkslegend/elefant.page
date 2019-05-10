@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f640687c00c71761f0f303eefdf29ec",
+    "content-hash": "a7e45e82450c9a8f7f52e75ab2676ba0",
     "packages": [
         {
             "name": "composer/installers",
@@ -511,6 +511,41 @@
             "time": "2019-04-30T16:44:58+00:00"
         },
         {
+            "name": "linkslegend/yith-woocommerce-custom-order-status",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-custom-order-status.git",
+                "reference": "ebcc1351a5a49cbc3d2f13f08177d6eebfdf6cd2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-custom-order-status/zipball/ebcc1351a5a49cbc3d2f13f08177d6eebfdf6cd2",
+                "reference": "ebcc1351a5a49cbc3d2f13f08177d6eebfdf6cd2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Original Plugin Author's Name",
+                    "homepage": "https://originalpluginurl.com"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-custom-order-status",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-custom-order-status/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-custom-order-status/issues"
+            },
+            "time": "2019-05-08T09:28:13+00:00"
+        },
+        {
             "name": "linkslegend/yith-woocommerce-product-bundles-premium",
             "version": "dev-master",
             "source": {
@@ -891,15 +926,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.7.12",
+            "version": "5.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.7.12"
+                "reference": "tags/5.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.12.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1538,6 +1573,7 @@
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
         "linkslegend/yith-woocommerce-advanced-reviews-premium": 20,
         "linkslegend/yith-woocommerce-composite-products-premium": 20,
+        "linkslegend/yith-woocommerce-custom-order-status": 20,
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "linkslegend/woocommerce-social-login": 20,
         "linkslegend/woocommerce-tab-manager": 20,
