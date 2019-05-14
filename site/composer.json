@@ -124,7 +124,6 @@
     "linkslegend/woocommerce-social-login": "dev-master",
     "linkslegend/woocommerce-tab-manager": "dev-master",
     "linkslegend/woocommerce-woocart-pro": "dev-master",
-    "linkslegend/woocommerce-order-status-manager": "dev-master",
     "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
     "linkslegend/wp-sync-db": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",

@@ -1,5 +1,6 @@
 .form-row {
   padding: 15px 0 0;
+  margin: 0;
 }
 
 input,
@@ -14,10 +15,22 @@ textarea {
 
 input[type="checkbox"] {
   width: auto;
+  position: absolute;
+  margin: 7px 0 0 4px;
 
   &:checked {
     background: green;
   }
+}
+
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+  border: none;
+  border-radius: 8px;
+  background: #28a745;
+  padding: 10px 15px;
+  margin: 0 5px;
+  color: #fff;
+  height: 45px;
 }
 
 div.wpcf7 .ajax-loader {
@@ -35,10 +48,10 @@ input[type="submit"] {
   background: #ff7003;
   padding: 10px 20px;
   border: none;
-  margin: 0;
+  margin: 0 5px;
   cursor: pointer;
   height: 45px;
-  width: 100%;
+  width: 250px;
   border-radius: 8px;
   color: #fff;
   transition: all 0.25s;
@@ -47,17 +60,18 @@ input[type="submit"] {
     background: #ff8d00;
 
     &:disabled {
-      background: #ff7003;
+      background: rgba(255, 112, 3, 0.6);
     }
   }
 }
 
 label {
   font-size: 0.85em;
+  margin: 0;
   width: 100%;
 
   span.text {
-    margin-bottom: 5px;
+    margin-bottom: 0;
     float: left;
     width: 100%;
     display: block;
@@ -114,8 +128,9 @@ span.wpcf7-not-valid-tip {
 
 .acceptance-dsgvo {
   background: #f4f4f4;
-  padding: 10px;
+  padding: 9px;
   width: 100%;
+  border: 1px solid #d2d2d2;
   display: block;
   border-radius: 8px;
 }
@@ -202,9 +217,11 @@ span.wpcf7-not-valid-tip {
 
     label {
       font-size: 0.95em;
+      margin: 0;
 
       span.wpcf7-list-item-label {
         font-size: 1em;
+        padding-left: 25px;
       }
     }
   }

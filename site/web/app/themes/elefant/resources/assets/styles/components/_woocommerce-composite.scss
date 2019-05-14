@@ -169,6 +169,10 @@ form {
 
               .ywcp_product_price {
                 display: block;
+                float: left;
+                padding-right: 10px;
+                border-right: 1px solid #d2d2d2;
+                margin-right: 10px;
 
                 del {
                   font-weight: 400;
@@ -182,6 +186,10 @@ form {
                   float: left;
                   text-decoration: none;
                 }
+              }
+
+              .ywcp_product_link {
+                float: left;
               }
             }
 
