@@ -50,6 +50,14 @@ body.woocommerce-checkout {
 
                 p {
                   margin: 0;
+
+                  label.woocommerce-form-login__rememberme {
+                    margin-bottom: 5px;
+
+                    span {
+                      margin-left: 25px;
+                    }
+                  }
                 }
 
                 .the_champ_outer_login_container {
@@ -71,6 +79,10 @@ body.woocommerce-checkout {
 
                   button.button {
                     width: 100%;
+                  }
+
+                  input.input-text {
+                    height: 45px;
                   }
                 }
               }
@@ -308,13 +320,14 @@ body.woocommerce-checkout {
                       &.button {
                         background-color: #fe730d;
                         color: #fff;
-                        padding: 15px;
+                        padding: 10px;
                         transition: all 0.3s;
                         border-radius: 8px;
                         width: 100%;
 
                         &:hover {
                           background-color: #72a700;
+                          border-color: #72a700;
                         }
                       }
                     }
