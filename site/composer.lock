@@ -598,8 +598,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2",
-                "reference": "5.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -825,7 +824,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -1035,15 +1034,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-woocommerce",
-            "version": "2.1.15",
+            "version": "2.1.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/",
-                "reference": "tags/2.1.15"
+                "reference": "tags/2.1.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-woocommerce.2.1.15.zip"
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-woocommerce.2.1.16.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1061,7 +1060,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1556097139"
+                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1557397383"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1097,7 +1096,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1555549460"
+                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1556580116"
             },
             "require": {
                 "composer/installers": "~1.0"
