@@ -22,14 +22,26 @@ body {
         main.main {
           section {
             .contact-group {
+              float: left;
+              display: block;
+              width: 100%;
+              margin-bottom: 8px;
+
               a.contact {
                 display: block;
 
                 button.btn {
                   &.btn-primary {
                     margin: 10px 0;
+                    position: relative;
                     float: left;
                     width: 100%;
+
+                    .svg-inline--fa {
+                      margin: 4px;
+                      left: 15px;
+                      position: absolute;
+                    }
                   }
                 }
               }

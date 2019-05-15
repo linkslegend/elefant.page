@@ -58,7 +58,6 @@
 
 
 <section class="banner3-custompage">
-  <div class="bg"><img src="@asset('images/bg-2.svg')" /></div>
 <div class="container-fluid">
   <div class="row">
     <h2>secunet konnektor - das Herzstück Ihrer sicheren TI-Kommunikation</h2>

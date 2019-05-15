@@ -1,4 +1,4 @@
-<div class="meta post-meta d-flex align-items-center">
+<div class="meta post-meta d-flex align-items-left">
   <div class="user-image">
   @php
       echo get_avatar( get_the_author_meta( 'user_email' ), 75 );

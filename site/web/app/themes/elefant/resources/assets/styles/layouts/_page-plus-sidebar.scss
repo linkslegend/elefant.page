@@ -2,6 +2,9 @@
   width: 70%;
   float: left;
   line-height: 1.65em;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 aside {
@@ -11,10 +14,35 @@ aside {
 
   &.sidebar {
     section {
-      &:not(:last-child) {
-        border-bottom: 1px solid #c7c7c7;
-        padding: 0 0 10px 0;
-        margin: 0 0 25px 0;
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      width: 100%;
+
+      h3 {
+        font-size: 1.2em;
+        color: rgba(0, 0, 0, 0.7);
+        padding-left: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #d5ebf1;
+      }
+
+      .textwidget {
+        address {
+          color: #71798c;
+          text-decoration: none;
+          background: transparent;
+          font-size: 0.9em;
+          padding: 0 0 0 20px;
+
+          .svg-inline--fa {
+            position: absolute;
+            font-size: 0.9em;
+            margin-top: 4px;
+            margin-left: -20px;
+          }
+        }
       }
     }
   }
@@ -63,29 +91,6 @@ aside {
       }
     }
   }
-}
-
-address {
-  color: #71798c;
-  text-decoration: none;
-  font-size: 0.9em;
-  padding: 0 0 0 20px;
-
-  .svg-inline--fa {
-    position: absolute;
-    font-size: 0.9em;
-    margin-top: 4px;
-    margin-left: -20px;
-  }
-}
-
-h3 {
-  font-size: 15px;
-  line-height: 1;
-  text-transform: uppercase;
-  display: block;
-  margin: 13px 0 19px;
-  color: rgba(31, 31, 50, 0.7);
 }
 
 // Large devices (desktops, less than 1200px)

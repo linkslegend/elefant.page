@@ -1035,15 +1035,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-woocommerce",
-            "version": "2.1.15",
+            "version": "2.1.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/",
-                "reference": "tags/2.1.15"
+                "reference": "tags/2.1.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-woocommerce.2.1.15.zip"
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-woocommerce.2.1.16.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

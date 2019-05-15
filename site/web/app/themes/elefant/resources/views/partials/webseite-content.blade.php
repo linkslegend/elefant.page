@@ -7,12 +7,6 @@
                     fundierten tech­ni­schen Fach­kennt­nissen und einem Feeling für Stil und Style! 
                     Unsere Kern­kompe­tenzen reichen von Design und Ent­wicklung bis hin zum Marketing.
                     </p>
-
-                    <p>
-                    Wir legen  viel Wert auf Benutzer­freundlich­keit und die Auffind­barkeit in den Such­maschinen. Unser Ziel ist es, 
-                    State of the Art-Lösungen zu entwickeln. Auf diese Weise entwickeln wir Websites und Landing­pages, 
-                    die Inhalte lebendig vermitteln und den Dialog mit Ihren Nutzern fördern.
-                    </p>
                 </div>
 
               <div class="col-xl-6 col-lg-5 col-sm-12 align-content-center">
@@ -24,12 +18,33 @@
   </div>
 </section>
 
+
+<section class="web1-banner">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-6 col-lg-5 col-sm-12 align-content-center order-2">
+              <div class="outer-image">
+                  <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Webseite" data-src="@asset('images/TL-ResponsiveMockup-1.png')" class="lozad" />
+              </div>
+          </div>
+          <div class="col-xl-6 col-lg-7 col-sm-12 flex-column align-items-center order-1">
+              <h1>Von unseren Designern gestaltet, von unseren Entwicklern programmiert, von unserem Team realisiert</h1>
+              <p>
+              Wir legen  viel Wert auf Benutzer­freundlich­keit und die Auffind­barkeit in den Such­maschinen. Unser Ziel ist es, 
+              State of the Art-Lösungen zu entwickeln. Auf diese Weise entwickeln wir Websites und Landing­pages, 
+              die Inhalte lebendig vermitteln und den Dialog mit Ihren Nutzern fördern.
+              </p>
+          </div>
+        </div>
+    </div>
+  </section>
+
 <section class="web4-banner">
     <div class="container-fluid">
       <div class="row">
             <h2>Unser Prozess ist auf Ihre individuellen Bedürfnisse zugeschnitten, aber hier ist ein allgemeiner Überblick, Was wir tun.</h2>
             
-            <div class="whatwedo col-6">
+            <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
                 <div class="list-image">
                     <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Beratung" data-src="@asset('images/consulting-black.svg')" class="lozad">
                 </div>
@@ -40,7 +55,7 @@
                 </div>
             </div>
   
-            <div class="whatwedo col-6">
+            <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
                 <div class="list-image">
                     <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Planung" data-src="@asset('images/branding-black.svg')" class="lozad">
                 </div>
@@ -51,7 +66,7 @@
                 </div>
             </div>
   
-            <div class="whatwedo col-6">
+            <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
               <div class="list-image">
                   <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Web Design" data-src="@asset('images/design-black.svg')" class="lozad">
               </div>
@@ -62,7 +77,7 @@
               </div>
             </div>
   
-            <div class="whatwedo col-6">
+            <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
                 <div class="list-image">
                     <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Development" data-src="@asset('images/code-black.svg')" class="lozad">
                 </div>
@@ -74,6 +89,7 @@
       </div>
     </div>
   </section>
+
 
 <section class="web3-banner">
     <div class="container-fluid">
@@ -92,7 +108,7 @@
                       <div class="card mb-5 mb-lg-0">
                           <div class="card-header">
                               <h5 class="card-title text-muted text-uppercase text-center">Starter</h5>
-                              <h6 class="card-price text-center">499€<span class="period">monatlich 14€</span></h6>
+                              <h6 class="card-price text-center">599€<span class="period">monatlich 24€</span></h6>
                             </div>
                         <div class="card-body">
                           <ul class="fa-ul">
@@ -119,7 +135,7 @@
                       <div class="card mb-5 mb-lg-0">
                         <div class="card-header">
                             <h5 class="card-title text-muted text-uppercase text-center">Basic</h5>
-                            <h6 class="card-price text-center">799€<span class="period">monatlich 19€</span></h6>
+                            <h6 class="card-price text-center">999€<span class="period">monatlich 29€</span></h6>
                         </div>
                           <div class="card-body">
                               <ul class="fa-ul">
@@ -146,7 +162,7 @@
                       <div class="card">
                         <div class="card-header">
                             <h5 class="card-title text-muted text-uppercase text-center">Complete</h5>
-                            <h6 class="card-price text-center">999€<span class="period">monatlich 24€</span></h6>
+                            <h6 class="card-price text-center">1199€<span class="period">monatlich 34€</span></h6>
                         </div>
                           <div class="card-body">
                               <ul class="fa-ul">

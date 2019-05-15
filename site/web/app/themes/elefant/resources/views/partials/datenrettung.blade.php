@@ -40,7 +40,6 @@
 
 
 <section class="banner3-custompage">
-  <div class="bg"><img src="@asset('images/bg-2.svg')" /></div>
   <div class="container-fluid">
     <h2>Datenrettung und Datenwiederherstellung</h2>
     <div class="row ">

@@ -19,18 +19,30 @@
 
           <div class="col-lg-4 col-sm-12 flex-fill my-flex-item">
             <div class="content-box">
-              <h2 class="title">Hilfe</h2>
-              Sie möchten persönlich unterstützt werden? Lassen Sie sich per Telefon, Chat oder E-Mail unterstützen
-                  <div class="contact-group">
-                      <a class="contact" href="mailto:nd@intermac.de">
-                      <button class="btn btn-primary text-white email"><i class="fas fa-envelope"></i>hilfe@intermac.de</button>
-                    </a>
-                    <a class="contact" href="tel:015127555942">
-                      <button class="btn btn-primary text-white tel"><i class="fas fa-phone"></i>0151 27 555 942</button>
-                    </a>
-                  </div>
+              <h2 class="title">Service & Hilfe</h2>
+              <p>Professionelle Homepages, Hardware und Software unterstützung</p>
+
+              <div class="contact-group">
+                  <a class="contact" href="/shop">
+                  <button class="btn btn-primary text-white email"><i class="fas fa-shopping-cart"></i>zum Shop</button>
+                </a>
+                <a class="contact" href="/webseite">
+                  <button class="btn btn-primary text-white tel"><i class="fas fa-desktop"></i>Homepage Pakete</button>
+                </a>
+              </div>
+
+              <p>Sie möchten persönlich unterstützt werden? Lassen Sie sich per Telefon, Chat oder E-Mail unterstützen</p>
+              <div class="contact-group">
+                  <a class="contact" href="mailto:nd@intermac.de">
+                  <button class="btn btn-primary text-white email"><i class="fas fa-envelope"></i>info@elefant.page</button>
+                </a>
+                <a class="contact" href="tel:015127555942">
+                  <button class="btn btn-primary text-white tel"><i class="fas fa-phone"></i>0151 27 555 942</button>
+                </a>
+              </div>
             </div>
           </div>
+
      </div>
 
   </div>
