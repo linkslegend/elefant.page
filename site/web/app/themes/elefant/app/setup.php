@@ -207,7 +207,6 @@ function new_excerpt_more($more) {
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\new_excerpt_more');
 
-
 /**
  * Theme setup
  */
