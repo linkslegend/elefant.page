@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d61c622e6ed7ef5b792c677ebe011a05",
+    "content-hash": "91ddcd8e608e17ca5196ea2ca65eb4bd",
     "packages": [
         {
             "name": "composer/installers",
@@ -598,8 +598,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2",
-                "reference": "5.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -825,7 +824,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -1097,7 +1096,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1555549460"
+                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1556580116"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1107,15 +1106,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
-            "version": "1.4.0",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-gutenberg-products-block/",
-                "reference": "tags/1.4.0"
+                "reference": "tags/2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.1.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.1.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
