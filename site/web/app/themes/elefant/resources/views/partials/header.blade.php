@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="inner-header bg-white">
         <a class="navbar-brand" href="{{ home_url('/') }}" alt="{{ get_bloginfo('name', 'display') }}">
-          <img class="logo" alt="intermac logo" src="@asset('images/logo-elefant2.png')" width="30" height="30" alt="">
+          <img class="logo" alt="intermac logo" src="@asset('images/logo-intermac-elefant.svg')" width="30" height="30" alt="">
         </a>
         <nav class="nav-primary">
           <div class="collapse navbar-collapse" id="bs-navbar-collapse">

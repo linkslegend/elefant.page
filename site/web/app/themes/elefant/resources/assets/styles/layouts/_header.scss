@@ -376,7 +376,10 @@
     vertical-align: middle;
     border-style: none;
     width: 100%;
-    max-width: 140px;
+    max-width: 200px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ff7003;
+    margin-top: 0;
     height: auto;
   }
 
@@ -789,8 +792,8 @@
     display: block;
 
     .logo {
-      max-width: 120px;
-      margin-top: -5px;
+      max-width: 190px;
+      margin-top: 0;
     }
   }
 
