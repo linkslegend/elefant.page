@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7899907d70327db4f661f4176116f03f",
+    "content-hash": "4725d58de346cd2003341414d5f95e30",
     "packages": [
         {
             "name": "composer/installers",
@@ -906,6 +906,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/aws-cdn-by-wpadmin",
+            "version": "1.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/aws-cdn-by-wpadmin/",
+                "reference": "tags/1.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/aws-cdn-by-wpadmin.1.4.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/aws-cdn-by-wpadmin/"
         },
         {
             "name": "wpackagist-plugin/block-lab",
