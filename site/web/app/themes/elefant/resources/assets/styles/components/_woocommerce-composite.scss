@@ -2,8 +2,9 @@ form {
   &.cart.ywcp {
     .ywcp_components_single_item {
       float: left;
+      position: relative !important;
       width: 100%;
-      margin: 0;
+      margin: 0 0 15px 0;
     }
 
     .ywcp_wcp_group_total {
@@ -122,7 +123,7 @@ form {
       background-image: url("../images/cancel-orange.svg");
       background-position: 10px;
       background-size: 10px;
-      margin: 10px 40px 0 0;
+      margin: 10px 6px 0 0;
       right: 0;
       position: absolute;
       text-transform: uppercase;
@@ -145,7 +146,7 @@ form {
             background: #fff;
             padding: 10px;
             border: 1px solid #d2d2d2;
-            margin-bottom: 10px;
+            margin: 10px 0 0;
             cursor: pointer;
             transition: all 0.3s;
 
@@ -199,7 +200,7 @@ form {
               font-size: 3em;
               color: transparent;
               position: absolute;
-              right: 40px;
+              right: 30px;
             }
 
             &:hover {
@@ -210,7 +211,7 @@ form {
                 font-size: 3em;
                 color: #ff7003;
                 position: absolute;
-                right: 40px;
+                right: 30px;
               }
             }
           }
@@ -227,7 +228,7 @@ form {
       padding: 15px 15px 5px 15px;
 
       h3 {
-        margin: 0 0 10px 0;
+        margin: 0;
         font-size: 1em;
         font-weight: 600;
         border-radius: 8px;
@@ -235,7 +236,7 @@ form {
         background: #fff;
         text-transform: none;
         border: 1px solid #d2d2d2;
-        padding: 12px;
+        padding: 13px;
         color: rgba(31, 37, 50, 0.7);
         transition: all 0.25s;
 
@@ -272,6 +273,10 @@ form {
           }
         }
 
+        &:first-child {
+          margin-bottom: 0 !important;
+        }
+
         abbr {
           margin-left: 10px;
           font-size: 0.8em;
@@ -281,7 +286,8 @@ form {
       }
 
       .ywcp_component_description {
-        padding: 0 10px;
+        padding: 10px 10px 0 10px;
+        margin: 0;
       }
 
       .ywcp_component_subtotal {
@@ -300,11 +306,17 @@ form {
       }
 
       .ywcp_selection_selected {
+        margin-bottom: 10px;
+
         h3 {
           visibility: hidden;
           height: 0;
           padding: 0;
           margin: 0 !important;
+        }
+
+        .ywcp_component_options_selection_container {
+          min-height: 45px;
         }
       }
     }

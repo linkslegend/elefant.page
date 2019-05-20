@@ -43,14 +43,19 @@ body.blog {
 
       a {
         color: #1f1f32;
+        transition: all 0.3s;
+
+        &:hover {
+          color: #ff7003;
+        }
       }
     }
 
     .entry-summary {
-      height: 66px;
-      font-size: 16px;
+      height: auto;
+      font-size: 1em;
       line-height: 22px;
-      margin: 30px 0;
+      margin: 30px 0 0;
       overflow: hidden;
     }
 
@@ -69,6 +74,10 @@ body.blog {
           float: left;
         }
       }
+
+      .item.author {
+        padding-top: 12px;
+      }
     }
 
     .post-featured-image {
@@ -82,7 +91,7 @@ body.blog {
 #comments {
   margin: 50px 0 0 0;
   background: rgba(228, 242, 245, 0.5);
-  padding: 20px 15px 5px 15px;
+  padding: 0;
   float: left;
   width: 70%;
 }

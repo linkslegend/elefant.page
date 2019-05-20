@@ -58,7 +58,6 @@ article.slick-slide {
   }
 
   &.slick-disabled {
-    opacity: 0.4;
     cursor: auto;
 
     .svg-inline--fa {
@@ -69,6 +68,7 @@ article.slick-slide {
 
     &:hover {
       background: rgba(242, 105, 0, 1);
+      opacity: 0.4;
       cursor: auto;
 
       .svg-inline--fa {
