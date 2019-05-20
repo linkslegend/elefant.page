@@ -197,3 +197,13 @@ function bbloomer_change_cross_sells_product_no( $columns ) {
 return 8;
 }
 
+
+add_filter( 'gettext', __NAMESPACE__ . '\\translate_woocommerce_strings', 999 );
+    function translate_woocommerce_strings( $translated ) {
+    // OR zu ODER ändern
+    $translated = str_ireplace( '&mdash; or &mdash;', '&mdash; oder &mdash;', $translated );
+    // Noch mehr ändern
+    $translated = str_ireplace( 'falscher text', 'übersetzter text', $translated );
+    // ETC.
+return $translated;
+}

@@ -55,7 +55,8 @@ body.woocommerce-cart {
                           }
 
                           &.product-thumbnail {
-                            padding: 10px;
+                            padding: 0 0 0 5px;
+                            max-width: 50px;
 
                             a {
                               img {
@@ -72,6 +73,11 @@ body.woocommerce-cart {
                             font-size: 0.9em;
                           }
                         }
+                      }
+
+                      &.ywcp_component_child_item {
+                        font-size: 0.9em;
+                        background: #f0f6f8;
                       }
 
                       &.coupon {

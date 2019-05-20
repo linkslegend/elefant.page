@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d61c622e6ed7ef5b792c677ebe011a05",
+    "content-hash": "9cc856903f1caca8c1130fb279187c1a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1107,15 +1107,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
-            "version": "1.4.0",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-gutenberg-products-block/",
-                "reference": "tags/1.4.0"
+                "reference": "tags/2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.1.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.1.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

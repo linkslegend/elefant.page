@@ -383,8 +383,8 @@
     border-style: none;
     width: 100%;
     max-width: 200px;
-    padding-bottom: 2px;
-    border-bottom: 2px solid #ff7003;
+    border-radius: 4px;
+    padding-bottom: 0;
     margin-top: 0;
     height: auto;
   }
@@ -723,8 +723,8 @@
                           display: block;
                           text-align: center;
                           color: #4c4c4c;
-                          padding: 8px 0 0 0;
-                          font-size: 0.7em;
+                          padding: 0 0 0 0;
+                          font-size: 1em;
                         }
                       }
 

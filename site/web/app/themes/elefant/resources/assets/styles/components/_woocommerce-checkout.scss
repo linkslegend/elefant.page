@@ -224,6 +224,19 @@ body.woocommerce-checkout {
                     border-radius: 8px;
                     font-size: 1em;
                     padding: 15px;
+
+                    tbody {
+                      tr {
+                        &.ywcp_component_child_item {
+                          font-size: 0.9em;
+                          background: #f0f6f8;
+                        }
+
+                        td {
+                          padding: 5px;
+                        }
+                      }
+                    }
                   }
 
                   #payment {
