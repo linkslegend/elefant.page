@@ -29,20 +29,26 @@ if ( is_user_logged_in() ) {
 	<?php do_action( 'woocommerce_login_form_start' ); ?>
 
 	<?php echo ( $message ) ? wpautop( wptexturize( $message ) ) : ''; // @codingStandardsIgnoreLine ?>
+	<div class="row">
 
-	<p class="form-row form-row-first">
+	<p class="form-row form-row-first col-12 col-sm-6">
 		<label for="username"><?php esc_html_e( 'Username or email', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
 		<input type="text" class="input-text" name="username" id="username" autocomplete="username" />
 	</p>
-	<p class="form-row form-row-last">
+	<p class="form-row form-row-last col-12 col-sm-6">
 		<label for="password"><?php esc_html_e( 'Password', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
 		<input class="input-text" type="password" name="password" id="password" autocomplete="current-password" />
 	</p>
+</div>
+
 	<div class="clear"></div>
 
+<div class="row">
 	<?php do_action( 'woocommerce_login_form' ); ?>
+</div>
 
-	<p class="form-row">
+<div class="row">
+	<p class="form-row woocommerce-login-button col-12 col-sm-6">
 		<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
 			<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span><?php esc_html_e( 'Remember me', 'woocommerce' ); ?></span>
 		</label>
@@ -53,9 +59,9 @@ if ( is_user_logged_in() ) {
 	<p class="lost_password">
 		<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e( 'Lost your password?', 'woocommerce' ); ?></a>
 	</p>
+</div>
 
 	<div class="clear"></div>
 
 	<?php do_action( 'woocommerce_login_form_end' ); ?>
-
 </form>
