@@ -75,6 +75,29 @@ body.woocommerce-cart {
                         }
                       }
 
+                      &.ywcp_component_item {
+                        font-size: 1em;
+
+                        td {
+                          &.product-subtotal {
+                            span.woocommerce-Price-amount.amount {
+                              font-size: 1em;
+                              font-weight: 600;
+                            }
+
+                            div {
+                              display: inline-block;
+                              font-size: 0.9em;
+                              font-weight: 500;
+
+                              span.woocommerce-Price-amount.amount {
+                                font-weight: 500;
+                              }
+                            }
+                          }
+                        }
+                      }
+
                       &.ywcp_component_child_item {
                         font-size: 0.9em;
                         background: #f0f6f8;
@@ -99,6 +122,7 @@ body.woocommerce-cart {
                               padding: 10px;
                               height: 45px;
                               border-radius: 8px;
+                              background: #e3f1f5;
                               font-weight: 400;
                               transition: all 0.3s;
                               font-size: 1em;

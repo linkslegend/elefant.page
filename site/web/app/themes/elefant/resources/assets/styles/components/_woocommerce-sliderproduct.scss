@@ -10,10 +10,11 @@
             background: #fff;
             padding: 20px 15px 20px;
             border-radius: 8px;
-            margin-top: 50px;
+            margin-top: 0;
             width: 100%;
 
-            h2 {
+            h2,
+            h3 {
               font-size: 1.2em;
               text-align: center;
               text-transform: none;
@@ -39,8 +40,8 @@
 
                         .product-inner {
                           border-radius: 4px;
-                          margin: 0 15px;
-                          padding: 15px;
+                          margin: 0 20px;
+                          padding: 20px;
                           background: #fff;
                           -webkit-box-shadow: none;
                           box-shadow: none;
@@ -66,8 +67,8 @@
                               font-size: 1em;
                               text-transform: inherit;
                               color: rgba(0, 0, 0, 0.8);
-                              height: 42px;
-                              margin: 0 0 10px 0;
+                              height: auto;
+                              margin: 0 0 15px 0;
                               overflow: hidden;
                               white-space: nowrap;
                             }
