@@ -598,8 +598,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2",
-                "reference": "5.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -825,7 +824,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -945,15 +944,15 @@
         },
         {
             "name": "wpackagist-plugin/cf7-conditional-fields",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf7-conditional-fields/",
-                "reference": "tags/1.5.4"
+                "reference": "tags/1.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.5.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.5.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1097,7 +1096,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1555549460"
+                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1556580116"
             },
             "require": {
                 "composer/installers": "~1.0"
