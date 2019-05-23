@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cb25a984605ebee519c2f2677b78efc",
+    "content-hash": "e9d0c195ba86e28b84b02593971406b6",
     "packages": [
         {
             "name": "composer/installers",
@@ -232,17 +232,17 @@
             "time": "2019-05-22T09:52:23+00:00"
         },
         {
-            "name": "linkslegend/woocommerce-social-login",
+            "name": "linkslegend/woocommerce-quick-view",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:linkslegend/woocommerce-social-login.git",
-                "reference": "bc5bb0a11ed41ff4a6284185c58c8f7109f31b8d"
+                "url": "git@github.com:linkslegend/woocommerce-quick-view.git",
+                "reference": "0acab8da9932e56d45682aa26fc9e79375c1b530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-social-login/zipball/bc5bb0a11ed41ff4a6284185c58c8f7109f31b8d",
-                "reference": "bc5bb0a11ed41ff4a6284185c58c8f7109f31b8d",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-quick-view/zipball/0acab8da9932e56d45682aa26fc9e79375c1b530",
+                "reference": "0acab8da9932e56d45682aa26fc9e79375c1b530",
                 "shasum": ""
             },
             "require": {
@@ -251,20 +251,20 @@
             "type": "wordpress-plugin",
             "authors": [
                 {
-                    "name": "woocommerce-social-login",
-                    "homepage": "https://gpldl.com/repository/woocommerce-social-login/"
+                    "name": "woocommerce-quick-view",
+                    "homepage": "http://codecanyon.com"
                 }
             ],
-            "homepage": "https://github.com/linkslegend/woocommerce-social-login",
+            "homepage": "https://github.com/linkslegend/woocommerce-quick-view",
             "keywords": [
                 "plugin",
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/linkslegend/woocommerce-social-login/tree/master",
-                "issues": "https://github.com/linkslegend/woocommerce-social-login/issues"
+                "source": "https://github.com/linkslegend/woocommerce-quick-view/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-quick-view/issues"
             },
-            "time": "2019-02-12T11:39:43+00:00"
+            "time": "2019-05-23T10:19:55+00:00"
         },
         {
             "name": "linkslegend/woocommerce-tab-manager",
@@ -300,6 +300,41 @@
                 "issues": "https://github.com/linkslegend/woocommerce-tab-manager/issues"
             },
             "time": "2019-04-05T17:23:51+00:00"
+        },
+        {
+            "name": "linkslegend/woocommerce-wishlist",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woocommerce-wishlist.git",
+                "reference": "6fcf2b50f7cf151bda2067aaaeac4b017caecc55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-wishlist/zipball/6fcf2b50f7cf151bda2067aaaeac4b017caecc55",
+                "reference": "6fcf2b50f7cf151bda2067aaaeac4b017caecc55",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woocommerce-wishlist",
+                    "homepage": "http://codecanyon.com"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woocommerce-wishlist",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woocommerce-wishlist/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-wishlist/issues"
+            },
+            "time": "2019-05-23T10:22:06+00:00"
         },
         {
             "name": "linkslegend/woocommerce-woocart-pro",
@@ -441,6 +476,41 @@
             "time": "2019-04-16T16:17:40+00:00"
         },
         {
+            "name": "linkslegend/yith-woocommerce-compare-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-compare-premium.git",
+                "reference": "b4a646d911de9b88441086de1725cc6d4db6a37e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-compare-premium/zipball/b4a646d911de9b88441086de1725cc6d4db6a37e",
+                "reference": "b4a646d911de9b88441086de1725cc6d4db6a37e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "yith-woocommerce-compare-premium",
+                    "homepage": "https://yithemes.com"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-compare-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-compare-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-compare-premium/issues"
+            },
+            "time": "2019-05-22T12:18:37+00:00"
+        },
+        {
             "name": "linkslegend/yith-woocommerce-composite-products-premium",
             "version": "dev-master",
             "source": {
@@ -511,6 +581,41 @@
             "time": "2019-05-08T09:28:13+00:00"
         },
         {
+            "name": "linkslegend/yith-woocommerce-multi-step-checkout-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-multi-step-checkout-premium.git",
+                "reference": "735cc4de1ff495edb176fdb27c491b2fa119f8cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-multi-step-checkout-premium/zipball/735cc4de1ff495edb176fdb27c491b2fa119f8cf",
+                "reference": "735cc4de1ff495edb176fdb27c491b2fa119f8cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "yith-woocommerce-multi-step-checkout-premium",
+                    "homepage": "https://yithemes.com"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-multi-step-checkout-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-multi-step-checkout-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-multi-step-checkout-premium/issues"
+            },
+            "time": "2019-05-22T12:19:44+00:00"
+        },
+        {
             "name": "linkslegend/yith-woocommerce-product-bundles-premium",
             "version": "dev-master",
             "source": {
@@ -544,6 +649,41 @@
                 "issues": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/issues"
             },
             "time": "2019-02-15T17:04:36+00:00"
+        },
+        {
+            "name": "linkslegend/yith-woocommerce-quick-view-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-quick-view-premium.git",
+                "reference": "36b652942ba65d6017832ab3ef931b78b4b619b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-quick-view-premium/zipball/36b652942ba65d6017832ab3ef931b78b4b619b3",
+                "reference": "36b652942ba65d6017832ab3ef931b78b4b619b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "yith-woocommerce-quick-view-premium",
+                    "homepage": "https://yithemes.com"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-quick-view-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-quick-view-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-quick-view-premium/issues"
+            },
+            "time": "2019-05-22T12:33:34+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1052,6 +1192,24 @@
             "homepage": "https://wordpress.org/plugins/mailchimp-for-woocommerce/"
         },
         {
+            "name": "wpackagist-plugin/redux-framework",
+            "version": "3.6.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redux-framework/",
+                "reference": "tags/3.6.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redux-framework.3.6.15.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redux-framework/"
+        },
+        {
             "name": "wpackagist-plugin/super-socializer",
             "version": "7.12.25",
             "source": {
@@ -1068,24 +1226,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/super-socializer/"
-        },
-        {
-            "name": "wpackagist-plugin/ti-woocommerce-wishlist",
-            "version": "1.12.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ti-woocommerce-wishlist/",
-                "reference": "tags/1.12.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ti-woocommerce-wishlist.1.12.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ti-woocommerce-wishlist/"
         },
         {
             "name": "wpackagist-plugin/woo-ajax-add-to-cart",
@@ -1541,10 +1681,14 @@
         "linkslegend/yith-woocommerce-advanced-reviews-premium": 20,
         "linkslegend/yith-woocommerce-composite-products-premium": 20,
         "linkslegend/yith-woocommerce-custom-order-status": 20,
+        "linkslegend/yith-woocommerce-multi-step-checkout-premium": 20,
+        "linkslegend/yith-woocommerce-compare-premium": 20,
+        "linkslegend/yith-woocommerce-quick-view-premium": 20,
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
-        "linkslegend/woocommerce-social-login": 20,
         "linkslegend/woocommerce-tab-manager": 20,
         "linkslegend/woocommerce-woocart-pro": 20,
+        "linkslegend/woocommerce-wishlist": 20,
+        "linkslegend/woocommerce-quick-view": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/wp-sync-db": 20,
         "roave/security-advisories": 20

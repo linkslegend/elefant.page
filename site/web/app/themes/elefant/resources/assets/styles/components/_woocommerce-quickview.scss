@@ -1,0 +1,208 @@
+.jquery-quickviewmodal.blocker {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .quick-view-modal.quickviewmodal {
+    padding: 20px;
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+
+    .woocommerce-quick-view-image {
+      .woocommerce-quick-view-gallery-images {
+        .woocommerce-product-gallery__image {
+          width: 20%;
+          border-radius: 8px;
+          border: 1px solid #d2d2d2;
+          overflow: hidden;
+
+          &:nth-child(n+2) {
+            width: 20%;
+          }
+        }
+      }
+    }
+
+    .woocommerce-quick-view-content {
+      color: rgba(0, 0, 0, 0.7);
+      overflow: hidden;
+      max-height: 450px;
+
+      .button {
+        font-size: 100%;
+        margin: 0;
+        border-radius: 8px;
+        width: 100%;
+        height: 45px;
+        color: #fff;
+        background: #ff740f;
+        padding: 15px;
+        transition: all 0.3s;
+
+        &:hover {
+          box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .woocommerce-quick-view-price {
+        del {
+          opacity: 1;
+          padding: 3px 9px 0 0;
+          display: block;
+          font-size: 0.9em;
+          float: left;
+
+          span.woocommerce-Price-amount.amount {
+            position: relative;
+
+            &::after {
+              display: block;
+              position: absolute;
+              width: 100%;
+              height: 0.1em;
+              top: 50%;
+              left: 0;
+              content: "";
+              z-index: 2;
+              background: none;
+              text-shadow: transparent;
+              background-image: radial-gradient(#ff4136 70%, transparent 0);
+              transform: rotate(-14deg) scaleX(1.2);
+            }
+          }
+        }
+
+        .woocommerce-Price-amount {
+          font-size: 28px;
+          font-size: 1.2em;
+          white-space: nowrap;
+          color: #1f1f32;
+          font-weight: 600;
+          display: inline-block;
+          line-height: 1;
+        }
+      }
+
+      .woocommerce-quick-view-short-description {
+        ul {
+          font-size: 0.9em;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+/*
+.yith-quick-view.yith-modal {
+  .yith-wcqv-wrapper {
+    transition: transform 0.3s ease-out;
+    transform: translate(0, -50px);
+    position: relative;
+    left: auto !important;
+    top: auto !important;
+    margin: 1.75rem auto;
+
+    .yith-wcqv-main {
+      box-shadow: none;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+
+      .yith-wcqv-head {
+        top: 7px;
+        right: 7px;
+        z-index: 999;
+
+        a.yith-quick-view-close {
+          opacity: 1;
+        }
+      }
+
+      .yith-quick-view-content.woocommerce {
+        .product {
+          .product {
+            span.onsale {
+              top: 0;
+              left: auto;
+              right: 0;
+              z-index: 10;
+            }
+
+            .images {
+              width: 55% !important;
+            }
+
+            .summary {
+              width: 45% !important;
+
+              .summary-content {
+                padding: 15px 10px 15px 20px;
+
+                h1.product_title.entry-title {
+                  font-size: 1.2em;
+                  text-transform: none;
+                }
+
+                p.price {
+                  font-size: 1.3em;
+                  font-weight: 700;
+                  margin-bottom: 15px;
+                }
+
+                .woocommerce-product-details__short-description {
+                  font-size: 1em;
+                  margin: 15px 0;
+
+                  ul {
+                    margin: 0;
+                    padding-left: 25px;
+                    font-size: 0.9em;
+                  }
+                }
+
+                a.yith-wcqv-view-details.button {
+                  background: #ff7003 !important;
+                  color: #fff;
+                  width: 100%;
+                  display: block;
+                  text-align: center;
+                  vertical-align: middle;
+                  position: relative;
+                  margin: 0;
+                  padding: 15px;
+                  border-radius: 8px;
+                  height: 45px;
+                  transition: all 0.3s;
+
+                  &:hover {
+                    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                  }
+                }
+
+                .product_meta {
+                  padding: 0 !important;
+                  font-size: 0.9em;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.yith-quick-view.yith-modal.open {
+  .yith-quick-view-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .yith-wcqv-wrapper {
+    -webkit-transform: none;
+    left: auto !important;
+    top: auto !important;
+    position: relative;
+    margin: 1.75rem auto;
+    -o-transform: none;
+    transform: none;
+  }
+}
+*/

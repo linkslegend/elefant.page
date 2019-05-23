@@ -59,7 +59,7 @@
                   <a href="/login" class="my-wishlist">Wunschliste</a>
                   <div id="popup" class="wishlist-popup popover-content">
                       in Bearbeitung ...
-                        <!--<?php echo do_shortcode('[ti_wishlist_products_counter]'); ?>-->
+                        <?php echo do_shortcode('[woocommerce_wishlist]'); ?>
                   </div>
                 </li>
                 <li id="hover" class="account cart">
