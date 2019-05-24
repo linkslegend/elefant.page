@@ -261,15 +261,18 @@ body {
                                       }
 
                                       h3 {
-                                        text-align: left;
-                                        text-overflow: ellipsis;
                                         font-size: 1.1em;
-                                        height: 40px;
-                                        text-transform: inherit;
-                                        color: rgba(0, 0, 0, 0.8);
-                                        margin: 0 0 10px 0;
+                                        color: #1f1f32;
+                                        margin: 0 0 5px 0;
+                                        text-overflow: ellipsis;
+                                        -webkit-line-clamp: 2;
+                                        -webkit-box-orient: vertical;
+                                        height: 45px;
+                                        display: -webkit-box;
+                                        -webkit-transition: all 0.25s;
+                                        -o-transition: all 0.25s;
+                                        transition: all 0.25s;
                                         overflow: hidden;
-                                        white-space: nowrap;
                                       }
 
                                       &.button.product_type_external {
@@ -613,15 +616,18 @@ body {
                                         }
 
                                         h3 {
-                                          text-align: left;
-                                          text-overflow: ellipsis;
                                           font-size: 1.1em;
-                                          height: 40px;
-                                          text-transform: inherit;
-                                          color: rgba(0, 0, 0, 0.8);
-                                          margin: 0 0 10px 0;
+                                          color: #1f1f32;
+                                          margin: 0 0 5px 0;
+                                          text-overflow: ellipsis;
+                                          -webkit-line-clamp: 2;
+                                          -webkit-box-orient: vertical;
+                                          height: 45px;
+                                          display: -webkit-box;
+                                          -webkit-transition: all 0.25s;
+                                          -o-transition: all 0.25s;
+                                          transition: all 0.25s;
                                           overflow: hidden;
-                                          white-space: nowrap;
                                         }
 
                                         &.button.product_type_external {
@@ -906,15 +912,18 @@ body {
                                         }
 
                                         h3 {
-                                          text-align: left;
-                                          text-overflow: ellipsis;
                                           font-size: 1.1em;
-                                          height: 40px;
-                                          text-transform: inherit;
-                                          color: rgba(0, 0, 0, 0.8);
-                                          margin: 0 0 10px 0;
+                                          color: #1f1f32;
+                                          margin: 0 0 5px 0;
+                                          text-overflow: ellipsis;
+                                          -webkit-line-clamp: 2;
+                                          -webkit-box-orient: vertical;
+                                          height: 45px;
+                                          display: -webkit-box;
+                                          -webkit-transition: all 0.25s;
+                                          -o-transition: all 0.25s;
+                                          transition: all 0.25s;
                                           overflow: hidden;
-                                          white-space: nowrap;
                                         }
 
                                         &.button.product_type_external {
