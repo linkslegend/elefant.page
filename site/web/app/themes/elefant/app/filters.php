@@ -207,3 +207,14 @@ add_filter( 'gettext', __NAMESPACE__ . '\\translate_woocommerce_strings', 999 );
     // ETC.
 return $translated;
 }
+
+/*
+add_filter( 'woocommerce_loop_add_to_cart_link', __NAMESPACE__ . '\\misha_before_after_btn', 10, 3 );
+
+function misha_before_after_btn( $add_to_cart_html, $product, $args ){
+    $var = do_shortcode( '[favorite_button]' );
+	echo $var; // Some text or HTML here
+ 
+	return $add_to_cart_html;
+}
+*/

@@ -13,11 +13,12 @@
 
     $loop = new WP_Query( $args );
     while ( $loop->have_posts() ) : $loop->the_post(); global $product;
+    $current_id = $post->ID;
   ?>
 
   <li class="product-item type-product">
     <div class="product-inner">
-      <a id="id-<?php the_id(); ?>" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+      <a id="id-<?php the_ID(); ?>" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
       
       <?php 
         if (has_post_thumbnail( $loop->post->ID )) echo get_the_post_thumbnail($loop->post->ID, 'shop_catalog'); 
@@ -29,6 +30,12 @@
       <span class="price"><?php echo $product->get_price_html(); ?></span>
       </a>
       <?php woocommerce_template_loop_add_to_cart( $loop->post, $product ); ?>
+
+      <?php echo do_shortcode('[woocommerce_quick_view product="'.$current_id.'"]'); ?>
+
+
+      <?php echo do_shortcode('[ti_wishlists_addtowishlist]'); ?>
+
     </div>
   </li>
 

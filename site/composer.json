@@ -85,7 +85,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:linkslegend/woocommerce-wishlist.git"
+      "url": "git@github.com:linkslegend/ti-woocommerce-wishlist-premium.git"
     },
     {
       "type": "vcs",
@@ -134,7 +134,7 @@
     "linkslegend/multiple-external-product-urls-for-woocommerce": "dev-master",
     "linkslegend/woocommerce-tab-manager": "dev-master",
     "linkslegend/woocommerce-woocart-pro": "dev-master",
-    "linkslegend/woocommerce-wishlist": "dev-master",
+    "linkslegend/ti-woocommerce-wishlist-premium": "dev-master",
     "linkslegend/woocommerce-quick-view": "dev-master",
     "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
     "linkslegend/wp-sync-db": "dev-master",
@@ -152,7 +152,8 @@
     "wpackagist-plugin/woo-ajax-add-to-cart": "^1.1",
     "wpackagist-plugin/breeze": "^1.0",
     "wpackagist-plugin/woo-gutenberg-products-block": "^2.1",
-    "wpackagist-plugin/redux-framework": "^3.6"
+    "wpackagist-plugin/redux-framework": "^3.6",
+    "wpackagist-plugin/favorites": "^2.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

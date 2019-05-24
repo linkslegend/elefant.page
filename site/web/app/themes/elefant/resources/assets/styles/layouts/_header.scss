@@ -233,7 +233,7 @@
             &.account-popup {
               -webkit-transform: translateX(-38%);
               transform: translateX(-38%);
-              width: 250px;
+              width: 300px;
               height: auto;
               padding: 15px;
               top: 70px;
@@ -309,11 +309,11 @@
             }
 
             &.wishlist-popup {
-              -webkit-transform: translateX(-48%);
-              transform: translateX(-48%);
+              -webkit-transform: translateX(-57%);
+              transform: translateX(-57%);
 
               &::before {
-                left: 60%;
+                left: 67%;
               }
             }
           }

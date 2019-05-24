@@ -212,8 +212,87 @@ body.woocommerce-page {
               font-size: 0.9em;
               text-align: center;
               width: auto;
-              background: #d2d2d2;
+              background: #f2f2f2;
               position: absolute;
+            }
+
+            .simplefavorite-button.preset {
+              text-indent: 0;
+              border: none;
+              right: 15px;
+              text-align: center;
+              width: 35px;
+              margin: 0;
+              height: 35px;
+              border-radius: 100%;
+              position: absolute;
+              padding: 0;
+              bottom: 15px;
+
+              i {
+                text-indent: 0;
+                color: #fe7004;
+                position: absolute;
+                margin: 0;
+                padding: 9px;
+                width: 35px;
+                height: 35px;
+                left: 0;
+                border-radius: 8px;
+                background: #f2f2f2;
+                transition: all 0.3s;
+
+                &::after {
+                  visibility: hidden;
+                  opacity: 0;
+                  display: block;
+                  content: "Merken";
+                  color: rgba(0, 0, 0, 0.6);
+                  transition: all 0.3s;
+                  font-family: "Open Sans", Arial, sans-serif;
+                  position: absolute;
+                  right: -1px;
+                  bottom: -12px;
+                  font-weight: 500;
+                  font-size: 0.55em;
+                  text-align: center;
+                }
+              }
+
+              &:hover {
+                i {
+                  background: #fe7004;
+                  color: #fff;
+
+                  &::after {
+                    display: block;
+                    visibility: visible;
+                    opacity: 1;
+                    content: "Merken";
+                    color: rgba(0, 0, 0, 0.6);
+                    font-family: "Open Sans", Arial, sans-serif;
+                    position: absolute;
+                    right: -1px;
+                    bottom: -12px;
+                    top: auto;
+                    font-weight: 500;
+                    font-size: 0.55em;
+                    text-align: center;
+                  }
+                }
+              }
+
+              &.active {
+                i {
+                  background: #fe7004;
+                  color: #fff;
+
+                  &:hover {
+                    background: #fe7004;
+                    color: #fff;
+                  }
+                }
+              }
             }
 
             &:hover {

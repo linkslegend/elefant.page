@@ -55,11 +55,10 @@
                   
                   </div>
                 </li>
-                <li id="hover" class="account wishlist">
+                <li id="hover" class="account wishlist"><?php echo do_shortcode('[ti_wishlist_products_counter]'); ?>
                   <a href="/login" class="my-wishlist">Wunschliste</a>
                   <div id="popup" class="wishlist-popup popover-content">
-                      in Bearbeitung ...
-                        <?php echo do_shortcode('[woocommerce_wishlist]'); ?>
+                    <?php echo do_shortcode('[ti_miniwishlist]'); ?>
                   </div>
                 </li>
                 <li id="hover" class="account cart">

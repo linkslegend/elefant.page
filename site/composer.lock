@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9d0c195ba86e28b84b02593971406b6",
+    "content-hash": "d9f4a20ea9b34303ff61efbc76a276e8",
     "packages": [
         {
             "name": "composer/installers",
@@ -232,6 +232,41 @@
             "time": "2019-05-22T09:52:23+00:00"
         },
         {
+            "name": "linkslegend/ti-woocommerce-wishlist-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/ti-woocommerce-wishlist-premium.git",
+                "reference": "72519f1861f7d5d954e03472071e354183bb8217"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/ti-woocommerce-wishlist-premium/zipball/72519f1861f7d5d954e03472071e354183bb8217",
+                "reference": "72519f1861f7d5d954e03472071e354183bb8217",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "ti-woocommerce-wishlist-premium",
+                    "homepage": "https://templateinvaders.com/my-account/downloads/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium/tree/master",
+                "issues": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium/issues"
+            },
+            "time": "2019-05-24T09:28:05+00:00"
+        },
+        {
             "name": "linkslegend/woocommerce-quick-view",
             "version": "dev-master",
             "source": {
@@ -300,41 +335,6 @@
                 "issues": "https://github.com/linkslegend/woocommerce-tab-manager/issues"
             },
             "time": "2019-04-05T17:23:51+00:00"
-        },
-        {
-            "name": "linkslegend/woocommerce-wishlist",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/woocommerce-wishlist.git",
-                "reference": "6fcf2b50f7cf151bda2067aaaeac4b017caecc55"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-wishlist/zipball/6fcf2b50f7cf151bda2067aaaeac4b017caecc55",
-                "reference": "6fcf2b50f7cf151bda2067aaaeac4b017caecc55",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "woocommerce-wishlist",
-                    "homepage": "http://codecanyon.com"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/woocommerce-wishlist",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/woocommerce-wishlist/tree/master",
-                "issues": "https://github.com/linkslegend/woocommerce-wishlist/issues"
-            },
-            "time": "2019-05-23T10:22:06+00:00"
         },
         {
             "name": "linkslegend/woocommerce-woocart-pro",
@@ -1049,7 +1049,7 @@
         },
         {
             "name": "wpackagist-plugin/block-lab",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-lab/",
@@ -1057,7 +1057,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1556596732"
+                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1558580547"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1172,6 +1172,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/facebook-for-woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/favorites",
+            "version": "2.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/favorites/",
+                "reference": "tags/2.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/favorites.2.3.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/favorites/"
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-woocommerce",
@@ -1415,12 +1433,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "89f6e0f30ef66bfb06008d6d6ae6e7cc66a2e0f5"
+                "reference": "4c0ba8a35f1f12dd9236452e9fae4346b0bf2a56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/89f6e0f30ef66bfb06008d6d6ae6e7cc66a2e0f5",
-                "reference": "89f6e0f30ef66bfb06008d6d6ae6e7cc66a2e0f5",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4c0ba8a35f1f12dd9236452e9fae4346b0bf2a56",
+                "reference": "4c0ba8a35f1f12dd9236452e9fae4346b0bf2a56",
                 "shasum": ""
             },
             "conflict": {
@@ -1618,7 +1636,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-05-22T09:34:58+00:00"
+            "time": "2019-05-23T20:42:12+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1687,7 +1705,7 @@
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "linkslegend/woocommerce-tab-manager": 20,
         "linkslegend/woocommerce-woocart-pro": 20,
-        "linkslegend/woocommerce-wishlist": 20,
+        "linkslegend/ti-woocommerce-wishlist-premium": 20,
         "linkslegend/woocommerce-quick-view": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/wp-sync-db": 20,

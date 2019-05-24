@@ -351,6 +351,36 @@ body.woocommerce.single {
           background: #f4f4f4;
           display: none;
         }
+
+        .tinv-wraper.tinvwl-after-add-to-cart {
+          .tinvwl_add_to_wishlist_button {
+            color: #ff7003;
+            width: 100%;
+            background: #f2f2f2;
+            height: 45px;
+            display: block;
+            border-radius: 8px;
+            padding: 11px;
+            text-decoration: none;
+            transition: all 0.3s;
+            text-align: center;
+            font-family: inherit;
+            font-size: 0.9em;
+
+            &::before {
+              color: ff7003;
+            }
+
+            &:hover {
+              background: #ff7003;
+              color: #fff;
+
+              &::before {
+                color: #fff;
+              }
+            }
+          }
+        }
       }
     }
 
