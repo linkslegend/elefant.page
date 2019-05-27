@@ -48,6 +48,7 @@
                           -webkit-transition: all 0.25s;
                           -o-transition: all 0.25s;
                           transition: all 0.25s;
+                          position: relative;
 
                           a {
                             .onsale {
@@ -132,6 +133,23 @@
                             }
                           }
 
+                          a.quick-view-button {
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: 0.3s;
+                            margin-top: 0;
+                            bottom: 100px;
+                            padding: 10px;
+                            right: 20px;
+                            left: 20px;
+                            border-radius: 8px;
+                            font-size: 0.9em;
+                            text-align: center;
+                            width: auto;
+                            background: #f2f2f2;
+                            position: absolute;
+                          }
+
                           &:hover {
                             box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 
@@ -139,6 +157,29 @@
                               h3.product-title {
                                 color: #ff7003;
                                 text-decoration: none;
+                              }
+                            }
+
+                            a.quick-view-button {
+                              visibility: visible;
+                              opacity: 1;
+                              margin-top: 0;
+                              bottom: 112px;
+                              right: 25px;
+                              left: 25px;
+                              padding: 10px;
+                              border-radius: 8px;
+                              font-size: 0.9em;
+                              text-align: center;
+                              width: auto;
+                              background: #f2f2f2;
+                              position: absolute;
+                              transition: all 0.3s;
+
+                              &:hover {
+                                background: #ff7003;
+                                color: #fff;
+                                box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
                               }
                             }
                           }

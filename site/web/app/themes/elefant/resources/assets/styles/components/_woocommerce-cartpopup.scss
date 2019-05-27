@@ -75,6 +75,9 @@ body {
       table {
         &.festi-cart-list {
           width: 100%;
+          display: block;
+          height: 410px;
+          overflow: auto;
           font-size: 0.9em;
         }
 
@@ -165,9 +168,9 @@ body {
 
                 a.festi-cart-img {
                   img {
-                    max-width: 60px;
+                    max-width: 40px;
                     width: 100%;
-                    min-width: 60px;
+                    min-width: 40px;
                     display: block;
                     padding: 0;
                     height: auto;
@@ -203,13 +206,25 @@ body {
                   display: none;
                 }
 
+                dl {
+                  margin-bottom: 0;
+
+                  dt {
+                    dd {
+                      p {
+                        margin-bottom: 0;
+                      }
+                    }
+                  }
+                }
+
                 .festi-cart-inner-wrap {
                   font-weight: 600;
                   margin-top: 0;
                   font-size: 1em;
                   float: left;
                   color: rgba(0, 0, 0, 0.7);
-                  margin-bottom: 10px;
+                  margin-bottom: 0;
 
                   p {
                     float: left;
