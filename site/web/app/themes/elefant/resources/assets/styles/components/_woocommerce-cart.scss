@@ -98,9 +98,17 @@ body.woocommerce-cart {
                         }
                       }
 
+                      &.component_table_item,
                       &.ywcp_component_child_item {
                         font-size: 0.9em;
                         background: #f0f6f8;
+
+                        td.product-name {
+                          .component_table_item_indent {
+                            padding: 0;
+                            font-size: 0.9em;
+                          }
+                        }
                       }
 
                       &.coupon {
