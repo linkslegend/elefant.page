@@ -82,6 +82,10 @@
                             }
 
                             span {
+                              &.from {
+                                display: none;
+                              }
+
                               &.price {
                                 margin-bottom: 5px;
 

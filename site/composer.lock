@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9f4a20ea9b34303ff61efbc76a276e8",
+    "content-hash": "3ad34c026cda3b31f32ebe039600c20a",
     "packages": [
         {
             "name": "composer/installers",
@@ -265,6 +265,41 @@
                 "issues": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium/issues"
             },
             "time": "2019-05-24T09:28:05+00:00"
+        },
+        {
+            "name": "linkslegend/woocommerce-composite-products",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woocommerce-composite-products.git",
+                "reference": "f3e6bb9fa7dea4610c952c547b6c90a114d9d9bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-composite-products/zipball/f3e6bb9fa7dea4610c952c547b6c90a114d9d9bd",
+                "reference": "f3e6bb9fa7dea4610c952c547b6c90a114d9d9bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woocommerce-composite-products",
+                    "homepage": "https://gpldl.com/repository/woocommerce-composite-products/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woocommerce-composite-products",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woocommerce-composite-products/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-composite-products/issues"
+            },
+            "time": "2019-05-27T10:50:11+00:00"
         },
         {
             "name": "linkslegend/woocommerce-quick-view",
@@ -1698,6 +1733,7 @@
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
         "linkslegend/yith-woocommerce-advanced-reviews-premium": 20,
         "linkslegend/yith-woocommerce-composite-products-premium": 20,
+        "linkslegend/woocommerce-composite-products": 20,
         "linkslegend/yith-woocommerce-custom-order-status": 20,
         "linkslegend/yith-woocommerce-multi-step-checkout-premium": 20,
         "linkslegend/yith-woocommerce-compare-premium": 20,

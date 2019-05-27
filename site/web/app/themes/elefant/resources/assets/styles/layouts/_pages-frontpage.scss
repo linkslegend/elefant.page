@@ -263,11 +263,11 @@ body {
                                       h3 {
                                         font-size: 1.1em;
                                         color: #1f1f32;
-                                        margin: 0 0 5px 0;
+                                        margin: 0 0 10px 0;
                                         text-overflow: ellipsis;
                                         -webkit-line-clamp: 2;
                                         -webkit-box-orient: vertical;
-                                        height: 45px;
+                                        height: 39px;
                                         display: -webkit-box;
                                         -webkit-transition: all 0.25s;
                                         -o-transition: all 0.25s;
@@ -284,12 +284,16 @@ body {
                                       }
 
                                       span {
+                                        &.from {
+                                          display: none;
+                                        }
+
                                         &.price {
                                           margin-bottom: 5px;
 
                                           del {
                                             opacity: 1;
-                                            padding: 3px 9px 0 0;
+                                            padding: 1px 9px 0 0;
                                             display: block;
                                             font-size: 0.9em;
                                             float: left;

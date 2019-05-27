@@ -53,6 +53,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:linkslegend/woocommerce-composite-products.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:linkslegend/yith-woocommerce-custom-order-status.git"
     },
     {
@@ -127,6 +131,7 @@
     "linkslegend/yith-woocommerce-advanced-product-options-premium": "dev-master",
     "linkslegend/yith-woocommerce-advanced-reviews-premium": "dev-master",
     "linkslegend/yith-woocommerce-composite-products-premium": "dev-master",
+    "linkslegend/woocommerce-composite-products": "dev-master",
     "linkslegend/yith-woocommerce-custom-order-status": "dev-master",
     "linkslegend/yith-woocommerce-multi-step-checkout-premium": "dev-master",
     "linkslegend/yith-woocommerce-compare-premium": "dev-master",
