@@ -202,12 +202,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/prdctfltr.git",
-                "reference": "3f97da12bbbd2ad25ad18539125019aaabe9cb5b"
+                "reference": "c0684015f590b2e55bc165bdd68845a3eac9dea0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/3f97da12bbbd2ad25ad18539125019aaabe9cb5b",
-                "reference": "3f97da12bbbd2ad25ad18539125019aaabe9cb5b",
+                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/c0684015f590b2e55bc165bdd68845a3eac9dea0",
+                "reference": "c0684015f590b2e55bc165bdd68845a3eac9dea0",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 "source": "https://github.com/linkslegend/prdctfltr/tree/master",
                 "issues": "https://github.com/linkslegend/prdctfltr/issues"
             },
-            "time": "2019-05-22T09:52:23+00:00"
+            "time": "2019-05-27T09:19:15+00:00"
         },
         {
             "name": "linkslegend/ti-woocommerce-wishlist-premium",
