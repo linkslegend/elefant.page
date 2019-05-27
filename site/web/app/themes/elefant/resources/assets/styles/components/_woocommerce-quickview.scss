@@ -23,7 +23,11 @@
     .woocommerce-quick-view-content {
       color: rgba(0, 0, 0, 0.7);
       overflow: hidden;
-      max-height: 450px;
+      max-height: none;
+
+      .woocommerce-quick-view-title {
+        font-size: 1.5em;
+      }
 
       .button {
         font-size: 100%;
