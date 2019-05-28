@@ -73,10 +73,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:linkslegend/yith-woocommerce-quick-view-premium.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:linkslegend/woocommerce-product-bundles.git"
     },
     {
@@ -94,6 +90,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:linkslegend/woocommerce-quick-view.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:linkslegend/woocommerce-social-login.git"
     },
     {
       "type": "vcs",
@@ -135,12 +135,12 @@
     "linkslegend/yith-woocommerce-custom-order-status": "dev-master",
     "linkslegend/yith-woocommerce-multi-step-checkout-premium": "dev-master",
     "linkslegend/yith-woocommerce-compare-premium": "dev-master",
-    "linkslegend/yith-woocommerce-quick-view-premium": "dev-master",
     "linkslegend/multiple-external-product-urls-for-woocommerce": "dev-master",
     "linkslegend/woocommerce-tab-manager": "dev-master",
     "linkslegend/woocommerce-woocart-pro": "dev-master",
     "linkslegend/ti-woocommerce-wishlist-premium": "dev-master",
     "linkslegend/woocommerce-quick-view": "dev-master",
+    "linkslegend/woocommerce-social-login": "dev-master",
     "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
     "linkslegend/wp-sync-db": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ad34c026cda3b31f32ebe039600c20a",
+    "content-hash": "c639c32f6c61941eaf711a234599abc0",
     "packages": [
         {
             "name": "composer/installers",
@@ -335,6 +335,41 @@
                 "issues": "https://github.com/linkslegend/woocommerce-quick-view/issues"
             },
             "time": "2019-05-23T10:19:55+00:00"
+        },
+        {
+            "name": "linkslegend/woocommerce-social-login",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woocommerce-social-login.git",
+                "reference": "bb915d948937a78cad927c336c3a02ddfe93f1f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-social-login/zipball/bb915d948937a78cad927c336c3a02ddfe93f1f4",
+                "reference": "bb915d948937a78cad927c336c3a02ddfe93f1f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woocommerce-social-login",
+                    "homepage": "https://gpldl.com/repository/woocommerce-social-login/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woocommerce-social-login",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woocommerce-social-login/tree/master",
+                "issues": "https://github.com/linkslegend/woocommerce-social-login/issues"
+            },
+            "time": "2019-05-28T09:32:49+00:00"
         },
         {
             "name": "linkslegend/woocommerce-tab-manager",
@@ -684,41 +719,6 @@
                 "issues": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/issues"
             },
             "time": "2019-02-15T17:04:36+00:00"
-        },
-        {
-            "name": "linkslegend/yith-woocommerce-quick-view-premium",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/yith-woocommerce-quick-view-premium.git",
-                "reference": "36b652942ba65d6017832ab3ef931b78b4b619b3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-quick-view-premium/zipball/36b652942ba65d6017832ab3ef931b78b4b619b3",
-                "reference": "36b652942ba65d6017832ab3ef931b78b4b619b3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "yith-woocommerce-quick-view-premium",
-                    "homepage": "https://yithemes.com"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/yith-woocommerce-quick-view-premium",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/yith-woocommerce-quick-view-premium/tree/master",
-                "issues": "https://github.com/linkslegend/yith-woocommerce-quick-view-premium/issues"
-            },
-            "time": "2019-05-22T12:33:34+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1336,15 +1336,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.6.3",
+            "version": "3.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.6.3"
+                "reference": "tags/3.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.6.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.6.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1737,12 +1737,12 @@
         "linkslegend/yith-woocommerce-custom-order-status": 20,
         "linkslegend/yith-woocommerce-multi-step-checkout-premium": 20,
         "linkslegend/yith-woocommerce-compare-premium": 20,
-        "linkslegend/yith-woocommerce-quick-view-premium": 20,
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "linkslegend/woocommerce-tab-manager": 20,
         "linkslegend/woocommerce-woocart-pro": 20,
         "linkslegend/ti-woocommerce-wishlist-premium": 20,
         "linkslegend/woocommerce-quick-view": 20,
+        "linkslegend/woocommerce-social-login": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/wp-sync-db": 20,
         "roave/security-advisories": 20
