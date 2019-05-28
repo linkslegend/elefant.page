@@ -119,6 +119,12 @@ body.woocommerce-checkout {
                   .create-account {
                     label {
                       margin: 0;
+
+                      &.checkbox {
+                        margin: -5px 0 0 20px;
+                        float: left;
+                        position: absolute;
+                      }
                     }
 
                     span.woocommerce-input-wrapper {
@@ -389,6 +395,22 @@ body.woocommerce-checkout {
                           background-color: #72a700;
                           border-color: #72a700;
                         }
+                      }
+                    }
+
+                    a.wc-gateway-ppec-cancel {
+                      background-color: #f2f2f2;
+                      padding: 10px;
+                      text-align: center;
+                      transition: all 0.3s;
+                      margin-top: 10px;
+                      border-radius: 23px;
+                      width: 100%;
+
+                      &:hover {
+                        background: #fe730d;
+                        text-decoration: none;
+                        color: #fff;
                       }
                     }
                   }
