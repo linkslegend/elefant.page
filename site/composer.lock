@@ -202,12 +202,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/prdctfltr.git",
-                "reference": "c0684015f590b2e55bc165bdd68845a3eac9dea0"
+                "reference": "72c96d4be57300d8754744ad5dd2d4604561bf82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/c0684015f590b2e55bc165bdd68845a3eac9dea0",
-                "reference": "c0684015f590b2e55bc165bdd68845a3eac9dea0",
+                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/72c96d4be57300d8754744ad5dd2d4604561bf82",
+                "reference": "72c96d4be57300d8754744ad5dd2d4604561bf82",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 "source": "https://github.com/linkslegend/prdctfltr/tree/master",
                 "issues": "https://github.com/linkslegend/prdctfltr/issues"
             },
-            "time": "2019-05-27T09:19:15+00:00"
+            "time": "2019-05-28T11:58:54+00:00"
         },
         {
             "name": "linkslegend/ti-woocommerce-wishlist-premium",
@@ -272,12 +272,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woocommerce-composite-products.git",
-                "reference": "f3e6bb9fa7dea4610c952c547b6c90a114d9d9bd"
+                "reference": "0db1ed9b2fbac382aaa12d4223540ae8768de4b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-composite-products/zipball/f3e6bb9fa7dea4610c952c547b6c90a114d9d9bd",
-                "reference": "f3e6bb9fa7dea4610c952c547b6c90a114d9d9bd",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-composite-products/zipball/0db1ed9b2fbac382aaa12d4223540ae8768de4b2",
+                "reference": "0db1ed9b2fbac382aaa12d4223540ae8768de4b2",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +299,7 @@
                 "source": "https://github.com/linkslegend/woocommerce-composite-products/tree/master",
                 "issues": "https://github.com/linkslegend/woocommerce-composite-products/issues"
             },
-            "time": "2019-05-27T10:50:11+00:00"
+            "time": "2019-05-28T11:58:22+00:00"
         },
         {
             "name": "linkslegend/woocommerce-quick-view",
@@ -342,12 +342,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woocommerce-social-login.git",
-                "reference": "bb915d948937a78cad927c336c3a02ddfe93f1f4"
+                "reference": "1550fb02e9393ffcf3c36bafc94c88e9632eff29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-social-login/zipball/bb915d948937a78cad927c336c3a02ddfe93f1f4",
-                "reference": "bb915d948937a78cad927c336c3a02ddfe93f1f4",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-social-login/zipball/1550fb02e9393ffcf3c36bafc94c88e9632eff29",
+                "reference": "1550fb02e9393ffcf3c36bafc94c88e9632eff29",
                 "shasum": ""
             },
             "require": {
@@ -369,7 +369,7 @@
                 "source": "https://github.com/linkslegend/woocommerce-social-login/tree/master",
                 "issues": "https://github.com/linkslegend/woocommerce-social-login/issues"
             },
-            "time": "2019-05-28T09:32:49+00:00"
+            "time": "2019-05-28T11:57:27+00:00"
         },
         {
             "name": "linkslegend/woocommerce-tab-manager",

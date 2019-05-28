@@ -97,7 +97,7 @@ body {
               border-bottom: 1px solid #e2e2e2;
               margin-top: 5px;
               border-radius: 8px;
-              padding: 5px;
+              padding: 5px 0;
               display: block;
               transition: all 0.3s;
 
@@ -136,28 +136,28 @@ body {
                 width: 20px;
 
                 a.festi-cart-remove-product {
-                  font-size: 18px;
+                  font-size: 17px;
                   line-height: normal;
-                  padding: 2px;
+                  padding: 0;
                   display: block;
                   text-align: center;
-                  height: 30px;
-                  width: 30px;
+                  height: 25px;
+                  width: 25px;
                   position: relative;
                   background: #fff;
                   left: 0;
                   margin-top: 0;
                   top: 0;
-                  border: 1px solid #dedede;
+                  border: none;
                   border-radius: 100%;
-                  color: #1d1d1d;
+                  color: rgba(0, 0, 0, 0.7);
                   transition: all 0.3s;
 
                   &:hover {
                     background: #fa635a;
                     text-decoration: none;
                     color: #fff;
-                    border: 1px solid #fa635a;
+                    border: none;
                   }
                 }
               }
@@ -190,6 +190,7 @@ body {
                   color: rgba(0, 0, 0, 0.7);
                   float: none;
                   font-size: 1em;
+                  line-height: 1em;
                   display: block;
                   margin-bottom: 0;
                   font-weight: 600;
@@ -208,12 +209,17 @@ body {
 
                 dl {
                   margin-bottom: 0;
+                  font-size: 0.9em;
 
                   dt {
-                    dd {
-                      p {
-                        margin-bottom: 0;
-                      }
+                    font-weight: 500;
+                  }
+
+                  dd {
+                    margin-bottom: 0;
+
+                    p {
+                      margin-bottom: 0;
                     }
                   }
                 }
