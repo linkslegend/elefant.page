@@ -356,3 +356,43 @@ body.tinvwl-custom-style {
     }
   }
 }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .product-inner {
+    .tinv-wraper {
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+
+      a.tinvwl_add_to_wishlist_button.tinvwl-icon-heart {
+        transition: all 0.3s;
+        background: #fff;
+        border-radius: 100%;
+        border: 1px solid #e2e2e2;
+
+        &::before {
+          color: #ff7003;
+        }
+
+        &.tinvwl-product-in-list {
+          color: #fff;
+          background: #ff7003;
+
+          &::before {
+            color: #fff;
+          }
+        }
+
+        &:hover {
+          color: #fff;
+          background: #ff7003;
+
+          &::before {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

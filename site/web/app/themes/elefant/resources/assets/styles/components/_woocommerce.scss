@@ -10,7 +10,7 @@ body.woocommerce-page {
     position: relative;
     background-color: #fff;
     border-radius: 8px;
-    color: #fe7003;
+    color: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
     width: 100%;
@@ -24,6 +24,10 @@ body.woocommerce-page {
       top: 0;
       font-size: 1.3em;
       left: -10px;
+    }
+
+    a {
+      padding-left: 10px;
     }
 
     .button {
@@ -65,6 +69,24 @@ body.woocommerce-page {
 
     &::before {
       color: #fff;
+    }
+  }
+
+  .woocommerce-form-login-toggle {
+    .woocommerce-info {
+      background: #fff;
+      color: #4c4c4c;
+      line-height: 1.5em;
+      display: inline-block;
+      width: 100%;
+
+      &::before {
+        top: 10px;
+        height: 35px;
+        float: left;
+        font-size: 1.3em;
+        left: -10px;
+      }
     }
   }
 

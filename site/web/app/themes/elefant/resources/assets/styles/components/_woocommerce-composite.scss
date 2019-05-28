@@ -31,27 +31,48 @@
 
       .composite_component {
         .component_title_wrapper {
-          margin: 0;
           font-size: 1em;
-          margin-bottom: 10px;
+          margin: 0 0 10px;
           font-weight: 600;
           border-radius: 8px;
           position: relative;
           background: #fff;
           text-transform: none;
-          border: 1px solid #d2d2d2;
-          padding: 10px;
+          border: none;
+          padding: 0;
           color: rgba(31, 37, 50, 0.7);
           transition: all 0.25s;
 
           h2 {
+            width: 100%;
+            border-radius: 8px;
             margin-bottom: 0;
+            padding: 10px;
+            line-height: 1em;
+            display: block;
+            border: 1px solid #d2d2d2;
+            cursor: pointer;
+            transition: all 0.3s;
+
+            &:hover {
+              background: #f66900;
+              color: #fff;
+              border-color: #f66900;
+            }
+
+            span {
+              &::before {
+                left: 10px;
+              }
+            }
           }
         }
 
         .component_inner {
-          padding: 15px;
-          margin-bottom: 15px;
+          padding: 5px 15px 15px;
+          margin-bottom: 10px;
+          background: #fff;
+          border: 1px solid #d2d2d2;
           border-radius: 8px;
 
           .component_description_wrapper {
@@ -175,16 +196,18 @@
 
         &.open {
           .component_title_wrapper {
-            background: #ff7003;
-            border: 1px solid #ff7003;
-            color: #fff;
+            h2 {
+              background: #ff7003;
+              border: 1px solid #ff7003;
+              color: #fff;
+            }
           }
         }
       }
 
       .cart.composite_data {
         .composite_wrap {
-          padding-top: 20px;
+          padding-top: 15px;
 
           .composite_price {
             p.price {

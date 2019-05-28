@@ -76,7 +76,7 @@ body {
         &.festi-cart-list {
           width: 100%;
           display: block;
-          height: 410px;
+          max-height: 410px;
           overflow: auto;
           font-size: 0.9em;
         }
@@ -136,9 +136,9 @@ body {
                 width: 20px;
 
                 a.festi-cart-remove-product {
-                  font-size: 17px;
+                  font-size: 16px;
                   line-height: normal;
-                  padding: 0;
+                  padding: 1px;
                   display: block;
                   text-align: center;
                   height: 25px;
@@ -182,7 +182,7 @@ body {
 
               &.festi-cart-product-title {
                 text-align: left;
-                padding: 0 0 0 10px;
+                padding: 0 10px 0 10px;
                 vertical-align: middle;
                 float: none;
 
@@ -212,7 +212,9 @@ body {
                   font-size: 0.9em;
 
                   dt {
-                    font-weight: 500;
+                    font-weight: 400;
+                    line-height: 1em;
+                    font-size: 0.95em;
                   }
 
                   dd {
