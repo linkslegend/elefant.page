@@ -135,6 +135,13 @@ body.woocommerce.single {
       .price {
         margin-bottom: 5px;
 
+        span.from {
+          color: rgba(0, 0, 0, 0.7);
+          font-size: 0.9em;
+          font-weight: 600;
+          padding-right: 5px;
+        }
+
         del {
           opacity: 1;
           font-size: 0.9em;
