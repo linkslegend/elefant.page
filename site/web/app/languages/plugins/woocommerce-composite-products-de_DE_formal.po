@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-05-28 13:48+0200\n"
+"PO-Revision-Date: 2019-05-28 19:12+0200\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "X-Generator: Poedit 2.2.3\n"
 "Last-Translator: \n"
@@ -1163,7 +1163,7 @@ msgstr ""
 #: templates/composited-product/invalid-product.php:24
 #: templates/composited-product/js/selection.php:33
 msgid "Clear selection"
-msgstr ""
+msgstr "Auswahl aufheben"
 
 #: includes/class-wc-cp-display.php:250
 msgid ""
@@ -2052,7 +2052,7 @@ msgctxt ""
 "dropdown empty-value option: optional selection (%s replaced by component "
 "title)"
 msgid "No %s"
-msgstr ""
+msgstr "Keine %s"
 
 #: includes/class-wc-cp-display.php:237
 msgctxt "dropdown option title, followed by price"

@@ -5,7 +5,7 @@
     <div class="d-flex align-items-center justify-content-center">
 
           <div class="develop text-mini justify-content-start">
-            Made with <i class="fas fa-heart"></i> & Powerd by <a href="https://wordpress.org/">Wordpress</a> & <a href="https://roots.io/">Roots</a>
+            Made with <i class="fas fa-heart"></i> Powerd by <a href="https://wordpress.org/">Wordpress</a> & <a href="https://roots.io/">Roots</a>
           </div>
           <ul class="socials list-unstyled d-md-inline-flex justify-content-end flex-fill align-items-center">
           <li><a href="https://www.linkedin.com/company/intermac"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a></li>
