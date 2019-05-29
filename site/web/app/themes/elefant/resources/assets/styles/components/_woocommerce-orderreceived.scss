@@ -59,6 +59,20 @@ body.woocommerce-checkout {
                 }
               }
             }
+
+            p {
+              margin-top: 20px;
+              margin-bottom: 5px;
+              padding-left: 10px;
+              font-size: 1em;
+            }
+
+            .woo-slg-social-container.woo-slg-social-wrap.woo-slg-social-container-checkout.woo-social-link-buttons {
+              border: none;
+              padding: 15px 10px 5px 15px;
+              background: #fff;
+              margin: 0 0 35px 0;
+            }
           }
         }
       }

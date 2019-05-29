@@ -208,7 +208,8 @@ add_filter( 'gettext', __NAMESPACE__ . '\\translate_woocommerce_strings', 999 );
     // ETC.
     $translated = str_ireplace( 'Create an account?', 'Ein Benutzerkonto erstellen?', $translated );
     $translated = str_ireplace ('Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our', 'Wir verwenden Ihre personenbezogenen Daten, um Ihre Bestellung durchführen zu können, eine möglichst gute Benutzererfahrung auf dieser Website zu ermöglichen und für weitere Zwecke, die in unserer %s beschrieben sind.', $translated );
-return $translated;
+    $translated = str_ireplace ('View Wishlist', 'Wunschliste', $translated);
+    return $translated;
 }
 
 /*

@@ -80,22 +80,11 @@ body.woocommerce-page {
     }
   }
 
-  .woocommerce-form-login-toggle {
-    .woocommerce-info {
-      background: #fff;
-      color: #4c4c4c;
-      line-height: 1.5em;
-      display: inline-block;
-      width: 100%;
-
-      &::before {
-        top: 20px;
-        height: 35px;
-        float: left;
-        font-size: 1.3em;
-        left: 15px;
-      }
-    }
+  .woo-slg-social-container.woo-slg-social-container-checkout {
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: 8px;
+    border: none;
   }
 
   .blockUI.blockOverlay {
