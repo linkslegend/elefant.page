@@ -200,15 +200,23 @@ return 8;
 add_filter( 'gettext', __NAMESPACE__ . '\\translate_woocommerce_strings', 999 );
     function translate_woocommerce_strings( $translated ) {
     // OR zu ODER ändern
-    $translated = str_ireplace( '&mdash; or &mdash;', '&mdash; oder &mdash;', $translated );
+    $translated = str_ireplace('&mdash; or &mdash;', '&mdash; oder &mdash;', $translated );
     // Noch mehr ändern
-    $translated = str_ireplace( 'falscher text', 'übersetzter text', $translated );
+    $translated = str_ireplace('falscher text', 'übersetzter text', $translated );
     //Create an account by entering the information below. If you are a returning customer please login at the top of the page.
-    $translated = str_ireplace( 'Create an account by entering the information below. If you are a returning customer please login at the top of the page.', 'Erstellen Sie ein Konto, indem Sie die folgenden Informationen eingeben. Wenn Sie bereits Kunde sind, melden Sie sich bitte oben auf der Seite an.', $translated );
+    $translated = str_ireplace('Create an account by entering the information below. If you are a returning customer please login at the top of the page.', 'Erstellen Sie ein Konto, indem Sie die folgenden Informationen eingeben. Wenn Sie bereits Kunde sind, melden Sie sich bitte oben auf der Seite an.', $translated );
     // ETC.
-    $translated = str_ireplace( 'Create an account?', 'Ein Benutzerkonto erstellen?', $translated );
+    $translated = str_ireplace ('Create an account?', 'Ein Benutzerkonto erstellen?', $translated );
     $translated = str_ireplace ('Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our', 'Wir verwenden Ihre personenbezogenen Daten, um Ihre Bestellung durchführen zu können, eine möglichst gute Benutzererfahrung auf dieser Website zu ermöglichen und für weitere Zwecke, die in unserer %s beschrieben sind.', $translated );
     $translated = str_ireplace ('View Wishlist', 'Wunschliste', $translated);
+    $translated = str_ireplace ('There are no products', 'Ihr Einkaufswagen ist leer.', $translated );
+    $translated = str_ireplace ('Subtotal:', 'Zwischensumme:', $translated );
+    $translated = str_ireplace ('View Cart', 'zum Warenkorb', $translated );
+    $translated = str_ireplace ('Checkout', 'Zur Kasse', $translated );
+    $translated = str_ireplace ('Item Added to your Cart!', 'Artikel in den Warenkorb gelegt!', $translated );
+    $translated = str_ireplace ('Continue Shopping', 'Weiter einkaufen', $translated );
+    $translated = str_ireplace ('No products in the wishlist.', 'Ihre Wunschliste ist leer.', $translated );
+    
     return $translated;
 }
 
