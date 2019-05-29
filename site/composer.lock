@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c1c95a79410118ecc4404dc5ebee302",
+    "content-hash": "ded84364647f23eb130ae200318beea5",
     "packages": [
         {
             "name": "composer/installers",
@@ -370,41 +370,6 @@
                 "issues": "https://github.com/linkslegend/woocommerce-quick-view/issues"
             },
             "time": "2019-05-23T10:19:55+00:00"
-        },
-        {
-            "name": "linkslegend/woocommerce-social-login",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/woocommerce-social-login.git",
-                "reference": "1550fb02e9393ffcf3c36bafc94c88e9632eff29"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-social-login/zipball/1550fb02e9393ffcf3c36bafc94c88e9632eff29",
-                "reference": "1550fb02e9393ffcf3c36bafc94c88e9632eff29",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "woocommerce-social-login",
-                    "homepage": "https://gpldl.com/repository/woocommerce-social-login/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/woocommerce-social-login",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/woocommerce-social-login/tree/master",
-                "issues": "https://github.com/linkslegend/woocommerce-social-login/issues"
-            },
-            "time": "2019-05-28T11:57:27+00:00"
         },
         {
             "name": "linkslegend/woocommerce-tab-manager",
@@ -1298,24 +1263,6 @@
             "homepage": "https://wordpress.org/plugins/redux-framework/"
         },
         {
-            "name": "wpackagist-plugin/super-socializer",
-            "version": "7.12.25",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/super-socializer/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-socializer.zip?timestamp=1557998012"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/super-socializer/"
-        },
-        {
             "name": "wpackagist-plugin/woo-ajax-add-to-cart",
             "version": "1.1.0",
             "source": {
@@ -1777,7 +1724,6 @@
         "linkslegend/woocommerce-woocart-pro": 20,
         "linkslegend/ti-woocommerce-wishlist-premium": 20,
         "linkslegend/woocommerce-quick-view": 20,
-        "linkslegend/woocommerce-social-login": 20,
         "linkslegend/woo-social-login": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/wp-sync-db": 20,

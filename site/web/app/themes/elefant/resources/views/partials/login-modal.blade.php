@@ -26,7 +26,7 @@
                 <input class="submit_button" type="submit" value="Anmelden" name="submit">
                 <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
                 <div class="seperate"><span class="hr-social">oder</span></div>
-                <div class="social-login-container"><?php echo do_shortcode('[TheChamp-Login]') ?></div>
+                <div class="social-login-container"><?php echo do_shortcode('[woo_social_login]') ?></div>
               </div>
           </form>
         </div>

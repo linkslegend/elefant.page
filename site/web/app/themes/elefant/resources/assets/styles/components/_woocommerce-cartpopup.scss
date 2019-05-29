@@ -75,7 +75,7 @@ body {
       table {
         &.festi-cart-list {
           width: 100%;
-          display: block;
+          display: table;
           max-height: 410px;
           overflow: auto;
           font-size: 0.9em;
@@ -190,7 +190,7 @@ body {
                   color: rgba(0, 0, 0, 0.7);
                   float: none;
                   font-size: 1em;
-                  line-height: 1em;
+                  line-height: 1.35em;
                   display: block;
                   margin-bottom: 0;
                   font-weight: 600;

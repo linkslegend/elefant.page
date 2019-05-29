@@ -1,15 +1,32 @@
 .wishlist-popup {
   .tinv_mini_wishlist_list {
+    a {
+      &.tinv-add-all-to-cart {
+        display: none;
+        margin-bottom: 0;
+      }
+
+      &.tinv-view-wishlist {
+        margin-top: 15px;
+        margin-bottom: 0 !important;
+      }
+    }
+
     ul.product_list_widget {
-      margin: 0 0 15px 0;
+      margin: 0;
       padding: 0;
+      overflow: auto;
+      max-height: 425px;
       list-style: none outside;
 
       li {
         &.mini_wishlist_item {
-          padding: 4px 0;
+          padding: 0;
           margin: 0;
           list-style: none;
+          border-bottom: 1px solid #e2e2e2;
+          margin-bottom: 10px;
+          height: 75px;
           text-align: left;
 
           .wishlist_list_titles {
@@ -27,9 +44,9 @@
             color: rgba(0, 0, 0, 0.7);
             margin-bottom: 5px;
             display: block;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 14px;
+            font-weight: 600;
+            font-size: 12.5px;
+            line-height: 17px;
 
             img {
               float: left;
