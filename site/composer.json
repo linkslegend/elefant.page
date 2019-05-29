@@ -97,6 +97,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:linkslegend/woo-social-login.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:linkslegend/woocommerce-woocart-pro.git"
     },
     {
@@ -141,6 +145,7 @@
     "linkslegend/ti-woocommerce-wishlist-premium": "dev-master",
     "linkslegend/woocommerce-quick-view": "dev-master",
     "linkslegend/woocommerce-social-login": "dev-master",
+    "linkslegend/woo-social-login": "dev-master",
     "linkslegend/yith-woocommerce-product-bundles-premium": "dev-master",
     "linkslegend/wp-sync-db": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",

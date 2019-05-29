@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c639c32f6c61941eaf711a234599abc0",
+    "content-hash": "6c1c95a79410118ecc4404dc5ebee302",
     "packages": [
         {
             "name": "composer/installers",
@@ -265,6 +265,41 @@
                 "issues": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium/issues"
             },
             "time": "2019-05-24T09:28:05+00:00"
+        },
+        {
+            "name": "linkslegend/woo-social-login",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woo-social-login.git",
+                "reference": "a7fa1ff096142bfa3fde9e6bbaf3b4a4d0bfea11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woo-social-login/zipball/a7fa1ff096142bfa3fde9e6bbaf3b4a4d0bfea11",
+                "reference": "a7fa1ff096142bfa3fde9e6bbaf3b4a4d0bfea11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woo-social-login",
+                    "homepage": "https://gpldl.com/repository/woo-social-login/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woo-social-login",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woo-social-login/tree/master",
+                "issues": "https://github.com/linkslegend/woo-social-login/issues"
+            },
+            "time": "2019-05-28T18:27:19+00:00"
         },
         {
             "name": "linkslegend/woocommerce-composite-products",
@@ -1743,6 +1778,7 @@
         "linkslegend/ti-woocommerce-wishlist-premium": 20,
         "linkslegend/woocommerce-quick-view": 20,
         "linkslegend/woocommerce-social-login": 20,
+        "linkslegend/woo-social-login": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/wp-sync-db": 20,
         "roave/security-advisories": 20
