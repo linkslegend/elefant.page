@@ -35,7 +35,7 @@
 
 
         <ul class="list-inline">
-          <li class="TI-Praxis-Check"><a href="#" class="list-item">
+          <li class="TI-Praxis-Check"><a href="/ti-praxis-check" class="list-item">
             <div class="list-image"><i class="fas fa-box"></i></div>
             <div class="list-content">
             <h4 class="list-item-heading">TI-Praxis-Check</h4>
@@ -44,7 +44,7 @@
             </div>
           </a>
           </li>
-          <li class="TI-Komplettpaket"><a href="#" class="list-item">
+          <li class="TI-Komplettpaket"><a href="/ti-komplettpaket" class="list-item">
             <div class="list-image"><i class="fas fa-address-card"></i></div>
             <div class="list-content">
             <h4 class="list-item-heading">TI-Komplettpaket</h4>
@@ -53,7 +53,7 @@
           </div>
           </a>
           </li>
-          <li class="TI-Konnektor"><a href="#" class="list-item">
+          <li class="TI-Konnektor"><a href="/ti-konnektor" class="list-item">
             <div class="list-image"><i class="fas fa-project-diagram"></i></div>
             <div class="list-content">
             <h4 class="list-item-heading">TI-Konnektor</h4>
@@ -62,7 +62,7 @@
           </div>
           </a>
           </li>
-          <li class="TI-Anwendungen"><a href="#" class="list-item">
+          <li class="TI-Anwendungen"><a href="/ti-anwendungen" class="list-item">
             <div class="list-image"><i class="fas fa-clipboard-check"></i></div>
             <div class="list-content">
             <h4 class="list-item-heading">TI-Anwendungen</h4>
