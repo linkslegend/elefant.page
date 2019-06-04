@@ -91,11 +91,16 @@ add_filter('wp_get_attachment_image_attributes', function ($attr, $attachment) {
     if (is_admin() || is_product()) {
         return $attr;
     }
+
     $attr['data-src'] = $attr['src'];
+    $attr['src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif"'] = $attr['src'];
+    $attr['data-srcset'] = $attr['srcset'];
     $attr['class'] .= ' lozad';
     unset($attr['src']);
+    unset($attr['srcset']);
     return $attr;
 }, 10, 2);
+
 
 add_filter('wp_nav_menu_objects', __NAMESPACE__ . '\\my_wp_nav_menu_objects', 10, 2);
 function my_wp_nav_menu_objects( $items, $args ) {
