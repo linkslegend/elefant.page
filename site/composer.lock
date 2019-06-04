@@ -516,12 +516,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-advanced-reviews-premium.git",
-                "reference": "7c674a45af52f683bd703191c11016b77545799d"
+                "reference": "35bd599ed3e0c340342d957230d7cd6fda402c18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-advanced-reviews-premium/zipball/7c674a45af52f683bd703191c11016b77545799d",
-                "reference": "7c674a45af52f683bd703191c11016b77545799d",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-advanced-reviews-premium/zipball/35bd599ed3e0c340342d957230d7cd6fda402c18",
+                "reference": "35bd599ed3e0c340342d957230d7cd6fda402c18",
                 "shasum": ""
             },
             "require": {
@@ -543,7 +543,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-advanced-reviews-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-advanced-reviews-premium/issues"
             },
-            "time": "2019-04-16T16:17:40+00:00"
+            "time": "2019-06-04T09:06:59+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-compare-premium",
@@ -656,12 +656,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-multi-step-checkout-premium.git",
-                "reference": "735cc4de1ff495edb176fdb27c491b2fa119f8cf"
+                "reference": "324d66210abca838cd19474e810e9a7127ebb621"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-multi-step-checkout-premium/zipball/735cc4de1ff495edb176fdb27c491b2fa119f8cf",
-                "reference": "735cc4de1ff495edb176fdb27c491b2fa119f8cf",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-multi-step-checkout-premium/zipball/324d66210abca838cd19474e810e9a7127ebb621",
+                "reference": "324d66210abca838cd19474e810e9a7127ebb621",
                 "shasum": ""
             },
             "require": {
@@ -683,7 +683,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-multi-step-checkout-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-multi-step-checkout-premium/issues"
             },
-            "time": "2019-05-22T12:19:44+00:00"
+            "time": "2019-06-04T09:06:24+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-product-bundles-premium",
@@ -1120,15 +1120,15 @@
         },
         {
             "name": "wpackagist-plugin/cf7-conditional-fields",
-            "version": "1.5.5",
+            "version": "1.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf7-conditional-fields/",
-                "reference": "tags/1.5.5"
+                "reference": "tags/1.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.5.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.6.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1372,15 +1372,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-stripe",
-            "version": "4.1.16",
+            "version": "4.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
-                "reference": "tags/4.1.16"
+                "reference": "tags/4.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.1.16.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.2.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

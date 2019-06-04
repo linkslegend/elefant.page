@@ -58,7 +58,7 @@
 
 
 <section class="banner3-custompage">
-  <div class="bg"><img src="@asset('images/bg-2.svg')" /></div>
+  <!--<div class="bg"><img src="@asset('images/bg-2.svg')" /></div>-->
   <div class="container-fluid">
                             <h2>Was wird beim Praxis-Check überprüft?</h2>
                             <ul class="nav nav-tabs align-items-center">
