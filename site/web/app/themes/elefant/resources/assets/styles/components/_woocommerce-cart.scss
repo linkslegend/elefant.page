@@ -258,11 +258,101 @@ body.woocommerce-cart {
   }
 }
 
-/*
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
+  body.woocommerce-cart {
+    .wrap {
+      .content {
+        .container-fluid {
+          main.main {
+            .woocommerce {
+              .row {
+                .woocommerce-cart-form {
+                  .shop_table {
+                    background: #fff;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 15px;
+
+                    tbody {
+                      tr {
+                        display: block;
+                        float: right;
+
+                        &.woocommerce-cart-form__cart-item {
+                          width: 100%;
+                          padding: 5px 10px;
+                        }
+
+                        td {
+                          &.product-name,
+                          &.product-price,
+                          &.product-quantity,
+                          &.product-subtotal {
+                            width: 80%;
+                            padding: 5px;
+                            float: right;
+                            text-align: right;
+                            display: block;
+                            background: transparent;
+                            border-bottom: 1px solid #d2d2d2 !important;
+                            margin-left: 0;
+                          }
+
+                          &.product-thumbnail {
+                            padding: 10px;
+                            max-width: 100%;
+                            position: relative;
+                            background: transparent;
+                            display: block;
+                            width: 20%;
+
+                            &::before {
+                              display: none;
+                            }
+                          }
+
+                          &.actions {
+                            background: transparent;
+                          }
+
+                          &.product-subtotal {
+                            border-bottom: none;
+                          }
+                        }
+
+                        &.component_table_item,
+                        &.ywcp_component_child_item {
+                          background: transparent;
+
+                          td.product-name {
+                            .component_table_item_indent {
+                              padding: 0;
+
+                              dl.component {
+                                width: 75%;
+                              }
+                            }
+                          }
+
+                          &:nth-child(2n) {
+                            background: #f1f1f1;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
+/*
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 }

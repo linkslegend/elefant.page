@@ -22,6 +22,11 @@ body.woocommerce-checkout {
               }
             }
 
+            p.woocommerce-info {
+              padding: 10px 10px 10px 45px;
+              margin: 0 0 15px;
+            }
+
             form {
               margin-top: 15px;
               margin-bottom: 30px;
@@ -73,6 +78,7 @@ body.woocommerce-checkout {
                   &.form-row-first,
                   &.form-row-last {
                     width: 50%;
+                    float: left;
                   }
 
                   &.lost_password {
@@ -369,7 +375,12 @@ body.woocommerce-checkout {
                           line-height: 1.5;
                           float: left;
                           margin: 0;
-                          padding: 15px;
+                          padding: 0 15px 15px 15px;
+
+                          p {
+                            margin: 0;
+                            padding: 0;
+                          }
 
                           &::before {
                             display: none;
@@ -445,8 +456,20 @@ body.woocommerce-checkout {
           main.main {
             .woocommerce {
               .woocommerce-info {
+                line-height: 1.8em;
                 background: #fff;
                 color: #4c4c4c;
+
+                a {
+                  padding-left: 0;
+                  display: block;
+
+                  &.showlogin,
+                  &.showcoupon {
+                    padding-left: 0;
+                    display: block;
+                  }
+                }
 
                 &::before {
                   color: #4c4c4c;
@@ -467,6 +490,32 @@ body.woocommerce-checkout {
 
                   p {
                     margin: 0;
+                    padding: 0 0 10px 0;
+
+                    label.woocommerce-form-login__rememberme {
+                      margin-bottom: 8px;
+                      padding-left: 5px;
+
+                      span {
+                        margin-left: 5px;
+                      }
+                    }
+
+                    &.form-row-first {
+                      width: 100%;
+                      float: left;
+                      padding: 0;
+                    }
+
+                    &.form-row-last {
+                      width: 100%;
+                      float: left;
+                      padding: 15px 0 15px;
+                    }
+
+                    &.lost_password {
+                      width: 100%;
+                    }
                   }
 
                   .the_champ_outer_login_container {
@@ -490,6 +539,26 @@ body.woocommerce-checkout {
                   }
                 }
 
+                &.checkout_coupon {
+                  p.form-row.form-row-first {
+                    width: 100%;
+                    padding: 0 0 15px 0;
+
+                    button.button {
+                      width: 100%;
+                    }
+
+                    input.input-text {
+                      height: 45px;
+                    }
+                  }
+
+                  p.form-row.form-row-last {
+                    width: 100%;
+                    padding: 0;
+                  }
+                }
+
                 &.checkout {
                   .woocommerce-NoticeGroup {
                     width: 100%;
@@ -501,6 +570,22 @@ body.woocommerce-checkout {
                     width: 100%;
                     flex: 0 0 100%;
                     max-width: 100%;
+
+                    .create-account {
+                      label {
+                        margin: 0;
+
+                        &.checkbox {
+                          margin: -15px 0 0 0;
+                          float: left;
+                          position: absolute;
+                        }
+                      }
+
+                      span.woocommerce-input-wrapper {
+                        width: 100%;
+                      }
+                    }
 
                     .col-billing {
                       background: #fff;
@@ -611,7 +696,7 @@ body.woocommerce-checkout {
                     max-width: 100%;
 
                     #order_review_heading {
-                      margin: 0 0 15px 0;
+                      margin: 15px 0 15px 0;
                       text-transform: none;
                       font-weight: 600;
                       color: rgba(31, 31, 50, 0.8);
@@ -726,6 +811,29 @@ body.woocommerce-checkout {
                           }
                         }
                       }
+                    }
+                  }
+                }
+              }
+
+              .woo-slg-social-container {
+                .woo-slg-social-container {
+                  .wooslg-privacy-policy-text {
+                    p {
+                      font-size: 0.9em;
+                      margin-bottom: 10px;
+                      margin-top: 0;
+                      padding: 0;
+                    }
+                  }
+
+                  .woo-slg-social-wrap {
+                    .woo-slg-login-wrapper {
+                      margin-right: 0;
+                      float: left;
+                      padding: 0;
+                      margin-top: 10px;
+                      width: 100%;
                     }
                   }
                 }

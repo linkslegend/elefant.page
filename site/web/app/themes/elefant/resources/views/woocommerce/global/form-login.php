@@ -29,7 +29,7 @@ if ( is_user_logged_in() ) {
 	<?php do_action( 'woocommerce_login_form_start' ); ?>
 
 	<?php echo ( $message ) ? wpautop( wptexturize( $message ) ) : ''; // @codingStandardsIgnoreLine ?>
-	<div class="row">
+	<div>
 
 	<p class="form-row form-row-first col-12 col-sm-6">
 		<label for="username"><?php esc_html_e( 'Username or email', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
@@ -43,11 +43,11 @@ if ( is_user_logged_in() ) {
 
 	<div class="clear"></div>
 
-<div class="row">
+<div>
 	<?php do_action( 'woocommerce_login_form' ); ?>
 </div>
 
-<div class="row">
+<div>
 	<p class="form-row woocommerce-login-button col-12 col-sm-6">
 		<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
 			<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span><?php esc_html_e( 'Remember me', 'woocommerce' ); ?></span>
