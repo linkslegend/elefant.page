@@ -1,1 +1,1 @@
-import "fg-loadcss/dist/cssrelpreload.min";
+import 'fg-loadcss/dist/cssrelpreload.min';

@@ -54,5 +54,5 @@ module.exports = {
         blockJSRequests: false,
       },
     }),
-  ]
+  ],
 };
