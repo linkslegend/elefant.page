@@ -5,6 +5,9 @@ const imageminMozjpeg = require('imagemin-mozjpeg');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const HtmlCriticalWebpackPlugin = require('html-critical-webpack-plugin');
 
+const glob = require('glob-all');
+const PurgecssPlugin = require('purgecss-webpack-plugin');
+
 const config = require('./config');
 
 module.exports = {
@@ -53,6 +56,19 @@ module.exports = {
       penthouse: {
         blockJSRequests: false,
       },
+    }),
+    new PurgecssPlugin({
+      paths: glob.sync([
+        'app/**/*.php',
+        'resources/views/**/*.php',
+        'resources/assets/scripts/**/*.js',
+      ]),
+      whitelist: [ // Only if you need it!
+        'pr3','pv2','ph3',
+        'mb1',
+        'input',
+        'tracked-mega'
+      ],
     }),
   ],
 };
