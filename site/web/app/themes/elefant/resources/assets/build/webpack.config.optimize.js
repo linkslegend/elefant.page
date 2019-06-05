@@ -23,15 +23,6 @@ module.exports = {
       plugins: [imageminMozjpeg({ quality: 75 })],
       disable: (config.enabled.watcher),
     }),
-    new UglifyJsPlugin({
-      uglifyOptions: {
-        ecma: 5,
-        compress: {
-          warnings: true,
-          drop_console: true,
-        },
-      },
-    }),
     new HtmlCriticalWebpackPlugin({
       base: config.paths.dist,
       src: config.devUrl,
@@ -52,6 +43,15 @@ module.exports = {
       ],
       penthouse: {
         blockJSRequests: false,
+      },
+    }),
+    new UglifyJsPlugin({
+      uglifyOptions: {
+        ecma: 5,
+        compress: {
+          warnings: true,
+          drop_console: true,
+        },
       },
     }),
   ],

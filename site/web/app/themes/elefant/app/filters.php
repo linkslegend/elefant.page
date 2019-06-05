@@ -104,53 +104,47 @@ add_filter('wp_get_attachment_image_attributes', function ($attr, $attachment) {
 /**
  * Async load CSS
  */
-if (env('WP_ENV') === 'production') {
-    add_filter('style_loader_tag', function ($html, $handle, $href) {
-        if (is_admin()) {
-            return $html;
-        }
-
-        $dom = new \DOMDocument();
-        $dom->loadHTML($html);
-        $tag = $dom->getElementById($handle . '-css');
-        $tag->setAttribute('rel', 'preload');
-        $tag->setAttribute('as', 'style');
-        $tag->setAttribute('onload', "this.onload=null;this.rel='stylesheet'");
-        $tag->removeAttribute('type');
-        $html = $dom->saveHTML($tag);
-
+add_filter('style_loader_tag', function ($html, $handle, $href) {
+    if (is_admin()) {
         return $html;
-    }, 999, 3);
-}
+    }
 
-if (env('WP_ENV') === 'production') {
-    add_action('wp_head', function () {
-        $preload_script = get_theme_file_path() . '/resources/assets/scripts/cssrelpreload.js';
+    $dom = new \DOMDocument();
+    $dom->loadHTML($html);
+    $tag = $dom->getElementById($handle . '-css');
+    $tag->setAttribute('rel', 'preload');
+    $tag->setAttribute('as', 'style');
+    $tag->setAttribute('onload', "this.onload=null;this.rel='stylesheet'");
+    $tag->removeAttribute('type');
+    $html = $dom->saveHTML($tag);
 
-        if (fopen($preload_script, 'r')) {
-            echo '<script>' . file_get_contents($preload_script) . '</script>';
-        }
-    }, 101);
-}
+    return $html;
+}, 999, 3);
+
+add_action('wp_head', function () {
+    $preload_script = get_theme_file_path() . '/resources/assets/scripts/cssrelpreload.js';
+
+    if (fopen($preload_script, 'r')) {
+        echo '<script>' . file_get_contents($preload_script) . '</script>';
+    }
+}, 101);
 
 /**
  * Inject critical assets in head as early as possible
  */
-if (env('WP_ENV') === 'production') {
-    add_action('wp_head', function () {
-        if (is_front_page()) {
-            $critical_CSS = asset_path('styles/critical-home.css');
-        } elseif (is_singular()) {
-            $critical_CSS = asset_path('styles/critical-singular.css');
-        } else {
-            $critical_CSS = asset_path('styles/critical-archive.css');
-        }
+add_action('wp_head', function () {
+    if (is_front_page()) {
+        $critical_CSS = asset_path('styles/critical-home.css');
+    } elseif (is_singular()) {
+        $critical_CSS = asset_path('styles/critical-singular.css');
+    } else {
+        $critical_CSS = asset_path('styles/critical-archive.css');
+    }
 
-        if (fopen($critical_CSS, 'r')) {
-            echo '<style>' . file_get_contents($critical_CSS) . '</style>';
-        }
-    }, 1);
-}
+    if (fopen($critical_CSS, 'r')) {
+        echo '<style>' . file_get_contents($critical_CSS) . '</style>';
+    }
+}, 1);
 
 add_filter('wp_nav_menu_objects', __NAMESPACE__ . '\\my_wp_nav_menu_objects', 10, 2);
 function my_wp_nav_menu_objects( $items, $args ) {
