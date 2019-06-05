@@ -169,6 +169,10 @@ body.woocommerce-page {
               margin-bottom: 5px;
               font-size: 1em;
 
+              span.from {
+                display: none;
+              }
+
               del {
                 opacity: 1;
                 padding: 3px 9px 0 0;
