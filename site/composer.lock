@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ded84364647f23eb130ae200318beea5",
+    "content-hash": "a8657f099a3c19fd58369ada0c646519",
     "packages": [
         {
             "name": "composer/installers",
@@ -440,6 +440,41 @@
                 "issues": "https://github.com/linkslegend/woocommerce-woocart-pro/issues"
             },
             "time": "2019-04-24T15:35:27+00:00"
+        },
+        {
+            "name": "linkslegend/wp-rocket",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/wp-rocket.git",
+                "reference": "6775c9ca1f9fbe2a8ea863e5b713e096efac6fc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/wp-rocket/zipball/6775c9ca1f9fbe2a8ea863e5b713e096efac6fc7",
+                "reference": "6775c9ca1f9fbe2a8ea863e5b713e096efac6fc7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "WooCommerce Product Filter",
+                    "homepage": "https://wp-rocket.me/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/wp-rocket",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/wp-rocket/tree/master",
+                "issues": "https://github.com/linkslegend/wp-rocket/issues"
+            },
+            "time": "2019-06-05T13:57:03+00:00"
         },
         {
             "name": "linkslegend/wp-sync-db",
@@ -1712,6 +1747,7 @@
     "stability-flags": {
         "linkslegend/ct-ultimate-gdpr": 20,
         "linkslegend/prdctfltr": 20,
+        "linkslegend/wp-rocket": 20,
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
         "linkslegend/yith-woocommerce-advanced-reviews-premium": 20,
         "linkslegend/yith-woocommerce-composite-products-premium": 20,

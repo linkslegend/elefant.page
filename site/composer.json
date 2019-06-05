@@ -109,6 +109,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:linkslegend/wp-rocket.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:linkslegend/prdctfltr.git"
     }
   ],
@@ -128,6 +132,7 @@
     "wpackagist-plugin/block-lab": "^1.1",
     "linkslegend/ct-ultimate-gdpr": "dev-master",
     "linkslegend/prdctfltr": "dev-master",
+    "linkslegend/wp-rocket": "dev-master",
     "linkslegend/yith-woocommerce-advanced-product-options-premium": "dev-master",
     "linkslegend/yith-woocommerce-advanced-reviews-premium": "dev-master",
     "linkslegend/yith-woocommerce-composite-products-premium": "dev-master",
