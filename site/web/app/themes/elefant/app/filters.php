@@ -133,6 +133,25 @@ if (env('WP_ENV') === 'production') {
     }, 101);
 }
 
+/**
+ * Inject critical assets in head as early as possible
+ */
+if (env('WP_ENV') === 'production') {
+    add_action('wp_head', function () {
+        if (is_front_page()) {
+            $critical_CSS = asset_path('styles/critical-home.css');
+        } elseif (is_singular()) {
+            $critical_CSS = asset_path('styles/critical-singular.css');
+        } else {
+            $critical_CSS = asset_path('styles/critical-archive.css');
+        }
+
+        if (fopen($critical_CSS, 'r')) {
+            echo '<style>' . file_get_contents($critical_CSS) . '</style>';
+        }
+    }, 1);
+}
+
 add_filter('wp_nav_menu_objects', __NAMESPACE__ . '\\my_wp_nav_menu_objects', 10, 2);
 function my_wp_nav_menu_objects( $items, $args ) {
 	// loop
