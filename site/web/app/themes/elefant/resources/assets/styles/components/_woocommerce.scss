@@ -411,6 +411,9 @@ mark {
           }
 
           .product-inner {
+            float: left;
+            width: 100%;
+
             a.woocommerce-LoopProduct-link {
               h2.woocommerce-loop-product__title {
                 font-size: 1em;
@@ -463,6 +466,9 @@ mark {
           }
 
           .product-inner {
+            width: 100%;
+            float: left;
+
             a.woocommerce-LoopProduct-link {
               h2.woocommerce-loop-product__title {
                 font-size: 1em;
@@ -476,6 +482,14 @@ mark {
                 padding: 5px 0 0 0;
                 height: 25px;
                 margin: 0;
+
+                del {
+                  padding: 0 9px 0 0;
+
+                  .woocommerce-Price-amount.amount {
+                    font-size: 0.9em;
+                  }
+                }
 
                 ins {
                   span.woocommerce-Price-amount.amount {
@@ -499,9 +513,41 @@ mark {
   }
 }
 
-/*
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  .woocommerce {
+    ul.products {
+      &.columns-3 {
+        li.product {
+          width: 48%;
+          float: left;
+          clear: both;
+          margin: 0 0 0.992em;
+
+          &.last {
+            margin-right: 0 !important;
+          }
+
+          .product-inner {
+            width: 100%;
+            float: left;
+
+            .tinv-wraper.woocommerce.tinv-wishlist.tinvwl-after-add-to-cart.tinvwl-loop-button-wrapper {
+              display: none;
+            }
+          }
+        }
+      }
+
+      &[class*=columns-] {
+        li.product:nth-child(2n) {
+          float: right;
+          clear: none !important;
+          margin: 0 0 0.992em;
+        }
+      }
+    }
+  }
 }
 
 /*
