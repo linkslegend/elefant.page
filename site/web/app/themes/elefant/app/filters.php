@@ -266,3 +266,6 @@ function misha_before_after_btn( $add_to_cart_html, $product, $args ){
 	return $add_to_cart_html;
 }
 */
+
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('wp_print_styles', 'print_emoji_styles');
