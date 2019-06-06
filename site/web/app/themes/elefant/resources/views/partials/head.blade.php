@@ -12,6 +12,11 @@
               });
           }
       })();
+
+      window.addEventListener("load", function () {
+      const loader = document.querySelector(".preload");
+      loader.className += " hidden"; // class "loader hidden"
+      });
     </script>
   <link rel="manifest" href="/app/themes/elefant/manifest.json">
 
