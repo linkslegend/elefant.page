@@ -14,8 +14,10 @@
       })();
 
       window.addEventListener("load", function () {
-      const loader = document.querySelector(".preload");
-      loader.className += " hidden"; // class "loader hidden"
+        const loader = document.querySelector(".preload");
+        const loader2 = document.querySelector(".preloader");
+        loader.className += " hidden"; // class "loader hidden"
+        loader2.className += " hidden"; // class "loader hidden"
       });
     </script>
   <link rel="manifest" href="/app/themes/elefant/manifest.json">

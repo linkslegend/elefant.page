@@ -1,8 +1,8 @@
 .preload {
-   background: rgba(255, 255, 255, 0.85);
+   background: rgba(220, 239, 244, 0.5);
    width: 100%;
    display: block;
-   z-index: 9999;
+   z-index: 9998;
    height: 100%;
    position: fixed;
    opacity: 1;
@@ -17,6 +17,80 @@
    height: 100%;
    text-align: center;
    margin: 0 auto;
+}
+
+.pre-header {
+   border-radius: 8px;
+   padding: 0 15px;
+   margin: 30px auto;
+   max-width: 1140px;
+}
+
+.pre-container-inner {
+   display: block;
+}
+
+.pre-header-inner {
+   background: rgb(255, 255, 255);
+   width: 100%;
+   height: 80px;
+   border-radius: 8px;
+}
+
+.pre-wrap {
+   border-radius: 8px;
+   padding: 0 15px;
+   margin: 30px auto;
+   max-width: 1140px;
+}
+
+.pre-box1 {
+   background: rgb(255, 255, 255);
+   padding: 0px;
+   border-radius: 8px;
+   height: 400px;
+   width: 65.7%;
+   float: left;
+   height: 500px;
+}
+
+.pre-box2 {
+   background: rgb(255, 255, 255);
+   padding: 15px;
+   height: 400px;
+   border-radius: 8px;
+   width: 31.6%;
+   float: right;
+   height: 500px; 
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+.pre-header {
+   margin: 15px auto;
+}
+.pre-header-inner {
+   height: 60px;
+}
+.pre-wrap {
+   float: left;
+   width: 100%;
+   margin: 5px auto 0 auto;
+}
+.pre-box1 {
+   width: 100%;
+   margin-bottom: 26px;
+   height: 500px;
+}
+.pre-box2 {
+   width: 100%;
+   height: 500px;
+}
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
 }
 
 .preloader:before {

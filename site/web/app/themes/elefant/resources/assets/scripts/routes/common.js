@@ -7,6 +7,10 @@ export default {
     /* eslint-disable */
     /* eslint-enable */
 
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
+
     $(document).ready(function(){
       jQuery.event.special.touchstart = {
           setup: function( _, ns, handle ){
