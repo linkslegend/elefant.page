@@ -3,6 +3,11 @@
 /** Import everything from autoload */
 @import "./autoload/**/*";
 
+/*! purgecss start ignore */
+// note the exclamation mark, which makes this comment "important"!
+// everything above this line will be purged!
+// everything below it will land in dist/main.css!
+
 // Import Slick
 @import "~slick-carousel/slick/slick.scss";
 @import "~slick-carousel/slick/slick-theme.scss";
