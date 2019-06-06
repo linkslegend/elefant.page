@@ -7,6 +7,14 @@ use Roots\Sage\Assets\JsonManifest;
 use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
 
+function criticalCSS_wp_head() {
+	echo '<style>';
+	include get_template_directory() . '/critical.css.php';
+	echo '</style>';
+}
+add_action( 'wp_head',  __NAMESPACE__.'\\criticalCSS_wp_head' );
+
+
 /**
  * Theme assets
  */
