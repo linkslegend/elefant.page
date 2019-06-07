@@ -12,14 +12,19 @@
               });
           }
       })();
-
-      window.addEventListener("load", function () {
-        const loader = document.querySelector(".preload");
-        const loader2 = document.querySelector(".preloader");
-        loader.className += " hidden"; // class "loader hidden"
-        loader2.className += " hidden"; // class "loader hidden"
-      });
     </script>
+
+@if (is_shop() || is_front_page() || is_page_template( 'templates/about.php') || is_page_template( 'views/page-sidebar.blade.php' ) || is_product() )
+<script>
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".preload");
+    const loader2 = document.querySelector(".preloader");
+    loader.className += " hidden"; // class "loader hidden"
+    loader2.className += " hidden"; // class "loader hidden"
+  });
+</script>
+
+@endif
   <link rel="manifest" href="/app/themes/elefant/manifest.json">
 
   @php wp_head() @endphp

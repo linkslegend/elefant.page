@@ -94,7 +94,6 @@ add_filter('wp_get_attachment_image_attributes', function ($attr, $attachment) {
     }
 
     $attr['data-src'] = $attr['src'];
-    $attr['src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif"'] = $attr['src'];
     $attr['data-srcset'] = $attr['srcset'];
     $attr['class'] .= ' lozad';
     unset($attr['src']);
