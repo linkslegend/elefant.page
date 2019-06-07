@@ -1,5 +1,5 @@
 .preload {
-   background: rgba(220, 239, 244, 0.5);
+   background: rgba(220, 239, 244, 1);
    width: 100%;
    display: block;
    z-index: 9998;
