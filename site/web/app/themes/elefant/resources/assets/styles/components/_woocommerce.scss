@@ -418,6 +418,10 @@ mark {
             float: left;
             width: 100%;
 
+            a.quick-view-button {
+              display: none;
+            }
+
             a.woocommerce-LoopProduct-link {
               h2.woocommerce-loop-product__title {
                 font-size: 1em;

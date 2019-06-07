@@ -128,7 +128,21 @@
    display: block;
    content: "";
 }
+body.single .pre-box1 {
+   background: rgb(255, 255, 255);
+   padding: 0px;
+   border-radius: 8px;
+   height: 400px;
+   width: 40%;
+   float: left;
+   height: 640px;}
 
+body.single .pre-box3 {
+   width: 57%;
+   height: 800px;
+   margin-top: 0;
+   float: right;
+}
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
@@ -189,6 +203,18 @@
    float: left;
    margin-right: 20px;
    margin-top: 25px;}
+}
+
+@media (max-width: 575.98px) {
+body.single .pre-box1 {
+   background: rgb(255, 255, 255);
+   padding: 0px;
+   border-radius: 8px;
+   height: 400px;
+   width: 100%;
+   float: left;
+   height: 700px;
+}
 }
 
 .preloader:before {

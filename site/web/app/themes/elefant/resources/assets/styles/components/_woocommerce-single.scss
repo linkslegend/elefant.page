@@ -363,7 +363,8 @@ body.woocommerce.single {
           .tinvwl_add_to_wishlist_button {
             color: #ff7003;
             width: 100%;
-            background: #f2f2f2;
+            background: transparent;
+            border: 1px solid #d2d2d2;
             height: 45px;
             float: left;
             margin-top: 20px;
@@ -382,6 +383,7 @@ body.woocommerce.single {
 
             &:hover {
               background: #ff7003;
+              border-color: #ff7003;
               color: #fff;
 
               &::before {

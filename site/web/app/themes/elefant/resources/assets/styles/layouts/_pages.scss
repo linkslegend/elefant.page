@@ -1,6 +1,7 @@
 body {
   color: rgba(0, 0, 0, 0.7);
   font-size: 0.9em;
+  background-color: rgba(220, 239, 244, 0.4) !important;
   line-height: 1.8em;
 
   &.single,
@@ -11,7 +12,7 @@ body {
   &.error404,
   &.page-sidebar {
     background-image: linear-gradient(to bottom, #f8f8f8 0, rgba(184, 222, 232, 0.1) 959px);
-    background-color: #fff;
+    background-color: #dceff4;
 
     &::after {
       background-image: url("../images/bg-top.svg");
@@ -146,6 +147,12 @@ h2 {
 
 .content {
   margin-top: 0;
+}
+
+.content-white-bg {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
 }
 
 .slick-list {
@@ -309,9 +316,9 @@ a.contact {
 }
 
 .inner-box {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 1);
   padding: 20px;
-  height: auto;
+  height: 100%;
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   color: rgba(0, 0, 0, 0.7);
@@ -502,6 +509,18 @@ address {
     color: rgba(31, 37, 50, 0.7);
     overflow: hidden;
     letter-spacing: -0.032em;
+  }
+
+  .inner-box {
+    .outer-image {
+      width: 150px;
+      height: 150px;
+      margin: 10px auto 30px auto;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 100%;
+      padding: 35px;
+      float: left;
+    }
   }
 }
 

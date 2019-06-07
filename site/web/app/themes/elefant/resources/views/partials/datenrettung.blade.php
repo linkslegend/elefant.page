@@ -1,4 +1,28 @@
-<section class="banner-custompage">
+<section class="banner-custompage white-banner-top">
+    <div class="container-fluid">
+        <div class="content-white-bg">
+          <h2>Datenrettung und Datenwiederherstellung</h2>
+          <div class="row ">
+            <div class="col-xl-6 col-lg-7 col-sm-12 d-flex align-content-center flex-wrap">
+                Bei einem Crash Ihres Betriebssystems / Ihrer Festplatte bieten wir Ihnen die folgenden Optionen zur Datenrettung an:
+                Wird Die Festplatte noch im BIOS-Setup noch angezeigt.
+                Die Datensicherung erfolgt auf ein Medium Ihrer Wahl, z.B. Externe Festplatte oder USB-Stick.
+                Zusätzlich bieten wir Ihnen eine Neuinstallation des Betriebssystems inklusive Installation aller aktuellen Treiber ihres Rechners,
+                sowie die Datenrücksicherung an. Die Fehleranalyse ist kostenpflichtig und wird verrechnet, sollten Sie uns den Auftrag zur Datenrettung erteilen.
+            </div>
+  
+            <div class="col-xl-6 col-lg-5 col-sm-12">
+              Unser Service bietet Ihnen eine Datenrettung und Datenwiederherstellung für Festplatten,
+              Speicherkarten und USB Stick an. Desweiteren bieten wir ihnen Hilfe bei versehentlich
+              gelöschten und verloren gegangenen Daten an.
+              Wenn Sie Hilfe bei der Wiederherstellung Ihrer Daten brauchen oder Sie die Hoffnung haben gelöschte Dateien wiederherstellen zu können - besuchen Sie uns auf unserer Webseite.
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section class="banner2-custompage white-banner-margint50b50">
   <div class="container-fluid">
     <div class="row">
 
@@ -38,47 +62,24 @@
     </div>
 </section>
 
-
-<section class="banner3-custompage">
+<section class="banner3-custompage white-banner-nomargin">
   <div class="container-fluid">
-    <h2>Datenrettung und Datenwiederherstellung</h2>
-    <div class="row ">
-      <div class="col-xl-6 col-lg-7 col-sm-12 d-flex align-content-center flex-wrap">
-          Bei einem Crash Ihres Betriebssystems / Ihrer Festplatte bieten wir Ihnen die folgenden Optionen zur Datenrettung an:
-          Wird Die Festplatte noch im BIOS-Setup noch angezeigt.
-          Die Datensicherung erfolgt auf ein Medium Ihrer Wahl, z.B. Externe Festplatte oder USB-Stick.
-          Zusätzlich bieten wir Ihnen eine Neuinstallation des Betriebssystems inklusive Installation aller aktuellen Treiber ihres Rechners,
-          sowie die Datenrücksicherung an. Die Fehleranalyse ist kostenpflichtig und wird verrechnet, sollten Sie uns den Auftrag zur Datenrettung erteilen.
+      <div class="content-white-bg">
+    <div class="row">
+
+      <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="pageimage">
+          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Elektronischer Medikationsplan" data-src="@asset('images/harddrive.jpg')" class="lozad" />
+        </div>
+      </div>
+      <div class="order-1 order-xl-2 order-md-2 order-sm-2 col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-content-center flex-wrap">
+        <h2>Logische Schäden</h2>
+        Logische Schäden haben ihren Ursprung nicht in physischen Schäden: Die Komponenten der Festplatte funktionieren einwandfrei,
+        dennoch kann auf die Daten nicht zugegriffen werden. Logische Probleme sind z.B. gelöschte Daten, Software-Verfälschungen oder
+        formatierte Festplatten.
       </div>
 
-      <div class="col-xl-6 col-lg-5 col-sm-12">
-        Unser Service bietet Ihnen eine Datenrettung und Datenwiederherstellung für Festplatten,
-        Speicherkarten und USB Stick an. Desweiteren bieten wir ihnen Hilfe bei versehentlich
-        gelöschten und verloren gegangenen Daten an.
-         Wenn Sie Hilfe bei der Wiederherstellung Ihrer Daten brauchen oder Sie die Hoffnung haben gelöschte Dateien wiederherstellen zu können - besuchen Sie uns auf unserer Webseite.
       </div>
-    </div>
-  </div>
-</section>
-
-
-
-<section class="banner4-custompage">
-<div class="container-fluid">
-  <div class="row">
-
-    <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-xl-6 col-lg-6 col-md-6 col-sm-12">
-      <div class="pageimage">
-        <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Elektronischer Medikationsplan" data-src="@asset('images/harddrive.jpg')" class="lozad" />
-      </div>
-    </div>
-    <div class="order-1 order-xl-2 order-md-2 order-sm-2 col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-content-center flex-wrap">
-      <h2>Logische Schäden</h2>
-      Logische Schäden haben ihren Ursprung nicht in physischen Schäden: Die Komponenten der Festplatte funktionieren einwandfrei,
-      dennoch kann auf die Daten nicht zugegriffen werden. Logische Probleme sind z.B. gelöschte Daten, Software-Verfälschungen oder
-      formatierte Festplatten.
-    </div>
-
     </div>
   </div>
 </section>

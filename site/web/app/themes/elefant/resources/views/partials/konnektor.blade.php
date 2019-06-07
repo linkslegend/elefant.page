@@ -1,97 +1,94 @@
-<section class="banner-custompage">
+<section class="banner-custompage white-banner-top">
   <div class="container-fluid">
-    <div class="row ">
-      <div class="col-xl-6 col-lg-7 col-sm-12">
-        <h2>TI-Konnektor</h2>
-        <p>
-          Der secunet konnektor ist das sicherheitstechnische Herzstück Ihrer künftigen Kommunikation aus der Arzt- oder
-          Psychotherapeutischen Praxis in die Telematikinfrastruktur.
-          <br  /><br />
-          Eingebettet in das Gesamtpaket „Mein Zugangsdienst“
-          ermöglicht der äußerst leistungsstarke Konnektor eine schnelle und
-          reibungslose Anbindung, einen verlässlichen Betrieb und Erweiterungen um künftige Anwendungen.
-        </p>
-      </div>
+      <div class="content-white-bg">
+        <div class="row ">
+          <div class="col-xl-6 col-lg-7 col-sm-12">
+            <h2>TI-Konnektor</h2>
+            <p>
+              Der secunet konnektor ist das sicherheitstechnische Herzstück Ihrer künftigen Kommunikation aus der Arzt- oder
+              Psychotherapeutischen Praxis in die Telematikinfrastruktur.
+              <br  /><br />
+              Eingebettet in das Gesamtpaket „Mein Zugangsdienst“
+              ermöglicht der äußerst leistungsstarke Konnektor eine schnelle und
+              reibungslose Anbindung, einen verlässlichen Betrieb und Erweiterungen um künftige Anwendungen.
+            </p>
+          </div>
 
-      <div class="col-xl-6 col-lg-5 col-sm-12">
-        Mit dem erfolgreichen Abschluss des Zulassungsverfahrens bei der gematik steht der von secunet und eHealthExperts gemeinsam entwickelte secunet
-        konnektor bereit für den sofortigen Roll-out. Der secunet konnektor dient Leistungserbringern wie beispielsweise Arztpraxen
-        als zentrales Element zum Anschluss an die Telematikinfrastruktur (TI).
-        <br /><br />
-        Er wird gemeinsam mit den Partnern eHealthExperts und
-        Arvato Systems im Rahmen des Gesamtpakets "Mein Zugangsdienst" angeboten und kann über die Website www.meinzugangsdienst.de oder über
-        Hersteller von Praxisverwaltungssystemen erworben werden.
+          <div class="col-xl-6 col-lg-5 col-sm-12">
+            Mit dem erfolgreichen Abschluss des Zulassungsverfahrens bei der gematik steht der von secunet und eHealthExperts gemeinsam entwickelte secunet
+            konnektor bereit für den sofortigen Roll-out. Der secunet konnektor dient Leistungserbringern wie beispielsweise Arztpraxen
+            als zentrales Element zum Anschluss an die Telematikinfrastruktur (TI).
+            <br /><br />
+            Er wird gemeinsam mit den Partnern eHealthExperts und
+            Arvato Systems im Rahmen des Gesamtpakets "Mein Zugangsdienst" angeboten und kann über die Website www.meinzugangsdienst.de oder über
+            Hersteller von Praxisverwaltungssystemen erworben werden.
+          </div>
+        </div>
       </div>
+  </div>
+</section>
+
+<section class="banner2-custompage white-banner-margint50b50">
+  <div class="container-fluid">
+      <div class="content-white-bg">
+          <div class="row ">
+
+            <div class="col-xl-6 col-lg-5 col-md-5 align-items-center justify-content-center">
+                <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="TI-Konnektor" data-src="@asset('images/csm_Konnektor_2_3345bf9754.jpg')" class="lozad img-rounded mb-5 mb-sm-0 lozad" />
+            </div>
+
+            <div class="col-xl-6 col-lg-7 col-md-7 align-content-center flex-wrap">
+              <h2>Ihre Vorteile:</h2>
+              <ul>
+                <li>Leistungsstarker Konnektor für die Telematikinfrastruktur</li>
+                <li>Zukunfts- und investitionssicher durch modulare Erweiterbarkeit um zusätzliche Applikationen</li>
+                <li>Unkomplizierte und zeitsparende Installation mittels vordefinierter Konfigurationsdaten der Arztpraxis</li>
+                <li>Einfacher Betrieb und Support durch Remotemanagement</li>
+                <li>Zwei Jahre Garantie (erweiterbar auf fünf Jahre)</li>
+                <li>Architektur skalierbar auf Highspeed Konnektor (serverfähig)</li>
+              </ul>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="banner3-custompage white-banner-nomargin">
+  <div class="container-fluid">
+      <div class="content-white-bg">
+        <div class="row">
+          <h2>secunet konnektor - das Herzstück Ihrer sicheren TI-Kommunikation</h2>
+
+          <div class="col-xl-6 col-lg-5 col-md-12">
+
+            Der Konnektor ist das Herzstück der sicheren Kommunikation. Er baut den sicheren Kanal zum VPN-Zugangsdienst, bzw. der Telematikinfrastruktur auf. Auf der anderen Seite ist er die Kontaktstelle zur verwendeten Software und dem Kartenleser.
+            <br  />
+            <br  />
+            Für den aktuellen Roll-Out muss der Konnektor die Fachanwendung VSDM (Versichertenstammdatenmanagement) beherrschen, in Zukunft soll er aber nicht nur die sichere Kommunikation garantieren, sondern als Basis für mehrere Anwendungen dienen, beispielsweise:
+
+            Daten für die Notfallversorgung (Notfalldaten)
+            Elektronischer Arztbrief (eArztbrief)
+            Daten zur Prüfung der Arzneimitteltherapiesicherheit (AMTS) und E-Medikationsplan
+            Elektronische Patientenakte (ePatientenakte)
+            Elektronisches Patientenfach (ePatientenfach)
+          </div>
+
+          <div class="col-xl-6 col-lg-7 col-md-12">
+            In der ersten Stufe der Einführung der Konnektoren handelt es sich um den sogenannten „Ein-Box-Konnektor“, der ähnlich einem Router in der Praxis stehen kann. Für Krankenhäuser mit der Vielzahl an Ärzten und vernetzten Strukturen, sind einzelne Konnektoren schwer handhabbar. Hier sind andere Formfaktoren sinnvoll: performante, zentrale, serverbasierte Hochleistungs-Konnektoren. Die Architektur des secunet konnektors ist modular aufgebaut und kann dadurch für alle durch die gematik vorgegebenen Leistungsstufen eingesetzt werden.
+            <br  />
+            <br  />
+
+            Ein besonderes Augenmerk legt die secunet auf die Prozesse rund um den Einsatz des Konnektors, den Anschluss an den VPN-Zugangsdienst, die einfache Installation und den möglichst unauffälligen Betrieb mit gutem Service, da die Einführung der Telematikinfrastruktur für die Leistungserbringer vorerst einen zusätzlichen Aufwand darstellt.
+          </div>
+        </div>
     </div>
   </div>
 </section>
 
-
-
-<section class="banner2-custompage">
+<section class="banner2-custompage white-banner-margint50b50">
   <div class="container-fluid">
-    <div class="row ">
-
-      <div class="col-xl-6 col-lg-5 col-md-5 align-items-center justify-content-center">
-
-          <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="TI-Konnektor" data-src="@asset('images/csm_Konnektor_2_3345bf9754.jpg')" class="lozad img-rounded mb-5 mb-sm-0 lozad" />
-
-      </div>
-
-      <div class="col-xl-6 col-lg-7 col-md-7 align-content-center flex-wrap">
-        <h2>Ihre Vorteile:</h2>
-        <ul>
-          <li>Leistungsstarker Konnektor für die Telematikinfrastruktur</li>
-          <li>Zukunfts- und investitionssicher durch modulare Erweiterbarkeit um zusätzliche Applikationen</li>
-          <li>Unkomplizierte und zeitsparende Installation mittels vordefinierter Konfigurationsdaten der Arztpraxis</li>
-          <li>Einfacher Betrieb und Support durch Remotemanagement</li>
-          <li>Zwei Jahre Garantie (erweiterbar auf fünf Jahre)</li>
-          <li>Architektur skalierbar auf Highspeed Konnektor (serverfähig)</li>
-        </ul>
-      </div>
-
-
-      </div>
-
-    </div>
-</section>
-
-
-<section class="banner3-custompage">
-<div class="container-fluid">
-  <div class="row">
-    <h2>secunet konnektor - das Herzstück Ihrer sicheren TI-Kommunikation</h2>
-
-    <div class="col-xl-6 col-lg-5 col-md-12">
-
-      Der Konnektor ist das Herzstück der sicheren Kommunikation. Er baut den sicheren Kanal zum VPN-Zugangsdienst, bzw. der Telematikinfrastruktur auf. Auf der anderen Seite ist er die Kontaktstelle zur verwendeten Software und dem Kartenleser.
-      <br  />
-      <br  />
-      Für den aktuellen Roll-Out muss der Konnektor die Fachanwendung VSDM (Versichertenstammdatenmanagement) beherrschen, in Zukunft soll er aber nicht nur die sichere Kommunikation garantieren, sondern als Basis für mehrere Anwendungen dienen, beispielsweise:
-
-      Daten für die Notfallversorgung (Notfalldaten)
-      Elektronischer Arztbrief (eArztbrief)
-      Daten zur Prüfung der Arzneimitteltherapiesicherheit (AMTS) und E-Medikationsplan
-      Elektronische Patientenakte (ePatientenakte)
-      Elektronisches Patientenfach (ePatientenfach)
-    </div>
-
-    <div class="col-xl-6 col-lg-7 col-md-12">
-      In der ersten Stufe der Einführung der Konnektoren handelt es sich um den sogenannten „Ein-Box-Konnektor“, der ähnlich einem Router in der Praxis stehen kann. Für Krankenhäuser mit der Vielzahl an Ärzten und vernetzten Strukturen, sind einzelne Konnektoren schwer handhabbar. Hier sind andere Formfaktoren sinnvoll: performante, zentrale, serverbasierte Hochleistungs-Konnektoren. Die Architektur des secunet konnektors ist modular aufgebaut und kann dadurch für alle durch die gematik vorgegebenen Leistungsstufen eingesetzt werden.
-      <br  />
-      <br  />
-
-      Ein besonderes Augenmerk legt die secunet auf die Prozesse rund um den Einsatz des Konnektors, den Anschluss an den VPN-Zugangsdienst, die einfache Installation und den möglichst unauffälligen Betrieb mit gutem Service, da die Einführung der Telematikinfrastruktur für die Leistungserbringer vorerst einen zusätzlichen Aufwand darstellt.
-    </div>
-
-
-    </div>
-  </div>
-</section>
-
-
-<section class="banner2-custompage">
-  <div class="container-fluid">
+      <div class="content-white-bg">
     <div class="row ">
 
       <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-xl-6 col-lg-7 col-md-12 d-flex align-content-center flex-wrap">
@@ -129,14 +126,11 @@
 
     </div>
   </div>
+  </div>
 </section>
 
-
-
-<section class="banner4-custompage">
+<section class="banner4-custompage white-banner-nomargin">
   <div class="container-fluid">
-
-Quelle Bilder und Text: secunet Security Networks AG
-
+    Quelle Bilder und Text: secunet Security Networks AG
   </div>
 </section>

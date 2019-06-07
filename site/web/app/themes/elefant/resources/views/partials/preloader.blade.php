@@ -33,9 +33,7 @@
   <div class="pre-wrap">
       <div class="pre-container-inner">
           <div class="pre-banner">
-            <div class="pre-box-filter"></div>
             <div class="pre-box1"></div>
-            <div class="pre-box2"></div>
             <div class="pre-box3"></div>
             <div class="pre-box4"></div>
           </div>
@@ -49,7 +47,6 @@
         <div class="pre-container-inner">
             <div class="pre-banner">
               <div class="pre-box1"></div>
-              <div class="pre-box2"></div>
               <div class="pre-box3"></div>
             </div>
           </div>
