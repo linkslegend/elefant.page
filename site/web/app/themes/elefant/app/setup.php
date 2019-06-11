@@ -14,7 +14,7 @@ function criticalCSS_wp_head() {
 }
 add_action( 'wp_head',  __NAMESPACE__ . '\\criticalCSS_wp_head' );
 
-
+/*
 function crunchify_print_scripts_styles() {
     // Print all loaded Scripts
     global $wp_scripts;
@@ -62,7 +62,7 @@ function my_deregister_styles() {
     wp_deregister_style('');
     wp_dequeue_style('');
 }
-
+*/
 
 /**
  * Theme assets
