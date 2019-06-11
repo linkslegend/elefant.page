@@ -12,7 +12,56 @@ function criticalCSS_wp_head() {
 	include get_template_directory() . '/critical.css.php';
 	echo '</style>';
 }
-add_action( 'wp_head',  __NAMESPACE__.'\\criticalCSS_wp_head' );
+add_action( 'wp_head',  __NAMESPACE__ . '\\criticalCSS_wp_head' );
+
+
+function crunchify_print_scripts_styles() {
+    // Print all loaded Scripts
+    global $wp_scripts;
+    foreach( $wp_scripts->queue as $script ) :
+        echo $script . '  **  ';
+    endforeach;
+ 
+    // Print all loaded Styles (CSS)
+    global $wp_styles;
+    foreach( $wp_styles->queue as $style ) :
+        echo $style . '  ||  ';
+    endforeach;
+}
+add_action( 'wp_print_scripts', __NAMESPACE__ . '\\crunchify_print_scripts_styles' );
+
+
+add_action('wp_print_styles', __NAMESPACE__ . '\\my_deregister_styles', 100);
+function my_deregister_styles() {
+    wp_deregister_style('woocommerce-quick-view-custom');
+    wp_dequeue_style('woocommerce-quick-view-custom');
+    wp_deregister_style('font-awesome');
+    wp_dequeue_style('font-awesome');
+    wp_deregister_style('font-awesome');
+    wp_dequeue_style('font-awesome');
+    wp_deregister_style('ct-ultimate-gdpr-jquery-ui');
+    wp_dequeue_style('ct-ultimate-gdpr-jquery-ui');
+    wp_deregister_style('ct-ultimate-gdpr');
+    wp_dequeue_style('ct-ultimate-gdpr');
+    
+    wp_deregister_style('dashicons');
+    wp_dequeue_style('dashicons');
+
+    wp_deregister_style('woo-slg-public-style');
+    wp_dequeue_style('woo-slg-public-style');
+
+    wp_deregister_style('festi-jquery-ui-spinner');
+    wp_dequeue_style('festi-jquery-ui-spinner');
+
+    wp_deregister_style('cf7cf-style');
+    wp_dequeue_style('cf7cf-style');
+
+    wp_deregister_style('');
+    wp_dequeue_style('');
+
+    wp_deregister_style('');
+    wp_dequeue_style('');
+}
 
 
 /**
