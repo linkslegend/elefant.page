@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ded84364647f23eb130ae200318beea5",
+    "content-hash": "0da4484c478eb9bafb08e057e5bab472",
     "packages": [
         {
             "name": "composer/installers",
@@ -1261,6 +1261,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redux-framework/"
+        },
+        {
+            "name": "wpackagist-plugin/resmushit-image-optimizer",
+            "version": "0.1.22",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/resmushit-image-optimizer/",
+                "reference": "tags/0.1.22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/resmushit-image-optimizer.0.1.22.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/resmushit-image-optimizer/"
         },
         {
             "name": "wpackagist-plugin/woo-ajax-add-to-cart",

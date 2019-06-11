@@ -23,19 +23,6 @@ add_action('customize_preview_init', function () {
     wp_enqueue_script('sage/customizer.js', asset_path('scripts/customizer.js'), ['customize-preview'], null, true);
 });
 
-// Lazyload Converter for lozad.js
-/**
- * Use Lozad (lazy loading) for attachments/featured images
- */
-add_filter('wp_get_attachment_image_attributes', function ($attr, $attachment) {
-    $attr['src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif"'] = $attr['src'];
-    $attr['data-src'] = $attr['src'];
-    $attr['data-srcset'] = $attr['srcset'];
-    $attr['class'] .= ' lozad';
-    unset($attr['src']);
-    unset($attr['srcset']);
-    return $attr;
-}, 10, 2);
 
 /**
  * Async load CSS

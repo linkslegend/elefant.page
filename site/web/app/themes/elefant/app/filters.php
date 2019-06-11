@@ -83,7 +83,21 @@ add_filter('comments_template', function ($comments_template) {
     return $comments_template;
 }, 100);
 
+/**
+ * Use Lozad (lazy loading) for attachments/featured images
+ */
+add_filter('wp_get_attachment_image_attributes', function ($attr, $attachment) {
+    // Bail on admin
+    if (is_admin()) {
+        return $attr;
+    }
+    $attr['data-src'] = $attr['src'];
+    $attr['class'] .= ' lozad';
+    unset($attr['src']);
+    $attr['src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.giftest"'] = $attr['src'];
 
+    return $attr;
+}, 10, 2);
 
 add_filter('wp_nav_menu_objects', __NAMESPACE__ . '\\my_wp_nav_menu_objects', 10, 2);
 function my_wp_nav_menu_objects( $items, $args ) {
