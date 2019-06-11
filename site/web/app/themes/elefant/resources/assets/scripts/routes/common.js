@@ -18,15 +18,32 @@ export default {
           },
       };
 
-    const observer = lozad('.lozad', {
-      rootMargin: '500px 0px',
-      threshold: 0.1,
-      load: function(el) {
-        el.src = el.dataset.src;
-      },
-    });
-    observer.observe();
 
+    window.addEventListener('load', function() {
+      var observer = lozad('.lozad', {
+        rootMargin: '500px 0px',
+        threshold: 0.1,
+        load: function(el) {
+          el.src = el.dataset.src;
+        },
+      });
+      observer.observe()
+    })
+
+// lazy load to DOMNodeInserted event
+$(document).bind('DOMNodeInserted', function() {
+  const observer = lozad('.lozad', {
+    rootMargin: '500px 0px',
+    threshold: 0.1,
+    load: function(el) {
+      el.src = el.dataset.src;
+    },
+  });
+  observer.observe();
+});
+
+
+    
     $('.multiple-items').slick({
       infinite: false,
       dots: true,
@@ -65,8 +82,9 @@ export default {
     });
 
     $('.multiple-items-top').slick({
-      infinite: false,
+      infinite: true,
       dots: false,
+      lazyLoad: 'ondemand',
       slidesToShow: 2,
       slidesToScroll: 1,
       prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
@@ -78,7 +96,6 @@ export default {
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
-        dots: true,
       },
     },
     {
@@ -213,9 +230,10 @@ export default {
     });
 
     $('.product-slider-frontpage').slick({
-      infinite: false,
+      infinite: true,
       dots: false,
       slidesToShow: 4,
+      lazyLoad: 'ondemand',
       slidesToScroll: 1,
       prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
       nextArrow:'<button class="next"><i class="fas fa-arrow-right"></i>Next</button>',
@@ -226,7 +244,6 @@ export default {
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
-        dots: true,
       },
     },
     {
