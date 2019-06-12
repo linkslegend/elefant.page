@@ -385,6 +385,24 @@ body.woocommerce-checkout {
                           &::before {
                             display: none;
                           }
+
+                          #stripe-payment-data {
+                            .wc-credit-card-form.wc-payment-form {
+                              .wc-stripe-elements-field.StripeElement {
+                                border: 1px solid #d2d2d2;
+                                margin: 5px 0;
+                                padding: 10px;
+                                background-color: #fbfbfb;
+                                transition: all 0.3s;
+                                border-radius: 8px;
+                                outline: 0;
+
+                                &.StripeElement--focus {
+                                  border: 1px solid #fe730d;
+                                }
+                              }
+                            }
+                          }
                         }
                       }
                     }

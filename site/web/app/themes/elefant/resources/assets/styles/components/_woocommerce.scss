@@ -393,6 +393,12 @@ mark {
   background-color: rgba(255, 112, 3, 0.1);
 }
 
+small.woocommerce-price-suffix {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 400;
+}
+
 /*
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
