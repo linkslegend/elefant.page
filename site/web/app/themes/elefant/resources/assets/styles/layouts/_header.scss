@@ -124,7 +124,9 @@
           }
         }
 
-        &#hover {
+        &#hover-1,
+        &#hover-2,
+        &#hover-3 {
           a {
             &.my-account,
             &.my-wishlist {
@@ -199,7 +201,8 @@
             }
           }
 
-          #popup {
+          #popup-1,
+          #popup-2 {
             opacity: 0;
             border: none;
             background: rgba(255, 255, 255, 1);
@@ -319,7 +322,8 @@
           }
 
           &:hover {
-            #popup {
+            #popup-1,
+            #popup-2 {
               opacity: 1;
               padding: 15px;
               overflow: visible;

@@ -13,22 +13,27 @@
 
             <div class="icon-menu mobile-block d-block d-md-none">
                 <ul class="header links">
-                  <li id="icons" class="account"><div class="inner-account myaccount"><a href="/mein-konto" class="my-account">Konto</a></div></li>
-                  <li id="icons" class="account"><div class="inner-account wishlist"><a href="/login" class="my-wishlist">Wunschliste</a></div></li>
-                  <li id="icons" class="account"><div class="inner-account cart"><a href="/warenkorb"><span class="my-cart">Warenkorb</span></a></div></li>
+                  <li id="icons 1" class="account"><div class="inner-account myaccount"><a href="/mein-konto" class="my-account">Konto</a></div></li>
+                  <li id="icons 2" class="account"><div class="inner-account wishlist"><a href="/login" class="my-wishlist">Wunschliste</a></div></li>
+                  <li id="icons 3" class="account"><div class="inner-account cart"><a href="/warenkorb"><span class="my-cart">Warenkorb</span></a></div></li>
                 </ul>
             </div>
 
           </div>
         </nav>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed" type="button" 
+        data-toggle="collapse" 
+        data-target="#bs-navbar-collapse" 
+        aria-controls="bs-navbar-collapse" 
+        aria-label="open"
+        aria-expanded="false">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="icon-menu d-none d-lg-block">
               <ul class="header links">
-                <li id="hover" class="account myaccount"><a href="/mein-konto" class="my-account">Konto</a>
-                  <div id="popup" class="account-popup popover-content">
+                <li id="hover-1" class="account myaccount"><a href="/mein-konto" class="my-account">Konto</a>
+                  <div id="popup-1" class="account-popup popover-content">
 
                       <?php if (is_user_logged_in()) : ?>
                       <span class='username'>Hallo, <?php $current_user = wp_get_current_user(); echo $current_user->user_firstname; echo '&nbsp;' . $current_user->user_lastname; ?></span>
@@ -55,13 +60,13 @@
                   
                   </div>
                 </li>
-                <li id="hover" class="account wishlist"><?php echo do_shortcode('[ti_wishlist_products_counter]'); ?>
+                <li id="hover-2" class="account wishlist"><?php echo do_shortcode('[ti_wishlist_products_counter]'); ?>
                   <a href="/login" class="my-wishlist">Wunschliste</a>
-                  <div id="popup" class="wishlist-popup popover-content">
+                  <div id="popup-2" class="wishlist-popup popover-content">
                     <?php echo do_shortcode('[ti_miniwishlist]'); ?>
                   </div>
                 </li>
-                <li id="hover" class="account cart">
+                <li id="hover-3" class="account cart">
                       <?php echo do_shortcode('[WooCommerceWooCartPro]'); ?>
                       <span class="my-cart">Warenkorb</span>
                 </li>
