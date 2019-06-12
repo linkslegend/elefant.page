@@ -61,8 +61,8 @@ function my_deregister_styles() {
     //wp_deregister_style('dashicons');
     //wp_dequeue_style('dashicons');
 
-    wp_deregister_style('woo-slg-public-style');
-    wp_dequeue_style('woo-slg-public-style');
+    //wp_deregister_style('woo-slg-public-style');
+    //wp_dequeue_style('woo-slg-public-style');
 
     wp_deregister_style('festi-jquery-ui-spinner');
     wp_dequeue_style('festi-jquery-ui-spinner');

@@ -252,6 +252,18 @@ body {
                                 }
                               }
                             }
+
+                            &.mailchimp-newsletter {
+                              padding: 15px;
+
+                              label.woocommerce-form__label.woocommerce-form__label-for-checkbox {
+                                line-height: 100%;
+                                font-size: 0.9em;
+                                font-weight: 600;
+                                padding: 0 0 0 5px;
+                                margin: 0 0 0 15px;
+                              }
+                            }
                           }
 
                           &.woocommerce-LostPassword.lost_password {
