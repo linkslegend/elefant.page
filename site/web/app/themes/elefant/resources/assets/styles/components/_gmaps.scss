@@ -13,37 +13,66 @@ body.ct-ultimate-gdpr-cookie-bottomPanel-padding.popup-modern-style {
   padding-bottom: 0;
 }
 
-.ct-ultimate-gdpr-cookie-popup-modern .ct-container {
-  max-width: 500px !important;
-  width: auto !important;
-  margin: 0 auto !important;
-  background: rgb(250, 250, 250) !important;
-  border-radius: 8px !important;
-  padding: 25px !important;
-  box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.17) !important;
-}
-
 #ct-ultimate-gdpr-cookie-popup {
   background-color: transparent !important;
   color: rgba(0, 0, 0, 0.7) !important;
   bottom: 0 !important;
   font-weight: 500 !important;
   width: auto !important;
-  border-radius: 0 !important;
-  margin: 20px !important;
-  padding: 0 !important;
-  background-size: cover !important;
-  background-position: 100% center !important;
+  border-radius: 0;
+  margin: 20px;
+  padding: 0;
+  background-size: cover;
+  background-position: 100% center;
+  line-height: 20px;
+  z-index: 999999;
+  opacity: 1;
+  text-align: left;
+  position: fixed;
+  font-size: 13px;
   display: none;
-}
 
-#ct-ultimate-gdpr-cookie-accept {
-  border-color: #fff !important;
-  background-color: #ff7d27 !important;
-  color: #fff !important;
-  width: auto !important;
-  padding: 15px 30px !important;
-  border: none !important;
+  .ct-container {
+    max-width: 400px;
+    width: auto;
+    margin: 0 auto;
+    background: rgb(250, 250, 250);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.17);
+
+    #ct-ultimate-gdpr-cookie-content {
+      margin-bottom: 15px;
+    }
+
+    .ct-ultimate-gdpr-cookie-buttons.clearfix {
+      float: none;
+      text-align: center;
+
+      #ct-ultimate-gdpr-cookie-accept {
+        border-color: #fff;
+        background-color: #ff7d27;
+        color: #fff;
+        width: auto;
+        padding: 15px 30px;
+        border-radius: 8px;
+        border: none;
+        transition: all 0.3s;
+
+        svg {
+          padding: 0;
+          margin-right: 5px;
+          color: #fff;
+          line-height: 0;
+          font-size: 1em;
+        }
+
+        &:hover {
+          background-color: #dc5f00;
+        }
+      }
+    }
+  }
 }
 
 .kontakt .btn-primary {

@@ -14,6 +14,16 @@ function criticalCSS_wp_head() {
 }
 add_action( 'wp_head',  __NAMESPACE__ . '\\criticalCSS_wp_head' );
 
+
+//Remove Google ReCaptcha code/badge everywhere apart from select pages
+add_action('wp_print_scripts', function () {
+	//Add pages you want to allow to array
+	if ( !is_page( array( 'kontakt' ) ) ){
+		wp_dequeue_script( 'google-recaptcha' );
+		//wp_dequeue_script( 'google-invisible-recaptcha' );
+	}
+});
+
 /*
 function crunchify_print_scripts_styles() {
     // Print all loaded Scripts
@@ -29,23 +39,27 @@ function crunchify_print_scripts_styles() {
     endforeach;
 }
 add_action( 'wp_print_scripts', __NAMESPACE__ . '\\crunchify_print_scripts_styles' );
-
+*/
 
 add_action('wp_print_styles', __NAMESPACE__ . '\\my_deregister_styles', 100);
 function my_deregister_styles() {
     wp_deregister_style('woocommerce-quick-view-custom');
     wp_dequeue_style('woocommerce-quick-view-custom');
+
     wp_deregister_style('font-awesome');
     wp_dequeue_style('font-awesome');
+
     wp_deregister_style('font-awesome');
     wp_dequeue_style('font-awesome');
+
     wp_deregister_style('ct-ultimate-gdpr-jquery-ui');
     wp_dequeue_style('ct-ultimate-gdpr-jquery-ui');
+    
     wp_deregister_style('ct-ultimate-gdpr');
     wp_dequeue_style('ct-ultimate-gdpr');
     
-    wp_deregister_style('dashicons');
-    wp_dequeue_style('dashicons');
+    //wp_deregister_style('dashicons');
+    //wp_dequeue_style('dashicons');
 
     wp_deregister_style('woo-slg-public-style');
     wp_dequeue_style('woo-slg-public-style');
@@ -56,13 +70,24 @@ function my_deregister_styles() {
     wp_deregister_style('cf7cf-style');
     wp_dequeue_style('cf7cf-style');
 
-    wp_deregister_style('');
-    wp_dequeue_style('');
+    wp_deregister_style('ct-ultimate-gdpr-cookie-popup');
+    wp_dequeue_style('ct-ultimate-gdpr-cookie-popup');
+
+    wp_deregister_style('contact-form-7');
+    wp_dequeue_style('contact-form-7');
+
+    wp_deregister_style('tinvwl-theme');
+    wp_dequeue_style('tinvwl-theme');
 
     wp_deregister_style('');
     wp_dequeue_style('');
+
+    /* */
+
+    wp_deregister_script('festi-jquery-ui-spinner');
+    wp_dequeue_script('festi-jquery-ui-spinner');
 }
-*/
+
 
 /**
  * Theme assets
