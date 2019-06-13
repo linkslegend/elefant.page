@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3525315a434f723b72dda74a6593baa",
+    "content-hash": "2fcd933e21254c52438f9a275db912aa",
     "packages": [
         {
             "name": "composer/installers",
@@ -1297,6 +1297,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/resmushit-image-optimizer/"
+        },
+        {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.9.7.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.9.7.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.7.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
         },
         {
             "name": "wpackagist-plugin/woo-ajax-add-to-cart",
