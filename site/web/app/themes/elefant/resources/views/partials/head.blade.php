@@ -4,7 +4,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#cce8f0">
   <script>
-      // register service worker:
+    window.addEventListener("load", function () {
+          const loader = document.querySelector(".preload");
+          const loader2 = document.querySelector(".preloader");
+          loader.className += " hidden"; // class "loader hidden"
+          loader2.className += " hidden"; // class "loader hidden"
+        });
+    // register service worker:
       (function () {
           if ('serviceWorker' in navigator) {
               window.addEventListener('load', function () {
@@ -13,15 +19,6 @@
           }
       })();
     </script>
-
-  <script>
-    window.addEventListener("load", function () {
-      const loader = document.querySelector(".preload");
-      const loader2 = document.querySelector(".preloader");
-      loader.className += " hidden"; // class "loader hidden"
-      loader2.className += " hidden"; // class "loader hidden"
-    });
-  </script>
 
   <link rel="manifest" href="/app/themes/elefant/manifest.json">
 

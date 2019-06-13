@@ -23,14 +23,17 @@ add_action('customize_preview_init', function () {
     wp_enqueue_script('sage/customizer.js', asset_path('scripts/customizer.js'), ['customize-preview'], null, true);
 });
 
+$cssPath = get_theme_file_path() . '/dist/style/main.css';
+
 
 /**
  * Async load CSS
  */
 add_filter('style_loader_tag', function ($html, $handle, $href) {
-    if (is_admin()) {
+    if (is_admin() || file_exists($cssPath) ) {
         return $html;
     }
+
     $dom = new \DOMDocument();
     $dom->loadHTML($html);
     $tag = $dom->getElementById($handle . '-css');
