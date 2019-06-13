@@ -12,7 +12,7 @@ function criticalCSS_wp_head() {
 	include get_template_directory() . '/critical.css.php';
 	echo '</style>';
 }
-add_action( 'wp_head',  __NAMESPACE__ . '\\criticalCSS_wp_head' );
+add_action( 'wp_head',  __NAMESPACE__ . '\\criticalCSS_wp_head', -9999);
 
 
 //Remove Google ReCaptcha code/badge everywhere apart from select pages
