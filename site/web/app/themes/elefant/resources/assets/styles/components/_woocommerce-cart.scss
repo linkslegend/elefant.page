@@ -23,6 +23,7 @@ body.woocommerce-cart {
                         td {
                           &.product-remove {
                             position: relative;
+                            background: transparent;
                             width: 35px;
 
                             a.remove {
@@ -208,10 +209,18 @@ body.woocommerce-cart {
                     background: #fff;
                     border-radius: 8px;
                     border: none;
-                    padding: 15px;
+                    padding: 20px;
 
                     tbody {
                       tr {
+                        &.woocommerce-cart-form__cart-item {
+                          font-size: 1em;
+                          border: 1px solid #d2d2d2;
+                          margin: 0 0 10px 0;
+                          padding: 10px;
+                          border-radius: 8px;
+                        }
+
                         td {
                           &.product-name,
                           &.product-price,
@@ -219,10 +228,45 @@ body.woocommerce-cart {
                           &.product-subtotal {
                             width: 75%;
                             padding: 5px 0 5px 5px;
+                            background: transparent;
                             float: none;
                             text-align: right;
                             display: block;
                             margin-left: 25%;
+                          }
+
+                          &.product-remove {
+                            position: relative;
+                            background: transparent;
+                            width: 35px;
+
+                            a.remove {
+                              border: 1px solid #dadada;
+                              text-align: center;
+                              display: block;
+                              height: 32px;
+                              width: 32px;
+                              margin: 0;
+                              line-height: normal;
+                              padding-top: 0;
+                              padding-left: 1px;
+                              position: absolute;
+                              left: -22px;
+                              top: -22px;
+                              background: #fff;
+                              font-size: 1.5em;
+                              border-radius: 100%;
+                              font-weight: 500;
+                              transition: all 0.3s;
+                              color: rgba(15, 15, 15, 0.85) !important;
+
+                              &:hover {
+                                background: #fa635a;
+                                color: #fff !important;
+                                border: 1px solid #fa635a;
+                                text-decoration: none;
+                              }
+                            }
                           }
 
                           &.product-thumbnail {
@@ -296,7 +340,7 @@ body.woocommerce-cart {
                             text-align: right;
                             display: block;
                             background: transparent;
-                            border-bottom: 1px solid #d2d2d2 !important;
+                            border-top: 1px solid #d2d2d2 !important;
                             margin-left: 0;
                           }
 
@@ -317,8 +361,8 @@ body.woocommerce-cart {
                             background: transparent;
                           }
 
-                          &.product-subtotal {
-                            border-bottom: none;
+                          &.product-name {
+                            border-top: none;
                           }
                         }
 

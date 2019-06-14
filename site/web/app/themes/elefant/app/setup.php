@@ -24,6 +24,14 @@ add_action('wp_print_scripts', function () {
 	}
 });
 
+// Define a new breakpoint for woocommerce-smallscreen.css
+function intermac_woocommerce_smallscreen_breakpoint( $breakpoint ) { 
+    $breakpoint = '991.98px';
+    return $breakpoint; 
+}; 
+add_filter( 'woocommerce_style_smallscreen_breakpoint', __NAMESPACE__ . '\\intermac_woocommerce_smallscreen_breakpoint', 10, 1 ); 
+
+
 /*
 function crunchify_print_scripts_styles() {
     // Print all loaded Scripts
