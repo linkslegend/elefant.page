@@ -400,6 +400,18 @@ small.woocommerce-price-suffix {
   font-weight: 400;
 }
 
+.product-inner {
+  a.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
+    span.price {
+      small.woocommerce-price-suffix {
+        font-size: 9px;
+        color: rgba(0,0,0,.6);
+        font-weight: 400;
+      }
+    }
+  }
+}
+
 /*
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
