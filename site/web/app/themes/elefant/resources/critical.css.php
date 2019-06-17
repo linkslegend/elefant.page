@@ -6,7 +6,7 @@
    height: 100%;
    position: fixed;
    opacity: 1;
-   transition: all 0.15s;
+   transition: all 0.2s;
 }
 
 .preloader {

@@ -6,9 +6,9 @@
   <script>
     window.addEventListener("load", function () {
           const loader = document.querySelector(".preload");
-          const loader2 = document.querySelector(".preloader");
+          //const loader2 = document.querySelector(".preloader");
           loader.className += " hidden"; // class "loader hidden"
-          loader2.className += " hidden"; // class "loader hidden"
+          //loader2.className += " hidden"; // class "loader hidden"
         });
     // register service worker:
       (function () {

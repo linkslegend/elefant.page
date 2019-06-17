@@ -1,4 +1,3 @@
-<div class="preloader"></div>
   <div id="preload" class="preload">
 
     <div class="pre-header">
