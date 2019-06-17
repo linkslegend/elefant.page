@@ -13,7 +13,7 @@
 
     $loop = new WP_Query( $args );
     while ( $loop->have_posts() ) : $loop->the_post(); global $product;
-    $current_id = $post->ID;
+    $current_id = $loop->post->ID;
   ?>
 
   <li class="product-item type-product">
