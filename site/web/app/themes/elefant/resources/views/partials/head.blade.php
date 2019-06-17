@@ -4,12 +4,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#cce8f0">
   <script>
-    window.addEventListener("load", function () {
-          const loader = document.querySelector(".preload");
+    //window.addEventListener("load", function () {
+          //const loader = document.querySelector(".preload");
           //const loader2 = document.querySelector(".preloader");
-          loader.className += " hidden"; // class "loader hidden"
+          //loader.className += " hidden"; // class "loader hidden"
           //loader2.className += " hidden"; // class "loader hidden"
-        });
+        //});
+
+        setTimeout(function() {
+          let loaders = document.querySelectorAll('.preload');
+          loaders.forEach(function(item) {
+            item.classList.add('hidden');
+          });
+        }, 1000)
+
     // register service worker:
       (function () {
           if ('serviceWorker' in navigator) {

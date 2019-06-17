@@ -1,3 +1,10 @@
+html { 
+   visibility: hidden;
+   opacity: 0;
+   transition: all 0.15s;
+   display: none;
+}
+
 .preload {
    background: rgba(220, 239, 244, 1);
    width: 100%;
