@@ -217,77 +217,82 @@ body.woocommerce-cart {
                           font-size: 1em;
                           border: 1px solid #d2d2d2;
                           margin: 0 0 10px 0;
-                          padding: 10px;
+                          padding: 15px;
                           border-radius: 8px;
-                        }
 
-                        td {
-                          &.product-name,
-                          &.product-price,
-                          &.product-quantity,
-                          &.product-subtotal {
-                            width: 75%;
-                            padding: 5px 0 5px 5px;
-                            background: transparent;
-                            float: none;
-                            text-align: right;
-                            display: block;
-                            margin-left: 25%;
-                          }
-
-                          &.product-remove {
-                            position: relative;
-                            background: transparent;
-                            width: 35px;
-
-                            a.remove {
-                              border: 1px solid #dadada;
-                              text-align: center;
-                              display: block;
-                              height: 32px;
-                              width: 32px;
-                              margin: 0;
-                              line-height: normal;
-                              padding-top: 0;
-                              padding-left: 1px;
+                          td {
+                            &.product-remove {
                               position: absolute;
-                              left: -22px;
-                              top: -22px;
-                              background: #fff;
-                              font-size: 1.5em;
-                              border-radius: 100%;
-                              font-weight: 500;
-                              transition: all 0.3s;
-                              color: rgba(15, 15, 15, 0.85) !important;
+                              background: transparent;
+                              width: 35px;
 
-                              &:hover {
-                                background: #fa635a;
-                                color: #fff !important;
-                                border: 1px solid #fa635a;
-                                text-decoration: none;
+                              a.remove {
+                                border: 1px solid #dadada;
+                                text-align: center;
+                                display: block;
+                                height: 32px;
+                                width: 32px;
+                                margin: 0;
+                                line-height: normal;
+                                padding-top: 0;
+                                padding-left: 1px;
+                                position: absolute;
+                                left: -26px;
+                                top: -26px;
+                                background: #fff;
+                                font-size: 1.5em;
+                                border-radius: 100%;
+                                font-weight: 500;
+                                transition: all 0.3s;
+                                color: rgba(15, 15, 15, 0.85) !important;
+
+                                &:hover {
+                                  background: #fa635a;
+                                  color: #fff !important;
+                                  border: 1px solid #fa635a;
+                                  text-decoration: none;
+                                }
                               }
                             }
-                          }
 
-                          &.product-thumbnail {
-                            display: flex;
-                            -webkit-box-flex: 1;
-                            -ms-flex-positive: 1;
-                            flex-grow: 1;
-                            position: absolute;
-                            padding: 30px 0;
-                            margin: 0;
-                            width: 20%;
-                            float: left;
-                            border-top: 0;
-
-                            &::before {
-                              display: none;
+                            &.product-name,
+                            &.product-price,
+                            &.product-quantity,
+                            &.product-subtotal {
+                              width: 80%;
+                              padding: 5px 0 5px 5px;
+                              border-top: 1px solid rgb(210, 210, 210) !important;
+                              background: transparent;
+                              float: none;
+                              text-align: right;
+                              display: inline-block;
+                              margin-left: 20%;
                             }
-                          }
 
-                          &.actions {
-                            background: transparent;
+                            &.product-name {
+                              border: none !important;
+                            }
+
+                            &.product-thumbnail {
+                              display: flex;
+                              -webkit-box-flex: 1;
+                              -ms-flex-positive: 1;
+                              flex-grow: 1;
+                              position: absolute;
+                              padding: 30px 0;
+                              margin: 0;
+                              width: 20%;
+                              float: left;
+                              border-top: 0;
+
+                              &::before {
+                                display: none;
+                              }
+                            }
+
+                            &.actions {
+                              background: transparent;
+                            }
                           }
                         }
                       }

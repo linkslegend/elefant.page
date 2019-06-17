@@ -132,7 +132,6 @@ $(document).bind('DOMNodeInserted', function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
-        dots: true,
       },
     },
     {
@@ -169,7 +168,6 @@ $(document).bind('DOMNodeInserted', function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
-        dots: true,
       },
     },
     {
@@ -206,7 +204,6 @@ $(document).bind('DOMNodeInserted', function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
-        dots: true,
       },
     },
     {
