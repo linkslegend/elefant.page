@@ -16,7 +16,7 @@
           loaders.forEach(function(item) {
             item.classList.add('hidden');
           });
-        }, 1000)
+        }, 1000);
 
     // register service worker:
       (function () {
