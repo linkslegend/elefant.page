@@ -6,7 +6,7 @@
         </div>
     </div>
 
-@if (is_shop()) 
+@if (is_shop() || is_product_category())
 
     <div class="pre-wrap">
         <div class="pre-container-inner">
