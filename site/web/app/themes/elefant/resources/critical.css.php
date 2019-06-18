@@ -318,9 +318,9 @@ header, nav {
 
 .animated-background,
 .pre-header-inner,
-.pre-box1,
-.pre-box2,
-.pre-box3 {
+.pre-box1, .pre-box2, .pre-box3,
+.pre-product1, .pre-product2, .pre-product3, .pre-product4, .pre-product5, .pre-product6,
+.pre-box-filter {
     -webkit-animation-duration: 0.8s;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-iteration-count: infinite;
