@@ -304,3 +304,31 @@ body > div.wrap > div > main > section.top-banner > div > div > div.col-lg-8.col
 header, nav {
    display: block
 }
+
+@keyframes placeHolderShimmer{
+  
+   0% {
+       background-position: -1100px 0;
+   }
+
+   100% {
+       background-position: 1100px 0;
+   }
+}
+
+.animated-background,
+.pre-header-inner,
+.pre-box1,
+.pre-box2,
+.pre-box3 {
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    background: #fff;
+    background-image: linear-gradient(to right, #fff 0%, #f5f5f5 20%, #fff 40%, #fff 100%);
+    background-repeat: no-repeat;
+    background-size: 2100px 100%;
+    position: relative;
+}
