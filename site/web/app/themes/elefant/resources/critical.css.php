@@ -1,7 +1,7 @@
 html {
    visibility: hidden;
    opacity: 0;
-   transition: all 0.1s;
+   transition: all 0.05s;
    display: none;
 }
 
@@ -13,7 +13,7 @@ html {
    height: 100%;
    position: fixed;
    opacity: 1;
-   transition: all 0.1s;
+   transition: all 0.05s;
 }
 
 .preloader {
