@@ -5,7 +5,7 @@
             <div class="pre-header-inner"></div>
         </div>
     </div>
-
+{{-- 
 @if (is_shop() || is_product_category())
 
     <div class="pre-wrap">
@@ -49,8 +49,8 @@
         </div>
   </div>
 
-
 @elseif (is_front_page())
+--}}
 
     <div class="pre-wrap">
         <div class="pre-container-inner">
@@ -62,7 +62,7 @@
           </div>
     </div>
 
-
+{{-- 
 @elseif (is_page_template( 'templates/about.php' ))
   <div class="pre-wrap">
       <div class="pre-container-inner">
@@ -93,4 +93,6 @@
       </div>
   </div>
 @endif
+--}}
+
 </div>
