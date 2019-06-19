@@ -1,7 +1,7 @@
 html { 
    visibility: hidden;
    opacity: 0;
-   transition: all 0.15s;
+   transition: all 0.1s;
    display: none;
 }
 
@@ -13,7 +13,7 @@ html {
    height: 100%;
    position: fixed;
    opacity: 1;
-   transition: all 0.2s;
+   transition: all 0.1s;
 }
 
 .preloader {
@@ -156,9 +156,13 @@ body.single .pre-box3 {
    margin-top: 0;
    float: right;
 }
+
 .page-template-page-sidebar .pre-header{margin: 22px auto;}
 .page-template-page-sidebar .pre-box1{width: 70%;height: 1000px;}
 .page-template-page-sidebar .pre-box2{height: 625px;width: 27.7%;}
+
+
+
 
 
 
@@ -331,4 +335,12 @@ header, nav {
     background-repeat: no-repeat;
     background-size: 2100px 100%;
     position: relative;
+}
+
+.woocommerce-cart div.pre-box2,
+.woocommerce-cart div.pre-box1 {
+   height: 400px;
+   width: 57.2%;
+   height: 480px;
+   margin-top: 17px;
 }
