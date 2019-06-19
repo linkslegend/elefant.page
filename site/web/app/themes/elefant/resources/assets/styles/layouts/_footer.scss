@@ -1,24 +1,16 @@
 footer {
   width: 100%;
+  background: #fff;
   text-align: center;
   height: auto;
   position: relative;
-  margin-top: 50px;
-  padding: 250px 0 30px 0;
+  margin-top: 100px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  padding: 0;
 
-  &::after {
-    background-image: url("../images/bg-3.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    right: 0;
+  .content-box {
     width: 100%;
-    bottom: 0;
-    top: 0;
-    content: "";
+    padding: 20px 15px 50px;
   }
 
   h3 {
@@ -113,7 +105,6 @@ footer {
 @media (max-width: 991.98px) {
   footer {
     display: block;
-    padding: 130px 0 30px 0;
   }
 }
 
@@ -130,7 +121,6 @@ footer {
     text-align: left;
     height: auto;
     position: relative;
-    padding: 150px 0 10px 0;
 
     .menu {
       display: inline-block !important;

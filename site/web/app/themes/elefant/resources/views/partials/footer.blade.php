@@ -1,5 +1,6 @@
 <footer class="content-info d-flex align-items-end">
     <div class="container-fluid">
+      <div class="content-box">
     @php dynamic_sidebar('sidebar-footer') @endphp
     <section class="bottom">
     <div class="d-flex align-items-center justify-content-center">
@@ -18,4 +19,5 @@
     <div class="copyright">© <?php echo date("Y"); ?> Intermac  |  <a href="/impressum">Impressum</a>  |  <a href="/agb">AGB</a>  |  <a href="/cookies">Cookies</a>  |  <a href="/datenschutzerklaerung">Datenschutzerklaerung</a></div>
 
   </div>
+</div>
 </footer>

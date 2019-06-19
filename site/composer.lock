@@ -272,12 +272,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woo-social-login.git",
-                "reference": "a7fa1ff096142bfa3fde9e6bbaf3b4a4d0bfea11"
+                "reference": "6fc89fe6d310e23bc513248468ff733f639e4ba3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woo-social-login/zipball/a7fa1ff096142bfa3fde9e6bbaf3b4a4d0bfea11",
-                "reference": "a7fa1ff096142bfa3fde9e6bbaf3b4a4d0bfea11",
+                "url": "https://api.github.com/repos/linkslegend/woo-social-login/zipball/6fc89fe6d310e23bc513248468ff733f639e4ba3",
+                "reference": "6fc89fe6d310e23bc513248468ff733f639e4ba3",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +299,7 @@
                 "source": "https://github.com/linkslegend/woo-social-login/tree/master",
                 "issues": "https://github.com/linkslegend/woo-social-login/issues"
             },
-            "time": "2019-05-28T18:27:19+00:00"
+            "time": "2019-06-19T14:47:20+00:00"
         },
         {
             "name": "linkslegend/woocommerce-composite-products",

@@ -1,6 +1,6 @@
 body {
   &.home {
-    background-image: linear-gradient(to bottom, #f8f8f8 0, rgba(25, 152, 185, 0.1) 959px);
+    background-image: linear-gradient(to bottom, #f8f8f8 0, rgba(25, 152, 185, 0.05) 959px);
     background-color: #fff;
 
     &::after {
@@ -408,7 +408,7 @@ body {
             }
 
             &.logo-banner {
-              margin: 0 0 100px 0;
+              margin: 0;
               float: left;
               width: 100%;
               display: block;
@@ -724,7 +724,7 @@ body {
               }
 
               &.logo-banner {
-                margin: 0 0 100px 0;
+                margin: 0;
                 float: left;
                 width: 100%;
                 display: block;
@@ -1021,7 +1021,7 @@ body {
               }
 
               &.logo-banner {
-                margin: 0 0 50px 0;
+                margin: 0;
 
                 .container-fluid {
                   .flex-row.row {
