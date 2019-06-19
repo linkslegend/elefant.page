@@ -220,6 +220,7 @@ add_filter( 'gettext', __NAMESPACE__ . '\\translate_woocommerce_strings', 999 );
     $translated = str_ireplace ('Item Added to your Cart!', 'Artikel in den Warenkorb gelegt!', $translated );
     $translated = str_ireplace ('Continue Shopping', 'Weiter einkaufen', $translated );
     $translated = str_ireplace ('No products in the wishlist.', 'Ihre Wunschliste ist leer.', $translated );
+    $translated = str_ireplace ('privacy policy', 'Datenschutzerklaerung', $translated );
     
     return $translated;
 }
