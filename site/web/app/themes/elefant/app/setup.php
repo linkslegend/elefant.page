@@ -285,7 +285,11 @@ function you_save_echo_product() {
 		?>
 			<div class="you_save_price"><span class="save_prefix">Sie Sparen:</span><span class="save_price"><?php echo $currency_symbol .''. number_format($saved_amount, 2, '.', ''); ?></span></div>				
 		<?php
-	}
+    }
+    
+    else {
+        //
+    }
 }
 add_action( 'woocommerce_single_product_summary', __NAMESPACE__ . '\\you_save_echo_product', 11 ); // hook number
 

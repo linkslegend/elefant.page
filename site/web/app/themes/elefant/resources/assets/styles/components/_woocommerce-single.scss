@@ -180,16 +180,23 @@ body.woocommerce.single {
       }
 
       .you_save_price {
-        color: #fe7004;
-        margin: 10px 0 0 0;
-        font-weight: 700;
+        display: none;
+      }
 
-        .save_prefix {
-          margin-right: 2px;
-        }
+      &.sale {
+        .you_save_price {
+          display: block;
+          color: #fe7004;
+          margin: 10px 0 0 0;
+          font-weight: 700;
 
-        .save_price {
-          margin-left: 2px;
+          .save_prefix {
+            margin-right: 2px;
+          }
+
+          .save_price {
+            margin-left: 2px;
+          }
         }
       }
 
