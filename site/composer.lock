@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8ef8d9c500a6898e0e40c9b88205e6a",
+    "content-hash": "98fb845c177c27b062f0ec8f70c6c5d3",
     "packages": [
         {
             "name": "composer/installers",
@@ -1119,6 +1119,24 @@
             "homepage": "https://wordpress.org/plugins/breeze/"
         },
         {
+            "name": "wpackagist-plugin/cdn-enabler",
+            "version": "1.0.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cdn-enabler/",
+                "reference": "tags/1.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cdn-enabler.1.0.9.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cdn-enabler/"
+        },
+        {
             "name": "wpackagist-plugin/cf7-conditional-fields",
             "version": "1.6.1",
             "source": {
@@ -1297,24 +1315,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/resmushit-image-optimizer/"
-        },
-        {
-            "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.9.7.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.9.7.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.7.5.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
         },
         {
             "name": "wpackagist-plugin/woo-ajax-add-to-cart",
