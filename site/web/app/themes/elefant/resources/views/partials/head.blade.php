@@ -3,6 +3,30 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#cce8f0">
+
+
+
+@if (
+is_shop() ||
+is_product_category() ||
+is_cart() ||
+is_checkout() ||
+is_front_page() ||
+is_page_template( 'templates/about.php' ) ||
+is_page_template( 'views/page-sidebar.blade.php' )
+)
+
+  <script>
+    setTimeout(function() {
+      let loaders = document.querySelectorAll('.preload');
+      loaders.forEach(function(item) {
+        item.classList.add('hidden');
+      });
+    }, 500);
+  </script>
+
+@endif
+
   <script>
     //window.addEventListener("load", function () {
           //const loader = document.querySelector(".preload");
@@ -10,13 +34,6 @@
           //loader.className += " hidden"; // class "loader hidden"
           //loader2.className += " hidden"; // class "loader hidden"
         //});
-
-        setTimeout(function() {
-          let loaders = document.querySelectorAll('.preload');
-          loaders.forEach(function(item) {
-            item.classList.add('hidden');
-          });
-        }, 1000);
 
     // register service worker:
       (function () {

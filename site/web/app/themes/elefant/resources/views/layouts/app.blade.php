@@ -2,7 +2,19 @@
 <html {!! get_language_attributes() !!}>
   @include('partials.head')
   <body @php body_class() @endphp>
-  @include('partials.preloader')
+  
+  @if (
+  is_shop() ||
+  is_product_category() ||
+  is_cart() ||
+  is_checkout() ||
+  is_front_page() ||
+  is_page_template( 'templates/about.php' ) ||
+  is_page_template( 'views/page-sidebar.blade.php' )
+  )
+    @include('partials.preloader')
+  @endif
+
   <div class="overlay"></div>
     @php do_action('get_header') @endphp
     @include('partials.header')
