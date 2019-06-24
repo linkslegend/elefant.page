@@ -4,17 +4,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#cce8f0">
 
-
-
-@if (
-is_shop() ||
-is_product_category() ||
-is_cart() ||
-is_checkout() ||
-is_front_page() ||
-is_page_template( 'templates/about.php' ) ||
-is_page_template( 'views/page-sidebar.blade.php' )
-)
+  @if (
+    is_shop() ||
+    is_product_category() ||
+    is_cart() ||
+    is_checkout() ||
+    is_front_page() ||
+    is_page_template( 'templates/about.php' ) ||
+    is_page_template( 'views/page-sidebar.blade.php' )
+  )
 
   <script>
     setTimeout(function() {
@@ -39,7 +37,7 @@ is_page_template( 'views/page-sidebar.blade.php' )
       (function () {
           if ('serviceWorker' in navigator) {
               window.addEventListener('load', function () {
-                  navigator.serviceWorker.register('/app/themes/elefant/serviceworker.js');
+                  navigator.serviceWorker.register('https://elefant.page/app/themes/elefant/serviceworker.js');
               });
           }
       })();

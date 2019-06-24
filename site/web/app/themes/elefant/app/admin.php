@@ -46,12 +46,12 @@ add_filter('style_loader_tag', function ($html, $handle, $href) {
     return $html;
 }, 999, 3);
 
-add_action('wp_head', function () {
-    $preload_script = get_theme_file_path() . '/resources/assets/scripts/cssrelpreload.js';
+if (env('WP_ENV') === 'production') {
+    add_action('wp_head', function () {
+        $preload_script = get_theme_file_path() . '/resources/assets/scripts/cssrelpreload.js';
 
-    if (fopen($preload_script, 'r')) {
-        echo '<script>' . file_get_contents($preload_script) . '</script>';
-    }
-}, 101);
-
-
+        if (fopen($preload_script, 'r')) {
+            echo '<script>' . file_get_contents($preload_script) . '</script>';
+        }
+    }, 101);
+}
