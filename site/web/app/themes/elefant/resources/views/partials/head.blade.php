@@ -4,6 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#cce8f0">
 
+  <link rel="icon" type="image/png" sizes="32x32" href="/app/themes/elefant/dist/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/app/themes/elefant/dist/images/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/app/themes/elefant/dist/images/icons/favicon-16x16.png">
+
   <!-- place this in a head section -->
   <link rel="/app/themes/elefant/dist/images/icons/apple-touch-icon" href="touch-icon-iphone.png">
   <link rel="/app/themes/elefant/dist/images/icons/apple-touch-icon" sizes="152x152" href="touch-icon-ipad.png">
