@@ -49,7 +49,7 @@
   // register service worker:
           if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-              navigator.serviceWorker.register('https://elefant.page/app/themes/elefant/serviceworker.js').then(function(registration) {
+              navigator.serviceWorker.register('https://elefant.page/app/themes/elefant/serviceworker.js', {scope: './'}).then(function(registration) {
                 // Registration was successful
                 console.log('ServiceWorker registration successful with scope: ', registration.scope);
               }, function(err) {
@@ -59,7 +59,7 @@
             });
           }
 
-  //A simple script that gives users a button to install your PWA directly from the browser
+    // A simple script that gives users a button to install your PWA directly from the browser
         let deferredPrompt = null;
         window.addEventListener('beforeinstallprompt', (e) => {
           // Prevent Chrome 67 and earlier from automatically showing the prompt
