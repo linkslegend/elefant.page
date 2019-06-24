@@ -79,3 +79,5 @@
 </header>
 
 @include('partials.login-modal')
+
+<button onclick="install()">Install</button>
