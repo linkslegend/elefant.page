@@ -24,27 +24,6 @@
   <link href="/app/themes/elefant/dist/images/icons/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image" />
   <link href="/app/themes/elefant/dist/images/icons/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />
 
-  @if (
-    is_shop() ||
-    is_product_category() ||
-    is_cart() ||
-    is_checkout() ||
-    is_front_page() ||
-    is_page_template( 'templates/about.php' ) ||
-    is_page_template( 'views/page-sidebar.blade.php' )
-  )
-
-  <script>
-    setTimeout(function() {
-      let loaders = document.querySelectorAll('.preload');
-      loaders.forEach(function(item) {
-        item.classList.add('hidden');
-      });
-    }, 200);
-  </script>
-
-@endif
-
 <script>
   // register service worker:
           if ('serviceWorker' in navigator) {
@@ -87,6 +66,27 @@
   </script>
 
   <link rel="manifest" href="/app/themes/elefant/manifest.json">
+
+  @if (
+    is_shop() ||
+    is_product_category() ||
+    is_cart() ||
+    is_checkout() ||
+    is_front_page() ||
+    is_page_template( 'templates/about.php' ) ||
+    is_page_template( 'views/page-sidebar.blade.php' )
+  )
+
+  <script>
+    setTimeout(function() {
+      let loaders = document.querySelectorAll('.preload');
+      loaders.forEach(function(item) {
+        item.classList.add('hidden');
+      });
+    }, 500);
+  </script>
+
+@endif
 
   @php wp_head() @endphp
 </head>
