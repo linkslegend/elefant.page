@@ -10,10 +10,6 @@ workbox.routing.registerRoute('/', workbox.strategies.cacheFirst({
     cacheName
 }));
 
-workbox.setConfig({
-  debug: true,
-});
-
 if (workbox) {
   console.log(`Yay! Workbox is loaded 🎉`);
 } else {
