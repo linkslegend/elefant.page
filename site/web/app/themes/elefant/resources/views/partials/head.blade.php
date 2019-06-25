@@ -8,21 +8,20 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/app/themes/elefant/dist/images/icons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/app/themes/elefant/dist/images/icons/favicon-16x16.png">
 
-  <!-- place this in a head section -->
-  <link rel="/app/themes/elefant/dist/images/icons/apple-touch-icon" href="touch-icon-iphone.png">
-  <link rel="/app/themes/elefant/dist/images/icons/apple-touch-icon" sizes="152x152" href="touch-icon-ipad.png">
-  <link rel="/app/themes/elefant/dist/images/icons/apple-touch-icon" sizes="180x180" href="touch-icon-iphone-retina.png">
-  <link rel="/app/themes/elefant/dist/images/icons/apple-touch-icon" sizes="167x167" href="touch-icon-ipad-retina.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+  <meta name="apple-mobile-web-app-title" content="Intermac Systems">
+  
+  <link rel="apple-touch-icon" href="/app/themes/elefant/dist/images/icons/apple-touch-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/app/themes/elefant/dist/images/icons/apple-touch-icon">
 
-  <!-- place this in a head section -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <link href="/app/themes/elefant/dist/images/icons/apple_splash_2048.png" sizes="2048x2732" rel="apple-touch-startup-image" />
-  <link href="/app/themes/elefant/dist/images/icons/apple_splash_1668.png" sizes="1668x2224" rel="apple-touch-startup-image" />
-  <link href="/app/themes/elefant/dist/images/icons/apple_splash_1536.png" sizes="1536x2048" rel="apple-touch-startup-image" />
-  <link href="/app/themes/elefant/dist/images/icons/apple_splash_1125.png" sizes="1125x2436" rel="apple-touch-startup-image" />
-  <link href="/app/themes/elefant/dist/images/icons/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image" />
-  <link href="/app/themes/elefant/dist/images/icons/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image" />
-  <link href="/app/themes/elefant/dist/images/icons/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />
+  <link rel="apple-touch-startup-image" href="/app/themes/elefant/dist/images/icons/apple_splash_640.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/app/themes/elefant/dist/images/icons/apple_splash_750.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/app/themes/elefant/dist/images/icons/apple_splash_1242.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/app/themes/elefant/dist/images/icons/apple_splash_1125.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/app/themes/elefant/dist/images/icons/apple_splash_1536.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/app/themes/elefant/dist/images/icons/apple_splash_1668.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/app/themes/elefant/dist/images/icons/apple_splash_2048.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
 
 <script>
   // register service worker:
