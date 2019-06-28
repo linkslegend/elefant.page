@@ -23,21 +23,6 @@
   <link rel="apple-touch-startup-image" href="/app/themes/elefant/dist/images/icons/apple_splash_1668.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
   <link rel="apple-touch-startup-image" href="/app/themes/elefant/dist/images/icons/apple_splash_2048.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
 
-<script>
-  // register service worker:
-          if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-              navigator.serviceWorker.register('https://elefant.page/serviceworker.js').then(function(registration) {
-                // Registration was successful
-                console.log('ServiceWorker registration successful with scope: ', registration.scope);
-              }, function(err) {
-                // registration failed :(
-                console.log('ServiceWorker registration failed: ', err);
-              });
-            });
-          }
-  </script>
-
   <link rel="manifest" href="/app/themes/elefant/manifest.json">
 
   @if (
@@ -62,4 +47,19 @@
 @endif
 
   @php wp_head() @endphp
+
+  <script>
+    // register service worker:
+            if ('serviceWorker' in navigator) {
+              window.addEventListener('load', function() {
+                navigator.serviceWorker.register('https://elefant.page/serviceworker.js').then(function(registration) {
+                  // Registration was successful
+                  console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                  // registration failed :(
+                  console.log('ServiceWorker registration failed: ', err);
+                });
+              });
+            }
+    </script>
 </head>
