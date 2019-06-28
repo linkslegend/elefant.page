@@ -28,7 +28,7 @@ $cssPath = get_theme_file_path() . '/dist/style/main.css';
 
 /**
  * Async load CSS
-*/
+
 add_filter('style_loader_tag', function ($html, $handle, $href) {
     if (is_admin() || file_exists($cssPath) ) {
         return $html;
@@ -55,3 +55,4 @@ if (env('WP_ENV') === 'production') {
         }
     }, 101);
 }
+*/

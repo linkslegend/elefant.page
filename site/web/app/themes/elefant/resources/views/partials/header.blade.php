@@ -1,3 +1,18 @@
+<script>
+  // register service worker:
+          if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+              navigator.serviceWorker.register('https://elefant.page/serviceworker.js').then(function(registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+              }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+              });
+            });
+          }
+  </script>
+  
 <header id="header" class="banner">
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
