@@ -1,9 +1,0 @@
-PROCESSED on Wed, 03 Jul 2019 10:11:33 +0000
-/app/plugins/woocommerce/assets/css/woocommerce.css
-/app/plugins/woocommerce-composite-products/assets/css/frontend/woocommerce.css
-/app/plugins/woo-social-login/includes/css/style-public.css
-/app/plugins/woocommerce-gateway-paypal-express-checkout/assets/css/wc-gateway-ppec-frontend-cart.css
-/app/plugins/ti-woocommerce-wishlist-premium/assets/css/public.min.css
-/app/themes/elefant/dist/styles/main.css
-/app/plugins/prdctfltr/includes/css/style.min.css
-PROCESSED from http://elefant.test2/
