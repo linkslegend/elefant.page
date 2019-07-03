@@ -1,0 +1,6 @@
+PROCESSED on Wed, 03 Jul 2019 10:11:33 +0000
+//elefant.test2/wp/wp-includes/css/dist/block-library/style.css/app/plugins/woocommerce/assets/css/blocks/style.css
+/app/plugins/woocommerce-quick-view/public/vendor/jquery-modal-master/jquery.modal.min.css
+/app/plugins/woocommerce-quick-view/public/css/woocommerce-quick-view-public.css
+/app/plugins/woocommerce/assets/css/woocommerce-layout.css
+PROCESSED from http://elefant.test2/
