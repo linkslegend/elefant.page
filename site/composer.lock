@@ -773,8 +773,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.2",
-                "reference": "5.2.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1000,7 +999,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -1380,7 +1379,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1555549460"
+                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1556580116"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1426,15 +1425,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.6.4",
+            "version": "3.6.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.6.4"
+                "reference": "tags/3.6.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.6.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.6.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
