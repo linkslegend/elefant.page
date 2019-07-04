@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11faaac6ea887a313b0be2d6b8c740c4",
+    "content-hash": "2a694bc8f330cf5fd18e1ca8d5b64301",
     "packages": [
         {
             "name": "composer/installers",
@@ -300,6 +300,41 @@
                 "issues": "https://github.com/linkslegend/woo-social-login/issues"
             },
             "time": "2019-06-19T14:47:20+00:00"
+        },
+        {
+            "name": "linkslegend/woo-variation-swatches-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woo-variation-swatches-pro.git",
+                "reference": "3109833b51fd34068734e764cdd07925311f4602"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woo-variation-swatches-pro/zipball/3109833b51fd34068734e764cdd07925311f4602",
+                "reference": "3109833b51fd34068734e764cdd07925311f4602",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "WooCommerce Product Filter",
+                    "homepage": "https://wordpress.org/plugins/woo-variation-swatches/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woo-variation-swatches-pro",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woo-variation-swatches-pro/tree/master",
+                "issues": "https://github.com/linkslegend/woo-variation-swatches-pro/issues"
+            },
+            "time": "2019-07-04T13:47:38+00:00"
         },
         {
             "name": "linkslegend/woocommerce-composite-products",
@@ -1425,6 +1460,24 @@
             "homepage": "https://wordpress.org/plugins/woo-preview-emails/"
         },
         {
+            "name": "wpackagist-plugin/woo-variation-swatches",
+            "version": "1.0.57",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-variation-swatches/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.zip?timestamp=1557948695"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-variation-swatches/"
+        },
+        {
             "name": "wpackagist-plugin/woocommerce",
             "version": "3.6.5",
             "source": {
@@ -1857,6 +1910,7 @@
         "linkslegend/woo-social-login": 20,
         "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/wp-sync-db": 20,
+        "linkslegend/woo-variation-swatches-pro": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

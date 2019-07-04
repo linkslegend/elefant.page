@@ -52,6 +52,18 @@ body.woocommerce-checkout {
                     }
                   }
                 }
+
+                &.woocommerce-invalid {
+                  label {
+                    color: #f9635a;
+                  }
+
+                  span.woocommerce-input-wrapper {
+                    input.input-text {
+                      border-color: #f9635a;
+                    }
+                  }
+                }
               }
 
               &.checkout_coupon,
@@ -298,6 +310,58 @@ body.woocommerce-checkout {
                     }
                   }
 
+                  .place-order {
+                    padding: 0 15px 15px;
+
+                    .woocommerce-terms-and-conditions-wrapper {
+                      display: block;
+                      float: left;
+                      width: 100%;
+                      margin-bottom: 15px;
+
+                      .woocommerce-privacy-policy-text {
+                        font-size: 0.9em;
+
+                        p {
+                          margin: 0;
+                          padding: 0 10px;
+                        }
+                      }
+                    }
+
+                    button {
+                      &.button {
+                        background-color: #fe730d;
+                        color: #fff;
+                        padding: 10px;
+                        transition: all 0.3s;
+                        border-radius: 23px;
+                        width: 100%;
+
+                        &:hover {
+                          background-color: #72a700;
+                          border-color: #72a700;
+                        }
+                      }
+                    }
+
+                    a.wc-gateway-ppec-cancel {
+                      background-color: #f2f2f2;
+                      padding: 10px;
+                      text-align: center;
+                      transition: all 0.3s;
+                      margin-top: 10px;
+                      border-radius: 23px;
+                      width: 100%;
+
+                      &:hover {
+                        background: #fe730d;
+                        text-decoration: none;
+                        color: #fff;
+                      }
+                    }
+                  }
+
                   #payment {
                     background: #fff;
                     border-radius: 8px;
@@ -405,42 +469,6 @@ body.woocommerce-checkout {
                             }
                           }
                         }
-                      }
-                    }
-                  }
-
-                  .place-order {
-                    padding: 0 15px 10px 15px;
-
-                    button {
-                      &.button {
-                        background-color: #fe730d;
-                        color: #fff;
-                        padding: 10px;
-                        transition: all 0.3s;
-                        border-radius: 23px;
-                        width: 100%;
-
-                        &:hover {
-                          background-color: #72a700;
-                          border-color: #72a700;
-                        }
-                      }
-                    }
-
-                    a.wc-gateway-ppec-cancel {
-                      background-color: #f2f2f2;
-                      padding: 10px;
-                      text-align: center;
-                      transition: all 0.3s;
-                      margin-top: 10px;
-                      border-radius: 23px;
-                      width: 100%;
-
-                      &:hover {
-                        background: #fe730d;
-                        text-decoration: none;
-                        color: #fff;
                       }
                     }
                   }

@@ -204,6 +204,42 @@ body.woocommerce.single {
         display: block;
         margin: 15px 0;
 
+        table.variations {
+          margin-top: 1em;
+
+          tbody {
+            tr {
+              td {
+                &.label {
+                  padding: 10px 0 0;
+                  margin: 0;
+                  vertical-align: top;
+                  text-align: center;
+                  line-height: normal;
+
+                  label {
+                    font-size: 1em;
+                  }
+                }
+
+                &.value {
+                  select {
+                    display: block;
+                  }
+                }
+
+                &.woo-variation-items-wrapper {
+                  ul.variable-items-wrapper {
+                    li.variable-item {
+                      margin: 4px 6px 4px 6px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
         .quantity {
           width: 15%;
           margin: 0;
