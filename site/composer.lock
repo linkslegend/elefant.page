@@ -1209,15 +1209,15 @@
         },
         {
             "name": "wpackagist-plugin/cf7-conditional-fields",
-            "version": "1.6.3",
+            "version": "1.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf7-conditional-fields/",
-                "reference": "tags/1.6.3"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.6.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.zip?timestamp=1562244022"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1299,15 +1299,15 @@
         },
         {
             "name": "wpackagist-plugin/fast-velocity-minify",
-            "version": "2.6.6",
+            "version": "2.6.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fast-velocity-minify/",
-                "reference": "tags/2.6.6"
+                "reference": "tags/2.6.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.6.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.6.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1425,15 +1425,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-gutenberg-products-block/",
-                "reference": "tags/2.2.0"
+                "reference": "tags/2.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
