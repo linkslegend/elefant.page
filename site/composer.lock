@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb63d49dfd5c36d6028764f810ba4492",
+    "content-hash": "8b58f5ce43b9c33fc4f47278bc650f25",
     "packages": [
         {
             "name": "composer/installers",
@@ -579,6 +579,41 @@
                 "issues": "https://github.com/linkslegend/yith-woocommerce-advanced-reviews-premium/issues"
             },
             "time": "2019-06-04T09:06:59+00:00"
+        },
+        {
+            "name": "linkslegend/yith-woocommerce-bulk-product-editing-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/yith-woocommerce-bulk-product-editing-premium.git",
+                "reference": "2b5bb76037e02f724ae92a255f3fd722a03cb824"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-bulk-product-editing-premium/zipball/2b5bb76037e02f724ae92a255f3fd722a03cb824",
+                "reference": "2b5bb76037e02f724ae92a255f3fd722a03cb824",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "yith-woocommerce-bulk-product-editing-premium",
+                    "homepage": "https://yithemes.com/themes/plugins/yith-woocommerce-bulk-product-editing/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/yith-woocommerce-bulk-product-editing-premium",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/yith-woocommerce-bulk-product-editing-premium/tree/master",
+                "issues": "https://github.com/linkslegend/yith-woocommerce-bulk-product-editing-premium/issues"
+            },
+            "time": "2019-07-05T14:50:10+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-custom-order-status",
@@ -1723,6 +1758,7 @@
         "linkslegend/yith-woocommerce-advanced-reviews-premium": 20,
         "linkslegend/woocommerce-composite-products": 20,
         "linkslegend/yith-woocommerce-custom-order-status": 20,
+        "linkslegend/yith-woocommerce-bulk-product-editing-premium": 20,
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "linkslegend/woocommerce-tab-manager": 20,
         "linkslegend/woocommerce-woocart-pro": 20,
