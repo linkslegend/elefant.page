@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a694bc8f330cf5fd18e1ca8d5b64301",
+    "content-hash": "eb63d49dfd5c36d6028764f810ba4492",
     "packages": [
         {
             "name": "composer/installers",
@@ -581,76 +581,6 @@
             "time": "2019-06-04T09:06:59+00:00"
         },
         {
-            "name": "linkslegend/yith-woocommerce-compare-premium",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/yith-woocommerce-compare-premium.git",
-                "reference": "b4a646d911de9b88441086de1725cc6d4db6a37e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-compare-premium/zipball/b4a646d911de9b88441086de1725cc6d4db6a37e",
-                "reference": "b4a646d911de9b88441086de1725cc6d4db6a37e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "yith-woocommerce-compare-premium",
-                    "homepage": "https://yithemes.com"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/yith-woocommerce-compare-premium",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/yith-woocommerce-compare-premium/tree/master",
-                "issues": "https://github.com/linkslegend/yith-woocommerce-compare-premium/issues"
-            },
-            "time": "2019-05-22T12:18:37+00:00"
-        },
-        {
-            "name": "linkslegend/yith-woocommerce-composite-products-premium",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/yith-woocommerce-composite-products-premium.git",
-                "reference": "99bf8dc02031bd0b4469e844cea8805d32d420fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-composite-products-premium/zipball/99bf8dc02031bd0b4469e844cea8805d32d420fa",
-                "reference": "99bf8dc02031bd0b4469e844cea8805d32d420fa",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "yith-woocommerce-composite-products-premium",
-                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/tree/master",
-                "issues": "https://github.com/linkslegend/yith-woocommerce-composite-products-premium/issues"
-            },
-            "time": "2019-04-30T16:44:58+00:00"
-        },
-        {
             "name": "linkslegend/yith-woocommerce-custom-order-status",
             "version": "dev-master",
             "source": {
@@ -684,76 +614,6 @@
                 "issues": "https://github.com/linkslegend/yith-woocommerce-custom-order-status/issues"
             },
             "time": "2019-06-19T10:30:51+00:00"
-        },
-        {
-            "name": "linkslegend/yith-woocommerce-multi-step-checkout-premium",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/yith-woocommerce-multi-step-checkout-premium.git",
-                "reference": "324d66210abca838cd19474e810e9a7127ebb621"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-multi-step-checkout-premium/zipball/324d66210abca838cd19474e810e9a7127ebb621",
-                "reference": "324d66210abca838cd19474e810e9a7127ebb621",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "yith-woocommerce-multi-step-checkout-premium",
-                    "homepage": "https://yithemes.com"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/yith-woocommerce-multi-step-checkout-premium",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/yith-woocommerce-multi-step-checkout-premium/tree/master",
-                "issues": "https://github.com/linkslegend/yith-woocommerce-multi-step-checkout-premium/issues"
-            },
-            "time": "2019-06-04T09:06:24+00:00"
-        },
-        {
-            "name": "linkslegend/yith-woocommerce-product-bundles-premium",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/yith-woocommerce-product-bundles-premium.git",
-                "reference": "a945f529207462868c6f83acd9834f7896342010"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-product-bundles-premium/zipball/a945f529207462868c6f83acd9834f7896342010",
-                "reference": "a945f529207462868c6f83acd9834f7896342010",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "yith-woocommerce-product-bundles-premium",
-                    "homepage": "https://gpldl.com/repository/premium-woocommerce-extensions/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/tree/master",
-                "issues": "https://github.com/linkslegend/yith-woocommerce-product-bundles-premium/issues"
-            },
-            "time": "2019-02-15T17:04:36+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1118,24 +978,6 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
-            "name": "wpackagist-plugin/autoptimize",
-            "version": "2.5.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/2.5.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.5.1.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/autoptimize/"
-        },
-        {
             "name": "wpackagist-plugin/block-lab",
             "version": "1.3.3",
             "source": {
@@ -1152,24 +994,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/block-lab/"
-        },
-        {
-            "name": "wpackagist-plugin/breeze",
-            "version": "1.0.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/breeze/",
-                "reference": "tags/1.0.10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/breeze.1.0.10.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/breeze/"
         },
         {
             "name": "wpackagist-plugin/cache-enabler",
@@ -1897,18 +1721,14 @@
         "linkslegend/prdctfltr": 20,
         "linkslegend/yith-woocommerce-advanced-product-options-premium": 20,
         "linkslegend/yith-woocommerce-advanced-reviews-premium": 20,
-        "linkslegend/yith-woocommerce-composite-products-premium": 20,
         "linkslegend/woocommerce-composite-products": 20,
         "linkslegend/yith-woocommerce-custom-order-status": 20,
-        "linkslegend/yith-woocommerce-multi-step-checkout-premium": 20,
-        "linkslegend/yith-woocommerce-compare-premium": 20,
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "linkslegend/woocommerce-tab-manager": 20,
         "linkslegend/woocommerce-woocart-pro": 20,
         "linkslegend/ti-woocommerce-wishlist-premium": 20,
         "linkslegend/woocommerce-quick-view": 20,
         "linkslegend/woo-social-login": 20,
-        "linkslegend/yith-woocommerce-product-bundles-premium": 20,
         "linkslegend/wp-sync-db": 20,
         "linkslegend/woo-variation-swatches-pro": 20,
         "roave/security-advisories": 20

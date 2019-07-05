@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-06-17 15:11+0200\n"
+"PO-Revision-Date: 2019-07-04 20:39+0200\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "X-Generator: Poedit 2.2.3\n"
 "Last-Translator: \n"
@@ -1141,23 +1141,23 @@ msgstr ""
 
 #: includes/class-wc-cp-display.php:232
 msgid "Total: "
-msgstr ""
+msgstr "Insgesamt: "
 
 #: includes/class-wc-cp-display.php:233
 msgid "Subtotal: "
-msgstr ""
+msgstr "Zwischensumme: "
 
 #: includes/class-wc-cp-display.php:234
 msgid "No options available&hellip;"
-msgstr ""
+msgstr "Keine Optionen verfügbar&hellip;"
 
 #: includes/class-wc-cp-display.php:235
 msgid "No selection"
-msgstr ""
+msgstr "Keine Auswahl"
 
 #: includes/class-wc-cp-display.php:248
 msgid "Reset selection"
-msgstr ""
+msgstr "Auswahl zurücksetzen"
 
 #: includes/class-wc-cp-display.php:249
 #: templates/composited-product/invalid-product.php:24
@@ -1179,28 +1179,31 @@ msgstr ""
 
 #: includes/class-wc-cp-display.php:252
 msgid "The selected item cannot be purchased at the moment."
-msgstr ""
+msgstr "Der ausgewählte Artikel kann zur Zeit nicht gekauft werden."
 
 #: includes/class-wc-cp-display.php:253
 msgid "This product cannot be purchased at the moment."
-msgstr ""
+msgstr "Dieses Produkt kann zur Zeit nicht gekauft werden."
 
 #: includes/class-wc-cp-display.php:254
 msgid "Please choose an option to continue&hellip;"
-msgstr ""
+msgstr "Bitte wählen Sie eine Option, um fortzufahren&hellip;"
 
 #: includes/class-wc-cp-display.php:255
 msgid "Please choose an option."
-msgstr ""
+msgstr "Bitte wählen Sie eine Option aus."
 
 #: includes/class-wc-cp-display.php:256
 msgid "The chosen option is incompatible with your current configuration."
 msgstr ""
+"Die gewählte Option ist mit Ihrer aktuellen Konfiguration nicht kompatibel."
 
 #: includes/class-wc-cp-display.php:257
 msgid ""
 "The chosen product options are incompatible with your current configuration."
 msgstr ""
+"Die gewählten Produktoptionen sind mit Ihrer aktuellen Konfiguration nicht "
+"kompatibel."
 
 #: includes/class-wc-cp-display.php:258
 msgid ""
@@ -1210,11 +1213,11 @@ msgstr ""
 
 #: includes/class-wc-cp-display.php:259
 msgid "Please choose product options to continue&hellip;"
-msgstr ""
+msgstr "Bitte wählen Sie eine Produktoption aus, um fortzufahren&hellip;"
 
 #: includes/class-wc-cp-display.php:260
 msgid "Please choose product options."
-msgstr ""
+msgstr "Bitte wählen Sie eine Produktoption aus."
 
 #: includes/class-wc-cp-display.php:261
 msgid "Please configure all required product fields to continue&hellip;"
