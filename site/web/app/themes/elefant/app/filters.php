@@ -239,5 +239,10 @@ function misha_before_after_btn( $add_to_cart_html, $product, $args ){
 }
 */
 
+add_action ('woocommerce_single_product_summary', __NAMESPACE__ . '\\my_function', 35 );
+    function my_funtion() {
+        do_shortcode ('[ywfbt_form product=""]');
+}
+
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
