@@ -331,6 +331,21 @@ select {
                                 ul.variable-items-wrapper {
                                   li.variable-item {
                                     margin: 4px 6px 4px 6px;
+
+                                    span.image-tooltip-wrapper {
+                                      bottom: 150%;
+
+                                      img {
+                                        border-radius: 8px !important;
+                                        overflow: hidden;
+                                        padding: 10px;
+                                      }
+
+                                      &::after {
+                                        border-top-color: rgb(251, 111, 4) !important;
+                                        bottom: -17px;
+                                      }
+                                    }
                                   }
                                 }
                               }

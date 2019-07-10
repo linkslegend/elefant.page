@@ -19,7 +19,7 @@ body.woocommerce.single {
           margin: 0;
           border: none;
           padding: 0;
-          color: #f27121;
+          color: rgba(0, 0, 0, 0.65);
         }
 
         table.woobt_products.woobt-products.woobt-table {
@@ -211,7 +211,9 @@ body.woocommerce.single {
         }
 
         .woobt_total.woobt-text {
-          float: left;
+          float: right;
+          font-weight: 600;
+          padding-right: 5px;
           text-align: center;
         }
       }

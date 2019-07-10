@@ -227,14 +227,6 @@ body.woocommerce.single {
                     display: block;
                   }
                 }
-
-                &.woo-variation-items-wrapper {
-                  ul.variable-items-wrapper {
-                    li.variable-item {
-                      margin: 4px 6px 4px 6px;
-                    }
-                  }
-                }
               }
             }
           }
@@ -288,8 +280,6 @@ body.woocommerce.single {
           }
 
           &.button {
-            float: right;
-
             &.loading {
               opacity: 0.55;
 
@@ -412,7 +402,7 @@ body.woocommerce.single {
 
           .tinvwl_add_to_wishlist_button {
             color: #ff7003;
-            width: 10%;
+            width: 100%;
             background: transparent;
             border: 1px solid #ff7003;
             height: 45px;
@@ -420,7 +410,7 @@ body.woocommerce.single {
             margin-top: 0;
             margin-left: 3%;
             display: block;
-            border-radius: 8px;
+            border-radius: 5px;
             padding: 11px;
             text-decoration: none;
             transition: all 0.3s;
@@ -654,6 +644,48 @@ body.woocommerce.single {
   }
 }
 
+body.woo-variation-swatches-stylesheet-enabled {
+  .woo-variation-items-wrapper {
+    ul.variable-items-wrapper {
+      li.variable-item {
+        margin: 4px 6px 4px 6px;
+
+        span.image-tooltip-wrapper {
+          bottom: 155%;
+          border: 1px solid rgb(221, 221, 221) !important;
+          background: rgba(255, 255, 255, 0.9) !important;
+          border-radius: 8px;
+
+          img {
+            border-radius: 8px !important;
+            overflow: hidden;
+            padding: 10px;
+          }
+
+          &::after {
+            border-top-color: #fff !important;
+            bottom: -16px;
+          }
+
+          &::before {
+            bottom: -17px;
+            content: "";
+            display: block;
+            position: absolute;
+            border-radius: 0 !important;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            border: 8px solid transparent;
+            border-top-color: #b5b5b5 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
 /*
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
@@ -839,6 +871,7 @@ body.woocommerce.single {
             padding: 13px;
             cursor: pointer;
             border-radius: 5px;
+            float: left;
             border: 1px solid #ff7003;
             font-weight: 600;
             margin: 0;
@@ -846,10 +879,6 @@ body.woocommerce.single {
             color: #fff;
             text-align: center;
             transition: all 0.25s;
-
-            &.button {
-              float: right;
-            }
 
             &:hover {
               box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
