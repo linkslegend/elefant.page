@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "536f672f605cca5652682ccaf430d0c7",
+    "content-hash": "3ff4afa68f4fc00476c4cea20b9c8f73",
     "packages": [
         {
             "name": "composer/installers",
@@ -265,6 +265,41 @@
                 "issues": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium/issues"
             },
             "time": "2019-07-08T09:53:09+00:00"
+        },
+        {
+            "name": "linkslegend/woo-bought-together",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:linkslegend/woo-bought-together.git",
+                "reference": "995ce0e7bdb7e423a79e6d414b9ff7e54fe000d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/995ce0e7bdb7e423a79e6d414b9ff7e54fe000d0",
+                "reference": "995ce0e7bdb7e423a79e6d414b9ff7e54fe000d0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "woo-bought-together",
+                    "homepage": "https://wordpress.org/plugins/woo-bought-together/"
+                }
+            ],
+            "homepage": "https://github.com/linkslegend/woo-bought-together",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/linkslegend/woo-bought-together/tree/master",
+                "issues": "https://github.com/linkslegend/woo-bought-together/issues"
+            },
+            "time": "2019-07-10T11:54:45+00:00"
         },
         {
             "name": "linkslegend/woo-social-login",
@@ -1318,24 +1353,6 @@
             "homepage": "https://wordpress.org/plugins/woo-ajax-add-to-cart/"
         },
         {
-            "name": "wpackagist-plugin/woo-bought-together",
-            "version": "1.4.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woo-bought-together/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-bought-together.zip?timestamp=1560482731"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woo-bought-together/"
-        },
-        {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
             "version": "2.2.1",
             "source": {
@@ -1481,15 +1498,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "11.5",
+            "version": "11.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/11.5"
+                "reference": "tags/11.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1821,6 +1838,7 @@
         "linkslegend/woo-social-login": 20,
         "linkslegend/wp-sync-db": 20,
         "linkslegend/woo-variation-swatches-pro": 20,
+        "linkslegend/woo-bought-together": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

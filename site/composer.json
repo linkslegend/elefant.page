@@ -77,6 +77,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:linkslegend/woo-bought-together.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:linkslegend/woocommerce-quick-view.git"
     },
     {
@@ -134,6 +138,7 @@
     "linkslegend/woo-social-login": "dev-master",
     "linkslegend/wp-sync-db": "dev-master",
     "linkslegend/woo-variation-swatches-pro": "dev-master",
+    "linkslegend/woo-bought-together": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^4.1",
     "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout": "^1.6",
@@ -154,8 +159,7 @@
     "wpackagist-plugin/cdn-enabler": "^1.0",
     "wpackagist-plugin/cache-enabler": "^1.3",
     "wpackagist-plugin/fast-velocity-minify": "^2.6",
-    "wpackagist-plugin/woo-variation-swatches": "^1.0",
-    "wpackagist-plugin/woo-bought-together": "^1.4"
+    "wpackagist-plugin/woo-variation-swatches": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
