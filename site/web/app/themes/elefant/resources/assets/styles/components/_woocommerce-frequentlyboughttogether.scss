@@ -1,213 +1,411 @@
-body.single {
-  .summary {
-    .woobt_wrap.woobt-wrap {
-      padding: 0;
-      border: none;
-      box-shadow: none;
-      border-radius: 8px;
-      position: relative;
-      margin: 20px 0 0;
-      overflow: hidden;
-
-      .woobt_before_text.woobt-before-text.woobt-text {
-        text-align: center;
-        font-weight: 700;
-        background: transparent;
-        width: 100%;
-        position: relative;
-        margin: 0;
-        border: none;
+body.woocommerce.single {
+  .product {
+    .summary {
+      .woobt_wrap.woobt-wrap {
         padding: 0;
-        color: #f27121;
-      }
-
-      table.woobt_products.woobt-products.woobt-table {
-        border-collapse: separate;
-        border-spacing: 0 15px;
         border: none;
-        width: 100%;
-        margin: 0;
+        box-shadow: none;
+        border-radius: 8px;
+        position: relative;
+        margin: 20px 0 0;
+        overflow: hidden;
 
-        tbody {
-          tr {
-            &.woobt-product.woobt-product-together {
-              padding: 5px;
+        .woobt_before_text.woobt-before-text.woobt-text {
+          text-align: center;
+          font-weight: 700;
+          background: transparent;
+          width: 100%;
+          position: relative;
+          margin: 0;
+          border: none;
+          padding: 0;
+          color: #f27121;
+        }
 
-              &.woobt-hide {
-                opacity: 1;
+        table.woobt_products.woobt-products.woobt-table {
+          border-collapse: separate;
+          border-spacing: 0 15px;
+          border: none;
+          width: 100%;
+          margin: 0;
+
+          tbody {
+            tr {
+              &.woobt-product.woobt-product-together {
+                padding: 5px;
+
+                &.woobt-hide {
+                  opacity: 1;
+                }
               }
-            }
 
-            td {
-              padding: 10px 10px 10px 10px;
-              background-color: #fff;
-              border-width: 1px 0 1px 0;
-              border-style: solid;
-              border-color: #bbb;
-              transition: all 0.25s;
+              td {
+                padding: 10px 10px 10px 10px;
+                background-color: #fff;
+                border-width: 1px 0 1px 0;
+                border-style: solid;
+                border-color: #ddd;
+                transition: all 0.25s;
 
-              &:first-child {
-                border-top-left-radius: 5px;
-                border-bottom-left-radius: 5px;
-                border-left: 1px solid #bbb;
-              }
+                &:first-child {
+                  border-top-left-radius: 5px;
+                  border-bottom-left-radius: 5px;
+                  border-left: 1px solid #ddd;
+                  padding: 15px;
+                }
 
-              &:last-child {
-                border-top-right-radius: 5px;
-                border-bottom-right-radius: 5px;
-                border-right: 1px solid #bbb;
-              }
+                &:last-child {
+                  border-top-right-radius: 5px;
+                  border-bottom-right-radius: 5px;
+                  border-right: 1px solid #ddd;
+                }
 
-              &.woobt-choose {
-                label.checkbox-label {
-                  display: block;
-                  position: relative;
-                  margin: auto;
-                  cursor: pointer;
-                  font-size: 22px;
-                  line-height: 24px;
-                  height: 30px;
-                  width: 30px;
-                  clear: both;
-
-                  .checkbox-custom {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
+                &.woobt-choose {
+                  label.checkbox-label {
+                    display: block;
+                    position: relative;
+                    margin: auto;
+                    cursor: pointer;
+                    font-size: 22px;
+                    line-height: 24px;
                     height: 30px;
                     width: 30px;
-                    background-color: transparent;
-                    border-radius: 5px;
-                    transition: all 0.3s ease-out;
-                    -webkit-transition: all 0.3s ease-out;
-                    -moz-transition: all 0.3s ease-out;
-                    -ms-transition: all 0.3s ease-out;
-                    -o-transition: all 0.3s ease-out;
-                    border: 2px solid #ff7d27;
+                    clear: both;
 
-                    &::after {
+                    .checkbox-custom {
                       position: absolute;
-                      content: "";
-                      left: 12px;
-                      top: 12px;
-                      height: 0;
-                      width: 0;
+                      top: 0;
+                      left: 0;
+                      height: 30px;
+                      width: 30px;
+                      background-color: transparent;
                       border-radius: 5px;
-                      border: solid rgb(0, 155, 255);
-                      border-width: 0 3px 3px 0;
-                      -webkit-transform: rotate(0deg) scale(0);
-                      -ms-transform: rotate(0deg) scale(0);
-                      transform: rotate(0deg) scale(0);
-                      opacity: 1;
                       transition: all 0.3s ease-out;
                       -webkit-transition: all 0.3s ease-out;
                       -moz-transition: all 0.3s ease-out;
                       -ms-transition: all 0.3s ease-out;
                       -o-transition: all 0.3s ease-out;
-                    }
-                  }
+                      border: 2px solid #ff7d27;
 
-                  input.woobt-checkbox[type="checkbox"] {
-                    position: absolute;
-                    opacity: 0;
-                    cursor: pointer;
-                    width: 100%;
-                    height: 100%;
-                    z-index: 9;
-
-                    &:checked {
-                      ~ .checkbox-custom {
-                        background-color: #ff7d27;
+                      &::after {
+                        position: absolute;
+                        content: "";
+                        left: 12px;
+                        top: 12px;
+                        height: 0;
+                        width: 0;
                         border-radius: 5px;
-                        -webkit-transform: rotate(0deg) scale(1);
-                        -ms-transform: rotate(0deg) scale(1);
-                        transform: rotate(0deg) scale(1);
+                        border: solid rgb(0, 155, 255);
+                        border-width: 0 3px 3px 0;
+                        -webkit-transform: rotate(0deg) scale(0);
+                        -ms-transform: rotate(0deg) scale(0);
+                        transform: rotate(0deg) scale(0);
                         opacity: 1;
-                        border: 3px solid #ff7d27;
+                        transition: all 0.3s ease-out;
+                        -webkit-transition: all 0.3s ease-out;
+                        -moz-transition: all 0.3s ease-out;
+                        -ms-transition: all 0.3s ease-out;
+                        -o-transition: all 0.3s ease-out;
+                      }
+                    }
 
-                        &::after {
-                          -webkit-transform: rotate(45deg) scale(1);
-                          -ms-transform: rotate(45deg) scale(1);
-                          transform: rotate(45deg) scale(1);
+                    input.woobt-checkbox[type="checkbox"] {
+                      position: absolute;
+                      opacity: 0;
+                      cursor: pointer;
+                      width: 100%;
+                      height: 100%;
+                      z-index: 9;
+
+                      &:checked {
+                        ~ .checkbox-custom {
+                          background-color: #ff7d27;
+                          border-radius: 5px;
+                          -webkit-transform: rotate(0deg) scale(1);
+                          -ms-transform: rotate(0deg) scale(1);
+                          transform: rotate(0deg) scale(1);
                           opacity: 1;
-                          left: 9px;
-                          top: 2px;
-                          width: 8px;
-                          height: 16px;
-                          border: solid #fff;
-                          border-width: 0 3px 3px 0;
-                          background-color: transparent;
-                          border-radius: 0;
+                          border: 3px solid #ff7d27;
+
+                          &::after {
+                            -webkit-transform: rotate(45deg) scale(1);
+                            -ms-transform: rotate(45deg) scale(1);
+                            transform: rotate(45deg) scale(1);
+                            opacity: 1;
+                            left: 9px;
+                            top: 2px;
+                            width: 8px;
+                            height: 16px;
+                            border: solid #fff;
+                            border-width: 0 3px 3px 0;
+                            background-color: transparent;
+                            border-radius: 0;
+                          }
                         }
                       }
                     }
                   }
                 }
-              }
 
-              &.woobt-title {
-                .variations_form {
-                  margin: 0;
-                  padding: 0;
-                  display: block;
-                  float: none;
-
-                  .variations {
-                    display: inline-block;
+                &.woobt-title {
+                  .variations_form {
                     margin: 0;
                     padding: 0;
-
-                    .variation {
-                      display: block;
-                      border-width: 1px;
-                      border-style: solid;
-                      border-color: transparent;
-                      padding: 10px 10px 10px 0;
-                      margin: 0;
-                      min-width: auto;
-                      max-width: 100%;
-                      border-radius: 8px;
-                    }
-
-                    .reset {
-                      display: inline-block;
-                      padding: 30px 0 0 10px;
-                    }
-                  }
-                }
-              }
-
-              &.woobt-thumb {
-                width: 80px;
-
-                .woobt-thumb-ori {
-                  img {
-                    width: 100%;
-                    height: auto;
                     display: block;
-                    border-radius: 8px;
-                    border: 1px solid #d2d2d2;
+                    float: none;
+
+                    .variations {
+                      display: inline-block;
+                      margin: 0;
+                      padding: 0;
+
+                      .variation {
+                        display: block;
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: transparent;
+                        padding: 10px 10px 10px 0;
+                        margin: 0;
+                        min-width: auto;
+                        max-width: 100%;
+                        border-radius: 8px;
+                      }
+
+                      .reset {
+                        display: inline-block;
+                        padding: 30px 0 0 10px;
+                      }
+                    }
                   }
+                }
+
+                &.woobt-thumb {
+                  width: 80px;
+                  padding: 10px 0;
+
+                  .woobt-thumb-ori,
+                  .woobt-thumb-new {
+                    img {
+                      width: 100%;
+                      height: auto;
+                      display: block;
+                      border-radius: 8px;
+                      padding: 5px;
+                      border: 1px solid #ddd;
+                    }
+                  }
+                }
+
+                &.woobt-quantity {
+                  display: none;
                 }
               }
 
-              &.woobt-quantity {
-                display: none;
-              }
-            }
-
-            &:hover {
-              td {
-                background: #f2f2f2;
+              &:hover {
+                td {
+                  background: #f2f2f2;
+                }
               }
             }
           }
         }
+
+        .woobt_total.woobt-text {
+          float: left;
+          text-align: center;
+        }
       }
 
-      .woobt_total.woobt-text {
+      .product_meta {
+        border: none;
+        background: transparent;
+        margin: 0;
         float: left;
-        text-align: center;
+        width: 100%;
+
+        .woocommerce-variation-add-to-cart.variations_button {
+          .quantity {
+            width: 10%;
+            margin: 0;
+            float: left;
+            display: block;
+
+            input {
+              padding: 12px;
+              width: 100%;
+              height: 45px;
+              border: 1px solid #ddd;
+            }
+          }
+
+          .price {
+            .woocommerce-Price-amount {
+              font-size: 28px;
+              font-size: 1.3em;
+              white-space: nowrap;
+              color: #3f4c58;
+              font-weight: 700;
+              display: inline-block;
+              line-height: 1;
+            }
+          }
+
+          .single_add_to_cart_button {
+            display: block;
+            width: 74%;
+            padding: 15px;
+            margin-left: 3%;
+            float: left !important;
+            position: relative;
+            height: 45px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: 1px solid #ff7003;
+            font-weight: 600;
+            background: #ff7003;
+            color: #fff;
+            text-align: center;
+            transition: all 0.25s;
+
+            svg {
+              visibility: hidden;
+              height: 0;
+            }
+
+            &.button {
+              float: right;
+
+              &.loading {
+                opacity: 0.55;
+
+                &::after {
+                  content: "";
+                  box-sizing: border-box;
+                  position: absolute;
+                  top: 50%;
+                  right: 10px;
+                  width: 23px;
+                  height: 23px;
+                  margin-top: -12px;
+                  margin-left: -12px;
+                  border-radius: 50%;
+                  border: 5px solid #fff;
+                  border-top-color: #f66900;
+                  animation: spinner 0.6s linear infinite;
+                }
+              }
+
+              &.added {
+                svg {
+                  &.checkmark {
+                    visibility: visible;
+                    width: 27px;
+                    height: 27px;
+                    border-radius: 50%;
+                    display: block;
+                    stroke-width: 5;
+                    stroke: #60a74f;
+                    stroke-miterlimit: 10;
+                    position: absolute;
+                    top: 8px;
+                    right: 8px;
+                    margin: 0;
+                    box-shadow: inset 0 0 0 #fff;
+                    animation: fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+
+                    circle {
+                      &.checkmark__circle {
+                        stroke-dasharray: 166;
+                        stroke-dashoffset: 166;
+                        stroke-width: 4;
+                        stroke-miterlimit: 10;
+                        stroke: #fff;
+                        fill: none;
+                        animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+                      }
+                    }
+
+                    path {
+                      &.checkmark__check {
+                        transform-origin: 50% 50%;
+                        stroke-dasharray: 48;
+                        stroke-dashoffset: 48;
+                        animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+                      }
+
+                      @keyframes stroke {
+                        100% {
+                          stroke-dashoffset: 0;
+                        }
+                      }
+
+                      @keyframes scale {
+                        0%,
+                        100% {
+                          transform: none;
+                        }
+
+                        50% {
+                          transform: scale3d(1.1, 1.1, 1);
+                        }
+                      }
+
+                      @keyframes fill {
+                        100% {
+                          box-shadow: inset 0 0 0 30px #fff;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                &::after {
+                  visibility: hidden;
+                }
+
+                &:hover {
+                  background: #ff7003;
+                  border: 1px solid #ff7003;
+                }
+              }
+            }
+
+            &:hover {
+              box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+              background: #72a700;
+              border-color: #72a700;
+            }
+          }
+
+          .added_to_cart.wc-forward {
+            width: 80%;
+            float: right;
+            text-align: center;
+            border-radius: 8px;
+            height: 45px;
+            padding: 13px;
+            margin-top: 15px;
+            background: #f4f4f4;
+            display: none;
+          }
+        }
+
+        .tinv-wraper {
+          display: block;
+          float: left;
+          margin-left: 3%;
+          width: 10%;
+
+          a.tinvwl_add_to_wishlist_button {
+            position: relative;
+            width: 100%;
+            height: 45px;
+            border: 1px solid #ff7003;
+            margin: 0;
+            border-radius: 5px;
+            vertical-align: sub;
+          }
+        }
       }
     }
   }

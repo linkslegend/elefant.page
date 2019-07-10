@@ -241,8 +241,9 @@ body.woocommerce.single {
         }
 
         .quantity {
-          width: 15%;
+          width: 10%;
           margin: 0;
+          float: left;
           max-width: 100px;
 
           input {
@@ -267,14 +268,15 @@ body.woocommerce.single {
 
         .single_add_to_cart_button {
           display: block;
-          width: 80%;
+          width: 74%;
           padding: 15px;
+          float: left;
+          margin-left: 3%;
           height: 45px;
           cursor: pointer;
           border-radius: 5px;
           border: 1px solid #ff7003;
           font-weight: 600;
-          margin: 0;
           background: #ff7003;
           color: #fff;
           text-align: center;
@@ -403,14 +405,20 @@ body.woocommerce.single {
         }
 
         .tinv-wraper.tinvwl-after-add-to-cart {
+          display: block;
+          float: left;
+          margin-left: 3%;
+          width: 10%;
+
           .tinvwl_add_to_wishlist_button {
             color: #ff7003;
-            width: 100%;
+            width: 10%;
             background: transparent;
-            border: 1px solid #d2d2d2;
+            border: 1px solid #ff7003;
             height: 45px;
             float: left;
-            margin-top: 20px;
+            margin-top: 0;
+            margin-left: 3%;
             display: block;
             border-radius: 8px;
             padding: 11px;

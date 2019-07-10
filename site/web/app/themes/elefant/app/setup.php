@@ -506,4 +506,3 @@ function intermac_woocommerce_email_styles( $css, $email ) {
     ";
 	return $css;
 }
-
