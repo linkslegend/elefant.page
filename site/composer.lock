@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ff4afa68f4fc00476c4cea20b9c8f73",
+    "content-hash": "6278767e14faf9e0504e2364bac49489",
     "packages": [
         {
             "name": "composer/installers",
@@ -1207,6 +1207,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7-dynamic-text-extension/"
+        },
+        {
+            "name": "wpackagist-plugin/enhanced-e-commerce-for-woocommerce-store",
+            "version": "2.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/enhanced-e-commerce-for-woocommerce-store/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/enhanced-e-commerce-for-woocommerce-store.zip?timestamp=1561447381"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/enhanced-e-commerce-for-woocommerce-store/"
         },
         {
             "name": "wpackagist-plugin/facebook-for-woocommerce",
