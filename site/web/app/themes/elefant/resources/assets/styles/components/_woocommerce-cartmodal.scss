@@ -181,6 +181,11 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
                   }
                 }
 
+                span.woobt-item-name {
+                  font-size: 0.85em;
+                  padding: 5px 0 5px 0;
+                }
+
                 .ywcp_cart_component_name {
                   label {
                     display: none;
@@ -201,7 +206,7 @@ div.festi-cart-pop-up-content div.festi-cart-pop-up-body {
                 .festi-cart-product-count-and-price {
                   width: 100%;
                   position: relative;
-                  padding: 0;
+                  padding: 5px 0 5px 0;
                   float: left;
                   font-size: 0.95em;
 

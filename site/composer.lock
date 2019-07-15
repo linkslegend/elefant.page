@@ -272,12 +272,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woo-bought-together.git",
-                "reference": "995ce0e7bdb7e423a79e6d414b9ff7e54fe000d0"
+                "reference": "3546c31f70cd00f134bceffdf9cc04ded6727e01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/995ce0e7bdb7e423a79e6d414b9ff7e54fe000d0",
-                "reference": "995ce0e7bdb7e423a79e6d414b9ff7e54fe000d0",
+                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/3546c31f70cd00f134bceffdf9cc04ded6727e01",
+                "reference": "3546c31f70cd00f134bceffdf9cc04ded6727e01",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +299,7 @@
                 "source": "https://github.com/linkslegend/woo-bought-together/tree/master",
                 "issues": "https://github.com/linkslegend/woo-bought-together/issues"
             },
-            "time": "2019-07-10T11:54:45+00:00"
+            "time": "2019-07-15T11:05:45+00:00"
         },
         {
             "name": "linkslegend/woo-social-login",
@@ -1246,15 +1246,15 @@
         },
         {
             "name": "wpackagist-plugin/fast-velocity-minify",
-            "version": "2.6.8",
+            "version": "2.6.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fast-velocity-minify/",
-                "reference": "tags/2.6.8"
+                "reference": "tags/2.6.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.6.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.6.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1300,15 +1300,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.3.6",
+            "version": "3.3.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.3.6"
+                "reference": "tags/3.3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.3.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.3.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1576,12 +1576,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a53a6f855cbff7edb078f87c72bb808c89443a00"
+                "reference": "2e50fc5a89e1e77b68c7e3c3aa6d87da0b8d4c6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a53a6f855cbff7edb078f87c72bb808c89443a00",
-                "reference": "a53a6f855cbff7edb078f87c72bb808c89443a00",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/2e50fc5a89e1e77b68c7e3c3aa6d87da0b8d4c6d",
+                "reference": "2e50fc5a89e1e77b68c7e3c3aa6d87da0b8d4c6d",
                 "shasum": ""
             },
             "conflict": {
@@ -1684,7 +1684,7 @@
                 "silverstripe/userforms": "<3",
                 "simple-updates/phpwhois": "<=1",
                 "simplesamlphp/saml2": "<1.10.6|>=2,<2.3.8|>=3,<3.1.4",
-                "simplesamlphp/simplesamlphp": "<1.15.2|>=1.16,<1.16.3",
+                "simplesamlphp/simplesamlphp": "<1.17.3",
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "slim/slim": "<2.6",
                 "smarty/smarty": "<3.1.33",
@@ -1783,7 +1783,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-06-25T10:37:35+00:00"
+            "time": "2019-07-14T14:21:52+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",

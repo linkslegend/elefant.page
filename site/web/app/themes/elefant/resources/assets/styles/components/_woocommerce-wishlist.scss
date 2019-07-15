@@ -27,7 +27,8 @@
           list-style: none;
           border-bottom: 1px solid #e2e2e2;
           margin-bottom: 10px;
-          height: 75px;
+          min-height: 75px;
+          height: auto;
           text-align: left;
 
           .wishlist_list_titles {
@@ -53,6 +54,7 @@
               float: left;
               margin: 0;
               width: 60px;
+              padding: 5px 0;
               border-radius: 8px;
               height: auto;
               box-shadow: none;
@@ -67,15 +69,35 @@
             }
           }
 
+          dl.variation {
+            float: none;
+            border: none;
+            padding: 0 0 5px 0;
+            font-size: 0.85em;
+            position: relative;
+            display: inline-block;
+
+            dt {
+              padding: 0;
+            }
+
+            dd {
+              margin: 0;
+            }
+          }
+
           span.quantity {
-            font-size: 13px;
+            font-size: 0.85em;
             padding-bottom: 12px;
             display: block;
-            width: auto;
             color: rgba(0, 0, 0, 0.6);
 
             small.woocommerce-price-suffix {
               display: none;
+            }
+
+            span.woocommerce-Price-amount.amount {
+              font-weight: 600;
             }
           }
         }
@@ -215,8 +237,10 @@
                 float: left;
                 color: #fff;
                 background: #ff7003;
-                padding: 5px;
+                padding: 0;
                 font-size: 14px;
+                display: block;
+                line-height: 100%;
                 height: 45px;
                 font-weight: 600;
                 border-radius: 8px;
@@ -225,9 +249,15 @@
                 min-width: 100%;
                 transition: all 0.3s;
 
+                &.tinvwl_button_close {
+                  margin: 0;
+                }
+
                 i {
-                  margin-right: 8px;
-                  margin-left: -5px;
+                  margin-right: 0;
+                  margin-left: -25px;
+                  margin-top: -4px;
+                  position: absolute;
 
                   &::before {
                     top: 0;
