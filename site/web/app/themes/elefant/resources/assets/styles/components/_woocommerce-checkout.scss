@@ -135,22 +135,6 @@ body.woocommerce-checkout {
                 #customer_details {
                   font-size: 0.95em;
 
-                  .create-account {
-                    label {
-                      margin: 0;
-
-                      &.checkbox {
-                        margin: -5px 0 0 20px;
-                        float: left;
-                        position: absolute;
-                      }
-                    }
-
-                    span.woocommerce-input-wrapper {
-                      width: 100%;
-                    }
-                  }
-
                   .col-billing {
                     background: #fff;
                     border-radius: 8px;
@@ -187,6 +171,31 @@ body.woocommerce-checkout {
                           span {
                             width: 100%;
                             margin-bottom: 5px;
+                          }
+                        }
+                      }
+                    }
+
+                    .woocommerce-account-fields {
+                      display: block;
+
+                      .form-row.form-row-wide.create-account.woocommerce-validated {
+                        margin: 0;
+                        padding: 0;
+
+                        label.woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox {
+                          font-weight: 700;
+                          font-size: 1em;
+                        }
+                      }
+
+                      .create-account {
+                        .form-row.validate-required.woocommerce-invalid.woocommerce-invalid-required-field {
+                          margin: 0;
+                          padding: 0;
+
+                          span.woocommerce-input-wrapper {
+                            width: 100%;
                           }
                         }
                       }
