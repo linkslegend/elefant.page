@@ -1084,7 +1084,7 @@
         },
         {
             "name": "wpackagist-plugin/block-lab",
-            "version": "1.3.3",
+            "version": "1.3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-lab/",
@@ -1092,7 +1092,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1561692316"
+                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1563771913"
             },
             "require": {
                 "composer/installers": "~1.0"

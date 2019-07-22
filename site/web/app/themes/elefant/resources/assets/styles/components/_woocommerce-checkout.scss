@@ -186,13 +186,14 @@ body.woocommerce-checkout {
                         label.woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox {
                           font-weight: 700;
                           font-size: 1em;
+                          margin: 15px 0 0;
                         }
                       }
 
                       .create-account {
-                        .form-row.validate-required.woocommerce-invalid.woocommerce-invalid-required-field {
-                          margin: 0;
-                          padding: 0;
+                        .form-row.validate-required {
+                          margin: 15px 0 0;
+                          padding: 10px;
 
                           span.woocommerce-input-wrapper {
                             width: 100%;
@@ -417,6 +418,7 @@ body.woocommerce-checkout {
                           margin-bottom: 0;
                           border-radius: 3px;
                           vertical-align: middle;
+                          cursor: pointer;
                           text-transform: capitalize;
 
                           .about_paypal {
