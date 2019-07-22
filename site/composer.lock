@@ -272,12 +272,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woo-bought-together.git",
-                "reference": "3546c31f70cd00f134bceffdf9cc04ded6727e01"
+                "reference": "46640ea6e84cba59bfa4a4daf767935cbda72c0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/3546c31f70cd00f134bceffdf9cc04ded6727e01",
-                "reference": "3546c31f70cd00f134bceffdf9cc04ded6727e01",
+                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/46640ea6e84cba59bfa4a4daf767935cbda72c0f",
+                "reference": "46640ea6e84cba59bfa4a4daf767935cbda72c0f",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +299,7 @@
                 "source": "https://github.com/linkslegend/woo-bought-together/tree/master",
                 "issues": "https://github.com/linkslegend/woo-bought-together/issues"
             },
-            "time": "2019-07-15T11:05:45+00:00"
+            "time": "2019-07-22T11:11:53+00:00"
         },
         {
             "name": "linkslegend/woo-social-login",
