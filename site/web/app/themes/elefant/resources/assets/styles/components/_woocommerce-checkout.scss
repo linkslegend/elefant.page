@@ -197,6 +197,11 @@ body.woocommerce-checkout {
 
                           span.woocommerce-input-wrapper {
                             width: 100%;
+
+                            .woocommerce-password-strength {
+                              margin: 10px 0 0;
+                              border-radius: 5px;
+                            }
                           }
                         }
                       }
@@ -476,6 +481,25 @@ body.woocommerce-checkout {
                                 &.StripeElement--focus {
                                   border: 1px solid #fe730d;
                                 }
+                              }
+
+                              .stripe-source-errors {
+                                ul.wc-stripe-error {
+                                  margin: 0;
+                                }
+                              }
+                            }
+
+                            p.form-row.woocommerce-SavedPaymentMethods-saveNew.woocommerce-validated {
+                              input#wc-stripe-new-payment-method {
+                                float: left;
+                                margin: 5px;
+                              }
+
+                              label[for="wc-stripe-new-payment-method"] {
+                                float: left;
+                                padding: 0;
+                                width: auto;
                               }
                             }
                           }
