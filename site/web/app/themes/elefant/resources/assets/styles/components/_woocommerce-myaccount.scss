@@ -1,4 +1,3 @@
-
 .the_champ_login_container {
   ul.the_champ_login_ul {
     margin: 0;
@@ -301,6 +300,8 @@ body {
                 padding: 15px;
                 margin-bottom: 15px;
                 border-radius: 8px;
+                width: 25%;
+                float: left;
 
                 ul {
                   margin: 0;
@@ -381,19 +382,36 @@ body {
               .woocommerce-MyAccount-content {
                 background: $white;
                 padding: 15px;
+                float: right;
+                width: 72%;
                 border-radius: 8px;
 
                 table.woocommerce-MyAccount-orders {
+                  width: 100%;
+
+                  thead {
+                    tr {
+                      th {
+                        padding: 10px;
+                        border-radius: 5px;
+                        background: #f2f2f2;
+                      }
+                    }
+                  }
+
                   tbody {
                     tr.woocommerce-orders-table__row {
                       td.woocommerce-orders-table__cell {
+                        padding: 15px 5px;
+
                         .woocommerce-button.button {
                           white-space: nowrap;
                           border-radius: 8px;
                           text-align: center;
-                          padding: 10px;
+                          padding: 5px;
                           width: 100%;
                           color: #fff;
+                          display: block;
                           background: #fe7004;
                           transition: all 0.3s;
 
@@ -430,8 +448,92 @@ body {
                   }
                 }
 
+                section.woocommerce-order-details {
+                  margin-bottom: 25px;
+
+                  table.woocommerce-table.woocommerce-table--order-details.shop_table.order_details {
+                    thead {
+                      tr {
+                        th {
+                          background: #f2f2f2;
+                          padding: 10px;
+                        }
+                      }
+                    }
+
+                    tbody {
+                      tr {
+                        td {
+                          border-bottom: 1px solid #d2d2d2;
+                          padding: 10px;
+                        }
+                      }
+                    }
+
+                    tfoot {
+                      background: #f2f2f2;
+
+                      tr {
+                        th {
+                          padding: 10px;
+                        }
+
+                        td {
+                          padding: 10px;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                form.woocommerce-EditAccountForm.edit-account {
+                  fieldset {
+                    margin: 25px 0 25px 0;
+                  }
+
+                  .woocommerce-Button.button[name=save_account_details] {
+                    background: #ff7003;
+                    color: #fff;
+                    padding: 10px 20px;
+                    margin-bottom: 15px;
+                    float: right;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 8px;
+                    transition: 0.25s all;
+
+                    &:hover {
+                      box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                      text-decoration: none;
+                    }
+                  }
+                }
+
                 .woocommerce-info {
-                  color: #fff;
+                  margin: 0;
+                  background: #f2f2f2;
+                  padding: 10px;
+                  margin-bottom: 15px;
+                  text-align: center;
+                  font-weight: 700;
+                  color: rgb(84, 84, 84);
+
+                  .woocommerce-Button.button {
+                    background: #ff7003;
+                    color: #fff;
+                    padding: 10px 20px;
+                    margin-top: 15px;
+                    float: right;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 8px;
+                    transition: 0.25s all;
+
+                    &:hover {
+                      box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
+                      text-decoration: none;
+                    }
+                  }
                 }
 
                 .woocommerce-Addresses {
@@ -475,6 +577,30 @@ body {
                       padding: 15px !important;
                       min-height: 85px;
                     }
+                  }
+                }
+
+                .woocommerce-address-fields {
+                  .woocommerce-address-fields__field-wrapper {
+                    p.form-row.validate-required {
+                      span.woocommerce-input-wrapper {
+                        width: 100%;
+                      }
+                    }
+
+                    p.form-row.form-row-wide {
+                      span.woocommerce-input-wrapper {
+                        width: 100%;
+                      }
+                    }
+                  }
+
+                  .button {
+                    background: #ff7003;
+                    color: #fff;
+                    padding: 10px;
+                    float: right;
+                    border: none;
                   }
                 }
               }
