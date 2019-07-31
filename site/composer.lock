@@ -1246,15 +1246,15 @@
         },
         {
             "name": "wpackagist-plugin/fast-velocity-minify",
-            "version": "2.7.0",
+            "version": "2.7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fast-velocity-minify/",
-                "reference": "tags/2.7.0"
+                "reference": "tags/2.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.7.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1408,7 +1408,7 @@
         },
         {
             "name": "wpackagist-plugin/woo-variation-swatches",
-            "version": "1.0.58",
+            "version": "1.0.60",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-variation-swatches/",
@@ -1416,7 +1416,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.zip?timestamp=1563395260"
+                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.zip?timestamp=1564256568"
             },
             "require": {
                 "composer/installers": "~1.0"

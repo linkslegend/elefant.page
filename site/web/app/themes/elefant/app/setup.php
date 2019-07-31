@@ -477,12 +477,12 @@ add_action('after_setup_theme', function () {
 add_action( 'woocommerce_email_header', __NAMESPACE__ . '\\intermac_email_header', 10, 2 );
 function intermac_email_header( $email_heading, $email ) { 
     echo "
-    <table id='main-header' border='0' height='auto' width='100%'>
+    <table id='main-header' border='0' height='auto' width='300px'>
     <tbody>
     <tr>
     <td>
     <div class='navbar-brand'>
-    <img class='logo' src='https://elefant.page/app/themes/elefant/dist/images/logo-elefant2_247d1fda.png'>
+    <img class='logo' src='https://d4mtmtvqxh0vf.cloudfront.net/app/themes/elefant/dist/images/elefant-shop-4.svg'>
     </div>
     <div class='email-nav'>
         <ul>
