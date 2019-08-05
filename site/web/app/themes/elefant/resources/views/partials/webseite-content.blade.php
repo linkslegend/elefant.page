@@ -18,6 +18,56 @@
   </div>
 </section>
 
+<section class="web4-banner">
+  <div class="container-fluid">
+    <div class="row">
+          <h1>Unser Prozess ist auf Ihre individuellen Bedürfnisse zugeschnitten, aber hier ist ein allgemeiner Überblick, Was wir tun.</h1>
+          
+          <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="list-image">
+                  <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Beratung" data-src="@asset('images/consulting-black.svg')" class="lozad">
+              </div>
+              <div class="list-content">
+              <h3>Beratung</h3>
+              Wenn Sie ein neues Branding benötigen, erstellen wir eine einheitliche visuelle Identifikation Ihrer Dienstleistung oder Ihres Produkts.
+              Wenn Sie es bereits haben, arbeiten wir an Designs nach Ihren Richtlinien.
+              </div>
+          </div>
+
+          <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="list-image">
+                  <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Planung" data-src="@asset('images/branding-black.svg')" class="lozad">
+              </div>
+              <div class="list-content">
+            <h3>Planung</h3>
+            Wenn Sie ein neues Branding benötigen, erstellen wir eine einheitliche visuelle Identifikation Ihrer Dienstleistung oder Ihres Produkts.
+            Wenn Sie es bereits haben, arbeiten wir an Designs nach Ihren Richtlinien.
+              </div>
+          </div>
+
+          <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="list-image">
+                <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Web Design" data-src="@asset('images/design-black.svg')" class="lozad">
+            </div>
+            <div class="list-content">
+            <h3>Web Design</h3>
+            We start from structuring information architecture and mapping out functionalities (UX).
+            Then, we design final layouts of user interface (UI) and apply content strategy.
+            </div>
+          </div>
+
+          <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="list-image">
+                  <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Development" data-src="@asset('images/code-black.svg')" class="lozad">
+              </div>
+              <div class="list-content">
+            <h3>Development</h3>
+            In dieser Phase haben wir alle Entwürfe genehmigt. Unser Hauptaugenmerk liegt auf der Entwicklung von sicherem und sauberem Code. Das bedeutet, dass unser Code einfach zu implementieren, getestet und wartungsfähig ist.
+              </div>
+          </div>
+    </div>
+  </div>
+</section>
 
 <section class="web1-banner">
     <div class="container-fluid">
@@ -36,57 +86,6 @@
               </p>
           </div>
         </div>
-    </div>
-  </section>
-
-<section class="web4-banner">
-    <div class="container-fluid">
-      <div class="row">
-            <h2>Unser Prozess ist auf Ihre individuellen Bedürfnisse zugeschnitten, aber hier ist ein allgemeiner Überblick, Was wir tun.</h2>
-            
-            <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
-                <div class="list-image">
-                    <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Beratung" data-src="@asset('images/consulting-black.svg')" class="lozad">
-                </div>
-                <div class="list-content">
-                <h3>Beratung</h3>
-                Wenn Sie ein neues Branding benötigen, erstellen wir eine einheitliche visuelle Identifikation Ihrer Dienstleistung oder Ihres Produkts.
-                Wenn Sie es bereits haben, arbeiten wir an Designs nach Ihren Richtlinien.
-                </div>
-            </div>
-  
-            <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
-                <div class="list-image">
-                    <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Planung" data-src="@asset('images/branding-black.svg')" class="lozad">
-                </div>
-                <div class="list-content">
-              <h3>Planung</h3>
-              Wenn Sie ein neues Branding benötigen, erstellen wir eine einheitliche visuelle Identifikation Ihrer Dienstleistung oder Ihres Produkts.
-              Wenn Sie es bereits haben, arbeiten wir an Designs nach Ihren Richtlinien.
-                </div>
-            </div>
-  
-            <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
-              <div class="list-image">
-                  <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Web Design" data-src="@asset('images/design-black.svg')" class="lozad">
-              </div>
-              <div class="list-content">
-              <h3>Web Design</h3>
-              We start from structuring information architecture and mapping out functionalities (UX).
-              Then, we design final layouts of user interface (UI) and apply content strategy.
-              </div>
-            </div>
-  
-            <div class="whatwedo col-12 col-sm-6 col-md-6 col-lg-6">
-                <div class="list-image">
-                    <img src="https://d1zczzapudl1mr.cloudfront.net/blank-kraken.gif" alt="Development" data-src="@asset('images/code-black.svg')" class="lozad">
-                </div>
-                <div class="list-content">
-              <h3>Development</h3>
-              In dieser Phase haben wir alle Entwürfe genehmigt. Unser Hauptaugenmerk liegt auf der Entwicklung von sicherem und sauberem Code. Das bedeutet, dass unser Code einfach zu implementieren, getestet und wartungsfähig ist.
-                </div>
-            </div>
-      </div>
     </div>
   </section>
 
