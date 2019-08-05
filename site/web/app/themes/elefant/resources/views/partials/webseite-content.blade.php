@@ -18,6 +18,56 @@
   </div>
 </section>
 
+<section class="web1-banner">
+    <div class="container-fluid">
+      <div class="row">
+          <h1 class="text-center w-100">Referenzen und Beispiele</h1>
+          <h2 class="text-center w-100">So könnte Ihre Webseite aussehen</h2>
+
+            <div id="carouselElefant" class="carousel slide carousel-fade carouselElefant p-5" data-ride="carousel">
+              <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="@asset('images/web_example_Image_01.png')"
+                    alt="1 slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="@asset('images/web_example_Image_02.png')"
+                    alt="2 slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="@asset('images/web_example_Image_03.png')"
+                    alt="3 slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="@asset('images/web_example_Image_04.png')"
+                      alt="4 slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="@asset('images/web_example_Image_05.png')"
+                      alt="5 slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="@asset('images/web_example_Image_06.png')"
+                      alt="6 slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="@asset('images/web_example_Image_07.png')"
+                      alt="7 slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselElefant" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselElefant" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a></div>
+
+      </div>
+    </div>
+  </section>
+
 <section class="web4-banner">
   <div class="container-fluid">
     <div class="row">
@@ -69,6 +119,8 @@
   </div>
 </section>
 
+
+
 <section class="web1-banner">
     <div class="container-fluid">
         <div class="row">
@@ -78,7 +130,7 @@
               </div>
           </div>
           <div class="col-xl-6 col-lg-7 col-sm-12 flex-column align-items-center order-1">
-              <h1>Von unseren Designern gestaltet, von unseren Entwicklern programmiert, von unserem Team realisiert</h1>
+              <h1>Von uns Designed und programmiert</h1>
               <p>
               Wir legen  viel Wert auf Benutzer­freundlich­keit und die Auffind­barkeit in den Such­maschinen. Unser Ziel ist es, 
               State of the Art-Lösungen zu entwickeln. Auf diese Weise entwickeln wir Websites und Landing­pages, 
@@ -190,7 +242,7 @@
 
           </div>
     </div>
-</section>
+  </section>
 
 <section class="web2-banner">
     <div class="container-fluid">
