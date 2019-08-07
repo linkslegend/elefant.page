@@ -111,8 +111,10 @@
         position: absolute;
         content: "\00d7";
         transition: all 0.25s;
+      }
 
-        &:hover {
+      &:hover {
+        &::before {
           color: #fa635a;
         }
       }
