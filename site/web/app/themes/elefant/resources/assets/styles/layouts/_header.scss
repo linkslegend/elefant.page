@@ -291,6 +291,18 @@
                 }
               }
 
+              dl {
+                &.variation {
+                  font-size: 0.85em;
+                  margin: 0;
+                }
+
+                dt {
+                  float: left;
+                  padding-right: 5px;
+                }
+              }
+
               span {
                 &.light {
                   display: block;
