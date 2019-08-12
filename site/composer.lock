@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f83da2b8ddb62fe5d53ef2f8274f3b3",
+    "content-hash": "21a4475b87deccd279c18fbd5faedb53",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
+                "reference": "141b272484481432cda342727a427dc1e206bfa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
-                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/141b272484481432cda342727a427dc1e206bfa0",
+                "reference": "141b272484481432cda342727a427dc1e206bfa0",
                 "shasum": ""
             },
             "require": {
@@ -73,6 +73,7 @@
                 "RadPHP",
                 "SMF",
                 "Thelia",
+                "Whmcs",
                 "WolfCMS",
                 "agl",
                 "aimeos",
@@ -95,6 +96,7 @@
                 "installer",
                 "itop",
                 "joomla",
+                "known",
                 "kohana",
                 "laravel",
                 "lavalite",
@@ -124,7 +126,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-08-27T06:10:37+00:00"
+            "time": "2019-08-12T15:00:31+00:00"
         },
         {
             "name": "linkslegend/ct-ultimate-gdpr",
@@ -1335,6 +1337,24 @@
             "homepage": "https://wordpress.org/plugins/resmushit-image-optimizer/"
         },
         {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.9.7.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.9.7.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.7.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
             "name": "wpackagist-plugin/woo-ajax-add-to-cart",
             "version": "1.1.0",
             "source": {
@@ -1354,15 +1374,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
-            "version": "2.2.1",
+            "version": "2.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-gutenberg-products-block/",
-                "reference": "tags/2.2.1"
+                "reference": "tags/2.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.3.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1408,15 +1428,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.6.5",
+            "version": "3.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.6.5"
+                "reference": "tags/3.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.6.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.7.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1444,15 +1464,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout",
-            "version": "1.6.16",
+            "version": "1.6.17",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-paypal-express-checkout/",
-                "reference": "tags/1.6.16"
+                "reference": "tags/1.6.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.1.6.16.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.1.6.17.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
