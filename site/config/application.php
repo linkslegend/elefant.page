@@ -104,12 +104,4 @@ if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
 
-# Place in wp-config.php & adjust accordingly
-function get_memcached_servers () {
-    return array(
-        '127.0.0.1:11211',
-        'mymemcached.tatvxw.cfg.euc1.cache.amazonaws.com:11211'
-    );
-}
-
 define('WP_CACHE', true);

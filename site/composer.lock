@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51e164588cc0e985e55eae7182448f50",
+    "content-hash": "21a4475b87deccd279c18fbd5faedb53",
     "packages": [
         {
             "name": "composer/installers",
@@ -1549,24 +1549,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-migrate-db/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-spider-cache",
-            "version": "4.1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-spider-cache/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-spider-cache.zip?timestamp=1479634877"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-spider-cache/"
         },
         {
             "name": "wpackagist-plugin/wpcf7-recaptcha",
