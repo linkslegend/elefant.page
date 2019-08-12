@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c93dc72ac3e4d81a8b2cf1170df1ad38",
+    "content-hash": "ea650c2f868cc2fb880ce64dfb1ee19b",
     "packages": [
         {
             "name": "composer/installers",
@@ -1101,24 +1101,6 @@
             "homepage": "https://wordpress.org/plugins/block-lab/"
         },
         {
-            "name": "wpackagist-plugin/cache-enabler",
-            "version": "1.3.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cache-enabler/",
-                "reference": "tags/1.3.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cache-enabler.1.3.4.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cache-enabler/"
-        },
-        {
             "name": "wpackagist-plugin/cdn-enabler",
             "version": "1.0.9",
             "source": {
@@ -1549,6 +1531,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-ffpc",
+            "version": "1.11.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-ffpc/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-ffpc.zip?timestamp=1486772007"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-ffpc/"
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",
