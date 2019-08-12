@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d750a279c63720425ebfe309018aad5",
+    "content-hash": "c93dc72ac3e4d81a8b2cf1170df1ad38",
     "packages": [
         {
             "name": "composer/installers",
@@ -1119,24 +1119,6 @@
             "homepage": "https://wordpress.org/plugins/cache-enabler/"
         },
         {
-            "name": "wpackagist-plugin/cachify",
-            "version": "2.2.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cachify/",
-                "reference": "tags/2.2.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cachify.2.2.4.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cachify/"
-        },
-        {
             "name": "wpackagist-plugin/cdn-enabler",
             "version": "1.0.9",
             "source": {
@@ -1369,6 +1351,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/resmushit-image-optimizer/"
+        },
+        {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.9.7.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.9.7.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.7.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
         },
         {
             "name": "wpackagist-plugin/woo-ajax-add-to-cart",
