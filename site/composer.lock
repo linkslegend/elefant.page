@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f83da2b8ddb62fe5d53ef2f8274f3b3",
+    "content-hash": "6797aee5b41711e169fe2caf7c32cd70",
     "packages": [
         {
             "name": "composer/installers",
@@ -309,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woo-social-login.git",
-                "reference": "6fc89fe6d310e23bc513248468ff733f639e4ba3"
+                "reference": "b6c6d30efbaea662aad21b727eadbea57bcfb722"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woo-social-login/zipball/6fc89fe6d310e23bc513248468ff733f639e4ba3",
-                "reference": "6fc89fe6d310e23bc513248468ff733f639e4ba3",
+                "url": "https://api.github.com/repos/linkslegend/woo-social-login/zipball/b6c6d30efbaea662aad21b727eadbea57bcfb722",
+                "reference": "b6c6d30efbaea662aad21b727eadbea57bcfb722",
                 "shasum": ""
             },
             "require": {
@@ -336,7 +336,7 @@
                 "source": "https://github.com/linkslegend/woo-social-login/tree/master",
                 "issues": "https://github.com/linkslegend/woo-social-login/issues"
             },
-            "time": "2019-06-19T14:47:20+00:00"
+            "time": "2019-08-13T15:42:41+00:00"
         },
         {
             "name": "linkslegend/woo-variation-swatches-pro",
@@ -686,41 +686,6 @@
                 "issues": "https://github.com/linkslegend/yith-woocommerce-custom-order-status/issues"
             },
             "time": "2019-08-13T14:45:48+00:00"
-        },
-        {
-            "name": "linkslegend/yith-woocommerce-frequently-bought-together-premium",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/yith-woocommerce-frequently-bought-together-premium.git",
-                "reference": "97ebc0e01f48d24c429883b18b3939de7c70737f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-frequently-bought-together-premium/zipball/97ebc0e01f48d24c429883b18b3939de7c70737f",
-                "reference": "97ebc0e01f48d24c429883b18b3939de7c70737f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "yith-woocommerce-frequently-bought-together-premium",
-                    "homepage": "https://yithemes.com/themes/plugins/yith-woocommerce-frequently-bought-together/"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/yith-woocommerce-frequently-bought-together-premium",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/yith-woocommerce-frequently-bought-together-premium/tree/master",
-                "issues": "https://github.com/linkslegend/yith-woocommerce-frequently-bought-together-premium/issues"
-            },
-            "time": "2019-07-08T13:28:03+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1337,24 +1302,6 @@
             "homepage": "https://wordpress.org/plugins/resmushit-image-optimizer/"
         },
         {
-            "name": "wpackagist-plugin/woo-ajax-add-to-cart",
-            "version": "1.1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woo-ajax-add-to-cart/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-ajax-add-to-cart.zip?timestamp=1555549460"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woo-ajax-add-to-cart/"
-        },
-        {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
             "version": "2.3.0",
             "source": {
@@ -1425,24 +1372,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
-        },
-        {
-            "name": "wpackagist-plugin/woocommerce-ajax-add-to-cart-for-variable-products",
-            "version": "1.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woocommerce-ajax-add-to-cart-for-variable-products/",
-                "reference": "tags/1.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-ajax-add-to-cart-for-variable-products.1.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woocommerce-ajax-add-to-cart-for-variable-products/"
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout",
@@ -1831,7 +1760,6 @@
         "linkslegend/woocommerce-composite-products": 20,
         "linkslegend/yith-woocommerce-custom-order-status": 20,
         "linkslegend/yith-woocommerce-bulk-product-editing-premium": 20,
-        "linkslegend/yith-woocommerce-frequently-bought-together-premium": 20,
         "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "linkslegend/woocommerce-tab-manager": 20,
         "linkslegend/woocommerce-woocart-pro": 20,
