@@ -48,7 +48,7 @@
 
   @php wp_head() @endphp
   
-  <script>
+  <!--<script>
     // register service worker:
             if ('serviceWorker' in navigator) {
               window.addEventListener('load', function() {
@@ -61,5 +61,6 @@
                 });
               });
             }
-    </script>
+    </script>-->
+    
 </head>
