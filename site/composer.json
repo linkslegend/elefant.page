@@ -53,10 +53,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:linkslegend/yith-woocommerce-frequently-bought-together-premium.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:linkslegend/woocommerce-composite-products.git"
     },
     {
@@ -129,7 +125,6 @@
     "linkslegend/woocommerce-composite-products": "dev-master",
     "linkslegend/yith-woocommerce-custom-order-status": "dev-master",
     "linkslegend/yith-woocommerce-bulk-product-editing-premium": "dev-master",
-    "linkslegend/yith-woocommerce-frequently-bought-together-premium": "dev-master",
     "linkslegend/multiple-external-product-urls-for-woocommerce": "dev-master",
     "linkslegend/woocommerce-tab-manager": "dev-master",
     "linkslegend/woocommerce-woocart-pro": "dev-master",
@@ -148,8 +143,6 @@
     "wpackagist-plugin/woo-preview-emails": "^1.5",
     "wpackagist-plugin/cf7-conditional-fields": "^1.4",
     "wpackagist-plugin/contact-form-7-dynamic-text-extension": "2.0.2.1",
-    "wpackagist-plugin/woocommerce-ajax-add-to-cart-for-variable-products": "^1.3",
-    "wpackagist-plugin/woo-ajax-add-to-cart": "^1.1",
     "wpackagist-plugin/woo-gutenberg-products-block": "^2.1",
     "wpackagist-plugin/redux-framework": "^3.6",
     "wpackagist-plugin/favorites": "^2.3",
