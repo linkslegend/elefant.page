@@ -204,12 +204,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/prdctfltr.git",
-                "reference": "aaefdedba2c9a9692e2a0a2fee8ea118e31e1eb9"
+                "reference": "56a53898e402c44e75b4bfb2c7513604f46922f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/aaefdedba2c9a9692e2a0a2fee8ea118e31e1eb9",
-                "reference": "aaefdedba2c9a9692e2a0a2fee8ea118e31e1eb9",
+                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/56a53898e402c44e75b4bfb2c7513604f46922f1",
+                "reference": "56a53898e402c44e75b4bfb2c7513604f46922f1",
                 "shasum": ""
             },
             "require": {
@@ -231,7 +231,7 @@
                 "source": "https://github.com/linkslegend/prdctfltr/tree/master",
                 "issues": "https://github.com/linkslegend/prdctfltr/issues"
             },
-            "time": "2019-07-01T09:41:00+00:00"
+            "time": "2019-08-13T14:48:24+00:00"
         },
         {
             "name": "linkslegend/ti-woocommerce-wishlist-premium",
@@ -239,12 +239,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/ti-woocommerce-wishlist-premium.git",
-                "reference": "848faf57854bf564c31728c6d2af6cbeb652a6d6"
+                "reference": "a95ba8bdfa1f096c2c8ad6a2e96470e3cfdf303b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/ti-woocommerce-wishlist-premium/zipball/848faf57854bf564c31728c6d2af6cbeb652a6d6",
-                "reference": "848faf57854bf564c31728c6d2af6cbeb652a6d6",
+                "url": "https://api.github.com/repos/linkslegend/ti-woocommerce-wishlist-premium/zipball/a95ba8bdfa1f096c2c8ad6a2e96470e3cfdf303b",
+                "reference": "a95ba8bdfa1f096c2c8ad6a2e96470e3cfdf303b",
                 "shasum": ""
             },
             "require": {
@@ -266,7 +266,7 @@
                 "source": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium/tree/master",
                 "issues": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium/issues"
             },
-            "time": "2019-07-08T09:53:09+00:00"
+            "time": "2019-08-13T14:51:04+00:00"
         },
         {
             "name": "linkslegend/woo-bought-together",
@@ -379,12 +379,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woocommerce-composite-products.git",
-                "reference": "32575b7e37739caf4dc8c5b7081e35f2e44431be"
+                "reference": "8ba9287f72306aab990df93fff10d0363c396e2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-composite-products/zipball/32575b7e37739caf4dc8c5b7081e35f2e44431be",
-                "reference": "32575b7e37739caf4dc8c5b7081e35f2e44431be",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-composite-products/zipball/8ba9287f72306aab990df93fff10d0363c396e2a",
+                "reference": "8ba9287f72306aab990df93fff10d0363c396e2a",
                 "shasum": ""
             },
             "require": {
@@ -406,7 +406,7 @@
                 "source": "https://github.com/linkslegend/woocommerce-composite-products/tree/master",
                 "issues": "https://github.com/linkslegend/woocommerce-composite-products/issues"
             },
-            "time": "2019-07-08T11:03:22+00:00"
+            "time": "2019-08-13T14:56:49+00:00"
         },
         {
             "name": "linkslegend/woocommerce-quick-view",
@@ -588,12 +588,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-advanced-reviews-premium.git",
-                "reference": "35bd599ed3e0c340342d957230d7cd6fda402c18"
+                "reference": "b743b562d58177766370bc1c4fcbda5711f325ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-advanced-reviews-premium/zipball/35bd599ed3e0c340342d957230d7cd6fda402c18",
-                "reference": "35bd599ed3e0c340342d957230d7cd6fda402c18",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-advanced-reviews-premium/zipball/b743b562d58177766370bc1c4fcbda5711f325ad",
+                "reference": "b743b562d58177766370bc1c4fcbda5711f325ad",
                 "shasum": ""
             },
             "require": {
@@ -615,7 +615,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-advanced-reviews-premium/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-advanced-reviews-premium/issues"
             },
-            "time": "2019-06-04T09:06:59+00:00"
+            "time": "2019-08-13T14:46:22+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-bulk-product-editing-premium",
@@ -658,12 +658,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/yith-woocommerce-custom-order-status.git",
-                "reference": "b0f144513dbab8752626792c2c1634649e4a2346"
+                "reference": "0fba63bd649308a1bb2fbdaeb5d87e17fb98e942"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-custom-order-status/zipball/b0f144513dbab8752626792c2c1634649e4a2346",
-                "reference": "b0f144513dbab8752626792c2c1634649e4a2346",
+                "url": "https://api.github.com/repos/linkslegend/yith-woocommerce-custom-order-status/zipball/0fba63bd649308a1bb2fbdaeb5d87e17fb98e942",
+                "reference": "0fba63bd649308a1bb2fbdaeb5d87e17fb98e942",
                 "shasum": ""
             },
             "require": {
@@ -685,7 +685,7 @@
                 "source": "https://github.com/linkslegend/yith-woocommerce-custom-order-status/tree/master",
                 "issues": "https://github.com/linkslegend/yith-woocommerce-custom-order-status/issues"
             },
-            "time": "2019-06-19T10:30:51+00:00"
+            "time": "2019-08-13T14:45:48+00:00"
         },
         {
             "name": "linkslegend/yith-woocommerce-frequently-bought-together-premium",
