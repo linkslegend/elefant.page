@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6797aee5b41711e169fe2caf7c32cd70",
+    "content-hash": "88a74c4e021cf2a8cb405030addbc773",
     "packages": [
         {
             "name": "composer/installers",
@@ -1300,6 +1300,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/resmushit-image-optimizer/"
+        },
+        {
+            "name": "wpackagist-plugin/woo-ajax-mini-cart",
+            "version": "1.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-ajax-mini-cart/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-ajax-mini-cart.zip?timestamp=1552663987"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-ajax-mini-cart/"
         },
         {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
