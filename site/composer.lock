@@ -274,12 +274,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woo-bought-together.git",
-                "reference": "46640ea6e84cba59bfa4a4daf767935cbda72c0f"
+                "reference": "e95ee7cf46a6caa660357f1bf9ebcd62c3beeffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/46640ea6e84cba59bfa4a4daf767935cbda72c0f",
-                "reference": "46640ea6e84cba59bfa4a4daf767935cbda72c0f",
+                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/e95ee7cf46a6caa660357f1bf9ebcd62c3beeffd",
+                "reference": "e95ee7cf46a6caa660357f1bf9ebcd62c3beeffd",
                 "shasum": ""
             },
             "require": {
@@ -301,7 +301,7 @@
                 "source": "https://github.com/linkslegend/woo-bought-together/tree/master",
                 "issues": "https://github.com/linkslegend/woo-bought-together/issues"
             },
-            "time": "2019-07-22T11:11:53+00:00"
+            "time": "2019-08-19T10:15:56+00:00"
         },
         {
             "name": "linkslegend/woo-social-login",
@@ -484,12 +484,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woocommerce-woocart-pro.git",
-                "reference": "f018d0ed3c9375715957b74a458c178803c362ab"
+                "reference": "01c78bfa2648ca5a7b693f9a0783e1a2b467965f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-woocart-pro/zipball/f018d0ed3c9375715957b74a458c178803c362ab",
-                "reference": "f018d0ed3c9375715957b74a458c178803c362ab",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-woocart-pro/zipball/01c78bfa2648ca5a7b693f9a0783e1a2b467965f",
+                "reference": "01c78bfa2648ca5a7b693f9a0783e1a2b467965f",
                 "shasum": ""
             },
             "require": {
@@ -511,7 +511,7 @@
                 "source": "https://github.com/linkslegend/woocommerce-woocart-pro/tree/master",
                 "issues": "https://github.com/linkslegend/woocommerce-woocart-pro/issues"
             },
-            "time": "2019-06-12T16:04:43+00:00"
+            "time": "2019-08-19T13:15:14+00:00"
         },
         {
             "name": "linkslegend/wp-sync-db",
