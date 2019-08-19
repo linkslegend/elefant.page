@@ -718,9 +718,9 @@
             "authors": [
                 {
                     "name": "Oscar Otero",
+                    "role": "Developer",
                     "email": "oom@oscarotero.com",
-                    "homepage": "http://oscarotero.com",
-                    "role": "Developer"
+                    "homepage": "http://oscarotero.com"
                 }
             ],
             "description": "Simple library to consume environment variables",
@@ -740,8 +740,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.2",
-                "reference": "5.2.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1195,15 +1194,15 @@
         },
         {
             "name": "wpackagist-plugin/fast-velocity-minify",
-            "version": "2.7.3",
+            "version": "2.7.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fast-velocity-minify/",
-                "reference": "tags/2.7.3"
+                "reference": "tags/2.7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.7.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.7.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1709,8 +1708,8 @@
             "authors": [
                 {
                     "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com",
-                    "role": "maintainer"
+                    "role": "maintainer",
+                    "email": "ocramius@gmail.com"
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
