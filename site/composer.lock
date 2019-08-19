@@ -484,12 +484,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woocommerce-woocart-pro.git",
-                "reference": "01c78bfa2648ca5a7b693f9a0783e1a2b467965f"
+                "reference": "2f9f619506d9e050b557172be85b1f18406d244e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-woocart-pro/zipball/01c78bfa2648ca5a7b693f9a0783e1a2b467965f",
-                "reference": "01c78bfa2648ca5a7b693f9a0783e1a2b467965f",
+                "url": "https://api.github.com/repos/linkslegend/woocommerce-woocart-pro/zipball/2f9f619506d9e050b557172be85b1f18406d244e",
+                "reference": "2f9f619506d9e050b557172be85b1f18406d244e",
                 "shasum": ""
             },
             "require": {
@@ -511,7 +511,7 @@
                 "source": "https://github.com/linkslegend/woocommerce-woocart-pro/tree/master",
                 "issues": "https://github.com/linkslegend/woocommerce-woocart-pro/issues"
             },
-            "time": "2019-08-19T13:15:14+00:00"
+            "time": "2019-08-19T17:13:08+00:00"
         },
         {
             "name": "linkslegend/wp-sync-db",
