@@ -1033,15 +1033,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.8.2",
+            "version": "5.8.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.8.2"
+                "reference": "tags/5.8.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1051,7 +1051,7 @@
         },
         {
             "name": "wpackagist-plugin/block-lab",
-            "version": "1.3.4",
+            "version": "1.3.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-lab/",
@@ -1059,7 +1059,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1563771913"
+                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1566111894"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1195,15 +1195,15 @@
         },
         {
             "name": "wpackagist-plugin/fast-velocity-minify",
-            "version": "2.7.3",
+            "version": "2.7.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fast-velocity-minify/",
-                "reference": "tags/2.7.3"
+                "reference": "tags/2.7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.7.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.7.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
