@@ -137,7 +137,7 @@
     "wpackagist-plugin/woocommerce": "^3.5",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^4.1",
     "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout": "^1.6",
-    "wpackagist-plugin/wordpress-seo": "^11.4",
+    "wpackagist-plugin/wordpress-seo": "^12.0",
     "wpackagist-plugin/facebook-for-woocommerce": "^1.9",
     "wpackagist-plugin/mailchimp-for-woocommerce": "^2.1",
     "wpackagist-plugin/woo-preview-emails": "^1.5",
