@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-08-12 14:09:33+0000\n"
+"PO-Revision-Date: 2019-08-22 09:54:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -361,6 +361,143 @@ msgid "%d result found, use up and down arrow keys to navigate."
 msgid_plural "%d results found, use up and down arrow keys to navigate."
 msgstr[0] "%d Ergebnis gefunden, benutzen Sie die Pfeiltasten nach oben oder unten zum Navigieren."
 msgstr[1] "%d Ergebnisse gefunden, benutzen Sie die Pfeiltasten nach oben oder unten zum Navigieren."
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "No change from %s"
+msgstr "Keine Änderung von %s"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Add a Filter"
+msgstr "Filter hinzufügen"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "By day"
+msgstr "Pro Tag"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "By week"
+msgstr "Pro Woche"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "By month"
+msgstr "Pro Monat"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "By quarter"
+msgstr "Pro Quartal"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "By year"
+msgstr "Pro Jahr"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Clear all filters"
+msgstr "Alle Filter entfernen"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "By hour"
+msgstr "Pro Stunde"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "You may select up to %d items."
+msgstr "Sie können bis zu %d Elemente auswählen."
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Move backward to switch to the previous month."
+msgstr "Gehen Sie zurück, um zum vorherigen Monat zu wechseln."
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Move forward to switch to the next month."
+msgstr "Gehen Sie weiter, um zum nächsten Monat zu wechseln."
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Down %d%% from %s"
+msgstr "%d%% runter von %s"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Choose to apply any or all filters"
+msgstr "Wählen Sie, ob Sie einen oder alle Filter anwenden möchten"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "All taxes with codes that include {{query /}}"
+msgstr "Alle Steuern mit Codes, die {{query /}} enthalten"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "All coupons with codes that include {{query /}}"
+msgstr "Alle Gutscheine mit Codes, die {{query /}} enthalten"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "All categories with titles that include {{query /}}"
+msgstr "Alle Kategorien mit Titeln, die {{query /}} enthalten"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "select a date"
+msgstr "Wählen Sie ein Datum"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Up %d%% from %s"
+msgstr "%d%% rauf von %s"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgctxt "Date range inputs arranged on a single line"
+msgid "{{after /}}{{span}} and {{/span}}{{before /}}"
+msgstr "{{after /}}{{span}} und {{/span}}{{before /}}"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Date input describing a selected date in format %s"
+msgstr "Datumseingabe, die ein ausgewähltes Datum im Format %s beschreibt"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "All products with titles that include {{query /}}"
+msgstr "Alle Produkte mit Titel, die {{query /}} enthalten"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "All customers with names that include {{query /}}"
+msgstr "Alle Kunden mit Namen, die {{query /}} enthalten"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "HH:mm"
+msgstr "HH:mm"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "dddd, D MMMM YYYY LT"
+msgstr "dddd, D MMMM YYYY LT"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "D MMMM YYYY LT"
+msgstr "D MMMM YYYY LT"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "MMMM D, YYYY"
+msgstr "MMMM D, YYYY"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "MM/DD/YYYY"
+msgstr "MM/DD/YYYY"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "MMM D"
+msgstr "MMM D"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "MMM D, YYYY"
+msgstr "MMM D, YYYY"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Quarter to Date"
+msgstr "Aktuelles Quartal"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Month to Date"
+msgstr "Aktueller Monat"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Week to Date"
+msgstr "Aktuelle Woche"
+
+#: packages/woocommerce-blocks/build/vendors.js:12
+msgid "Move backward for selected items"
+msgstr "Für ausgewählte Elemente zurückgehen"
 
 #: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/index.js:23
 #: packages/woocommerce-blocks/build/handpicked-products.js:1
@@ -743,6 +880,252 @@ msgstr "\"In den Warenkorb\" Button ist sichtbar."
 msgid "Add to Cart button"
 msgstr "\"In den Warenkorb\" Button"
 
+#: packages/woocommerce-blocks/assets/js/components/grid-layout-control/index.js:48
+#: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/block.js:56
+#: packages/woocommerce-blocks/build/handpicked-products.js:1
+#: packages/woocommerce-blocks/build/product-on-sale.js:1
+#: packages/woocommerce-blocks/build/product-best-sellers.js:1
+#: packages/woocommerce-blocks/build/product-category.js:1
+#: packages/woocommerce-blocks/build/product-new.js:1
+#: packages/woocommerce-blocks/build/product-top-rated.js:1
+#: packages/woocommerce-blocks/build/products-by-attribute.js:1
+#: packages/woocommerce-blocks/build/product-tag.js:1
+msgid "Buttons are aligned vertically."
+msgstr "Buttons sind vertikal ausgerichtet."
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-categories/index.js:16
+#: packages/woocommerce-blocks/assets/js/blocks/product-categories/edit.js:81
+#: packages/woocommerce-blocks/build/product-categories.js:1
+msgid "Product Categories List"
+msgstr "Liste der Produkt-Kategorien"
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/index.js:27
+#: packages/woocommerce-blocks/build/featured-category.js:1
+msgid "Visually highlight a product category and encourage prompt action."
+msgstr "Eine Produkt-Kategorie visuell hervorheben und zum sofortigen Handeln auffordern."
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:216
+#: packages/woocommerce-blocks/build/featured-category.js:1
+msgid "Visually highlight a product category and encourage prompt action"
+msgstr "Eine Produkt-Kategorie visuell hervorheben und zum sofortigen Handeln auffordern."
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-on-sale/index.js:26
+#: packages/woocommerce-blocks/build/product-on-sale.js:1
+msgid "Display a grid of on sale products."
+msgstr "Ein Raster mit Produkten im Angebot anzeigen."
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-on-sale/index.js:19
+#: packages/woocommerce-blocks/build/product-on-sale.js:1
+msgid "On Sale Products"
+msgstr "Produkte im Angebot"
+
+#: packages/woocommerce-blocks/assets/js/blocks/products-by-attribute/block.js:109
+#: packages/woocommerce-blocks/build/products-by-attribute.js:1
+msgid "Showing Products by Attribute block preview."
+msgstr "Anzeigen der Blockvorschau zu Produkten nach Attribut."
+
+#: packages/woocommerce-blocks/assets/js/blocks/products-by-attribute/block.js:122
+#: packages/woocommerce-blocks/assets/js/blocks/products-by-attribute/index.js:25
+#: packages/woocommerce-blocks/build/products-by-attribute.js:1
+msgid "Display a grid of products from your selected attributes."
+msgstr "Ein Raster mit Produkten mit den von Ihnen ausgewählten Attributen anzeigen."
+
+#: packages/woocommerce-blocks/assets/js/components/product-attribute-control/index.js:218
+#: packages/woocommerce-blocks/build/products-by-attribute.js:1
+msgid "Any selected attributes"
+msgstr "Beliebige ausgewählte Attribute"
+
+#: packages/woocommerce-blocks/assets/js/components/product-attribute-control/index.js:121
+#: packages/woocommerce-blocks/build/products-by-attribute.js:1
+msgid "%s, has %d term"
+msgid_plural "%s, has %d terms"
+msgstr[0] "%s, hat %d Begriff"
+msgstr[1] "%s, hat %d Begriffe"
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-top-rated/index.js:26
+#: packages/woocommerce-blocks/build/product-top-rated.js:1
+msgid "Display a grid of your top rated products."
+msgstr "Ein Raster mit Ihren am besten werteten Produkte anzeigen."
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-categories/edit.js:65
+#: packages/woocommerce-blocks/build/product-categories.js:1
+msgid "Display style"
+msgstr "Darstellungsart"
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-categories/edit.js:61
+#: packages/woocommerce-blocks/build/product-categories.js:1
+msgid "List Settings"
+msgstr "Listeneinstellungen"
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-categories/edit.js:83
+#: packages/woocommerce-blocks/build/product-categories.js:1
+msgid "This block shows product categories for your store. In order to preview this you'll first need to create a product and assign it to a category."
+msgstr "Dieser Block zeigt Produkt-Kategorien für Ihren Shop an. Um die Vorschau zu sehen, müssen Sie zunächst ein Produkt erstellen und es einer Kategorie zuordnen."
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-category/index.js:27
+#: packages/woocommerce-blocks/build/product-category.js:1
+msgid "Display a grid of products from your selected categories."
+msgstr "Ein Raster mit Produkten aus den von Ihnen ausgewählten Kategorien anzeigen."
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-category/block.js:220
+#: packages/woocommerce-blocks/build/product-category.js:1
+msgid "Select at least one category to display its products."
+msgstr "Wählen Sie mindestens eine Kategorie aus, um Produkte daraus anzuzeigen."
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/index.js:26
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Visually highlight a product or variation and encourage prompt action."
+msgstr "Ein Produkt oder eine Variante visuell hervorheben und zum sofortigen Handeln auffordern."
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:343
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/index.js:110
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:343
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/index.js:109
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Shop now"
+msgstr "Jetzt einkaufen"
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:298
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:284
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Edit media"
+msgstr "Medien bearbeiten"
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:202
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Visually highlight a product or variation and encourage prompt action"
+msgstr "Ein Produkt oder eine Variante visuell hervorheben und zum sofortigen Handeln auffordern"
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:185
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:171
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Focal Point Picker"
+msgstr "Fokuspunkt-Auswahl"
+
+#: packages/woocommerce-blocks/assets/js/components/product-category-control/index.js:124
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/product-on-sale.js:1
+#: packages/woocommerce-blocks/build/product-best-sellers.js:1
+#: packages/woocommerce-blocks/build/product-category.js:1
+#: packages/woocommerce-blocks/build/product-new.js:1
+#: packages/woocommerce-blocks/build/product-top-rated.js:1
+msgid "Pick at least two categories to use this setting."
+msgstr "Wählen Sie mindestens zwei Kategorien, um diese Einstellung verwenden zu können."
+
+#: packages/woocommerce-blocks/assets/js/components/product-category-control/index.js:100
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/product-on-sale.js:1
+#: packages/woocommerce-blocks/build/product-best-sellers.js:1
+#: packages/woocommerce-blocks/build/product-category.js:1
+#: packages/woocommerce-blocks/build/product-new.js:1
+#: packages/woocommerce-blocks/build/product-top-rated.js:1
+msgid "Category search results updated."
+msgstr "Kategorie-Suchergebnisse aktualisiert."
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:221
+#: packages/woocommerce-blocks/build/product-tag.js:1
+msgid "This block displays products from selected tags. Select at least one tag to display its products."
+msgstr "Dieser Block zeigt Produkte entsprechend den ausgewählten Schlagworten an. Wählen Sie mindestens ein Schlagwort aus, um zugehörige Produkte anzuzeigen."
+
+#: packages/woocommerce-blocks/assets/js/components/grid-layout-control/index.js:45
+#: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/block.js:53
+#: packages/woocommerce-blocks/build/handpicked-products.js:1
+#: packages/woocommerce-blocks/build/product-on-sale.js:1
+#: packages/woocommerce-blocks/build/product-best-sellers.js:1
+#: packages/woocommerce-blocks/build/product-category.js:1
+#: packages/woocommerce-blocks/build/product-new.js:1
+#: packages/woocommerce-blocks/build/product-top-rated.js:1
+#: packages/woocommerce-blocks/build/products-by-attribute.js:1
+#: packages/woocommerce-blocks/build/product-tag.js:1
+msgid "Align Add to Cart buttons"
+msgstr "„In den Warenkorb“-Buttons ausrichten"
+
+#: packages/woocommerce-blocks/assets/js/components/grid-content-control/index.js:54
+#: packages/woocommerce-blocks/build/handpicked-products.js:1
+#: packages/woocommerce-blocks/build/product-on-sale.js:1
+#: packages/woocommerce-blocks/build/product-best-sellers.js:1
+#: packages/woocommerce-blocks/build/product-category.js:1
+#: packages/woocommerce-blocks/build/product-new.js:1
+#: packages/woocommerce-blocks/build/product-top-rated.js:1
+#: packages/woocommerce-blocks/build/products-by-attribute.js:1
+#: packages/woocommerce-blocks/build/product-tag.js:1
+msgid "Add to Cart button is hidden."
+msgstr "Der „In den Warenkorb“-Button ist ausgeblendet."
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:169
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:155
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Overlay Color"
+msgstr "Overlay-Farbe"
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:176
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:162
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Background Opacity"
+msgstr "Hintergrund-Deckkraft"
+
+#: packages/woocommerce-blocks/assets/js/blocks/featured-category/block.js:164
+#: packages/woocommerce-blocks/assets/js/blocks/featured-product/block.js:150
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Overlay"
+msgstr "Overlay"
+
+#: packages/woocommerce-blocks/assets/js/components/product-control/index.js:249
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Search for a product to display"
+msgstr "Nach einem Produkt suchen, das angezeigt werden soll"
+
+#: packages/woocommerce-blocks/assets/js/components/products-control/index.js:56
+#: packages/woocommerce-blocks/assets/js/components/product-control/index.js:245
+#: packages/woocommerce-blocks/build/handpicked-products.js:1
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "Your store doesn't have any products."
+msgstr "Ihr Shop hat keine Produkte."
+
+#: packages/woocommerce-blocks/assets/js/components/product-control/index.js:200
+#: packages/woocommerce-blocks/build/featured-product.js:1
+msgid "%d variation"
+msgid_plural "%d variations"
+msgstr[0] "%d Variante"
+msgstr[1] "%d Varianten"
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/index.js:24
+#: packages/woocommerce-blocks/build/product-best-sellers.js:1
+msgid "Display a grid of your all-time best selling products."
+msgstr "Ein Raster mit Ihren meistverkauften Produkten anzeigen."
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/index.js:17
+#: packages/woocommerce-blocks/build/product-best-sellers.js:1
+msgid "Best Selling Products"
+msgstr "Meistverkaufte Produkte"
+
+#: packages/woocommerce-blocks/assets/js/blocks/product-top-rated/block.js:56
+#: packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/block.js:55
+#: packages/woocommerce-blocks/assets/js/blocks/product-on-sale/block.js:66
+#: packages/woocommerce-blocks/assets/js/blocks/product-new/block.js:55
+#: packages/woocommerce-blocks/build/product-on-sale.js:1
+#: packages/woocommerce-blocks/build/product-best-sellers.js:1
+#: packages/woocommerce-blocks/build/product-new.js:1
+#: packages/woocommerce-blocks/build/product-top-rated.js:1
+msgid "Filter by Product Category"
+msgstr "Nach Produkt-Kategorie filtern"
+
+#: packages/woocommerce-blocks/assets/js/components/product-category-control/index.js:129
+#: packages/woocommerce-blocks/build/featured-category.js:1
+#: packages/woocommerce-blocks/build/product-on-sale.js:1
+#: packages/woocommerce-blocks/build/product-best-sellers.js:1
+#: packages/woocommerce-blocks/build/product-category.js:1
+#: packages/woocommerce-blocks/build/product-new.js:1
+#: packages/woocommerce-blocks/build/product-top-rated.js:1
+msgid "Any selected categories"
+msgstr "Beliebige ausgewählte Kategorien"
+
 #: packages/woocommerce-blocks/assets/js/components/product-orderby-control/index.js:42
 #: packages/woocommerce-blocks/build/handpicked-products.js:1
 #: packages/woocommerce-blocks/build/product-on-sale.js:1
@@ -978,6 +1361,22 @@ msgstr "Produkttitel ist sichtbar."
 #: packages/woocommerce-blocks/build/product-tag.js:1
 msgid "Product title"
 msgstr "Produkttitel"
+
+#: packages/woocommerce-blocks/assets/js/components/product-tag-control/index.js:78
+#: packages/woocommerce-blocks/build/product-tag.js:1
+msgid "%d product tagged as %s"
+msgid_plural "%d products tagged as %s"
+msgstr[0] "%d Produkt verschlagwortet als %s"
+msgstr[1] "%d Produkte verschlagwortet als %s"
+
+#: src/Packages.php:87 src/Autoloader.php:48
+msgid "Your installation of WooCommerce is incomplete. If you installed WooCommerce from GitHub, please refer to this document to set up your development environment: https://github.com/woocommerce/woocommerce/wiki/How-to-set-up-WooCommerce-development-environment"
+msgstr "Ihre WooCommerce-Installation ist unvollständig. Wenn Sie WooCommerce von GitHub installiert haben, finden Sie in diesem Dokument Informationen zum Einrichten einer Entwicklungsumgebung: https://github.com/woocommerce/woocommerce/wiki/How-to-set-up-WooCommerce-development-environment"
+
+#. translators: 1: is a link to a support document. 2: closing link
+#: src/Packages.php:109 src/Autoloader.php:60
+msgid "Your installation of WooCommerce is incomplete. If you installed WooCommerce from GitHub, %1$splease refer to this document%2$s to set up your development environment."
+msgstr "Ihre WooCommerce-Installation ist unvollständig. Wenn Sie WooCommerce von GitHub installiert haben, finden Sie %1$sin diesem Dokument%2$s Informationen zum Einrichten einer Entwicklungsumgebung"
 
 #: packages/woocommerce-rest-api/src/Controllers/Version3/class-wc-rest-order-notes-controller.php:38
 msgid "woocommerce"
@@ -1507,6 +1906,40 @@ msgstr[1] "%1$d&ndash;%2$d von %3$d Ergebnissen werden angezeigt"
 msgid "Go to the shop"
 msgstr "Zum Shop gehen"
 
+#: packages/woocommerce-blocks/src/RestApi/Controllers/Products.php:334
+msgid "Short description or excerpt from description."
+msgstr "Kurzbeschreibung oder Textauszug aus der Beschreibung."
+
+#: packages/woocommerce-blocks/src/RestApi/Controllers/Products.php:273
+msgid "Operator to compare product tags."
+msgstr "Operator zum Vergleichen von Produkt-Schlagworten."
+
+#: packages/woocommerce-blocks/src/RestApi/Controllers/ProductCategories.php:169
+msgid "Category URL."
+msgstr "Kategorie-URL."
+
+#: packages/woocommerce-blocks/src/RestApi/Controllers/Products.php:322
+#: packages/woocommerce-blocks/src/RestApi/Controllers/Variations.php:113
+msgid "Product variation attributes, if applicable."
+msgstr "Produktvarianten-Attribute, falls zutreffend."
+
+#. Translators: %s package name.
+#: src/Packages.php:85 src/Packages.php:100
+msgid "Missing the WooCommerce %s package"
+msgstr "Das WooCommerce %s-Paket fehlt"
+
+#. translators: 1: composer command. 2: plugin directory
+#: packages/woocommerce-rest-api/woocommerce-rest-api.php:39
+#: packages/woocommerce-rest-api/woocommerce-rest-api.php:57
+msgid "Your installation of the WooCommerce REST API feature plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Ihre Installation des WooCommerce REST API-Plugins ist unvollständig. Bitte führen Sie %1$s im Verzeichnis %2$s aus."
+
+#. translators: 1: composer command. 2: plugin directory
+#: packages/woocommerce-blocks/woocommerce-gutenberg-products-block.php:40
+#: packages/woocommerce-blocks/woocommerce-gutenberg-products-block.php:58
+msgid "Your installation of the WooCommerce Blocks feature plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Ihre Installation des WooCommerce Blocks-Plugins ist unvollständig. Bitte führen Sie %1$s im Verzeichnis %2$s aus."
+
 #: includes/admin/class-wc-admin-setup-wizard.php:1930
 msgid "WooCommerce Admin icon"
 msgstr "WooCommerce Admin Icon"
@@ -1536,6 +1969,31 @@ msgstr "Schlagwörter (durch Leerzeichen getrennt)"
 msgid "Tags (comma separated)"
 msgstr "Schlagwörter (durch Komma getrennt)"
 
+#: includes/admin/class-wc-admin-setup-wizard.php:1928
+msgid "Manage your store's reports and monitor key metrics with a new and improved interface and dashboard."
+msgstr "Verwalten Sie die Berichte Ihres Shops und überwachen Sie wichtige Messdaten mit einer neuen und verbesserten Benutzeroberfläche und Dashboard."
+
+#: includes/admin/class-wc-admin-setup-wizard.php:958
+msgid "Use WooCommerce Shipping (powered by WooCommerce Services & Jetpack) to save time at the post office by printing your shipping labels at home."
+msgstr "Verwenden Sie WooCommerce Shipping (unterstützt von WooCommerce Services & Jetpack), um Zeit bei der Post zu sparen, indem Sie Ihre Versandetiketten zu Hause ausdrucken."
+
+#: includes/admin/class-wc-admin-setup-wizard.php:957
+#: includes/admin/class-wc-admin-setup-wizard.php:968
+msgid "Did you know you can print shipping labels at home?"
+msgstr "Wussten Sie, dass Sie Versandetiketten zu Hause drucken können?"
+
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:739
+msgid "Import as meta data"
+msgstr "Als Meta-Daten importieren"
+
+#: includes/admin/settings/views/settings-tax.php:67
+msgid "List additional tax classes you need below (1 per line, e.g. Reduced Rates). These are in addition to \"Standard rate\" which exists by default."
+msgstr "Listen Sie zusätzliche benötigte Steuerklassen unten auf (1 pro Zeile, zB „Reduzierte Preise“). Diese gelten zusätzlich zum „Standardsatz“, der standardmäßig vorhanden ist."
+
+#: includes/admin/settings/class-wc-settings-accounts.php:81
+msgid "When creating an account, automatically generate an account username for the customer based on their name, surname or email"
+msgstr "Beim Erstellen eines Kontos automatisch einen Benutzername für den Kunden generieren, basierend auf dessen Namen, Nachnamen oder E-Mail-Adresse"
+
 #: includes/emails/class-wc-email-customer-processing-order.php:144
 #: includes/emails/class-wc-email-customer-invoice.php:115
 msgid "Thanks for using {site_address}!"
@@ -1552,6 +2010,32 @@ msgstr "Datenbank Information:"
 #: includes/admin/views/html-admin-page-status-report.php:70
 msgid "WooCommerce REST API package"
 msgstr "WooCommerce REST API-Paket"
+
+#: includes/admin/views/html-admin-page-status-report.php:510
+msgid "Unable to retrieve database information. Usually, this is not a problem, and it only means that your install is using a class that replaces the WordPress database class (e.g., HyperDB) and WooCommerce is unable to get database information."
+msgstr "Datenbankinformationen können nicht abgerufen werden. Normalerweise ist dies kein Problem und bedeutet nur, dass Ihre Installation eine Klasse verwendet, welche die WordPress-Datenbankklasse (zB HyperDB) ersetzt und dadurch WooCommerce keine Datenbankinformationen abrufen kann."
+
+#. Translators: %1$f: Table size, %2$f: Index size, %3$s Engine.
+#: includes/admin/views/html-admin-page-status-report.php:485
+#: includes/admin/views/html-admin-page-status-report.php:499
+msgid "Data: %1$.2fMB + Index: %2$.2fMB + Engine %3$s"
+msgstr "Daten: %1$.2fMB + Index: %2$.2fMB + Engine %3$s"
+
+#: includes/admin/views/html-admin-page-status-report.php:79
+msgid "Unable to detect the REST API package."
+msgstr "Das REST-API-Paket wurde nicht gefunden."
+
+#: includes/admin/views/html-admin-page-status-report.php:71
+msgid "The WooCommerce REST API package running on your site."
+msgstr "Das WooCommerce REST API-Paket wird auf Ihrer Webseite ausgeführt."
+
+#: includes/admin/meta-boxes/views/html-product-attribute.php:10
+msgid "Drag and drop to set admin attribute order"
+msgstr "Drag-and-drop zum Festlegen der Reihenfolge der Admin-Attribute"
+
+#: includes/admin/class-wc-admin-assets.php:282
+msgid "Generate coupon code"
+msgstr "Gutscheincode generieren"
 
 #: includes/class-wc-countries.php:1210
 msgid "Town / Village"
@@ -1577,6 +2061,19 @@ msgstr "Steuerklassen-Titelform bereits vorhanden"
 #: includes/emails/class-wc-email-customer-refunded-order.php:279
 msgid "Additional content"
 msgstr "Zusätzlicher Inhalt"
+
+#: includes/emails/class-wc-email-cancelled-order.php:187
+#: includes/emails/class-wc-email-failed-order.php:185
+#: includes/emails/class-wc-email.php:677
+#: includes/emails/class-wc-email-new-order.php:192
+#: includes/emails/class-wc-email-customer-invoice.php:224
+#: includes/emails/class-wc-email-customer-refunded-order.php:280
+msgid "Text to appear below the main email content."
+msgstr "Text, der unter dem Hauptinhalt der E-Mail angezeigt wird."
+
+#: includes/class-wc-tax.php:797
+msgid "Tax class requires a valid name"
+msgstr "Für die Steuerklasse ist ein gültiger Name erforderlich"
 
 #: includes/wccom-site/class-wc-wccom-site-installer.php:420
 #: includes/wccom-site/class-wc-wccom-site-installer.php:456
@@ -1606,6 +2103,14 @@ msgstr "Fehler beim Abrufen der Produktinformationen von woocommerce.com"
 #: includes/class-wc-ajax.php:1327
 msgid "Order not editable"
 msgstr "Bestellung nicht bearbeitbar"
+
+#: includes/class-wc-api.php:78
+msgid "The Rest API is unavailable."
+msgstr "Die REST-API ist nicht verfügbar."
+
+#: includes/wccom-site/rest-api/endpoints/class-wc-rest-wccom-site-installer-controller.php:73
+msgid "You do not have permission to install plugin or theme"
+msgstr "Sie haben keine Berechtigung zum Installieren des Plugins oder Themes"
 
 #. translators: 1: Minimum PHP version 2: Minimum WordPress version
 #: includes/admin/class-wc-admin-notices.php:410
@@ -15820,6 +16325,13 @@ msgstr "Da Ihr Browser kein JavaScript unterstützt oder dieses deaktiviert ist,
 #: templates/checkout/form-login.php:32
 msgid "If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section."
 msgstr "Wenn Sie schon einmal bei uns eingekauft haben, geben Sie bitte unten Ihre Zugangsdaten ein. Wenn Sie Neukunde sind, gehen Sie bitte zum Bereich Rechnungsdetails."
+
+#. translators: %d: total results
+#: templates/loop/result-count.php:30
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] "Zeigt das %d Ergebnis"
+msgstr[1] "Zeigt alle %d Ergebnisse"
 
 #. translators: %s: number of orders
 #: includes/class-wc-post-types.php:551
