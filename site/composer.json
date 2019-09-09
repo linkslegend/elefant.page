@@ -153,7 +153,7 @@
     "wpackagist-plugin/fast-velocity-minify": "^2.6",
     "wpackagist-plugin/woo-variation-swatches": "^1.0",
     "wpackagist-plugin/enhanced-e-commerce-for-woocommerce-store": "^2.2",
-    "wpackagist-plugin/woo-ajax-mini-cart": "^1.0"
+    "wpackagist-plugin/woo-fly-cart": "^1.6"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

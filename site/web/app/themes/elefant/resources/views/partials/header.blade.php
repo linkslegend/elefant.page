@@ -67,7 +67,7 @@
                   </div>
                 </li>
                 <li id="hover" class="account cart">
-                      <?php echo do_shortcode('[WooCommerceWooCartPro]'); ?>
+                      <!--<?php echo do_shortcode('[WooCommerceWooCartPro]'); ?>-->
                       <span class="my-cart">Warenkorb</span>
                 </li>
               </ul>
