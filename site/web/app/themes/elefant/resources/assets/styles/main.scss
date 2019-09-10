@@ -31,7 +31,9 @@
 @import "components/woocommerce-single";
 @import "components/woocommerce-gallery";
 @import "components/woocommerce-tabs";
-@import "components/woocommerce-cartpopup";
+//@import "components/woocommerce-cartpopup";
+//@import "components/woocommerce-cartmodal";
+@import "components/woocommerce-flyoutcart";
 @import "components/woocommerce-upsells";
 @import "components/woocommerce-filter";
 @import "components/woocommerce-composite";
@@ -48,7 +50,6 @@
 @import "components/woocommerce-sliderproduct";
 @import "components/woocommerce-myaccount";
 @import "components/woocommerce-modal";
-@import "components/woocommerce-cartmodal";
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";

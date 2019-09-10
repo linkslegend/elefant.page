@@ -66,7 +66,8 @@
                     <?php echo do_shortcode('[ti_miniwishlist]'); ?>
                   </div>
                 </li>
-                <li id="hover" class="account cart">
+                <div id="woofc-count" class="woofc-count"><span id="woofc-count-number" class="woofc-count-number"></span></div>
+                <li id="hover" class="account cart woofc-count-shake">
                       <!--<?php echo do_shortcode('[WooCommerceWooCartPro]'); ?>-->
                       <span class="my-cart">Warenkorb</span>
                 </li>
