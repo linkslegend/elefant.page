@@ -16,7 +16,7 @@
     max-height: 100%;
     box-sizing: border-box;
     text-align: left;
-    z-index: 99999999;
+    z-index: 9999999999;
     transform: translate3d(20px, 0, 0);
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -62,12 +62,52 @@
 
   .woofc-area-mid {
     .woofc-item {
+      min-height: 80px;
+
       .woofc-item-inner {
         .woofc-item-info {
           dl.variation {
             dt {
               float: left;
               padding-right: 5px;
+            }
+          }
+        }
+
+        .woofc-item-qty {
+          bottom: 0;
+          position: absolute;
+          right: 0;
+
+          .woofc-item-qty-inner {
+            .woofc-item-qty-minus {
+              line-height: 27px;
+              text-align: center;
+              color: #444;
+              background-color: #eee;
+              font-size: 15px;
+              font-weight: 700;
+              border-radius: 8px 0 0 8px;
+              transition: all 0.25s;
+
+              &:hover {
+                color: #ff7003;
+              }
+            }
+
+            .woofc-item-qty-plus {
+              line-height: 27px;
+              text-align: center;
+              color: #444;
+              background-color: #eee;
+              font-size: 15px;
+              font-weight: 700;
+              border-radius: 8px 0 0 8px;
+              transition: all 0.25s;
+
+              &:hover {
+                color: #ff7003;
+              }
             }
           }
         }
@@ -153,6 +193,7 @@
       top: 2px;
       right: 2px;
       height: 25px;
+      box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.1);
       width: 25px;
       font-size: 12px;
       line-height: 25px;
