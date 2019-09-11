@@ -274,12 +274,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woo-bought-together.git",
-                "reference": "e95ee7cf46a6caa660357f1bf9ebcd62c3beeffd"
+                "reference": "f81b92e02ecca5ca405399a1cdd5b882eb0c19e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/e95ee7cf46a6caa660357f1bf9ebcd62c3beeffd",
-                "reference": "e95ee7cf46a6caa660357f1bf9ebcd62c3beeffd",
+                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/f81b92e02ecca5ca405399a1cdd5b882eb0c19e3",
+                "reference": "f81b92e02ecca5ca405399a1cdd5b882eb0c19e3",
                 "shasum": ""
             },
             "require": {
@@ -301,7 +301,7 @@
                 "source": "https://github.com/linkslegend/woo-bought-together/tree/master",
                 "issues": "https://github.com/linkslegend/woo-bought-together/issues"
             },
-            "time": "2019-08-19T10:15:56+00:00"
+            "time": "2019-09-11T13:32:26+00:00"
         },
         {
             "name": "linkslegend/woo-social-login",
@@ -1051,7 +1051,7 @@
         },
         {
             "name": "wpackagist-plugin/block-lab",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-lab/",
@@ -1059,7 +1059,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1567563726"
+                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1568168615"
             },
             "require": {
                 "composer/installers": "~1.0"
