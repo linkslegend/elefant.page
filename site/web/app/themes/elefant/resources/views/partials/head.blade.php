@@ -41,7 +41,7 @@
       loaders.forEach(function(item) {
         item.classList.add('hidden');
       });
-    }, 500);
+    }, 450);
   </script>
 
 @endif
