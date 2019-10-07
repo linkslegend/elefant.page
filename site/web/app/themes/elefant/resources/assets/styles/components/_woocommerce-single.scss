@@ -867,14 +867,14 @@ body.woo-variation-swatches-stylesheet-enabled {
 
           .single_add_to_cart_button {
             display: block;
-            width: 80%;
+            width: 65%;
             padding: 13px;
             cursor: pointer;
             border-radius: 5px;
             float: left;
             border: 1px solid #ff7003;
             font-weight: 600;
-            margin: 0;
+            margin: 0 5% 0 5%;
             background: #ff7003;
             color: #fff;
             text-align: center;
@@ -885,6 +885,14 @@ body.woo-variation-swatches-stylesheet-enabled {
               background: #72a700;
               border-color: #72a700;
             }
+          }
+
+          .tinv-wraper.tinvwl-after-add-to-cart {
+            display: block;
+            float: left;
+            margin-left: 0;
+            margin-top: 0;
+            width: 10%;
           }
         }
       }

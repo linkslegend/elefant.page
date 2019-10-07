@@ -412,3 +412,106 @@ body.woocommerce.single {
     }
   }
 }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  body.woocommerce.single {
+    .product {
+      .summary {
+        .woobt_wrap.woobt-wrap {
+          padding: 0;
+
+          .woobt_before_text.woobt-before-text.woobt-text {
+            text-align: center;
+          }
+
+          table.woobt_products.woobt-products.woobt-table {
+            border-collapse: separate;
+            border-spacing: 0 15px;
+            border: none;
+            width: 100%;
+            margin: 0;
+
+            tbody {
+              tr {
+                &.woobt-product.woobt-product-together {
+                  padding: 5px;
+
+                  &.woobt-hide {
+                    opacity: 1;
+                  }
+                }
+
+                td {
+                  padding: 10px 10px 10px 10px;
+                  background-color: #fff;
+                  border-width: 1px 0 1px 0;
+                  border-style: solid;
+                  border-color: #ddd;
+                  transition: all 0.25s;
+
+                  &.woobt-title {
+                    position: relative;
+
+                    .variations_form {
+                      margin: 0;
+                      padding: 0;
+                      display: block;
+                      float: none;
+
+                      .variations {
+                        display: inline-block;
+                        margin: 0;
+                        padding: 0;
+
+                        .reset {
+                          position: absolute;
+                          display: inline-block;
+                          padding: 0;
+                        }
+                      }
+                    }
+                  }
+
+                  &.woobt-thumb {
+                    width: 50px;
+                    padding: 10px 0;
+
+                    .woobt-thumb-ori,
+                    .woobt-thumb-new {
+                      img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                        border-radius: 8px;
+                        padding: 5px;
+                        border: 1px solid #ddd;
+                      }
+                    }
+                  }
+
+                  &.woobt-quantity {
+                    display: none;
+                  }
+                }
+
+                &:hover {
+                  td {
+                    background: #f2f2f2;
+                  }
+                }
+              }
+            }
+          }
+
+          .woobt_total.woobt-text {
+            float: right;
+            font-weight: 600;
+            padding-right: 5px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
