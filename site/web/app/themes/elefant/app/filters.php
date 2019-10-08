@@ -241,3 +241,10 @@ function misha_before_after_btn( $add_to_cart_html, $product, $args ){
 
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
+
+// Update WooCommerce Flexslider options
+add_filter( 'woocommerce_single_product_carousel_options', __NAMESPACE__ . '\\ud_update_woo_flexslider_options' );
+function ud_update_woo_flexslider_options( $options ) {
+    $options['directionNav'] = true;
+    return $options;
+}
