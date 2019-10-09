@@ -3,7 +3,7 @@
 .woocommerce-page #content div.product div.images,
 .woocommerce #content div.product div.images {
   float: left;
-  width: 40%;
+  width: 45%;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid #e9ecef;
@@ -33,6 +33,7 @@
 
 .woocommerce-product-gallery {
   position: relative;
+  overflow: visible;
 
   .flex-control-thumbs {
     overflow: hidden;
@@ -85,10 +86,8 @@
       margin: 0;
 
       li {
-        background: #ff7003;
-        border-radius: 100%;
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
         position: absolute;
         top: 50%;
         padding: 0;
@@ -108,47 +107,79 @@
 
         &.flex-nav-prev {
           float: left;
+          background: #ff7003;
+          border-radius: 100%;
           opacity: 0;
           visibility: hidden;
           transition: all 0.3s;
-          left: 0;
+          left: 10px;
 
           &:hover {
-            opacity: 1;
+            opacity: 0.9;
             visibility: visible;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
           }
 
           a.flex-prev {
-            content: "";
-            background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMjAuNjk3IDI0TDkuMzAzIDE2LjAwMyAyMC42OTcgOHoiLz48L3N2Zz4=");
-            font-weight: 700;
-            background-repeat: no-repeat;
-            background-size: cover;
+            background: none;
+            font-size: 0;
             height: 10px;
-            padding: 12px 12px;
+            padding: 15px 15px;
             display: block;
             width: 10px;
+
+            &::before {
+              content: "";
+              border: solid transparent;
+              width: 0;
+              position: absolute;
+              pointer-events: none;
+              border-color: rgba(255, 255, 255, 0);
+              border-right-color: #fff;
+              border-width: 7px;
+              margin-top: -8px;
+              left: 3px;
+              height: 0;
+            }
           }
         }
 
         &.flex-nav-next {
           float: right;
+          background: #ff7003;
+          border-radius: 100%;
           opacity: 0;
           visibility: hidden;
           transition: all 0.3s;
-          right: 0;
+          right: 10px;
 
           &:hover {
-            opacity: 1;
+            opacity: 0.9;
             visibility: visible;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
           }
 
-          &::before {
-            content: ">";
-            color: #fff;
-            font-weight: 700;
-            font-size: 15px;
-            padding: 8px;
+          a.flex-next {
+            background: none;
+            font-size: 0;
+            height: 10px;
+            padding: 15px 15px;
+            display: block;
+            width: 10px;
+
+            &::before {
+              content: "";
+              border: solid transparent;
+              width: 0;
+              position: absolute;
+              pointer-events: none;
+              border-color: rgba(255, 255, 255, 0);
+              border-left-color: #fff;
+              border-width: 7px;
+              margin-top: -7px;
+              left: 13px;
+              height: 0;
+            }
           }
         }
       }
@@ -189,15 +220,16 @@
 
 .woocommerce-product-gallery__trigger {
   position: absolute;
-  top: 0.5em;
-  right: 0.5em;
+  top: -15px;
+  right: -15px;
   font-size: 2em;
   z-index: 9;
   width: 36px;
+  border: 1px solid #e9ecef;
   height: 36px;
   background: #fff;
   text-indent: -9999px;
-  border-radius: 100%;
+  border-radius: 8px;
   box-sizing: content-box;
 
   &::before {
@@ -225,6 +257,12 @@
     left: 22px;
     transform: rotate(-45deg);
     box-sizing: content-box;
+  }
+}
+
+.pswp.pswp--open {
+  .pswp__bg {
+    background: rgba(0, 0, 0, 0.85);
   }
 }
 
