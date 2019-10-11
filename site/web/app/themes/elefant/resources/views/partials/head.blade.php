@@ -34,20 +34,16 @@
     is_page_template( 'templates/about.php' ) ||
     is_page_template( 'views/page-sidebar.blade.php' )
   )
-
-  <script>
-    setTimeout(function() {
-      let loaders = document.querySelectorAll('.preload');
-      loaders.forEach(function(item) {
-        item.classList.add('hidden');
-      });
-    }, 450);
-  </script>
-
 @endif
 
   @php wp_head() @endphp
-  
+
+  <script>
+    jQuery(window).on('load', function () {
+      jQuery('.preload').addClass('hidden');
+    });
+  </script>  
+
   <!--<script>
     // register service worker:
             if ('serviceWorker' in navigator) {
