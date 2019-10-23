@@ -732,16 +732,16 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.2.3",
+            "version": "5.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.2.3"
+                "reference": "5.2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.3",
-                "reference": "5.2.3"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.4",
+                "reference": "5.2.4"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -765,7 +765,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-09-04T22:41:56+00:00"
+            "time": "2019-10-14T20:28:22+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -1087,15 +1087,15 @@
         },
         {
             "name": "wpackagist-plugin/cf7-conditional-fields",
-            "version": "1.6.4",
+            "version": "1.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf7-conditional-fields/",
-                "reference": "trunk"
+                "reference": "tags/1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.zip?timestamp=1562244022"
+                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1195,15 +1195,15 @@
         },
         {
             "name": "wpackagist-plugin/fast-velocity-minify",
-            "version": "2.7.6",
+            "version": "2.7.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fast-velocity-minify/",
-                "reference": "tags/2.7.6"
+                "reference": "tags/2.7.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.7.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.7.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1321,15 +1321,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
-            "version": "2.4.2",
+            "version": "2.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-gutenberg-products-block/",
-                "reference": "tags/2.4.2"
+                "reference": "tags/2.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.4.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1411,15 +1411,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-stripe",
-            "version": "4.2.5",
+            "version": "4.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
-                "reference": "tags/4.2.5"
+                "reference": "tags/4.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.2.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.3.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1447,15 +1447,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.2",
+            "version": "12.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.2"
+                "reference": "tags/12.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1719,16 +1719,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "0afebf16a2e7f1e434920fa976253576151effe9"
+                "reference": "82cd0f854ceca17731d6d019c7098e3755c45060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/0afebf16a2e7f1e434920fa976253576151effe9",
-                "reference": "0afebf16a2e7f1e434920fa976253576151effe9",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/82cd0f854ceca17731d6d019c7098e3755c45060",
+                "reference": "82cd0f854ceca17731d6d019c7098e3755c45060",
                 "shasum": ""
             },
             "require": {
@@ -1766,7 +1766,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-09-26T23:12:26+00:00"
+            "time": "2019-10-16T21:14:26+00:00"
         }
     ],
     "aliases": [],
