@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec37aaa33bbc5ad525e35a88e771d84c",
+    "content-hash": "af4436f86e176ed1a5dc54c6ca76a98e",
     "packages": [
         {
             "name": "composer/installers",
@@ -1066,6 +1066,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/block-lab/"
+        },
+        {
+            "name": "wpackagist-plugin/breeze",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/breeze/",
+                "reference": "tags/1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/breeze.1.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/breeze/"
         },
         {
             "name": "wpackagist-plugin/cdn-enabler",
