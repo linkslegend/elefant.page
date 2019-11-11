@@ -204,12 +204,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/prdctfltr.git",
-                "reference": "a15ff5bff1c12a99b1df85e7e6e5f87a1ece659a"
+                "reference": "f889a8a2fc12de9e177e6fa77758e1ab20dd8c24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/a15ff5bff1c12a99b1df85e7e6e5f87a1ece659a",
-                "reference": "a15ff5bff1c12a99b1df85e7e6e5f87a1ece659a",
+                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/f889a8a2fc12de9e177e6fa77758e1ab20dd8c24",
+                "reference": "f889a8a2fc12de9e177e6fa77758e1ab20dd8c24",
                 "shasum": ""
             },
             "require": {
@@ -231,7 +231,7 @@
                 "source": "https://github.com/linkslegend/prdctfltr/tree/master",
                 "issues": "https://github.com/linkslegend/prdctfltr/issues"
             },
-            "time": "2019-10-07T11:04:53+00:00"
+            "time": "2019-11-11T12:00:53+00:00"
         },
         {
             "name": "linkslegend/ti-woocommerce-wishlist-premium",
@@ -274,12 +274,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/woo-bought-together.git",
-                "reference": "f81b92e02ecca5ca405399a1cdd5b882eb0c19e3"
+                "reference": "369e3b42782519ec922fef983382321b85f40abf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/f81b92e02ecca5ca405399a1cdd5b882eb0c19e3",
-                "reference": "f81b92e02ecca5ca405399a1cdd5b882eb0c19e3",
+                "url": "https://api.github.com/repos/linkslegend/woo-bought-together/zipball/369e3b42782519ec922fef983382321b85f40abf",
+                "reference": "369e3b42782519ec922fef983382321b85f40abf",
                 "shasum": ""
             },
             "require": {
@@ -301,7 +301,7 @@
                 "source": "https://github.com/linkslegend/woo-bought-together/tree/master",
                 "issues": "https://github.com/linkslegend/woo-bought-together/issues"
             },
-            "time": "2019-09-11T13:32:26+00:00"
+            "time": "2019-11-11T11:43:30+00:00"
         },
         {
             "name": "linkslegend/woo-social-login",
@@ -1033,15 +1033,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.8.5",
+            "version": "5.8.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.8.5"
+                "reference": "tags/5.8.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1051,7 +1051,7 @@
         },
         {
             "name": "wpackagist-plugin/block-lab",
-            "version": "1.4.1",
+            "version": "1.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-lab/",
@@ -1059,7 +1059,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1568168615"
+                "url": "https://downloads.wordpress.org/plugin/block-lab.zip?timestamp=1573445469"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1087,15 +1087,15 @@
         },
         {
             "name": "wpackagist-plugin/cf7-conditional-fields",
-            "version": "1.7",
+            "version": "1.7.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf7-conditional-fields/",
-                "reference": "tags/1.7"
+                "reference": "tags/1.7.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.7.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1231,15 +1231,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-woocommerce",
-            "version": "2.2.4",
+            "version": "2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/",
-                "reference": "tags/2.2.4"
+                "reference": "tags/2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-woocommerce.2.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-woocommerce.2.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1321,15 +1321,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
-            "version": "2.4.3",
+            "version": "2.4.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-gutenberg-products-block/",
-                "reference": "tags/2.4.3"
+                "reference": "tags/2.4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.4.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.4.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1339,15 +1339,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-preview-emails",
-            "version": "1.5.1",
+            "version": "1.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-preview-emails/",
-                "reference": "tags/1.5.1"
+                "reference": "tags/1.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-preview-emails.1.5.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/woo-preview-emails.1.5.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1357,7 +1357,7 @@
         },
         {
             "name": "wpackagist-plugin/woo-variation-swatches",
-            "version": "1.0.63",
+            "version": "1.0.64",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-variation-swatches/",
@@ -1365,7 +1365,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.zip?timestamp=1570032850"
+                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.zip?timestamp=1572038845"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1375,15 +1375,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.7.1",
+            "version": "3.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.7.1"
+                "reference": "tags/3.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.8.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1447,15 +1447,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.3",
+            "version": "12.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.3"
+                "reference": "tags/12.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1507,12 +1507,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "eb59d9f35a47f567ae15e7179d7c666489cd4b85"
+                "reference": "15eb463aecc9e315b89b744ee0feb0bb1b4c6787"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/eb59d9f35a47f567ae15e7179d7c666489cd4b85",
-                "reference": "eb59d9f35a47f567ae15e7179d7c666489cd4b85",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/15eb463aecc9e315b89b744ee0feb0bb1b4c6787",
+                "reference": "15eb463aecc9e315b89b744ee0feb0bb1b4c6787",
                 "shasum": ""
             },
             "conflict": {
@@ -1601,7 +1601,7 @@
                 "propel/propel": ">=2-alpha.1,<=2-alpha.7",
                 "propel/propel1": ">=1,<=1.7.1",
                 "pusher/pusher-php-server": "<2.2.1",
-                "robrichards/xmlseclibs": ">=1,<3.0.2",
+                "robrichards/xmlseclibs": ">=1,<3.0.4",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
@@ -1715,20 +1715,20 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-10-09T14:04:58+00:00"
+            "time": "2019-11-07T10:12:47+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "82cd0f854ceca17731d6d019c7098e3755c45060"
+                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/82cd0f854ceca17731d6d019c7098e3755c45060",
-                "reference": "82cd0f854ceca17731d6d019c7098e3755c45060",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
+                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
                 "shasum": ""
             },
             "require": {
@@ -1766,7 +1766,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-10-16T21:14:26+00:00"
+            "time": "2019-10-28T04:36:32+00:00"
         }
     ],
     "aliases": [],
