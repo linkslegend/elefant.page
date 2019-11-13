@@ -22,5 +22,6 @@
 </div>
 </footer>
 
-<!-- ManyChat -->
+<!-- ManyChat 
 <script src="//widget.manychat.com/156509297740628.js" async="async"></script>
+-->
