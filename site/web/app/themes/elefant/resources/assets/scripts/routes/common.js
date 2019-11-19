@@ -65,7 +65,7 @@ export default {
       if ( $('.multiple-items').length > 0 ) {
         tns({
           container: '.multiple-items',
-          items: 3,
+          items: 2,
           slideBy: 'page',
           mouseDrag: true,
           controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
@@ -74,7 +74,7 @@ export default {
           disable: false,
           autoplay: false,
           responsive: {
-            480: {
+            280: {
                 items: 1,
                 disable: true,
             },
@@ -102,12 +102,12 @@ export default {
           disable: false,
           autoplay: false,
           responsive: {
-            480: {
+            280: {
                 items: 1,
                 disable: true,
             },
             600: {
-                items: 1,
+                items: 2,
                 disable: false,
             },
             1024: {
@@ -250,9 +250,13 @@ export default {
           disable: false,
           autoplay: false,
           responsive: {
-            480: {
+            280: {
                 items: 2,
                 disable: true,
+            },
+            400: {
+              items: 2,
+              disable: false,
             },
             600: {
                 items: 4,

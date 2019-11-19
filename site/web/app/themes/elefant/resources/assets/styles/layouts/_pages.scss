@@ -682,6 +682,42 @@ address {
       }
     }
   }
+
+  .logo-slider-frontpage,
+  .product-slider-frontpage,
+  .multiple-items-top {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+
+    article,
+    .product-item.tns-item {
+      width: 85%;
+      display: inline-block;
+      vertical-align: top;
+
+      .article-inner {
+        header {
+          white-space: normal;
+
+          .meta {
+            margin-bottom: 15px;
+            position: relative;
+          }
+        }
+
+        .entry-summary {
+          white-space: normal;
+        }
+      }
+    }
+  }
+
+  ul.product-slider-frontpage {
+    padding: 0 0 25px 0;
+  }
 }
 
 // Extra large devices (large desktops)
