@@ -1,4 +1,6 @@
 import lozad from 'lozad';
+import { tns } from 'tiny-slider/src/tiny-slider';
+
 
 export default {
   init() {
@@ -59,263 +61,210 @@ export default {
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
-
     $(window).on('load', function() {
-      $('.multiple-items').slick({
-        infinite: false,
-        dots: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
-        nextArrow:'<button class="next"><i class="fas fa-arrow-right"></i>Next</button>',
-        responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-      ],
-      });
+      if ( $('.multiple-items').length > 0 ) {
+        tns({
+          container: '.multiple-items',
+          items: 3,
+          slideBy: 'page',
+          mouseDrag: true,
+          controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
+          gutter: 10,
+          lazyload: true,
+          disable: false,
+          autoplay: false,
+          responsive: {
+            480: {
+                items: 1,
+                disable: true,
+            },
+            600: {
+                items: 1,
+                disable: false,
+            },
+            1024: {
+                items: 2,
+                disable: false,
+            },
+          },
+        });
+      }
+
+      if ( $('.multiple-items-top').length > 0 ) {
+        tns({
+          container: '.multiple-items-top',
+          items: 2,
+          slideBy: 'page',
+          mouseDrag: true,
+          controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
+          gutter: 10,
+          lazyload: true,
+          disable: false,
+          autoplay: false,
+          responsive: {
+            480: {
+                items: 1,
+                disable: true,
+            },
+            600: {
+                items: 1,
+                disable: false,
+            },
+            1024: {
+                items: 2,
+                disable: false,
+            },
+          },
+        });
+      }
+
+      if ( $('.product-slider').length > 0 ) {
+        tns({
+          container: '.product-slider',
+          items: 2,
+          slideBy: 'page',
+          mouseDrag: true,
+          controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
+          gutter: 10,
+          lazyload: true,
+          disable: false,
+          autoplay: false,
+          responsive: {
+            480: {
+                items: 1,
+                disable: true,
+            },
+            600: {
+                items: 2,
+                disable: false,
+            },
+            1024: {
+                items: 3,
+                disable: false,
+            },
+            1440: {
+              items: 4,
+              disable: false,
+            },
+          },
+        });
+      }
+
+      if ( $('.columns-8').length > 0 ) {
+        tns({
+          container: '.columns-8',
+          items: 4,
+          slideBy: 'page',
+          mouseDrag: true,
+          controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
+          gutter: 10,
+          lazyload: true,
+          disable: false,
+          autoplay: false,
+          responsive: {
+            480: {
+                items: 1,
+                disable: true,
+            },
+            600: {
+                items: 2,
+                disable: false,
+            },
+            1024: {
+                items: 3,
+                disable: false,
+            },
+          },
+        });
+      }
   
-      $('.multiple-items-top').slick({
-        infinite: true,
-        dots: false,
-        lazyLoad: 'ondemand',
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
-        nextArrow:'<button class="next"><i class="fas fa-arrow-right"></i>Next</button>',
-        responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-      ],
-      });
+      if ( $('.div-li-slider').length > 0 ) {
+        tns({
+          container: '.div-li-slider',
+          items: 4,
+          slideBy: 'page',
+          mouseDrag: true,
+          controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
+          gutter: 10,
+          lazyload: true,
+          disable: false,
+          autoplay: false,
+          responsive: {
+            480: {
+                items: 1,
+                disable: true,
+            },
+            600: {
+                items: 2,
+                disable: false,
+            },
+            1024: {
+                items: 3,
+                disable: false,
+            },
+          },
+        });
+      }
   
-      $('.product-slider').slick({
-        infinite: false,
-        dots: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
-        nextArrow:'<button class="next"><i class="fas fa-arrow-right"></i>Next</button>',
-        responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-      ],
-      });
+      if ( $('.product-slider-frontpage').length > 0 ) {
+        tns({
+          container: '.product-slider-frontpage',
+          items: 4,
+          slideBy: 'page',
+          mouseDrag: true,
+          controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
+          gutter: 10,
+          lazyload: true,
+          disable: false,
+          autoplay: false,
+          responsive: {
+            280: {
+                items: 1,
+                disable: true,
+            },
+            460: {
+              items: 2,
+              disable: false,
+            },
+            660: {
+                items: 3,
+                disable: false,
+            },
+            1024: {
+              items: 4,
+              disable: false,
+            },
+          },
+        });
+      }
   
-      $('.columns-8').slick({
-        infinite: false,
-        dots: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
-        nextArrow:'<button class="next"><i class="fas fa-arrow-right"></i>Next</button>',
-        responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-      ],
-      });
-  
-      $('.div-li-slider').slick({
-        infinite: false,
-        dots: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
-        nextArrow:'<button class="next"><i class="fas fa-arrow-right"></i>Next</button>',
-        responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-      ],
-      });
-  
-      $('.product-slider-frontpage').slick({
-        infinite: true,
-        dots: false,
-        slidesToShow: 4,
-        lazyLoad: 'ondemand',
-        slidesToScroll: 1,
-        prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
-        nextArrow:'<button class="next"><i class="fas fa-arrow-right"></i>Next</button>',
-        responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-      ],
-      });
-  
-      $('.logo-slider-frontpage').slick({
-        infinite: false,
-        dots: false,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        prevArrow:'<button class="prev"><i class="fas fa-arrow-left"></i>Previous</button>',
-        nextArrow:'<button class="next"><i class="fas fa-arrow-right"></i>Next</button>',
-        responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-      ],
-      });
+      if ( $('.logo-slider-frontpage').length > 0 ) {
+        tns({
+          container: '.logo-slider-frontpage',
+          items: 6,
+          slideBy: 'page',
+          mouseDrag: true,
+          controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
+          gutter: 10,
+          lazyload: true,
+          disable: false,
+          autoplay: false,
+          responsive: {
+            480: {
+                items: 2,
+                disable: true,
+            },
+            600: {
+                items: 4,
+                disable: false,
+            },
+            1024: {
+                items: 5,
+                disable: false,
+            },
+          },
+        });
+      }
     });
   },
 };

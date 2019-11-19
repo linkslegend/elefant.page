@@ -189,16 +189,12 @@ body {
                       }
 
                       .multiple-items-top {
-                        .slick-list {
-                          padding: 0;
+                        padding: 0;
 
-                          .slick-track {
-                            article {
-                              .article-inner {
-                                .entry-summary {
-                                  font-size: 1em;
-                                }
-                              }
+                        article {
+                          .article-inner {
+                            .entry-summary {
+                              font-size: 1em;
                             }
                           }
                         }
@@ -236,163 +232,157 @@ body {
                         &.product-slider-frontpage {
                           padding: 15px 15px 0 15px;
 
-                          .slick-list {
-                            padding: 5px 15px 5px 15px;
+                          li.tns-item {
+                            &.product-item {
+                              width: 20%;
+                              height: auto;
+                              background: transparent;
+                              border: none;
+                              -webkit-box-shadow: none;
+                              box-shadow: none;
 
-                            .slick-track {
-                              li {
-                                &.product-item {
-                                  width: 20%;
-                                  height: auto;
-                                  background: transparent;
-                                  border: none;
-                                  -webkit-box-shadow: none;
-                                  box-shadow: none;
+                              .product-inner {
+                                position: relative;
+                                border-radius: 4px;
+                                margin: 0 5px;
+                                padding: 15px;
+                                background: #fff;
+                                box-shadow: none;
+                                border: 1px solid #e8e8e8;
+                                -webkit-transition: all 0.25s;
+                                -o-transition: all 0.25s;
+                                transition: all 0.25s;
 
-                                  .product-inner {
-                                    position: relative;
-                                    border-radius: 4px;
-                                    margin: 0 5px;
-                                    padding: 15px;
-                                    background: #fff;
-                                    box-shadow: none;
-                                    border: 1px solid #e8e8e8;
+                                a {
+                                  img {
+                                    margin: 0 auto 10px auto;
+                                    max-width: 100%;
+                                    height: auto;
+                                    border: none;
+                                    border-radius: 8px;
+                                  }
+
+                                  h3 {
+                                    font-size: 1.1em;
+                                    color: #1f1f32;
+                                    margin: 0 0 10px 0;
+                                    text-overflow: ellipsis;
+                                    -webkit-line-clamp: 2;
+                                    -webkit-box-orient: vertical;
+                                    height: 39px;
+                                    display: -webkit-box;
                                     -webkit-transition: all 0.25s;
                                     -o-transition: all 0.25s;
                                     transition: all 0.25s;
+                                    overflow: hidden;
+                                  }
 
-                                    a {
-                                      img {
-                                        margin: 0 auto 10px auto;
-                                        max-width: 100%;
-                                        height: auto;
-                                        border: none;
-                                        border-radius: 8px;
-                                      }
+                                  &.button.product_type_external {
+                                    display: none;
+                                  }
 
-                                      h3 {
-                                        font-size: 1.1em;
-                                        color: #1f1f32;
-                                        margin: 0 0 10px 0;
-                                        text-overflow: ellipsis;
-                                        -webkit-line-clamp: 2;
-                                        -webkit-box-orient: vertical;
-                                        height: 39px;
-                                        display: -webkit-box;
-                                        -webkit-transition: all 0.25s;
-                                        -o-transition: all 0.25s;
-                                        transition: all 0.25s;
-                                        overflow: hidden;
-                                      }
+                                  &.button.add_to_cart_button {
+                                    display: none;
+                                  }
 
-                                      &.button.product_type_external {
-                                        display: none;
-                                      }
+                                  span {
+                                    &.from {
+                                      display: none;
+                                    }
 
-                                      &.button.add_to_cart_button {
-                                        display: none;
-                                      }
+                                    &.price {
+                                      margin-bottom: 5px;
 
-                                      span {
-                                        &.from {
-                                          display: none;
-                                        }
+                                      del {
+                                        opacity: 1;
+                                        padding: 1px 9px 0 0;
+                                        display: block;
+                                        font-size: 0.9em;
+                                        float: left;
 
-                                        &.price {
-                                          margin-bottom: 5px;
+                                        span.woocommerce-Price-amount.amount {
+                                          position: relative;
 
-                                          del {
-                                            opacity: 1;
-                                            padding: 1px 9px 0 0;
+                                          &::after {
                                             display: block;
-                                            font-size: 0.9em;
-                                            float: left;
-
-                                            span.woocommerce-Price-amount.amount {
-                                              position: relative;
-
-                                              &::after {
-                                                display: block;
-                                                position: absolute;
-                                                width: 100%;
-                                                height: 0.15em;
-                                                top: 50%;
-                                                left: 0;
-                                                content: "";
-                                                z-index: 2;
-                                                background: none;
-                                                text-shadow: transparent;
-                                                background-image: radial-gradient(#ff4136 70%, transparent 0);
-                                                transform: rotate(-14deg) scaleX(1.2);
-                                              }
-                                            }
-                                          }
-
-                                          .woocommerce-Price-amount {
-                                            font-size: 1.1em;
-                                            white-space: nowrap;
-                                            color: #1f1f32;
-                                            font-weight: 700;
-                                            display: inline-block;
-                                            line-height: 1;
+                                            position: absolute;
+                                            width: 100%;
+                                            height: 0.15em;
+                                            top: 50%;
+                                            left: 0;
+                                            content: "";
+                                            z-index: 2;
+                                            background: none;
+                                            text-shadow: transparent;
+                                            background-image: radial-gradient(#ff4136 70%, transparent 0);
+                                            transform: rotate(-14deg) scaleX(1.2);
                                           }
                                         }
                                       }
 
-                                      &:hover {
-                                        text-decoration: none;
+                                      .woocommerce-Price-amount {
+                                        font-size: 1.1em;
+                                        white-space: nowrap;
+                                        color: #1f1f32;
+                                        font-weight: 700;
+                                        display: inline-block;
+                                        line-height: 1;
                                       }
                                     }
+                                  }
 
-                                    a.quick-view-button {
-                                      visibility: hidden;
-                                      opacity: 0;
-                                      transition: 0.3s;
-                                      margin-top: 0;
-                                      bottom: 100px;
-                                      padding: 10px;
-                                      right: 20px;
-                                      left: 20px;
-                                      border-radius: 8px;
-                                      font-size: 0.9em;
-                                      text-align: center;
-                                      width: auto;
-                                      background: #f2f2f2;
-                                      position: absolute;
+                                  &:hover {
+                                    text-decoration: none;
+                                  }
+                                }
+
+                                a.quick-view-button {
+                                  visibility: hidden;
+                                  opacity: 0;
+                                  transition: 0.3s;
+                                  margin-top: 0;
+                                  bottom: 100px;
+                                  padding: 10px;
+                                  right: 20px;
+                                  left: 20px;
+                                  border-radius: 8px;
+                                  font-size: 0.9em;
+                                  text-align: center;
+                                  width: auto;
+                                  background: #f2f2f2;
+                                  position: absolute;
+                                }
+
+                                &:hover {
+                                  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+                                  a {
+                                    h3.product-title {
+                                      color: #ff7003;
+                                      text-decoration: none;
                                     }
+                                  }
+
+                                  a.quick-view-button {
+                                    visibility: visible;
+                                    opacity: 1;
+                                    margin-top: 0;
+                                    bottom: 105px;
+                                    right: 25px;
+                                    left: 25px;
+                                    padding: 10px;
+                                    border-radius: 8px;
+                                    font-size: 0.9em;
+                                    text-align: center;
+                                    width: auto;
+                                    background: #f2f2f2;
+                                    position: absolute;
+                                    transition: all 0.3s;
 
                                     &:hover {
-                                      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-
-                                      a {
-                                        h3.product-title {
-                                          color: #ff7003;
-                                          text-decoration: none;
-                                        }
-                                      }
-
-                                      a.quick-view-button {
-                                        visibility: visible;
-                                        opacity: 1;
-                                        margin-top: 0;
-                                        bottom: 105px;
-                                        right: 25px;
-                                        left: 25px;
-                                        padding: 10px;
-                                        border-radius: 8px;
-                                        font-size: 0.9em;
-                                        text-align: center;
-                                        width: auto;
-                                        background: #f2f2f2;
-                                        position: absolute;
-                                        transition: all 0.3s;
-
-                                        &:hover {
-                                          background: #ff7003;
-                                          color: #fff;
-                                          box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
-                                        }
-                                      }
+                                      background: #ff7003;
+                                      color: #fff;
+                                      box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
                                     }
                                   }
                                 }
@@ -439,25 +429,19 @@ body {
                       ul.logo-slider-frontpage {
                         padding: 15px 15px 0 15px;
 
-                        .slick-list {
-                          padding: 15px 0 0 0;
+                        li.logo-item {
+                          height: auto;
 
-                          .slick-track {
-                            li.logo-item {
-                              height: auto;
+                          .logo-inner {
+                            display: block;
+                            padding: 20px;
 
-                              .logo-inner {
-                                display: block;
-                                padding: 20px;
-
-                                img.logo-img {
-                                  margin: 0;
-                                  float: none;
-                                  padding: 35px;
-                                  width: 100%;
-                                  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-                                }
-                              }
+                            img.logo-img {
+                              margin: 0;
+                              float: none;
+                              padding: 35px;
+                              width: 100%;
+                              box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
                             }
                           }
                         }
@@ -597,118 +581,112 @@ body {
                           &.product-slider-frontpage {
                             padding: 15px 15px 0 15px;
 
-                            .slick-list {
-                              padding: 5px 15px 5px 15px;
+                            li.tns-item {
+                              &.product-item {
+                                width: 20%;
+                                height: auto;
+                                background: transparent;
+                                border: none;
+                                -webkit-box-shadow: none;
+                                box-shadow: none;
 
-                              .slick-track {
-                                li {
-                                  &.product-item {
-                                    width: 20%;
-                                    height: auto;
-                                    background: transparent;
-                                    border: none;
-                                    -webkit-box-shadow: none;
-                                    box-shadow: none;
+                                .product-inner {
+                                  border-radius: 4px;
+                                  margin: 0 5px;
+                                  padding: 15px;
+                                  background: #fff;
+                                  box-shadow: none;
+                                  border: 1px solid #e8e8e8;
+                                  -webkit-transition: all 0.25s;
+                                  -o-transition: all 0.25s;
+                                  transition: all 0.25s;
 
-                                    .product-inner {
-                                      border-radius: 4px;
-                                      margin: 0 5px;
-                                      padding: 15px;
-                                      background: #fff;
-                                      box-shadow: none;
-                                      border: 1px solid #e8e8e8;
+                                  a {
+                                    img {
+                                      margin: 0 auto 10px auto;
+                                      max-width: 100%;
+                                      border: none;
+                                      border-radius: 8px;
+                                      height: auto;
+                                    }
+
+                                    h3 {
+                                      font-size: 1.1em;
+                                      color: #1f1f32;
+                                      margin: 0 0 5px 0;
+                                      text-overflow: ellipsis;
+                                      -webkit-line-clamp: 2;
+                                      -webkit-box-orient: vertical;
+                                      height: 45px;
+                                      display: -webkit-box;
                                       -webkit-transition: all 0.25s;
                                       -o-transition: all 0.25s;
                                       transition: all 0.25s;
+                                      overflow: hidden;
+                                    }
 
-                                      a {
-                                        img {
-                                          margin: 0 auto 10px auto;
-                                          max-width: 100%;
-                                          border: none;
-                                          border-radius: 8px;
-                                          height: auto;
-                                        }
+                                    &.button.product_type_external {
+                                      display: none;
+                                    }
 
-                                        h3 {
-                                          font-size: 1.1em;
-                                          color: #1f1f32;
-                                          margin: 0 0 5px 0;
-                                          text-overflow: ellipsis;
-                                          -webkit-line-clamp: 2;
-                                          -webkit-box-orient: vertical;
-                                          height: 45px;
-                                          display: -webkit-box;
-                                          -webkit-transition: all 0.25s;
-                                          -o-transition: all 0.25s;
-                                          transition: all 0.25s;
-                                          overflow: hidden;
-                                        }
+                                    &.button.add_to_cart_button {
+                                      display: none;
+                                    }
 
-                                        &.button.product_type_external {
-                                          display: none;
-                                        }
+                                    span {
+                                      &.price {
+                                        margin-bottom: 5px;
 
-                                        &.button.add_to_cart_button {
-                                          display: none;
-                                        }
+                                        del {
+                                          opacity: 1;
+                                          padding: 3px 9px 0 0;
+                                          display: block;
+                                          font-size: 0.9em;
+                                          float: left;
 
-                                        span {
-                                          &.price {
-                                            margin-bottom: 5px;
+                                          span.woocommerce-Price-amount.amount {
+                                            position: relative;
 
-                                            del {
-                                              opacity: 1;
-                                              padding: 3px 9px 0 0;
+                                            &::after {
                                               display: block;
-                                              font-size: 0.9em;
-                                              float: left;
-
-                                              span.woocommerce-Price-amount.amount {
-                                                position: relative;
-
-                                                &::after {
-                                                  display: block;
-                                                  position: absolute;
-                                                  width: 100%;
-                                                  height: 0.15em;
-                                                  top: 50%;
-                                                  left: 0;
-                                                  content: "";
-                                                  z-index: 2;
-                                                  background: none;
-                                                  text-shadow: transparent;
-                                                  background-image: radial-gradient(#ff4136 70%, transparent 0);
-                                                  transform: rotate(-14deg) scaleX(1.2);
-                                                }
-                                              }
-                                            }
-
-                                            .woocommerce-Price-amount {
-                                              font-size: 1.1em;
-                                              white-space: nowrap;
-                                              color: #1f1f32;
-                                              font-weight: 700;
-                                              display: inline-block;
-                                              line-height: 1;
+                                              position: absolute;
+                                              width: 100%;
+                                              height: 0.15em;
+                                              top: 50%;
+                                              left: 0;
+                                              content: "";
+                                              z-index: 2;
+                                              background: none;
+                                              text-shadow: transparent;
+                                              background-image: radial-gradient(#ff4136 70%, transparent 0);
+                                              transform: rotate(-14deg) scaleX(1.2);
                                             }
                                           }
                                         }
 
-                                        &:hover {
-                                          text-decoration: none;
+                                        .woocommerce-Price-amount {
+                                          font-size: 1.1em;
+                                          white-space: nowrap;
+                                          color: #1f1f32;
+                                          font-weight: 700;
+                                          display: inline-block;
+                                          line-height: 1;
                                         }
                                       }
+                                    }
 
-                                      &:hover {
-                                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+                                    &:hover {
+                                      text-decoration: none;
+                                    }
+                                  }
 
-                                        a {
-                                          h3.product-title {
-                                            color: #ff7003;
-                                            text-decoration: none;
-                                          }
-                                        }
+                                  &:hover {
+                                    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+                                    a {
+                                      h3.product-title {
+                                        color: #ff7003;
+                                        text-decoration: none;
                                       }
                                     }
                                   }
@@ -755,25 +733,19 @@ body {
                         ul.logo-slider-frontpage {
                           padding: 15px 15px 0 15px;
 
-                          .slick-list {
-                            padding: 15px 0 0 0;
+                          li.logo-item {
+                            height: auto;
 
-                            .slick-track {
-                              li.logo-item {
-                                height: auto;
+                            .logo-inner {
+                              display: block;
+                              padding: 20px;
 
-                                .logo-inner {
-                                  display: block;
-                                  padding: 20px;
-
-                                  img.logo-img {
-                                    margin: 0;
-                                    float: none;
-                                    padding: 35px;
-                                    width: 100%;
-                                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-                                  }
-                                }
+                              img.logo-img {
+                                margin: 0;
+                                float: none;
+                                padding: 35px;
+                                width: 100%;
+                                box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
                               }
                             }
                           }
@@ -894,118 +866,112 @@ body {
                           &.product-slider-frontpage {
                             padding: 15px 15px 0 15px;
 
-                            .slick-list {
-                              padding: 5px 15px 5px 15px;
+                            li.tns-item {
+                              &.product-item {
+                                width: 20%;
+                                height: auto;
+                                background: transparent;
+                                border: none;
+                                -webkit-box-shadow: none;
+                                box-shadow: none;
 
-                              .slick-track {
-                                li {
-                                  &.product-item {
-                                    width: 20%;
-                                    height: auto;
-                                    background: transparent;
-                                    border: none;
-                                    -webkit-box-shadow: none;
-                                    box-shadow: none;
+                                .product-inner {
+                                  border-radius: 4px;
+                                  margin: 0 5px;
+                                  padding: 15px;
+                                  background: #fff;
+                                  box-shadow: none;
+                                  border: 1px solid #e8e8e8;
+                                  -webkit-transition: all 0.25s;
+                                  -o-transition: all 0.25s;
+                                  transition: all 0.25s;
 
-                                    .product-inner {
-                                      border-radius: 4px;
-                                      margin: 0 5px;
-                                      padding: 15px;
-                                      background: #fff;
-                                      box-shadow: none;
-                                      border: 1px solid #e8e8e8;
+                                  a {
+                                    img {
+                                      margin: 0 auto 10px auto;
+                                      max-width: 100%;
+                                      height: auto;
+                                      border: none;
+                                      border-radius: 8px;
+                                    }
+
+                                    h3 {
+                                      font-size: 1.1em;
+                                      color: #1f1f32;
+                                      margin: 0 0 5px 0;
+                                      text-overflow: ellipsis;
+                                      -webkit-line-clamp: 2;
+                                      -webkit-box-orient: vertical;
+                                      height: 45px;
+                                      display: -webkit-box;
                                       -webkit-transition: all 0.25s;
                                       -o-transition: all 0.25s;
                                       transition: all 0.25s;
+                                      overflow: hidden;
+                                    }
 
-                                      a {
-                                        img {
-                                          margin: 0 auto 10px auto;
-                                          max-width: 100%;
-                                          height: auto;
-                                          border: none;
-                                          border-radius: 8px;
-                                        }
+                                    &.button.product_type_external {
+                                      display: none;
+                                    }
 
-                                        h3 {
-                                          font-size: 1.1em;
-                                          color: #1f1f32;
-                                          margin: 0 0 5px 0;
-                                          text-overflow: ellipsis;
-                                          -webkit-line-clamp: 2;
-                                          -webkit-box-orient: vertical;
-                                          height: 45px;
-                                          display: -webkit-box;
-                                          -webkit-transition: all 0.25s;
-                                          -o-transition: all 0.25s;
-                                          transition: all 0.25s;
-                                          overflow: hidden;
-                                        }
+                                    &.button.add_to_cart_button {
+                                      display: none;
+                                    }
 
-                                        &.button.product_type_external {
-                                          display: none;
-                                        }
+                                    span {
+                                      &.price {
+                                        margin-bottom: 5px;
 
-                                        &.button.add_to_cart_button {
-                                          display: none;
-                                        }
+                                        del {
+                                          opacity: 1;
+                                          padding: 3px 9px 0 0;
+                                          display: block;
+                                          font-size: 0.9em;
+                                          float: left;
 
-                                        span {
-                                          &.price {
-                                            margin-bottom: 5px;
+                                          span.woocommerce-Price-amount.amount {
+                                            position: relative;
 
-                                            del {
-                                              opacity: 1;
-                                              padding: 3px 9px 0 0;
+                                            &::after {
                                               display: block;
-                                              font-size: 0.9em;
-                                              float: left;
-
-                                              span.woocommerce-Price-amount.amount {
-                                                position: relative;
-
-                                                &::after {
-                                                  display: block;
-                                                  position: absolute;
-                                                  width: 100%;
-                                                  height: 0.15em;
-                                                  top: 50%;
-                                                  left: 0;
-                                                  content: "";
-                                                  z-index: 2;
-                                                  background: none;
-                                                  text-shadow: transparent;
-                                                  background-image: radial-gradient(#ff4136 70%, transparent 0);
-                                                  transform: rotate(-14deg) scaleX(1.2);
-                                                }
-                                              }
-                                            }
-
-                                            .woocommerce-Price-amount {
-                                              font-size: 1.1em;
-                                              white-space: nowrap;
-                                              color: #1f1f32;
-                                              font-weight: 700;
-                                              display: inline-block;
-                                              line-height: 1;
+                                              position: absolute;
+                                              width: 100%;
+                                              height: 0.15em;
+                                              top: 50%;
+                                              left: 0;
+                                              content: "";
+                                              z-index: 2;
+                                              background: none;
+                                              text-shadow: transparent;
+                                              background-image: radial-gradient(#ff4136 70%, transparent 0);
+                                              transform: rotate(-14deg) scaleX(1.2);
                                             }
                                           }
                                         }
 
-                                        &:hover {
-                                          text-decoration: none;
+                                        .woocommerce-Price-amount {
+                                          font-size: 1.1em;
+                                          white-space: nowrap;
+                                          color: #1f1f32;
+                                          font-weight: 700;
+                                          display: inline-block;
+                                          line-height: 1;
                                         }
                                       }
+                                    }
 
-                                      &:hover {
-                                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+                                    &:hover {
+                                      text-decoration: none;
+                                    }
+                                  }
 
-                                        a {
-                                          h3.product-title {
-                                            color: #ff7003;
-                                            text-decoration: none;
-                                          }
-                                        }
+                                  &:hover {
+                                    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+                                    a {
+                                      h3.product-title {
+                                        color: #ff7003;
+                                        text-decoration: none;
                                       }
                                     }
                                   }
@@ -1042,20 +1008,14 @@ body {
                         ul.logo-slider-frontpage {
                           padding: 15px 15px 0 15px;
 
-                          .slick-list {
-                            padding: 15px 0 0 0;
+                          li.logo-item {
+                            .logo-inner {
+                              padding: 10px;
 
-                            .slick-track {
-                              li.logo-item {
-                                .logo-inner {
-                                  padding: 10px;
-
-                                  img.logo-img {
-                                    padding: 25px;
-                                    width: 100%;
-                                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-                                  }
-                                }
+                              img.logo-img {
+                                padding: 25px;
+                                width: 100%;
+                                box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
                               }
                             }
                           }

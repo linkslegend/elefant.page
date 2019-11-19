@@ -24,167 +24,161 @@
               &.product-slider {
                 padding: 0;
 
-                .slick-list {
-                  padding: 5px 15px 5px 15px;
+                li.tns-item {
+                  &.type-product {
+                    width: 20%;
+                    padding: 0;
+                    height: auto;
+                    background: transparent;
+                    border: none;
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
 
-                  .slick-track {
-                    li {
-                      &.type-product {
-                        width: 20%;
-                        padding: 0;
-                        height: auto;
-                        background: transparent;
-                        border: none;
-                        -webkit-box-shadow: none;
-                        box-shadow: none;
+                    .product-inner {
+                      border-radius: 4px;
+                      margin: 0 5px;
+                      padding: 15px;
+                      background: #fff;
+                      -webkit-box-shadow: none;
+                      box-shadow: none;
+                      border: 1px solid #e8e8e8;
+                      -webkit-transition: all 0.25s;
+                      -o-transition: all 0.25s;
+                      transition: all 0.25s;
+                      position: relative;
 
-                        .product-inner {
-                          border-radius: 4px;
-                          margin: 0 5px;
-                          padding: 15px;
-                          background: #fff;
-                          -webkit-box-shadow: none;
-                          box-shadow: none;
-                          border: 1px solid #e8e8e8;
-                          -webkit-transition: all 0.25s;
-                          -o-transition: all 0.25s;
-                          transition: all 0.25s;
-                          position: relative;
+                      a {
+                        .onsale {
+                          padding: 0 7px;
+                          margin: 10px 23px 0 0;
+                        }
 
-                          a {
-                            .onsale {
-                              padding: 0 7px;
-                              margin: 10px 23px 0 0;
-                            }
+                        img {
+                          margin: 0 auto 10px auto;
+                          max-width: 100%;
+                          border: none;
+                          border-radius: 8px;
+                          height: auto;
+                        }
 
-                            img {
-                              margin: 0 auto 10px auto;
-                              max-width: 100%;
-                              border: none;
-                              border-radius: 8px;
-                              height: auto;
-                            }
+                        h2.woocommerce-loop-product__title {
+                          text-align: left;
+                          text-overflow: ellipsis;
+                          font-size: 1em;
+                          text-transform: inherit;
+                          color: rgba(0, 0, 0, 0.8);
+                          height: auto;
+                          margin: 0 0 15px 0;
+                          overflow: hidden;
+                          white-space: nowrap;
+                        }
 
-                            h2.woocommerce-loop-product__title {
-                              text-align: left;
-                              text-overflow: ellipsis;
-                              font-size: 1em;
-                              text-transform: inherit;
-                              color: rgba(0, 0, 0, 0.8);
-                              height: auto;
-                              margin: 0 0 15px 0;
-                              overflow: hidden;
-                              white-space: nowrap;
-                            }
+                        &.button.product_type_external {
+                          display: none;
+                        }
 
-                            &.button.product_type_external {
-                              display: none;
-                            }
+                        &.button.add_to_cart_button {
+                          display: none;
+                        }
 
-                            &.button.add_to_cart_button {
-                              display: none;
-                            }
+                        span {
+                          &.from {
+                            display: none;
+                          }
 
-                            span {
-                              &.from {
-                                display: none;
-                              }
+                          &.price {
+                            margin-bottom: 5px;
 
-                              &.price {
-                                margin-bottom: 5px;
+                            del {
+                              opacity: 1;
+                              padding: 0 9px 0 0;
+                              display: block;
+                              font-size: 0.9em;
+                              float: left;
 
-                                del {
-                                  opacity: 1;
-                                  padding: 0 9px 0 0;
+                              span.woocommerce-Price-amount.amount {
+                                position: relative;
+
+                                &::after {
                                   display: block;
-                                  font-size: 0.9em;
-                                  float: left;
-
-                                  span.woocommerce-Price-amount.amount {
-                                    position: relative;
-
-                                    &::after {
-                                      display: block;
-                                      position: absolute;
-                                      width: 100%;
-                                      height: 0.15em;
-                                      top: 50%;
-                                      left: 0;
-                                      content: "";
-                                      z-index: 2;
-                                      background: none;
-                                      text-shadow: transparent;
-                                      background-image: radial-gradient(#ff4136 70%, transparent 0);
-                                      transform: rotate(-14deg) scaleX(1.2);
-                                    }
-                                  }
-                                }
-
-                                .woocommerce-Price-amount {
-                                  font-size: 1.1em;
-                                  white-space: nowrap;
-                                  color: #1f1f32;
-                                  font-weight: 700;
-                                  display: inline-block;
-                                  line-height: 1;
+                                  position: absolute;
+                                  width: 100%;
+                                  height: 0.15em;
+                                  top: 50%;
+                                  left: 0;
+                                  content: "";
+                                  z-index: 2;
+                                  background: none;
+                                  text-shadow: transparent;
+                                  background-image: radial-gradient(#ff4136 70%, transparent 0);
+                                  transform: rotate(-14deg) scaleX(1.2);
                                 }
                               }
                             }
 
-                            &:hover {
-                              text-decoration: none;
+                            .woocommerce-Price-amount {
+                              font-size: 1.1em;
+                              white-space: nowrap;
+                              color: #1f1f32;
+                              font-weight: 700;
+                              display: inline-block;
+                              line-height: 1;
                             }
                           }
+                        }
 
-                          a.quick-view-button {
-                            visibility: hidden;
-                            opacity: 0;
-                            transition: 0.3s;
-                            margin-top: 0;
-                            bottom: 85px;
-                            padding: 10px;
-                            right: 20px;
-                            left: 20px;
-                            border-radius: 8px;
-                            font-size: 0.9em;
-                            text-align: center;
-                            width: auto;
-                            background: #f2f2f2;
-                            position: absolute;
+                        &:hover {
+                          text-decoration: none;
+                        }
+                      }
+
+                      a.quick-view-button {
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: 0.3s;
+                        margin-top: 0;
+                        bottom: 85px;
+                        padding: 10px;
+                        right: 20px;
+                        left: 20px;
+                        border-radius: 8px;
+                        font-size: 0.9em;
+                        text-align: center;
+                        width: auto;
+                        background: #f2f2f2;
+                        position: absolute;
+                      }
+
+                      &:hover {
+                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+                        a {
+                          h3.product-title {
+                            color: #ff7003;
+                            text-decoration: none;
                           }
+                        }
+
+                        a.quick-view-button {
+                          visibility: visible;
+                          opacity: 1;
+                          margin-top: 0;
+                          bottom: 95px;
+                          right: 25px;
+                          left: 25px;
+                          padding: 10px;
+                          border-radius: 8px;
+                          font-size: 0.9em;
+                          text-align: center;
+                          width: auto;
+                          background: #f2f2f2;
+                          position: absolute;
+                          transition: all 0.3s;
 
                           &:hover {
-                            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-
-                            a {
-                              h3.product-title {
-                                color: #ff7003;
-                                text-decoration: none;
-                              }
-                            }
-
-                            a.quick-view-button {
-                              visibility: visible;
-                              opacity: 1;
-                              margin-top: 0;
-                              bottom: 95px;
-                              right: 25px;
-                              left: 25px;
-                              padding: 10px;
-                              border-radius: 8px;
-                              font-size: 0.9em;
-                              text-align: center;
-                              width: auto;
-                              background: #f2f2f2;
-                              position: absolute;
-                              transition: all 0.3s;
-
-                              &:hover {
-                                background: #ff7003;
-                                color: #fff;
-                                box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
-                              }
-                            }
+                            background: #ff7003;
+                            color: #fff;
+                            box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.1);
                           }
                         }
                       }
