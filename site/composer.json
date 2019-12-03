@@ -77,6 +77,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:linkslegend/indeed-ultimate-affiliate-pro.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:linkslegend/woocommerce-quick-view.git"
     },
     {
@@ -134,6 +138,7 @@
     "linkslegend/wp-sync-db": "dev-master",
     "linkslegend/woo-variation-swatches-pro": "dev-master",
     "linkslegend/woo-bought-together": "dev-master",
+    "linkslegend/indeed-ultimate-affiliate-pro": "dev-master",
     "wpackagist-plugin/woocommerce": "^3.5",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^4.1",
     "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout": "^1.6",
