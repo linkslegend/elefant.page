@@ -38,11 +38,11 @@
 
   @php wp_head() @endphp
 
-  <script>
+ <!-- <script>
     jQuery(window).on('load', function () {
       jQuery('.preload').addClass('hidden');
     });
-  </script>  
+  </script>  -->
 
   <!--<script>
     // register service worker:

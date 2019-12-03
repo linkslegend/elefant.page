@@ -2,7 +2,7 @@
 <html {!! get_language_attributes() !!}>
   @include('partials.head')
   <body @php body_class() @endphp>
-  @include('partials.preloader')
+  {{-- @include('partials.preloader') --}}
   <div class="overlay"></div>
     @php do_action('get_header') @endphp
     @include('partials.header')

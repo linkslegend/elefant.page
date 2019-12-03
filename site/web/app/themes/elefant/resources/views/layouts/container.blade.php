@@ -12,7 +12,7 @@
   is_page_template( 'templates/about.php' ) ||
   is_page_template( 'views/page-sidebar.blade.php' )
   )
-    @include('partials.preloader')
+    {{-- @include('partials.preloader') --}}
   @endif
   
   <div class="overlay"></div>
