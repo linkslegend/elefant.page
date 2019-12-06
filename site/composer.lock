@@ -775,8 +775,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3",
-                "reference": "5.3"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1446,15 +1445,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout",
-            "version": "1.6.17",
+            "version": "1.6.18",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-paypal-express-checkout/",
-                "reference": "tags/1.6.17"
+                "reference": "tags/1.6.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.1.6.17.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.1.6.18.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
