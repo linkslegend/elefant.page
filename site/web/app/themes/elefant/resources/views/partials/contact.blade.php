@@ -18,7 +18,7 @@
     <br  />
     Haben Sie Fragen, Wünsche oder Anregungen? Bitte nehmen Sie Kontakt mit uns auf, wir helfen Ihnen gerne weiter!<br  />
     <br  />
-      <?php echo do_shortcode ('[contact-form-7 id="232" title="kontakt"]'); ?>
+      <?php echo do_shortcode ('[contact-form-7 id="680" title="Kontaktformular"]'); ?>
   </div>
 
   <div class="order-1 order-xl-2 order-md-2 order-sm-1 col-md-4 col-sm-12">

@@ -148,7 +148,8 @@
     "wpackagist-plugin/enhanced-e-commerce-for-woocommerce-store": "^2.2",
     "wpackagist-plugin/woo-fly-cart": "^1.6",
     "wpackagist-plugin/breeze": "^1.1",
-    "wpackagist-plugin/wp-mail-smtp": "^1.7"
+    "wpackagist-plugin/wp-mail-smtp": "^1.7",
+    "wpackagist-plugin/contact-form-7-honeypot": "^1.14"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
