@@ -8,9 +8,7 @@
     </div>
   </div>
 
-<div class="row">
-
-  <div class="order-2 order-xl-1 oder-md-2 order-sm-2 col-md-8 col-sm-12">
+  <div class="content-box">
     Manche IT-Probleme lassen sich bequem per Fernwartung oder durch telefonischen Support beheben. Das spart Zeit und Geld.
     <br  />
     Sie erreichen mich innerhalb meiner Geschäftszeiten Montags bis Freitags von 08:00 bis 17:00.
@@ -21,7 +19,7 @@
       <?php echo do_shortcode ('[contact-form-7 id="680" title="Kontaktformular"]'); ?>
   </div>
 
-  <div class="order-1 order-xl-2 order-md-2 order-sm-1 col-md-4 col-sm-12">
+  <aside class="sidebar">
 
     <a class="contact w-100" href="mailto:nd@intermac.de">
       <button class="btn btn-primary text-white email w-100"><i class="fas fa-envelope"></i>nd@intermac.de</button>
@@ -40,7 +38,7 @@
     	<abbr title="Fax">Fax:</abbr> +49 0261 922-31-56<br>
     	<abbr title="Email">E-Mail:</abbr> <a href="mailto:info@intermac.de">info@intermac.de</a>
     </address>
-  </div>
+  </aside>
 
 </div>
 </div>
