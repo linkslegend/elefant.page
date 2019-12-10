@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d29465df6984e54990dbe59f8f8172bb",
+    "content-hash": "c667fbcff0bc31beed2def9dca96f43a",
     "packages": [
         {
             "name": "composer/installers",
@@ -197,41 +197,6 @@
                 "issues": "https://github.com/linkslegend/indeed-ultimate-affiliate-pro/issues"
             },
             "time": "2019-12-02T14:07:14+00:00"
-        },
-        {
-            "name": "linkslegend/multiple-external-product-urls-for-woocommerce",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/multiple-external-product-urls-for-woocommerce.git",
-                "reference": "da33848a776b2423e50b8e5f6e7c2d32ec9538d8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/multiple-external-product-urls-for-woocommerce/zipball/da33848a776b2423e50b8e5f6e7c2d32ec9538d8",
-                "reference": "da33848a776b2423e50b8e5f6e7c2d32ec9538d8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Original Plugin Author's Name",
-                    "homepage": "https://originalpluginurl.com"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/multiple-external-product-urls-for-woocommerce",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/multiple-external-product-urls-for-woocommerce/tree/master",
-                "issues": "https://github.com/linkslegend/multiple-external-product-urls-for-woocommerce/issues"
-            },
-            "time": "2019-03-08T14:14:30+00:00"
         },
         {
             "name": "linkslegend/prdctfltr",
@@ -512,41 +477,6 @@
                 "issues": "https://github.com/linkslegend/woocommerce-tab-manager/issues"
             },
             "time": "2019-04-05T17:23:51+00:00"
-        },
-        {
-            "name": "linkslegend/woocommerce-woocart-pro",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:linkslegend/woocommerce-woocart-pro.git",
-                "reference": "ae01170f898ca334b8e367bbffb1427866e63053"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/woocommerce-woocart-pro/zipball/ae01170f898ca334b8e367bbffb1427866e63053",
-                "reference": "ae01170f898ca334b8e367bbffb1427866e63053",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Original Plugin Author's Name",
-                    "homepage": "https://originalpluginurl.com"
-                }
-            ],
-            "homepage": "https://github.com/linkslegend/woocommerce-woocart-pro",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/linkslegend/woocommerce-woocart-pro/tree/master",
-                "issues": "https://github.com/linkslegend/woocommerce-woocart-pro/issues"
-            },
-            "time": "2019-09-09T15:04:42+00:00"
         },
         {
             "name": "linkslegend/wp-sync-db",
@@ -1247,24 +1177,6 @@
             "homepage": "https://wordpress.org/plugins/facebook-for-woocommerce/"
         },
         {
-            "name": "wpackagist-plugin/fast-velocity-minify",
-            "version": "2.7.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/fast-velocity-minify/",
-                "reference": "tags/2.7.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fast-velocity-minify.2.7.7.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/fast-velocity-minify/"
-        },
-        {
             "name": "wpackagist-plugin/favorites",
             "version": "2.3.1",
             "source": {
@@ -1551,24 +1463,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-migrate-db/"
-        },
-        {
-            "name": "wpackagist-plugin/wpcf7-recaptcha",
-            "version": "1.2.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wpcf7-recaptcha/",
-                "reference": "tags/1.2.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpcf7-recaptcha.1.2.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wpcf7-recaptcha/"
         }
     ],
     "packages-dev": [
@@ -1852,9 +1746,7 @@
         "linkslegend/woocommerce-composite-products": 20,
         "linkslegend/yith-woocommerce-custom-order-status": 20,
         "linkslegend/yith-woocommerce-bulk-product-editing-premium": 20,
-        "linkslegend/multiple-external-product-urls-for-woocommerce": 20,
         "linkslegend/woocommerce-tab-manager": 20,
-        "linkslegend/woocommerce-woocart-pro": 20,
         "linkslegend/ti-woocommerce-wishlist-premium": 20,
         "linkslegend/woocommerce-quick-view": 20,
         "linkslegend/woo-social-login": 20,

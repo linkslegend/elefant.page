@@ -89,19 +89,11 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:linkslegend/woocommerce-woocart-pro.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:linkslegend/wp-sync-db.git"
     },
     {
       "type": "vcs",
       "url": "git@github.com:linkslegend/woo-variation-swatches-pro.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:linkslegend/multiple-external-product-urls-for-woocommerce.git"
     },
     {
       "type": "vcs",
@@ -129,9 +121,7 @@
     "linkslegend/woocommerce-composite-products": "dev-master",
     "linkslegend/yith-woocommerce-custom-order-status": "dev-master",
     "linkslegend/yith-woocommerce-bulk-product-editing-premium": "dev-master",
-    "linkslegend/multiple-external-product-urls-for-woocommerce": "dev-master",
     "linkslegend/woocommerce-tab-manager": "dev-master",
-    "linkslegend/woocommerce-woocart-pro": "dev-master",
     "linkslegend/ti-woocommerce-wishlist-premium": "dev-master",
     "linkslegend/woocommerce-quick-view": "dev-master",
     "linkslegend/woo-social-login": "dev-master",
@@ -153,9 +143,7 @@
     "wpackagist-plugin/favorites": "^2.3",
     "wpackagist-plugin/resmushit-image-optimizer": "^0.1.22",
     "wpackagist-plugin/query-monitor": "^3.3",
-    "wpackagist-plugin/wpcf7-recaptcha": "^1.1",
     "wpackagist-plugin/cdn-enabler": "^1.0",
-    "wpackagist-plugin/fast-velocity-minify": "^2.6",
     "wpackagist-plugin/woo-variation-swatches": "^1.0",
     "wpackagist-plugin/enhanced-e-commerce-for-woocommerce-store": "^2.2",
     "wpackagist-plugin/woo-fly-cart": "^1.6",
