@@ -251,6 +251,18 @@ a.contact {
   }
 }
 
+.page-featured-image {
+  height: auto;
+  margin: 25px 0;
+  max-width: 1000px;
+  overflow: hidden;
+  border-radius: 8px;
+
+  img {
+    width: 100%;
+  }
+}
+
 .post-featured-image {
   height: 350px;
   margin: 50px 0;

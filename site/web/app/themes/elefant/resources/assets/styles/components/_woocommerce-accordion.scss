@@ -1,0 +1,110 @@
+.accordion {
+  display: block;
+
+  .card {
+    border: none;
+
+    .card-header {
+      padding: 0;
+      margin: 0;
+      background: transparent;
+
+      h5 {
+        font-size: 1.1em;
+
+        .btn.btn-link {
+          background: #f27121;
+          color: #fff;
+          width: 100%;
+          text-align: left;
+          padding: 10px 10px 10px 30px;
+          transition: all 0.3s;
+          text-decoration: none;
+
+          &::before {
+            content: "-";
+            font-weight: 600;
+            position: absolute;
+            font-size: 1.5em;
+            left: 12px;
+            top: 3px;
+          }
+
+          &.collapsed {
+            background: rgba(0, 0, 0, 0.03);
+            color: #f27121;
+
+            &::before {
+              content: "+";
+              left: 10px;
+              top: 5px;
+            }
+          }
+
+          &:hover {
+            background: #f27121;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .card-body {
+      margin: 15px 0 15px 0;
+      border-radius: 8px;
+      position: relative;
+      background: #f2f2f2;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 30px;
+        top: -15px;
+        -webkit-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(0%);
+        height: 0;
+        width: 0;
+        border: 8px solid transparent;
+        border-bottom-color: #f2f2f2;
+        opacity: 1;
+        -webkit-transition: opacity 0.2s;
+        -o-transition: opacity 0.2s;
+        transition: opacity 0.2s;
+      }
+    }
+  }
+}
+
+/*
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+*/
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .accordion {
+    display: block;
+  }
+}
+
+/*
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+*/
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .accordion {
+    display: block;
+  }
+}
+
+/*
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+@media (min-width: 992px) {
+}
+*/
