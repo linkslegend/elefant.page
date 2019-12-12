@@ -514,11 +514,11 @@ function intermac_woocommerce_email_styles( $css, $email ) {
     #header_wrapper { padding: 28px 38px 0; }
     #main-header { background-color: #f7f7f7; margin: 0; width: 100%; -webkit-text-size-adjust: none; }
     #body_content_inner p { z-index: 4; position: relative; }
-    blockquote { background: #f4f4f4; border: 1px solid #e5e5e5; padding: 20px; border-radius: 4px; font-size: 15px; margin: 15px 0px; }
+    blockquote { background: #f4f4f4; border: 1px solid #e5e5e5; padding: 20px; border-radius: 8px; font-size: 15px; margin: 15px 0px; }
     .email-nav { display: block; width: 600px; background: #ffffff; box-shadow: 0 1px 4px rgba(0,0,0,0.1); color: #dedede; border: 1px solid #dedede; border-radius: 8px; padding: 0; margin: 20px auto 0 auto; }
     .email-nav ul { list-style: none; display: inline-block; padding: 15px; margin: 0;}
     .email-nav ul li { list-style: none; display: inline-block; padding: 0 5px; }
-    .email-nav ul li a { color: #ff7003; text-decoration: none; transition: all 0.3s; border-radius: 4px; font-size: 0.85em; }
+    .email-nav ul li a { color: #ff7003; text-decoration: none; transition: all 0.3s; border-radius: 8px; font-size: 0.85em; }
     .legal ul, .contact ul, .social-media ul { padding: 0; margin: 15px 0; text-align: center; }
     .legal ul li, .contact ul li, .social-media ul li { list-style: none; display: inline-block; padding-right: 5px; }
     .legal { font-size: 0.85em; color: #afafaf; position: relative; }

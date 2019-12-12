@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( $related_products ) : ?>
-
+	<?php $classes[] = 'swiper-slide'; ?>
 	<section class="related products">
 
 		<h2><?php esc_html_e( 'Related products', 'woocommerce' ); ?></h2>
@@ -31,7 +31,6 @@ if ( $related_products ) : ?>
 				<?php foreach ( $related_products as $related_product ) : ?>
 					<?php
 						$post_object = get_post( $related_product->get_id() );
-
 						setup_postdata( $GLOBALS['post'] =& $post_object );
 
 						wc_get_template_part( 'content', 'product' ); ?>

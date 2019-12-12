@@ -177,7 +177,63 @@ export default {
           },
         });
       }
-  
+
+      if ( $('.upsells .columns-4').length > 0 ) {
+        tns({
+          container: '.upsells .columns-4',
+          items: 4,
+          slideBy: 'page',
+          mouseDrag: true,
+          controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
+          gutter: 10,
+          lazyload: true,
+          disable: false,
+          autoplay: false,
+          responsive: {
+            480: {
+                items: 1,
+                disable: true,
+            },
+            600: {
+                items: 2,
+                disable: false,
+            },
+            1024: {
+                items: 4,
+                disable: false,
+            },
+          },
+        });
+      }
+
+      if ( $('.related .columns-4').length > 0 ) {
+        tns({
+          container: '.related .columns-4',
+          items: 4,
+          slideBy: 'page',
+          mouseDrag: true,
+          controlsText: ['<i class="fas fa-arrow-left"></i><span class="hide">zurück</span>', '<i class="fas fa-arrow-right"></i><span class="hide">Weiter</span>'],
+          gutter: 10,
+          lazyload: true,
+          disable: false,
+          autoplay: false,
+          responsive: {
+            480: {
+                items: 1,
+                disable: true,
+            },
+            600: {
+                items: 2,
+                disable: false,
+            },
+            1024: {
+                items: 4,
+                disable: false,
+            },
+          },
+        });
+      }
+
       if ( $('.div-li-slider').length > 0 ) {
         tns({
           container: '.div-li-slider',

@@ -40,7 +40,7 @@
                         box-shadow: none;
 
                         .product-inner {
-                          border-radius: 4px;
+                          border-radius: 8px;
                           margin: 0 5px;
                           padding: 15px;
                           background: #fff;
@@ -181,6 +181,7 @@
             section.related {
               margin-top: 20px;
               float: none;
+              width: 100%;
 
               h3 {
                 font-size: 1.2em;
@@ -207,10 +208,6 @@
                 }
 
                 li {
-                  &.product-item {
-                    width: 33%;
-                  }
-
                   .product-inner {
                     margin: 0 10px;
                     padding: 10px;
@@ -260,7 +257,6 @@
 
                     li {
                       &.product {
-                        width: 20%;
                         margin: 0;
                         background: transparent;
                         clear: none;
@@ -274,7 +270,7 @@
                       }
 
                       .product-inner {
-                        border-radius: 4px;
+                        border-radius: 8px;
                         margin: 0 5px;
                         padding: 15px;
                         background: #fff;
@@ -369,10 +365,6 @@
                 }
 
                 li {
-                  &.product-item {
-                    width: 33%;
-                  }
-
                   .product-inner {
                     margin: 0 40px;
                     padding: 10px;

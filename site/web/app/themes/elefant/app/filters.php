@@ -34,6 +34,17 @@ add_filter('excerpt_more', function () {
     return ' &hellip; <a class="readmore" href="' . get_permalink() . '">' . __('Weiterlesen ....', 'sage') . '</a>';
 });
 
+add_filter( 'woocommerce_output_related_products', __NAMESPACE__.'\\bbloomer_change_number_related_products', 9999 );
+ 
+function bbloomer_change_number_related_products( $args ) {
+    $args = array( 
+        'posts_per_page' => 4,  
+        'columns' => 4,  
+        'orderby' => 'rand',  
+        'classes' => 'test123123123'
+ ); 
+ return $args;
+}
 
 /**
  * Template Hierarchy should search for .blade.php files

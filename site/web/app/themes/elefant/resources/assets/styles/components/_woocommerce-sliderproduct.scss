@@ -7,6 +7,7 @@
         main.main {
           section.related {
             float: left;
+            clear: none;
             background: #fff;
             padding: 20px 15px 20px;
             border-radius: 8px;
@@ -26,7 +27,6 @@
 
                 li.tns-item {
                   &.type-product {
-                    width: 20%;
                     padding: 0;
                     height: auto;
                     background: transparent;
@@ -35,7 +35,7 @@
                     box-shadow: none;
 
                     .product-inner {
-                      border-radius: 4px;
+                      border-radius: 8px;
                       margin: 0 5px;
                       padding: 15px;
                       background: #fff;
@@ -225,7 +225,7 @@
                           box-shadow: none;
 
                           .product-inner {
-                            border-radius: 4px;
+                            border-radius: 8px;
                             margin: 0 5px;
                             padding: 15px;
                             background: #fff;
@@ -360,7 +360,6 @@
 
                   li {
                     &.product {
-                      width: 20%;
                       height: auto;
                       margin: 0;
                       background: transparent;
@@ -374,7 +373,7 @@
                     }
 
                     .product-inner {
-                      border-radius: 4px;
+                      border-radius: 8px;
                       margin: 0 5px;
                       padding: 15px;
                       background: #fff;
@@ -470,10 +469,6 @@
                 }
 
                 li {
-                  &.product-item {
-                    width: 33%;
-                  }
-
                   .product-inner {
                     margin: 0 10px;
                     padding: 10px;
@@ -523,7 +518,6 @@
 
                     li {
                       &.product {
-                        width: 20%;
                         margin: 0;
                         background: transparent;
                         clear: none;
@@ -537,7 +531,7 @@
                       }
 
                       .product-inner {
-                        border-radius: 4px;
+                        border-radius: 8px;
                         margin: 0 5px;
                         padding: 15px;
                         background: #fff;
@@ -635,10 +629,6 @@
                 }
 
                 li {
-                  &.product-item {
-                    width: 33%;
-                  }
-
                   .product-inner {
                     margin: 0 40px;
                     padding: 10px;
