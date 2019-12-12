@@ -365,6 +365,15 @@ address {
   padding: 15px 6px 15px 35px !important;
 }
 
+.full_width {
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.no_background {
+  background: transparent !important;
+}
+
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
   #header {
