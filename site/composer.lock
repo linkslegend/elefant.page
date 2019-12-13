@@ -705,8 +705,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3",
-                "reference": "5.3"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1430,15 +1429,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.7",
+            "version": "12.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.7"
+                "reference": "tags/12.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
