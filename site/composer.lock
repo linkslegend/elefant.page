@@ -705,8 +705,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.1",
-                "reference": "5.3.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1344,11 +1343,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-variation-swatches/",
-                "reference": "trunk"
+                "reference": "tags/1.0.68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.zip?timestamp=1573754152"
+                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.1.0.68.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1448,15 +1447,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/1.8.0"
+                "reference": "tags/1.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.8.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
