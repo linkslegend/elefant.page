@@ -78,6 +78,8 @@
   .woofc-area-mid.woofc-items.ps-container {
     .woofc-item {
       min-height: 80px;
+      padding: 5px 20px;
+      margin: 5px 0;
 
       .woofc-item-inner {
         .woofc-item-info {
@@ -89,7 +91,7 @@
           }
 
           span.woofc-item-title {
-            padding-right: 15px;
+            padding-right: 20px;
 
             a {
               transition: all 0.25s;
@@ -102,7 +104,7 @@
         }
 
         .woofc-item-qty {
-          bottom: 5px;
+          bottom: 0;
           position: absolute;
           right: 0;
 
@@ -165,7 +167,7 @@
           .woofc-item-remove {
             opacity: 1;
             visibility: visible;
-            transform: translate3d(5px, 5px, 0);
+            transform: translate3d(0, 0, 0);
             top: 0;
             right: 0;
           }
