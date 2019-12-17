@@ -705,8 +705,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.1",
-                "reference": "5.3.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1268,15 +1267,15 @@
         },
         {
             "name": "wpackagist-plugin/resmushit-image-optimizer",
-            "version": "0.1.22",
+            "version": "0.1.23",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/resmushit-image-optimizer/",
-                "reference": "tags/0.1.22"
+                "reference": "tags/0.1.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/resmushit-image-optimizer.0.1.22.zip"
+                "url": "https://downloads.wordpress.org/plugin/resmushit-image-optimizer.0.1.23.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
