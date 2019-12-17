@@ -1268,15 +1268,15 @@
         },
         {
             "name": "wpackagist-plugin/resmushit-image-optimizer",
-            "version": "0.1.22",
+            "version": "0.1.23",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/resmushit-image-optimizer/",
-                "reference": "tags/0.1.22"
+                "reference": "tags/0.1.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/resmushit-image-optimizer.0.1.22.zip"
+                "url": "https://downloads.wordpress.org/plugin/resmushit-image-optimizer.0.1.23.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1286,7 +1286,7 @@
         },
         {
             "name": "wpackagist-plugin/woo-fly-cart",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-fly-cart/",
@@ -1294,7 +1294,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-fly-cart.zip?timestamp=1574905589"
+                "url": "https://downloads.wordpress.org/plugin/woo-fly-cart.zip?timestamp=1576551129"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1490,12 +1490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "e4ee2c8e4ccd908debc64069faf023c684a76760"
+                "reference": "72ffba7ecbc58c109000bff92af4ee5db8fb1208"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/e4ee2c8e4ccd908debc64069faf023c684a76760",
-                "reference": "e4ee2c8e4ccd908debc64069faf023c684a76760",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/72ffba7ecbc58c109000bff92af4ee5db8fb1208",
+                "reference": "72ffba7ecbc58c109000bff92af4ee5db8fb1208",
                 "shasum": ""
             },
             "conflict": {
@@ -1563,7 +1563,7 @@
                 "league/commonmark": "<0.18.3",
                 "magento/magento1ce": "<1.9.4.3",
                 "magento/magento1ee": ">=1,<1.14.4.3",
-                "magento/product-community-edition": ">=2,<2.2.10|>=2.3,<2.3.2",
+                "magento/product-community-edition": ">=2,<2.2.10|>=2.3,<2.3.2-p.2",
                 "monolog/monolog": ">=1.8,<1.12",
                 "namshi/jose": "<2.2",
                 "onelogin/php-saml": "<2.10.4",
@@ -1700,7 +1700,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-12-02T13:03:15+00:00"
+            "time": "2019-12-17T09:45:16+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",

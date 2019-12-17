@@ -651,15 +651,21 @@ body.woo-variation-swatches-stylesheet-enabled {
         margin: 4px 6px 4px 6px;
 
         span.image-tooltip-wrapper {
-          bottom: 155%;
+          bottom: 35px;
           border: 1px solid rgb(221, 221, 221) !important;
-          background: rgba(255, 255, 255, 0.9) !important;
+          background: rgba(255, 255, 255, 0.95) !important;
           border-radius: 8px;
+          visibility: hidden;
+          position: absolute;
+          transition: all 0.2s;
+          opacity: 0;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 
           img {
             border-radius: 8px !important;
             overflow: hidden;
-            padding: 10px;
+            padding: 5px;
+            background-color: #fff;
           }
 
           &::after {
@@ -679,6 +685,14 @@ body.woo-variation-swatches-stylesheet-enabled {
             transform: translateX(-50%);
             border: 8px solid transparent;
             border-top-color: #b5b5b5 !important;
+          }
+        }
+
+        &:hover {
+          span.image-tooltip-wrapper {
+            opacity: 1;
+            visibility: visible;
+            bottom: 45px;
           }
         }
       }
