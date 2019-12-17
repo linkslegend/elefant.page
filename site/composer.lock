@@ -705,8 +705,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.1",
-                "reference": "5.3.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1286,7 +1285,7 @@
         },
         {
             "name": "wpackagist-plugin/woo-fly-cart",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-fly-cart/",
@@ -1294,7 +1293,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-fly-cart.zip?timestamp=1574905589"
+                "url": "https://downloads.wordpress.org/plugin/woo-fly-cart.zip?timestamp=1576551129"
             },
             "require": {
                 "composer/installers": "~1.0"
