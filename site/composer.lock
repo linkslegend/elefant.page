@@ -705,8 +705,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.1",
-                "reference": "5.3.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1304,15 +1303,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
-            "version": "2.5.4",
+            "version": "2.5.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-gutenberg-products-block/",
-                "reference": "tags/2.5.4"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.5.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.zip?timestamp=1576611347"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1490,12 +1489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "72ffba7ecbc58c109000bff92af4ee5db8fb1208"
+                "reference": "1b2183eef1fdf7438d26b37dd87beb07dd4808bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/72ffba7ecbc58c109000bff92af4ee5db8fb1208",
-                "reference": "72ffba7ecbc58c109000bff92af4ee5db8fb1208",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1b2183eef1fdf7438d26b37dd87beb07dd4808bc",
+                "reference": "1b2183eef1fdf7438d26b37dd87beb07dd4808bc",
                 "shasum": ""
             },
             "conflict": {
@@ -1516,7 +1515,7 @@
                 "composer/composer": "<=1-alpha.11",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/core": ">=2,<3.5.39",
-                "contao/core-bundle": ">=4,<4.4.39|>=4.5,<4.7.5",
+                "contao/core-bundle": ">=4,<4.4.46|>=4.5,<4.8.6",
                 "contao/listing-bundle": ">=4,<4.4.8",
                 "datadog/dd-trace": ">=0.30,<0.30.2",
                 "david-garcia/phpwhois": "<=4.3.1",
@@ -1645,8 +1644,8 @@
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
                 "twig/twig": "<1.38|>=2,<2.7",
-                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.27|>=9,<9.5.8",
-                "typo3/cms-core": ">=8,<8.7.27|>=9,<9.5.8",
+                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.30|>=9,<9.5.12|>=10,<10.2.1",
+                "typo3/cms-core": ">=8,<8.7.30|>=9,<9.5.12|>=10,<10.2.1",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "typo3/phar-stream-wrapper": ">=1,<2.1.1|>=3,<3.1.1",
@@ -1700,7 +1699,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-12-17T09:45:16+00:00"
+            "time": "2019-12-17T15:12:43+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
