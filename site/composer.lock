@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cce7e4e44b152869461dbcda62a92364",
+    "content-hash": "9a49397f8b202b3107ef52382e66cf2e",
     "packages": [
         {
             "name": "composer/installers",
@@ -705,8 +705,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
-                "reference": "5.3.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1250,15 +1249,15 @@
         },
         {
             "name": "wpackagist-plugin/resmushit-image-optimizer",
-            "version": "0.1.23",
+            "version": "0.2.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/resmushit-image-optimizer/",
-                "reference": "tags/0.1.23"
+                "reference": "tags/0.2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/resmushit-image-optimizer.0.1.23.zip"
+                "url": "https://downloads.wordpress.org/plugin/resmushit-image-optimizer.0.2.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
