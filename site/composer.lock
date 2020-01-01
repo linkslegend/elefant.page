@@ -705,8 +705,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
-                "reference": "5.3.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1304,15 +1303,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-preview-emails",
-            "version": "1.5.5",
+            "version": "1.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-preview-emails/",
-                "reference": "trunk"
+                "reference": "tags/1.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-preview-emails.zip?timestamp=1577430042"
+                "url": "https://downloads.wordpress.org/plugin/woo-preview-emails.1.6.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
