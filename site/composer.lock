@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d214ecaf5e2962193c016dc699c47c62",
+    "content-hash": "dbc9fb869f4670a26280e6812383531b",
     "packages": [
         {
             "name": "composer/installers",
@@ -705,8 +705,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
-                "reference": "5.3.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1164,11 +1163,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enhanced-e-commerce-for-woocommerce-store/",
-                "reference": "trunk"
+                "reference": "tags/2.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enhanced-e-commerce-for-woocommerce-store.zip?timestamp=1575271768"
+                "url": "https://downloads.wordpress.org/plugin/enhanced-e-commerce-for-woocommerce-store.2.3.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1412,15 +1411,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.9.1",
+            "version": "13.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.9.1"
+                "reference": "tags/13.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.9.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.13.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1454,12 +1453,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "666ba252853924887ac57dc9f66e6b6af78d5a76"
+                "reference": "11652d9363944efbddf6f38f12fda1a9ee47544f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/666ba252853924887ac57dc9f66e6b6af78d5a76",
-                "reference": "666ba252853924887ac57dc9f66e6b6af78d5a76",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/11652d9363944efbddf6f38f12fda1a9ee47544f",
+                "reference": "11652d9363944efbddf6f38f12fda1a9ee47544f",
                 "shasum": ""
             },
             "conflict": {
@@ -1532,6 +1531,7 @@
                 "monolog/monolog": ">=1.8,<1.12",
                 "namshi/jose": "<2.2",
                 "onelogin/php-saml": "<2.10.4",
+                "oneup/uploader-bundle": ">=1,<1.9.3|>=2,<2.1.5",
                 "openid/php-openid": "<2.3",
                 "oro/crm": ">=1.7,<1.7.4",
                 "oro/platform": ">=1.7,<1.7.4",
@@ -1672,7 +1672,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2020-01-28T17:25:41+00:00"
+            "time": "2020-02-04T13:44:18+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
