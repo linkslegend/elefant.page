@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74c834a40a10e06b6829f763b802f025",
+    "content-hash": "55ac10142825e3e74ec335ad64896bd6",
     "packages": [
         {
             "name": "composer/installers",
@@ -1177,6 +1177,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7-honeypot/"
+        },
+        {
+            "name": "wpackagist-plugin/cookie-notice",
+            "version": "1.2.50",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cookie-notice/",
+                "reference": "tags/1.2.50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cookie-notice.1.2.50.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cookie-notice/"
         },
         {
             "name": "wpackagist-plugin/enhanced-e-commerce-for-woocommerce-store",
