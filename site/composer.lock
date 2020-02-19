@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d44b5078e7a35510f092b628c3ba6bcc",
+    "content-hash": "74c834a40a10e06b6829f763b802f025",
     "packages": [
         {
             "name": "composer/installers",
@@ -206,12 +206,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/prdctfltr.git",
-                "reference": "bfd02f4ff500aca9faa9bb624615d5147c7a2cd7"
+                "reference": "038409fa27f309a941a34a2f73043f9d34c2b8bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/bfd02f4ff500aca9faa9bb624615d5147c7a2cd7",
-                "reference": "bfd02f4ff500aca9faa9bb624615d5147c7a2cd7",
+                "url": "https://api.github.com/repos/linkslegend/prdctfltr/zipball/038409fa27f309a941a34a2f73043f9d34c2b8bc",
+                "reference": "038409fa27f309a941a34a2f73043f9d34c2b8bc",
                 "shasum": ""
             },
             "require": {
@@ -233,7 +233,7 @@
                 "source": "https://github.com/linkslegend/prdctfltr/tree/master",
                 "issues": "https://github.com/linkslegend/prdctfltr/issues"
             },
-            "time": "2019-12-02T12:24:28+00:00"
+            "time": "2020-02-18T14:21:06+00:00"
         },
         {
             "name": "linkslegend/ti-woocommerce-wishlist-premium",
@@ -1015,6 +1015,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/async-javascript",
+            "version": "2.19.07.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/async-javascript/",
+                "reference": "tags/2.19.07.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/async-javascript.2.19.07.14.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/async-javascript/"
         },
         {
             "name": "wpackagist-plugin/block-lab",
