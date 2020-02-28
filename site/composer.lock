@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "417703910cb9d885b6d42cbca984e6cf",
+    "content-hash": "f7a6b53e0f475f4208df7bfb0283c67e",
     "packages": [
         {
             "name": "composer/installers",
@@ -707,8 +707,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
-                "reference": "5.3.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1018,15 +1017,15 @@
         },
         {
             "name": "wpackagist-plugin/async-javascript",
-            "version": "2.19.07.14",
+            "version": "2.20.02.27",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/async-javascript/",
-                "reference": "tags/2.19.07.14"
+                "reference": "tags/2.20.02.27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/async-javascript.2.19.07.14.zip"
+                "url": "https://downloads.wordpress.org/plugin/async-javascript.2.20.02.27.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
