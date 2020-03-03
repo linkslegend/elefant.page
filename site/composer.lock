@@ -1054,15 +1054,15 @@
         },
         {
             "name": "wpackagist-plugin/breeze",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/breeze/",
-                "reference": "tags/1.1.2"
+                "reference": "tags/1.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/breeze.1.1.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/breeze.1.1.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1090,15 +1090,15 @@
         },
         {
             "name": "wpackagist-plugin/cf7-conditional-fields",
-            "version": "1.8.2",
+            "version": "1.8.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf7-conditional-fields/",
-                "reference": "tags/1.8.2"
+                "reference": "tags/1.8.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.8.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf7-conditional-fields.1.8.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1198,7 +1198,7 @@
         },
         {
             "name": "wpackagist-plugin/enhanced-e-commerce-for-woocommerce-store",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enhanced-e-commerce-for-woocommerce-store/",
@@ -1206,7 +1206,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enhanced-e-commerce-for-woocommerce-store.zip?timestamp=1582187104"
+                "url": "https://downloads.wordpress.org/plugin/enhanced-e-commerce-for-woocommerce-store.zip?timestamp=1583228873"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1450,15 +1450,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "13.1",
+            "version": "13.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/13.1"
+                "reference": "tags/13.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.13.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.13.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1492,12 +1492,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "587080721eaf5b79972d2df5acc7aab75218e686"
+                "reference": "5f81a65d531dc88975b8fe32331cfb8a79c34fe3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/587080721eaf5b79972d2df5acc7aab75218e686",
-                "reference": "587080721eaf5b79972d2df5acc7aab75218e686",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5f81a65d531dc88975b8fe32331cfb8a79c34fe3",
+                "reference": "5f81a65d531dc88975b8fe32331cfb8a79c34fe3",
                 "shasum": ""
             },
             "conflict": {
@@ -1616,7 +1616,7 @@
                 "serluck/phpwhois": "<=4.2.6",
                 "shopware/shopware": "<5.3.7",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
-                "silverstripe/assets": ">=1,<1.3.5",
+                "silverstripe/assets": ">=1,<1.3.5|>=1.4,<1.4.4",
                 "silverstripe/cms": "<4.3.6|>=4.4,<4.4.4",
                 "silverstripe/comments": ">=1.3,<1.9.99|>=2,<2.9.99|>=3,<3.1.1",
                 "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
@@ -1687,7 +1687,7 @@
                 "typo3/phar-stream-wrapper": ">=1,<2.1.1|>=3,<3.1.1",
                 "ua-parser/uap-php": "<3.8",
                 "usmanhalalit/pixie": "<1.0.3|>=2,<2.0.2",
-                "verot/class.upload.php": "<1.0.3|>=2,<2.0.4",
+                "verot/class.upload.php": "<=1.0.3|>=2,<=2.0.4",
                 "wallabag/tcpdf": "<6.2.22",
                 "willdurand/js-translation-bundle": "<2.1.1",
                 "yii2mod/yii2-cms": "<1.9.2",
@@ -1744,7 +1744,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2020-02-28T00:01:17+00:00"
+            "time": "2020-03-02T07:11:48+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
