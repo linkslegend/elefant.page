@@ -707,8 +707,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
-                "reference": "5.3.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1306,7 +1305,7 @@
         },
         {
             "name": "wpackagist-plugin/woo-fly-cart",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-fly-cart/",
@@ -1314,7 +1313,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-fly-cart.zip?timestamp=1584428016"
+                "url": "https://downloads.wordpress.org/plugin/woo-fly-cart.zip?timestamp=1584854843"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1364,11 +1363,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-variation-swatches/",
-                "reference": "trunk"
+                "reference": "tags/1.0.76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.zip?timestamp=1581931391"
+                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.1.0.76.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
