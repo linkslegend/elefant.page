@@ -1216,15 +1216,15 @@
         },
         {
             "name": "wpackagist-plugin/facebook-for-woocommerce",
-            "version": "1.10.1",
+            "version": "1.10.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/facebook-for-woocommerce/",
-                "reference": "tags/1.10.1"
+                "reference": "tags/1.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/facebook-for-woocommerce.1.10.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/facebook-for-woocommerce.1.10.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1306,7 +1306,7 @@
         },
         {
             "name": "wpackagist-plugin/woo-fly-cart",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-fly-cart/",
@@ -1314,7 +1314,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-fly-cart.zip?timestamp=1584428016"
+                "url": "https://downloads.wordpress.org/plugin/woo-fly-cart.zip?timestamp=1584854843"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1360,7 +1360,7 @@
         },
         {
             "name": "wpackagist-plugin/woo-variation-swatches",
-            "version": "1.0.76",
+            "version": "1.0.78",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-variation-swatches/",
@@ -1368,7 +1368,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.zip?timestamp=1581931391"
+                "url": "https://downloads.wordpress.org/plugin/woo-variation-swatches.zip?timestamp=1585057044"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1378,15 +1378,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/4.0.0"
+                "reference": "tags/4.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.4.0.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.4.0.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
