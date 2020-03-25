@@ -707,8 +707,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
-                "reference": "5.3.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1270,15 +1269,15 @@
         },
         {
             "name": "wpackagist-plugin/redux-framework",
-            "version": "3.6.17",
+            "version": "3.6.18",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redux-framework/",
-                "reference": "tags/3.6.17"
+                "reference": "tags/3.6.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redux-framework.3.6.17.zip"
+                "url": "https://downloads.wordpress.org/plugin/redux-framework.3.6.18.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
