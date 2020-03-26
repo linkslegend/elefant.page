@@ -707,8 +707,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2",
-                "reference": "5.3.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1000,15 +999,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.8.8",
+            "version": "5.8.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.8.8"
+                "reference": "tags/5.8.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
