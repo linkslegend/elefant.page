@@ -707,8 +707,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4",
-                "reference": "5.4"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1330,15 +1329,15 @@
         },
         {
             "name": "wpackagist-plugin/woo-gutenberg-products-block",
-            "version": "2.5.14",
+            "version": "2.5.15",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-gutenberg-products-block/",
-                "reference": "tags/2.5.14"
+                "reference": "tags/2.5.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.5.14.zip"
+                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.2.5.15.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
