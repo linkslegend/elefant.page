@@ -244,12 +244,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:linkslegend/ti-woocommerce-wishlist-premium.git",
-                "reference": "2978b6436c4ef6cef443cf536abf41dbd4d69b3c"
+                "reference": "e201cbfe3d1f0edb639f72273f0669a5ae306dbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linkslegend/ti-woocommerce-wishlist-premium/zipball/2978b6436c4ef6cef443cf536abf41dbd4d69b3c",
-                "reference": "2978b6436c4ef6cef443cf536abf41dbd4d69b3c",
+                "url": "https://api.github.com/repos/linkslegend/ti-woocommerce-wishlist-premium/zipball/e201cbfe3d1f0edb639f72273f0669a5ae306dbe",
+                "reference": "e201cbfe3d1f0edb639f72273f0669a5ae306dbe",
                 "shasum": ""
             },
             "require": {
@@ -271,7 +271,7 @@
                 "source": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium/tree/master",
                 "issues": "https://github.com/linkslegend/ti-woocommerce-wishlist-premium/issues"
             },
-            "time": "2020-01-28T17:36:16+00:00"
+            "time": "2020-04-14T10:03:57+00:00"
         },
         {
             "name": "linkslegend/woo-bought-together",
@@ -952,16 +952,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.6.2",
+            "version": "v2.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "c4a653ed3f1ff900baa15b4130c8770b57285b62"
+                "reference": "df4c4d08a639be4ef5d6d1322868f9e477553679"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/c4a653ed3f1ff900baa15b4130c8770b57285b62",
-                "reference": "c4a653ed3f1ff900baa15b4130c8770b57285b62",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/df4c4d08a639be4ef5d6d1322868f9e477553679",
+                "reference": "df4c4d08a639be4ef5d6d1322868f9e477553679",
                 "shasum": ""
             },
             "require": {
@@ -1005,7 +1005,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-03-27T23:16:19+00:00"
+            "time": "2020-04-12T15:11:38+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -1063,15 +1063,15 @@
         },
         {
             "name": "wpackagist-plugin/breeze",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/breeze/",
-                "reference": "tags/1.1.4"
+                "reference": "tags/1.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/breeze.1.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/breeze.1.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1207,7 +1207,7 @@
         },
         {
             "name": "wpackagist-plugin/enhanced-e-commerce-for-woocommerce-store",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enhanced-e-commerce-for-woocommerce-store/",
@@ -1215,7 +1215,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enhanced-e-commerce-for-woocommerce-store.zip?timestamp=1583228873"
+                "url": "https://downloads.wordpress.org/plugin/enhanced-e-commerce-for-woocommerce-store.zip?timestamp=1586760418"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1405,15 +1405,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout",
-            "version": "1.6.20",
+            "version": "1.6.21",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-paypal-express-checkout/",
-                "reference": "tags/1.6.20"
+                "reference": "tags/1.6.21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.1.6.20.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-paypal-express-checkout.1.6.21.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1423,15 +1423,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-stripe",
-            "version": "4.3.2",
+            "version": "4.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
-                "reference": "tags/4.3.2"
+                "reference": "tags/4.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.3.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.3.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1459,15 +1459,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "13.4.1",
+            "version": "13.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/13.4.1"
+                "reference": "tags/13.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.13.4.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.13.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
