@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eadc0709b392518c2e52016fbdf32cfd",
+    "content-hash": "38a5d76a794ff10df2ff9abe011ef1e6",
     "packages": [
         {
             "name": "composer/installers",
@@ -710,8 +710,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4.1",
-                "reference": "5.4.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1464,15 +1463,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "13.5",
+            "version": "14.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/13.5"
+                "reference": "tags/14.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.13.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.14.0.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
