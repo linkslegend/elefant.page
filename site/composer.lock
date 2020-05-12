@@ -710,8 +710,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4.1",
-                "reference": "5.4.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1068,15 +1067,15 @@
         },
         {
             "name": "wpackagist-plugin/breeze",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/breeze/",
-                "reference": "tags/1.1.5"
+                "reference": "tags/1.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/breeze.1.1.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/breeze.1.1.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
